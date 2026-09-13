@@ -1,4 +1,4 @@
-// Baza danych mapy gór Polski – wersja v24
+// Baza danych mapy gór Polski – eksport v22
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -59,35 +59,17 @@ const DATA = {
             "lon": 15.5685,
             "desc": "Najwyższa kulminacja Śląskiego Grzbietu. Wyróżnia się surowym, wysokogórskim krajobrazem i bliskością Śnieżnych Kotłów.",
             "why": "Dobry cel górskiej wędrówki i punkt pozwalający lepiej poznać główny grzbiet oraz charakter tego pasma.",
-            "curiosity": "",
             "tags": [
               "🥾 DLA PIECHURÓW"
             ],
             "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
             "parking": "Parking przy dolnej stacji kolei na Szrenicę – ul. Turystyczna 25B, Szklarska Poręba",
             "parkingLat": 50.819519481,
             "parkingLon": 15.518011471,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
-            "routeNote": "Zweryfikowany legalny punkt startowy: Parking przy dolnej stacji kolei na Szrenicę – ul. Turystyczna 25B, Szklarska Poręba. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
-            "elevationGain": "",
-            "sources": [
-              {
-                "name": "Karkonoski Park Narodowy",
-                "url": "https://kpn.gov.pl/"
-              },
-              {
-                "name": "Szklarska Poręba – Turystyczna 25B",
-                "url": "https://turystyczna.szklarskaporeba.pl/2932-szklarskaporeba-skipoint"
-              }
-            ]
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/wielki-szyszak.jpg"
           },
           {
             "name": "Smogornia",
@@ -2478,42 +2460,19 @@ const DATA = {
           {
             "name": "Czernik",
             "ele": 832,
-            "lat": 50.3180696,
-            "lon": 16.9443041,
+            "lat": 50.318089,
+            "lon": 16.9448619,
             "desc": "Mniej znany szczyt Gór Złotych, położony w południowo-środkowej części pasma. To miejsce dla osób, które wolą spokojne leśne wędrówki od najbardziej popularnych celów.",
             "tags": [
               "🥾 DLA PIECHURÓW"
             ],
             "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
+            "parking": "Parking na Trojak – ul. Leśna / Hotel Trojan, Lądek-Zdrój",
+            "parkingLat": 50.339695,
+            "parkingLon": 16.8929794,
             "family": "zależy od wybranej trasy, wieku dzieci i warunków",
             "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
-            "routeNote": "Praktyczny start z górnej części Lądka-Zdroju na Trojak, Karpiak i okolice.",
-            "parking": "Parking na Trojak – ul. Leśna / Hotel Trojan, Lądek-Zdrój",
-            "parkingLat": 50.340607,
-            "parkingLon": 16.891203,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "curiosity": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
-            "sources": [
-              {
-                "name": "Lądek-Zdrój",
-                "url": "https://ladek.pl/"
-              },
-              {
-                "name": "Złoty Stok",
-                "url": "https://zlotystok.pl/"
-              },
-              {
-                "name": "Dostępne Miejsce – Leśna 4A",
-                "url": "https://dostepnemiejsce.pl/pl/000121987/hotel-trojan"
-              }
-            ]
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji"
           },
           {
             "name": "Karpiak",
@@ -2565,35 +2524,12 @@ const DATA = {
               "🥾 DLA PIECHURÓW"
             ],
             "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
+            "parking": "Parking na Trojak – ul. Leśna / Hotel Trojan, Lądek-Zdrój",
+            "parkingLat": 50.339695,
+            "parkingLon": 16.8929794,
             "family": "zależy od wybranej trasy, wieku dzieci i warunków",
             "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
-            "routeNote": "Praktyczny start z górnej części Lądka-Zdroju na Trojak, Karpiak i okolice.",
-            "parking": "Parking na Trojak – ul. Leśna / Hotel Trojan, Lądek-Zdrój",
-            "parkingLat": 50.340607,
-            "parkingLon": 16.891203,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "curiosity": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
-            "sources": [
-              {
-                "name": "Lądek-Zdrój",
-                "url": "https://ladek.pl/"
-              },
-              {
-                "name": "Złoty Stok",
-                "url": "https://zlotystok.pl/"
-              },
-              {
-                "name": "Dostępne Miejsce – Leśna 4A",
-                "url": "https://dostepnemiejsce.pl/pl/000121987/hotel-trojan"
-              }
-            ]
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji"
           },
           {
             "name": "Ptasznik",
@@ -27016,38 +26952,26 @@ const DATA = {
             "ele": 909
           },
           {
-            "curiosity": "",
-            "difficulty": "zależna od wybranego wariantu i warunków",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "na smyczy; w rezerwatach i obszarach chronionych sprawdź aktualne zasady przed wyjściem",
-            "fee": "szlaki piesze zasadniczo bezpłatne; parkingi, koleje i wybrane obiekty mogą być płatne",
-            "parking": "Rzyki–Mydlarze – parking przy wejściu na czarny szlak",
-            "parkingLat": 49.796861,
-            "parkingLon": 19.425528,
-            "walkTime": "ok. 1 h 15–1 h 35 min w jedną stronę",
-            "distance": "ok. 3 km w jedną stronę",
-            "elevationGain": "ok. 440 m",
-            "routeNote": "Czas, dystans i przewyższenie zależą od wybranego wariantu. Przed wyjściem sprawdź aktualny przebieg szlaku.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "name": "Schronisko Górskie PTTK na Leskowcu",
-            "lat": 49.7819,
-            "lon": 19.4406,
+            "ele": 890,
+            "lat": 49.7952486,
+            "lon": 19.4474233,
             "desc": "Historyczne schronisko położone pod Groniem Jana Pawła II, w pobliżu Leskowca.",
             "why": "Najważniejsza baza turystyczna we wschodniej części Beskidu Małego.",
             "tags": [
               "🛖 SCHRONISKO",
               "⭐ TOP"
             ],
-            "sources": [
-              {
-                "name": "PTTK – Schronisko na Leskowcu",
-                "url": "https://schroniska.pttk.pl/leskowiec/pl"
-              }
-            ],
-            "ele": 890
+            "difficulty": "zależna od wybranego wariantu i warunków",
+            "parking": "Rzyki–Mydlarze – parking przy wejściu na czarny szlak",
+            "parkingLat": 49.796861,
+            "parkingLon": 19.425528,
+            "walkTime": "ok. 1 h 15–1 h 35 min w jedną stronę",
+            "distance": "ok. 3 km w jedną stronę",
+            "elevationGain": "ok. 440 m",
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "na smyczy; w rezerwatach i obszarach chronionych sprawdź aktualne zasady przed wyjściem",
+            "fee": "szlaki piesze zasadniczo bezpłatne; parkingi, koleje i wybrane obiekty mogą być płatne"
           }
         ]
       },
@@ -27129,7 +27053,10 @@ const DATA = {
   },
   "beskid_makowski": {
     "name": "Beskid Makowski",
-    "center": [49.76, 19.86],
+    "center": [
+      49.76,
+      19.86
+    ],
     "zoom": 10,
     "categories": {
       "szczyty": {
@@ -27137,62 +27064,394 @@ const DATA = {
         "icon": "⛰️",
         "items": [
           {
-            "name": "Lubomir", "ele": 904, "lat": 49.7668805, "lon": 20.0596718,
+            "name": "Lubomir",
+            "ele": 904,
+            "lat": 49.7668805,
+            "lon": 20.0596718,
             "desc": "Najwyższy szczyt Beskidu Makowskiego w podziale używanym przez Koronę Gór Polski. Wierzchołek jest zalesiony, ale wyróżnia go obserwatorium astronomiczne.",
             "why": "Łączy łatwo dostępną wędrówkę grzbietową z możliwością odwiedzenia obserwatorium.",
             "curiosity": "Pierwsze obserwatorium na Lubomirze działało od 1922 r.; obecny obiekt nawiązuje do jego tradycji.",
-            "tags": ["TOP", "KORONA", "🥾 DLA PIECHURÓW"], "difficulty": "łatwa do średniej; zależna od wariantu", "family": "dobry cel dla rodzin przy starcie z rejonu Kudłaczy", "dog": "na smyczy; sprawdź zasady obowiązujące na wybranej trasie", "fee": "szlak bezpłatny; pokazy w obserwatorium mogą być biletowane", "parking": "Parking przy Schronisku PTTK na Kudłaczach", "parkingLat": 49.7812, "parkingLon": 20.0214, "walkTime": "około 1 godz. 15 min w jedną stronę", "distance": "około 3,5 km w jedną stronę", "elevationGain": "około 190 m", "routeNote": "Najkrótszy popularny wariant prowadzi od parkingu przy Kudłaczach przez schronisko i Łysinę. Przed wyjściem sprawdź aktualny przebieg szlaku.",
-            "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Visit Małopolska – Beskid Makowski","url":"https://visitmalopolska.pl/-/beskid-maly-i-makowski-"},{"name":"Obserwatorium Astronomiczne na Lubomirze","url":"https://www.obserwatorium.lubomir.weglowka.pl/"}]
+            "tags": [
+              "TOP",
+              "KORONA",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "łatwa do średniej; zależna od wariantu",
+            "family": "dobry cel dla rodzin przy starcie z rejonu Kudłaczy",
+            "dog": "na smyczy; sprawdź zasady obowiązujące na wybranej trasie",
+            "fee": "szlak bezpłatny; pokazy w obserwatorium mogą być biletowane",
+            "parking": "Parking przy Schronisku PTTK na Kudłaczach",
+            "parkingLat": 49.7812,
+            "parkingLon": 20.0214,
+            "walkTime": "około 1 godz. 15 min w jedną stronę",
+            "distance": "około 3,5 km w jedną stronę",
+            "elevationGain": "około 190 m",
+            "routeNote": "Najkrótszy popularny wariant prowadzi od parkingu przy Kudłaczach przez schronisko i Łysinę. Przed wyjściem sprawdź aktualny przebieg szlaku.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Visit Małopolska – Beskid Makowski",
+                "url": "https://visitmalopolska.pl/-/beskid-maly-i-makowski-"
+              },
+              {
+                "name": "Obserwatorium Astronomiczne na Lubomirze",
+                "url": "https://www.obserwatorium.lubomir.weglowka.pl/"
+              }
+            ]
           },
           {
-            "name": "Łysina", "ele": 891, "lat": 49.7580556, "lon": 20.0241667,
-            "desc": "Zalesiony szczyt w paśmie Lubomira, położony na znakowanym grzbiecie między Kudłaczami a Lubomirem.", "why": "Naturalny etap spokojnej wycieczki grzbietowej na Lubomir.", "curiosity": "Przynależność pasma Lubomira i Łysiny bywa różnie ujmowana w regionalizacjach; tradycyjnie często zalicza się je do Beskidu Makowskiego.",
-            "tags": ["🥾 DLA PIECHURÓW"], "difficulty": "łatwa do średniej", "family": "odpowiednia dla rodzin przy dobraniu krótszego wariantu", "dog": "na smyczy", "fee": "bezpłatnie", "parking": "Parking przy Schronisku PTTK na Kudłaczach", "parkingLat": 49.7812, "parkingLon": 20.0214, "walkTime": "około 45–60 min w jedną stronę", "distance": "zależnie od wariantu", "elevationGain": "", "routeNote": "Najwygodniejszy start prowadzi od parkingu i Schroniska PTTK na Kudłaczach.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Visit Małopolska – Beskid Makowski","url":"https://visitmalopolska.pl/-/beskid-maly-i-makowski-"}]
+            "name": "Łysina",
+            "ele": 891,
+            "lat": 49.7580556,
+            "lon": 20.0241667,
+            "desc": "Zalesiony szczyt w paśmie Lubomira, położony na znakowanym grzbiecie między Kudłaczami a Lubomirem.",
+            "why": "Naturalny etap spokojnej wycieczki grzbietowej na Lubomir.",
+            "curiosity": "Przynależność pasma Lubomira i Łysiny bywa różnie ujmowana w regionalizacjach; tradycyjnie często zalicza się je do Beskidu Makowskiego.",
+            "tags": [
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "odpowiednia dla rodzin przy dobraniu krótszego wariantu",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy Schronisku PTTK na Kudłaczach",
+            "parkingLat": 49.7812,
+            "parkingLon": 20.0214,
+            "walkTime": "około 45–60 min w jedną stronę",
+            "distance": "zależnie od wariantu",
+            "elevationGain": "",
+            "routeNote": "Najwygodniejszy start prowadzi od parkingu i Schroniska PTTK na Kudłaczach.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Visit Małopolska – Beskid Makowski",
+                "url": "https://visitmalopolska.pl/-/beskid-maly-i-makowski-"
+              }
+            ]
           },
           {
-            "name": "Trzy Kopce", "ele": 894, "lat": 49.7703816, "lon": 20.0529303,
-            "desc": "Leśna kulminacja na grzbiecie między Łysiną a Lubomirem, blisko głównego przebiegu szlaku.", "why": "Pozwala uzupełnić przejście grzbietowe o jeden z najwyższych punktów pasma.", "curiosity": "Nazwa odnosi się do dawnego miejsca styku granic lokalnych dóbr lub miejscowości.",
-            "tags": ["🥾 DLA PIECHURÓW", "💎 MNIEJ ZNANY"], "difficulty": "łatwa do średniej", "family": "zależy od długości wybranego wariantu", "dog": "na smyczy", "fee": "bezpłatnie", "parking": "Parking przy Schronisku PTTK na Kudłaczach", "parkingLat": 49.7812, "parkingLon": 20.0214, "walkTime": "około 1 godz. w jedną stronę", "distance": "zależnie od wariantu", "elevationGain": "", "routeNote": "Punkt najlepiej łączyć z wejściem na Lubomir i Łysinę.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Beskid Makowski – zestawienie szczytów","url":"https://magazynnaszczycie.pl/beskid-makowski"}]
+            "name": "Trzy Kopce",
+            "ele": 894,
+            "lat": 49.7703816,
+            "lon": 20.0529303,
+            "desc": "Leśna kulminacja na grzbiecie między Łysiną a Lubomirem, blisko głównego przebiegu szlaku.",
+            "why": "Pozwala uzupełnić przejście grzbietowe o jeden z najwyższych punktów pasma.",
+            "curiosity": "Nazwa odnosi się do dawnego miejsca styku granic lokalnych dóbr lub miejscowości.",
+            "tags": [
+              "🥾 DLA PIECHURÓW",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "zależy od długości wybranego wariantu",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy Schronisku PTTK na Kudłaczach",
+            "parkingLat": 49.7812,
+            "parkingLon": 20.0214,
+            "walkTime": "około 1 godz. w jedną stronę",
+            "distance": "zależnie od wariantu",
+            "elevationGain": "",
+            "routeNote": "Punkt najlepiej łączyć z wejściem na Lubomir i Łysinę.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Beskid Makowski – zestawienie szczytów",
+                "url": "https://magazynnaszczycie.pl/beskid-makowski"
+              }
+            ]
           },
           {
-            "name": "Koskowa Góra", "ele": 867, "lat": 49.7507344, "lon": 19.7829775,
-            "desc": "Rozległy i bardzo widokowy szczyt ponad Bogdanówką, z charakterystycznym krzyżem i otwartymi polanami.", "why": "To jeden z najlepszych punktów panoramy na Tatry, Babią Górę i sąsiednie pasma.", "curiosity": "Przez okolice szczytu biegnie widokowy grzbiet łączący Koskową Górę z Parszywką.",
-            "tags": ["TOP", "WIDOKI", "🥾 DLA PIECHURÓW"], "difficulty": "łatwa do średniej; zależna od startu", "family": "dobry cel rodzinny przy krótszym wariancie", "dog": "na smyczy", "fee": "bezpłatnie", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Popularne warianty prowadzą z Bogdanówki i Bieńkówki. Brak wskazania parkingu do czasu jednoznacznej weryfikacji legalnego miejsca postoju.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Polskie Szlaki – Koskowa Góra","url":"https://www.polskieszlaki.pl/koskowa-gora.htm"},{"name":"Trasa dla Bobasa – Koskowa Góra i Parszywka","url":"https://www.trasadlabobasa.pl/tab/legenda/top_5_beskid_makowski_najpiekniejsze_szlaki_z_widokami/839"}]
+            "name": "Koskowa Góra",
+            "ele": 867,
+            "lat": 49.7507344,
+            "lon": 19.7829775,
+            "desc": "Rozległy i bardzo widokowy szczyt ponad Bogdanówką, z charakterystycznym krzyżem i otwartymi polanami.",
+            "why": "To jeden z najlepszych punktów panoramy na Tatry, Babią Górę i sąsiednie pasma.",
+            "curiosity": "Przez okolice szczytu biegnie widokowy grzbiet łączący Koskową Górę z Parszywką.",
+            "tags": [
+              "TOP",
+              "WIDOKI",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "łatwa do średniej; zależna od startu",
+            "family": "dobry cel rodzinny przy krótszym wariancie",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Popularne warianty prowadzą z Bogdanówki i Bieńkówki. Brak wskazania parkingu do czasu jednoznacznej weryfikacji legalnego miejsca postoju.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Polskie Szlaki – Koskowa Góra",
+                "url": "https://www.polskieszlaki.pl/koskowa-gora.htm"
+              },
+              {
+                "name": "Trasa dla Bobasa – Koskowa Góra i Parszywka",
+                "url": "https://www.trasadlabobasa.pl/tab/legenda/top_5_beskid_makowski_najpiekniejsze_szlaki_z_widokami/839"
+              }
+            ]
           },
           {
-            "name": "Kotoń", "ele": 857, "lat": 49.7632426, "lon": 19.9320847,
-            "desc": "Najwyższa kulminacja pasma Kotonia, w większości zalesiona i znacznie spokojniejsza od rejonu Lubomira.", "why": "Dobry wybór dla osób szukających dłuższej, mało zatłoczonej wędrówki.", "curiosity": "Żółty szlak przez pasmo Kotonia jest częścią długiego przejścia z Makowa Podhalańskiego do Pcimia.",
-            "tags": ["💎 MNIEJ ZNANY", "🥾 DLA PIECHURÓW"], "difficulty": "średnia; zwykle dłuższe podejście", "family": "raczej dla starszych dzieci przy odpowiednim wariancie", "dog": "na smyczy", "fee": "bezpłatnie", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Parametry zależą od wyboru startu w Pcimiu, Zawadce lub Tokarni.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Visit Małopolska – szlak przez pasmo Kotonia","url":"https://narowery.visitmalopolska.pl/obiekt/-/poi/beskid-makowski-dla-odkrywcow"}]
+            "name": "Kotoń",
+            "ele": 857,
+            "lat": 49.7632426,
+            "lon": 19.9320847,
+            "desc": "Najwyższa kulminacja pasma Kotonia, w większości zalesiona i znacznie spokojniejsza od rejonu Lubomira.",
+            "why": "Dobry wybór dla osób szukających dłuższej, mało zatłoczonej wędrówki.",
+            "curiosity": "Żółty szlak przez pasmo Kotonia jest częścią długiego przejścia z Makowa Podhalańskiego do Pcimia.",
+            "tags": [
+              "💎 MNIEJ ZNANY",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "średnia; zwykle dłuższe podejście",
+            "family": "raczej dla starszych dzieci przy odpowiednim wariancie",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Parametry zależą od wyboru startu w Pcimiu, Zawadce lub Tokarni.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Visit Małopolska – szlak przez pasmo Kotonia",
+                "url": "https://narowery.visitmalopolska.pl/obiekt/-/poi/beskid-makowski-dla-odkrywcow"
+              }
+            ]
           },
           {
-            "name": "Parszywka", "ele": 842, "lat": 49.76072, "lon": 19.807831,
-            "desc": "Widokowy szczyt na zachód od Koskowej Góry, z rozległymi polanami na grzbiecie.", "why": "Oferuje szerokie panoramy i można go łatwo połączyć z Koskową Górą.", "curiosity": "Mimo mało zachęcającej nazwy jest jednym z najbardziej widokowych wzniesień pasma.",
-            "tags": ["WIDOKI", "💎 MNIEJ ZNANY"], "difficulty": "łatwa do średniej", "family": "dobry cel rodzinny przy krótkim wariancie", "dog": "na smyczy", "fee": "bezpłatnie", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Najciekawszy jest wspólny wariant grzbietowy z Koskową Górą.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Trasa dla Bobasa – Koskowa Góra i Parszywka","url":"https://www.trasadlabobasa.pl/tab/legenda/top_5_beskid_makowski_najpiekniejsze_szlaki_z_widokami/839"}]
+            "name": "Parszywka",
+            "ele": 842,
+            "lat": 49.76072,
+            "lon": 19.807831,
+            "desc": "Widokowy szczyt na zachód od Koskowej Góry, z rozległymi polanami na grzbiecie.",
+            "why": "Oferuje szerokie panoramy i można go łatwo połączyć z Koskową Górą.",
+            "curiosity": "Mimo mało zachęcającej nazwy jest jednym z najbardziej widokowych wzniesień pasma.",
+            "tags": [
+              "WIDOKI",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "dobry cel rodzinny przy krótkim wariancie",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Najciekawszy jest wspólny wariant grzbietowy z Koskową Górą.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Trasa dla Bobasa – Koskowa Góra i Parszywka",
+                "url": "https://www.trasadlabobasa.pl/tab/legenda/top_5_beskid_makowski_najpiekniejsze_szlaki_z_widokami/839"
+              }
+            ]
           },
           {
-            "name": "Kamiennik Południowy", "ele": 827, "lat": 49.789556, "lon": 20.05675,
-            "desc": "Zalesiony szczyt nad Porębą i Suchą Polaną, położony w pobliżu sieci szlaków prowadzących do Kudłaczy.", "why": "Pozwala ułożyć atrakcyjną pętlę przez Suchą Polanę i schronisko.", "curiosity": "W masywie Kamiennika występują wychodnie skalne i strome leśne stoki.",
-            "tags": ["🥾 DLA PIECHURÓW"], "difficulty": "średnia", "family": "dla rodzin przy odpowiednim przygotowaniu", "dog": "na smyczy", "fee": "bezpłatnie", "parking": "Parking przy kaplicy w Porębie", "parkingLat": 49.796, "parkingLon": 20.0183, "walkTime": "około 2 godz. w jedną stronę zależnie od przebiegu", "distance": "wariant pętli przez Kudłacze około 11,6 km", "elevationGain": "wariant pętli około 660 m", "routeNote": "Dane dystansu i przewyższenia odnoszą się do opisywanej pętli z Poręby przez Kamiennik, Suchą Polanę i Kudłacze.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"MyNaSzlaku – Kamiennik i Kudłacze","url":"https://mynaszlaku.pl/kamiennik-schronisko-na-kudlaczach-z-dzieckiem/"}]
+            "name": "Kamiennik Południowy",
+            "ele": 827,
+            "lat": 49.789556,
+            "lon": 20.05675,
+            "desc": "Zalesiony szczyt nad Porębą i Suchą Polaną, położony w pobliżu sieci szlaków prowadzących do Kudłaczy.",
+            "why": "Pozwala ułożyć atrakcyjną pętlę przez Suchą Polanę i schronisko.",
+            "curiosity": "W masywie Kamiennika występują wychodnie skalne i strome leśne stoki.",
+            "tags": [
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "średnia",
+            "family": "dla rodzin przy odpowiednim przygotowaniu",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy kaplicy w Porębie",
+            "parkingLat": 49.796,
+            "parkingLon": 20.0183,
+            "walkTime": "około 2 godz. w jedną stronę zależnie od przebiegu",
+            "distance": "wariant pętli przez Kudłacze około 11,6 km",
+            "elevationGain": "wariant pętli około 660 m",
+            "routeNote": "Dane dystansu i przewyższenia odnoszą się do opisywanej pętli z Poręby przez Kamiennik, Suchą Polanę i Kudłacze.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "MyNaSzlaku – Kamiennik i Kudłacze",
+                "url": "https://mynaszlaku.pl/kamiennik-schronisko-na-kudlaczach-z-dzieckiem/"
+              }
+            ]
           },
           {
-            "name": "Babica", "ele": 728, "lat": 49.8178, "lon": 19.8116,
-            "desc": "Najwyższy szczyt Pasma Babicy, przez który przebiega czerwono znakowany Mały Szlak Beskidzki.", "why": "Daje możliwość spokojnego przejścia długim leśnym grzbietem blisko Krakowa.", "curiosity": "W północnej części pasma rośnie chroniona grupa starych cisów znana jako Cisy Raciborskiego.",
-            "tags": ["KORONA", "💎 MNIEJ ZNANY"], "difficulty": "średnia ze względu na długość typowych wariantów", "family": "dla rodzin lubiących dłuższe wycieczki", "dog": "na smyczy; w rezerwacie sprawdź aktualne ograniczenia", "fee": "bezpłatnie", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Najczęściej odwiedzana podczas przejścia Pasma Babicy z Bieńkówki, Harbutowic lub Palczy.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Góry dla Ciebie – Babica","url":"https://gorydlaciebie.pl/wyprawy/babica-w-beskidzie-makowskim/"},{"name":"Trasa dla Bobasa – Babica i Cisy Raciborskiego","url":"https://www.trasadlabobasa.pl/"}]
+            "name": "Babica",
+            "ele": 728,
+            "lat": 49.8178,
+            "lon": 19.8116,
+            "desc": "Najwyższy szczyt Pasma Babicy, przez który przebiega czerwono znakowany Mały Szlak Beskidzki.",
+            "why": "Daje możliwość spokojnego przejścia długim leśnym grzbietem blisko Krakowa.",
+            "curiosity": "W północnej części pasma rośnie chroniona grupa starych cisów znana jako Cisy Raciborskiego.",
+            "tags": [
+              "KORONA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "średnia ze względu na długość typowych wariantów",
+            "family": "dla rodzin lubiących dłuższe wycieczki",
+            "dog": "na smyczy; w rezerwacie sprawdź aktualne ograniczenia",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Najczęściej odwiedzana podczas przejścia Pasma Babicy z Bieńkówki, Harbutowic lub Palczy.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Góry dla Ciebie – Babica",
+                "url": "https://gorydlaciebie.pl/wyprawy/babica-w-beskidzie-makowskim/"
+              },
+              {
+                "name": "Trasa dla Bobasa – Babica i Cisy Raciborskiego",
+                "url": "https://www.trasadlabobasa.pl/"
+              }
+            ]
           },
           {
-            "name": "Uklejna", "ele": 680, "lat": 49.8103758, "lon": 19.976164,
-            "desc": "Leśny szczyt bezpośrednio nad myślenickim Zarabiem, objęty gęstą siecią tras spacerowych.", "why": "Można tu rozpocząć górską wycieczkę niemal z centrum Myślenic.", "curiosity": "Na północnym zboczu znajduje się rezerwat Zamczysko nad Rabą z reliktami średniowiecznej warowni.",
-            "tags": ["BLISKO MIASTA", "🥾 DLA PIECHURÓW"], "difficulty": "łatwa do średniej", "family": "dobry cel rodzinny", "dog": "na smyczy; w rezerwacie obowiązują zasady ochrony przyrody", "fee": "bezpłatnie", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Dostępne są różne warianty z Zarabia i Myślenic.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Nadleśnictwo Myślenice","url":"https://myslenice.krakow.lasy.gov.pl/"}]
+            "name": "Uklejna",
+            "ele": 680,
+            "lat": 49.8103758,
+            "lon": 19.976164,
+            "desc": "Leśny szczyt bezpośrednio nad myślenickim Zarabiem, objęty gęstą siecią tras spacerowych.",
+            "why": "Można tu rozpocząć górską wycieczkę niemal z centrum Myślenic.",
+            "curiosity": "Na północnym zboczu znajduje się rezerwat Zamczysko nad Rabą z reliktami średniowiecznej warowni.",
+            "tags": [
+              "BLISKO MIASTA",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "dobry cel rodzinny",
+            "dog": "na smyczy; w rezerwacie obowiązują zasady ochrony przyrody",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Dostępne są różne warianty z Zarabia i Myślenic.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Nadleśnictwo Myślenice",
+                "url": "https://myslenice.krakow.lasy.gov.pl/"
+              }
+            ]
           },
           {
-            "name": "Chełm nad Myślenicami", "ele": 654, "lat": 49.7961756, "lon": 19.979587,
-            "desc": "Popularne wzniesienie nad Zarabiem z wieżą widokową i trasami rekreacyjnymi.", "why": "Łatwo dostępny punkt wycieczkowy z panoramą Myślenic i Beskidów.", "curiosity": "Na zboczu funkcjonuje kolej krzesełkowa prowadząca z Zarabia.",
-            "tags": ["WIDOKI", "RODZINNIE"], "difficulty": "łatwa do średniej", "family": "tak; dostępność ułatwia kolej", "dog": "na smyczy; zasady przewozu koleją sprawdź u operatora", "fee": "szlak bezpłatny; kolej może być płatna", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Możliwy jest wariant pieszy z Zarabia lub wjazd koleją w okresie jej działania.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Visit Małopolska – Beskid Makowski","url":"https://visitmalopolska.pl/-/beskid-maly-i-makowski-"}]
+            "name": "Chełm nad Myślenicami",
+            "ele": 654,
+            "lat": 49.7961756,
+            "lon": 19.979587,
+            "desc": "Popularne wzniesienie nad Zarabiem z wieżą widokową i trasami rekreacyjnymi.",
+            "why": "Łatwo dostępny punkt wycieczkowy z panoramą Myślenic i Beskidów.",
+            "curiosity": "Na zboczu funkcjonuje kolej krzesełkowa prowadząca z Zarabia.",
+            "tags": [
+              "WIDOKI",
+              "RODZINNIE"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak; dostępność ułatwia kolej",
+            "dog": "na smyczy; zasady przewozu koleją sprawdź u operatora",
+            "fee": "szlak bezpłatny; kolej może być płatna",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Możliwy jest wariant pieszy z Zarabia lub wjazd koleją w okresie jej działania.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Visit Małopolska – Beskid Makowski",
+                "url": "https://visitmalopolska.pl/-/beskid-maly-i-makowski-"
+              }
+            ]
           },
           {
-            "name": "Mioduszyna", "ele": 633, "lat": 49.7548797, "lon": 19.6254928,
-            "desc": "Wzniesienie pomiędzy Suchą Beskidzką a Makowem Podhalańskim, z widokową platformą na zboczu.", "why": "Krótka wycieczka pozwala zobaczyć panoramę Suchej Beskidzkiej i otaczających ją pasm.", "curiosity": "Szczyt należy do zachodniej części Pasma Koskowej Góry.",
-            "tags": ["WIDOKI", "💎 MNIEJ ZNANY"], "difficulty": "łatwa do średniej", "family": "tak, zależnie od wariantu", "dog": "na smyczy", "fee": "bezpłatnie", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Platforma leży na zboczu; wejście na sam zalesiony wierzchołek nie jest główną atrakcją trasy.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Mapy.com – Mioduszyna","url":"https://mapy.com/"},{"name":"Sucha Beskidzka – turystyka","url":"https://sucha-beskidzka.pl/"}]
+            "name": "Mioduszyna",
+            "ele": 633,
+            "lat": 49.7548797,
+            "lon": 19.6254928,
+            "desc": "Wzniesienie pomiędzy Suchą Beskidzką a Makowem Podhalańskim, z widokową platformą na zboczu.",
+            "why": "Krótka wycieczka pozwala zobaczyć panoramę Suchej Beskidzkiej i otaczających ją pasm.",
+            "curiosity": "Szczyt należy do zachodniej części Pasma Koskowej Góry.",
+            "tags": [
+              "WIDOKI",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak, zależnie od wariantu",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Platforma leży na zboczu; wejście na sam zalesiony wierzchołek nie jest główną atrakcją trasy.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Mapy.com – Mioduszyna",
+                "url": "https://mapy.com/"
+              },
+              {
+                "name": "Sucha Beskidzka – turystyka",
+                "url": "https://sucha-beskidzka.pl/"
+              }
+            ]
           }
         ]
       },
@@ -27201,14 +27460,70 @@ const DATA = {
         "icon": "💧",
         "items": [
           {
-            "name": "Kaskady potoku Gościbia", "lat": 49.7980088, "lon": 19.8090632,
-            "desc": "Niewielkie naturalne kaskady, bystrza i progi skalne ukryte w leśnej dolinie potoku Gościbia.", "why": "Pozwalają zobaczyć dziki, wilgotny charakter rezerwatu Las Gościbia.", "curiosity": "Rezerwat chroni naturalne zbiorowiska leśne i obszar źródliskowy ważny dla Sułkowic.",
-            "tags": ["NATURA", "💎 MNIEJ ZNANY"], "difficulty": "łatwa do średniej; ślisko po opadach", "family": "tak, pod stałą opieką dorosłych", "dog": "sprawdź aktualny regulamin rezerwatu", "fee": "bezpłatnie", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Punkt oznacza centralną część rezerwatu; kaskady występują na kolejnych odcinkach potoku. Nie schodź poza udostępnione drogi.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Visit Małopolska – Pasmo Babicy i Las Gościbia","url":"https://visitmalopolska.pl/-/beskid-maly-i-makowski-"}]
+            "name": "Kaskady potoku Gościbia",
+            "lat": 49.7980088,
+            "lon": 19.8090632,
+            "desc": "Niewielkie naturalne kaskady, bystrza i progi skalne ukryte w leśnej dolinie potoku Gościbia.",
+            "why": "Pozwalają zobaczyć dziki, wilgotny charakter rezerwatu Las Gościbia.",
+            "curiosity": "Rezerwat chroni naturalne zbiorowiska leśne i obszar źródliskowy ważny dla Sułkowic.",
+            "tags": [
+              "NATURA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa do średniej; ślisko po opadach",
+            "family": "tak, pod stałą opieką dorosłych",
+            "dog": "sprawdź aktualny regulamin rezerwatu",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Punkt oznacza centralną część rezerwatu; kaskady występują na kolejnych odcinkach potoku. Nie schodź poza udostępnione drogi.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Visit Małopolska – Pasmo Babicy i Las Gościbia",
+                "url": "https://visitmalopolska.pl/-/beskid-maly-i-makowski-"
+              }
+            ]
           },
           {
-            "name": "Leśna kaskada na potoku Wenców", "lat": 49.7489, "lon": 19.7707,
-            "desc": "Mała leśna kaskada na potoku w rejonie Bogdanówki, odwiedzana przy wycieczkach na Koskową Górę.", "why": "Stanowi kameralne urozmaicenie widokowej trasy w Paśmie Koskowej Góry.", "curiosity": "Najlepiej prezentuje się po okresach obfitszych opadów.",
-            "tags": ["💎 MNIEJ ZNANY", "NATURA"], "difficulty": "łatwa; teren może być błotnisty i śliski", "family": "tak, z ostrożnością przy wodzie", "dog": "na smyczy", "fee": "bezpłatnie", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Położenie kaskady jest orientacyjne; przed wyjściem sprawdź lokalną mapę i aktualną dostępność dojścia.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Górska Zawierucha – Koskowa Góra","url":"https://gorskazawierucha.pl/koskowa-gora/"}]
+            "name": "Leśna kaskada na potoku Wenców",
+            "lat": 49.7489,
+            "lon": 19.7707,
+            "desc": "Mała leśna kaskada na potoku w rejonie Bogdanówki, odwiedzana przy wycieczkach na Koskową Górę.",
+            "why": "Stanowi kameralne urozmaicenie widokowej trasy w Paśmie Koskowej Góry.",
+            "curiosity": "Najlepiej prezentuje się po okresach obfitszych opadów.",
+            "tags": [
+              "💎 MNIEJ ZNANY",
+              "NATURA"
+            ],
+            "difficulty": "łatwa; teren może być błotnisty i śliski",
+            "family": "tak, z ostrożnością przy wodzie",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Położenie kaskady jest orientacyjne; przed wyjściem sprawdź lokalną mapę i aktualną dostępność dojścia.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Górska Zawierucha – Koskowa Góra",
+                "url": "https://gorskazawierucha.pl/koskowa-gora/"
+              }
+            ]
           }
         ]
       },
@@ -27217,19 +27532,107 @@ const DATA = {
         "icon": "👀",
         "items": [
           {
-            "name": "Wieża widokowa na Chełmie", "lat": 49.7957, "lon": 19.9792,
-            "desc": "Drewniana wieża na szczytowym grzbiecie Chełmu nad Myślenicami.", "why": "Zapewnia panoramę miasta, doliny Raby oraz Beskidów.", "curiosity": "Wieża znajduje się w pobliżu górnej stacji kolei z Zarabia.",
-            "tags": ["WIDOKI", "RODZINNIE"], "difficulty": "łatwa", "family": "tak; dzieci pod opieką na schodach i tarasie", "dog": "na smyczy; wejście na wieżę zależy od zachowania psa", "fee": "wieża zwykle bezpłatna; kolej płatna według cennika", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Dojście piesze z Zarabia lub wjazd koleją w terminach jej działania.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Odkrywcza Turystyka – atrakcje Beskidu Makowskiego","url":"https://odtur.pl/atrakcje/bienkowka-beskid-makowski-59235.html"}]
+            "name": "Wieża widokowa na Chełmie",
+            "lat": 49.7957,
+            "lon": 19.9792,
+            "desc": "Drewniana wieża na szczytowym grzbiecie Chełmu nad Myślenicami.",
+            "why": "Zapewnia panoramę miasta, doliny Raby oraz Beskidów.",
+            "curiosity": "Wieża znajduje się w pobliżu górnej stacji kolei z Zarabia.",
+            "tags": [
+              "WIDOKI",
+              "RODZINNIE"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak; dzieci pod opieką na schodach i tarasie",
+            "dog": "na smyczy; wejście na wieżę zależy od zachowania psa",
+            "fee": "wieża zwykle bezpłatna; kolej płatna według cennika",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Dojście piesze z Zarabia lub wjazd koleją w terminach jej działania.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Odkrywcza Turystyka – atrakcje Beskidu Makowskiego",
+                "url": "https://odtur.pl/atrakcje/bienkowka-beskid-makowski-59235.html"
+              }
+            ]
           },
           {
-            "name": "Platforma widokowa na Mioduszynie", "lat": 49.7483, "lon": 19.6178,
-            "desc": "Kameralna drewniana platforma na zboczu Mioduszyny ponad Suchą Beskidzką.", "why": "Oferuje szeroki widok na miasto, dolinę Skawy i okoliczne pasma.", "curiosity": "Platforma jest dostępna całodobowo, ale prowadzi do niej trasa piesza.",
-            "tags": ["WIDOKI", "RODZINNIE"], "difficulty": "łatwa do średniej", "family": "tak", "dog": "na smyczy", "fee": "bezpłatnie", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Do platformy nie prowadzi ogólnodostępny dojazd samochodem; należy dojść pieszo od strony Suchej Beskidzkiej.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Sucha Beskidzka – turystyka","url":"https://sucha-beskidzka.pl/"},{"name":"Wycieczkoteka – platforma na Mioduszynie","url":"https://wycieczkoteka.pl/"}]
+            "name": "Platforma widokowa na Mioduszynie",
+            "lat": 49.7483,
+            "lon": 19.6178,
+            "desc": "Kameralna drewniana platforma na zboczu Mioduszyny ponad Suchą Beskidzką.",
+            "why": "Oferuje szeroki widok na miasto, dolinę Skawy i okoliczne pasma.",
+            "curiosity": "Platforma jest dostępna całodobowo, ale prowadzi do niej trasa piesza.",
+            "tags": [
+              "WIDOKI",
+              "RODZINNIE"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Do platformy nie prowadzi ogólnodostępny dojazd samochodem; należy dojść pieszo od strony Suchej Beskidzkiej.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Sucha Beskidzka – turystyka",
+                "url": "https://sucha-beskidzka.pl/"
+              },
+              {
+                "name": "Wycieczkoteka – platforma na Mioduszynie",
+                "url": "https://wycieczkoteka.pl/"
+              }
+            ]
           },
           {
-            "name": "Widokowy grzbiet Koskowa Góra–Parszywka", "lat": 49.7562, "lon": 19.795,
-            "desc": "Otwarty odcinek grzbietu pomiędzy Koskową Górą i Parszywką z panoramami na południe.", "why": "To jedno z najlepszych miejsc w paśmie do oglądania Tatr i Babiej Góry.", "curiosity": "Największą atrakcją jest nie pojedynczy punkt, lecz cały ciąg widokowych polan.",
-            "tags": ["TOP", "WIDOKI"], "difficulty": "łatwa do średniej", "family": "tak, zależnie od dojścia", "dog": "na smyczy", "fee": "bezpłatnie", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Parametry zależą od wybranego startu i długości przejścia grzbietowego.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Trasa dla Bobasa – TOP 5 Beskid Makowski","url":"https://www.trasadlabobasa.pl/tab/legenda/top_5_beskid_makowski_najpiekniejsze_szlaki_z_widokami/839"}]
+            "name": "Widokowy grzbiet Koskowa Góra–Parszywka",
+            "lat": 49.7562,
+            "lon": 19.795,
+            "desc": "Otwarty odcinek grzbietu pomiędzy Koskową Górą i Parszywką z panoramami na południe.",
+            "why": "To jedno z najlepszych miejsc w paśmie do oglądania Tatr i Babiej Góry.",
+            "curiosity": "Największą atrakcją jest nie pojedynczy punkt, lecz cały ciąg widokowych polan.",
+            "tags": [
+              "TOP",
+              "WIDOKI"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak, zależnie od dojścia",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Parametry zależą od wybranego startu i długości przejścia grzbietowego.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Trasa dla Bobasa – TOP 5 Beskid Makowski",
+                "url": "https://www.trasadlabobasa.pl/tab/legenda/top_5_beskid_makowski_najpiekniejsze_szlaki_z_widokami/839"
+              }
+            ]
           }
         ]
       },
@@ -27238,24 +27641,139 @@ const DATA = {
         "icon": "⭐",
         "items": [
           {
-            "name": "Obserwatorium Astronomiczne na Lubomirze", "lat": 49.7668, "lon": 20.0597,
-            "desc": "Górskie obserwatorium astronomiczne im. Tadeusza Banachiewicza, organizujące pokazy nieba i wydarzenia edukacyjne.", "why": "To wyjątkowe połączenie turystyki górskiej z popularyzacją astronomii.", "curiosity": "W przedwojennym obserwatorium dokonano odkryć dwóch komet.",
-            "tags": ["TOP", "EDUKACJA", "RODZINNIE"], "difficulty": "dojście łatwe do średniego", "family": "tak; warto wcześniej sprawdzić program pokazów", "dog": "na szlaku na smyczy; zasady wejścia do obiektu sprawdź u organizatora", "fee": "wybrane pokazy są biletowane", "parking": "Parking przy Schronisku PTTK na Kudłaczach", "parkingLat": 49.7812, "parkingLon": 20.0214, "walkTime": "około 1 godz. 15 min w jedną stronę", "distance": "około 3,5 km w jedną stronę", "elevationGain": "około 190 m", "routeNote": "Sprawdź kalendarz pokazów, godziny otwarcia oraz pogodę przed wyjściem.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Obserwatorium Astronomiczne na Lubomirze","url":"https://www.obserwatorium.lubomir.weglowka.pl/"}]
+            "name": "Obserwatorium Astronomiczne na Lubomirze",
+            "lat": 49.7668,
+            "lon": 20.0597,
+            "desc": "Górskie obserwatorium astronomiczne im. Tadeusza Banachiewicza, organizujące pokazy nieba i wydarzenia edukacyjne.",
+            "why": "To wyjątkowe połączenie turystyki górskiej z popularyzacją astronomii.",
+            "curiosity": "W przedwojennym obserwatorium dokonano odkryć dwóch komet.",
+            "tags": [
+              "TOP",
+              "EDUKACJA",
+              "RODZINNIE"
+            ],
+            "difficulty": "dojście łatwe do średniego",
+            "family": "tak; warto wcześniej sprawdzić program pokazów",
+            "dog": "na szlaku na smyczy; zasady wejścia do obiektu sprawdź u organizatora",
+            "fee": "wybrane pokazy są biletowane",
+            "parking": "Parking przy Schronisku PTTK na Kudłaczach",
+            "parkingLat": 49.7812,
+            "parkingLon": 20.0214,
+            "walkTime": "około 1 godz. 15 min w jedną stronę",
+            "distance": "około 3,5 km w jedną stronę",
+            "elevationGain": "około 190 m",
+            "routeNote": "Sprawdź kalendarz pokazów, godziny otwarcia oraz pogodę przed wyjściem.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Obserwatorium Astronomiczne na Lubomirze",
+                "url": "https://www.obserwatorium.lubomir.weglowka.pl/"
+              }
+            ]
           },
           {
-            "name": "Rezerwat przyrody Las Gościbia", "lat": 49.7980088, "lon": 19.8090632,
-            "desc": "Leśny rezerwat w Paśmie Babicy, chroniący naturalne zbiorowiska leśne i dolinę potoku Gościbia.", "why": "Oferuje ciszę, dziką dolinę potoku oraz wartości przyrodnicze z dala od najpopularniejszych szlaków.", "curiosity": "W czasie II wojny światowej w okolicy działały oddziały partyzanckie.",
-            "tags": ["NATURA", "💎 MNIEJ ZNANY"], "difficulty": "średnia; miejscami teren wilgotny", "family": "dla rodzin przy zachowaniu ostrożności", "dog": "sprawdź aktualny regulamin rezerwatu", "fee": "bezpłatnie", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Poruszaj się wyłącznie po udostępnionych drogach i szlakach; nie wchodź w strefy wyłączone z ruchu.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Visit Małopolska – Las Gościbia","url":"https://visitmalopolska.pl/-/beskid-maly-i-makowski-"}]
+            "name": "Rezerwat przyrody Las Gościbia",
+            "lat": 49.7980088,
+            "lon": 19.8090632,
+            "desc": "Leśny rezerwat w Paśmie Babicy, chroniący naturalne zbiorowiska leśne i dolinę potoku Gościbia.",
+            "why": "Oferuje ciszę, dziką dolinę potoku oraz wartości przyrodnicze z dala od najpopularniejszych szlaków.",
+            "curiosity": "W czasie II wojny światowej w okolicy działały oddziały partyzanckie.",
+            "tags": [
+              "NATURA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "średnia; miejscami teren wilgotny",
+            "family": "dla rodzin przy zachowaniu ostrożności",
+            "dog": "sprawdź aktualny regulamin rezerwatu",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Poruszaj się wyłącznie po udostępnionych drogach i szlakach; nie wchodź w strefy wyłączone z ruchu.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Visit Małopolska – Las Gościbia",
+                "url": "https://visitmalopolska.pl/-/beskid-maly-i-makowski-"
+              }
+            ]
           },
           {
-            "name": "Rezerwat Zamczysko nad Rabą", "lat": 49.8175518, "lon": 19.9466803,
-            "desc": "Niewielki rezerwat krajobrazowy na zboczu Uklejnej, chroniący las i pozostałości średniowiecznej warowni.", "why": "Łączy krótki spacer z Zarabia z historią dawnego szlaku handlowego.", "curiosity": "Warownia miała strzec drogi biegnącej doliną Raby w kierunku Węgier.",
-            "tags": ["HISTORIA", "NATURA", "BLISKO MIASTA"], "difficulty": "łatwa do średniej", "family": "tak, z uwagą na stromsze fragmenty", "dog": "sprawdź zasady obowiązujące w rezerwacie", "fee": "bezpłatnie", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Najdogodniejsze dojście prowadzi od strony myślenickiego Zarabia.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Beskid Makowski – rezerwaty","url":"https://magazynnaszczycie.pl/beskid-makowski"}]
+            "name": "Rezerwat Zamczysko nad Rabą",
+            "lat": 49.8175518,
+            "lon": 19.9466803,
+            "desc": "Niewielki rezerwat krajobrazowy na zboczu Uklejnej, chroniący las i pozostałości średniowiecznej warowni.",
+            "why": "Łączy krótki spacer z Zarabia z historią dawnego szlaku handlowego.",
+            "curiosity": "Warownia miała strzec drogi biegnącej doliną Raby w kierunku Węgier.",
+            "tags": [
+              "HISTORIA",
+              "NATURA",
+              "BLISKO MIASTA"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak, z uwagą na stromsze fragmenty",
+            "dog": "sprawdź zasady obowiązujące w rezerwacie",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Najdogodniejsze dojście prowadzi od strony myślenickiego Zarabia.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Beskid Makowski – rezerwaty",
+                "url": "https://magazynnaszczycie.pl/beskid-makowski"
+              }
+            ]
           },
           {
-            "name": "Zarabie w Myślenicach", "lat": 49.8211272, "lon": 19.9505705,
-            "desc": "Rekreacyjna dzielnica Myślenic nad Rabą, będąca bazą wyjściową na Chełm i Uklejną.", "why": "Łączy wypoczynek nad rzeką z dostępem do górskich tras i kolei na Chełm.", "curiosity": "Zarabie leży u północnego skraju gór i stanowi popularną bramę Beskidu Makowskiego.",
-            "tags": ["RODZINNIE", "REKREACJA", "START SZLAKU"], "difficulty": "łatwa", "family": "tak", "dog": "zgodnie z zasadami miejsc publicznych; na szlakach na smyczy", "fee": "teren ogólnodostępny; część atrakcji i parkingów może być płatna", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Wybór parkingu zależy od planowanej atrakcji i aktualnej organizacji ruchu.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Visit Małopolska – Beskid Makowski","url":"https://visitmalopolska.pl/-/beskid-maly-i-makowski-"}]
+            "name": "Zarabie w Myślenicach",
+            "lat": 49.8211272,
+            "lon": 19.9505705,
+            "desc": "Rekreacyjna dzielnica Myślenic nad Rabą, będąca bazą wyjściową na Chełm i Uklejną.",
+            "why": "Łączy wypoczynek nad rzeką z dostępem do górskich tras i kolei na Chełm.",
+            "curiosity": "Zarabie leży u północnego skraju gór i stanowi popularną bramę Beskidu Makowskiego.",
+            "tags": [
+              "RODZINNIE",
+              "REKREACJA",
+              "START SZLAKU"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "zgodnie z zasadami miejsc publicznych; na szlakach na smyczy",
+            "fee": "teren ogólnodostępny; część atrakcji i parkingów może być płatna",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Wybór parkingu zależy od planowanej atrakcji i aktualnej organizacji ruchu.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Visit Małopolska – Beskid Makowski",
+                "url": "https://visitmalopolska.pl/-/beskid-maly-i-makowski-"
+              }
+            ]
           }
         ]
       },
@@ -27264,14 +27782,70 @@ const DATA = {
         "icon": "🪨",
         "items": [
           {
-            "name": "Wychodnie skalne Kamiennika", "lat": 49.789, "lon": 20.0508,
-            "desc": "Niewielkie piaskowcowe wychodnie i bloki skalne ukryte w lesie masywu Kamiennika.", "why": "Urozmaicają leśne przejście pomiędzy Porębą, Suchą Polaną i Kudłaczami.", "curiosity": "Skały są efektem odporności warstw piaskowca budujących flisz karpacki.",
-            "tags": ["GEOLOGIA", "💎 MNIEJ ZNANY"], "difficulty": "średnia; teren leśny i miejscami stromy", "family": "dla starszych dzieci pod opieką", "dog": "na smyczy", "fee": "bezpłatnie", "parking": "Parking przy kaplicy w Porębie", "parkingLat": 49.796, "parkingLon": 20.0183, "walkTime": "zależnie od wariantu", "distance": "", "elevationGain": "", "routeNote": "Punkt wskazuje rejon występowania wychodni, a nie pojedynczą urządzoną atrakcję.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"MyNaSzlaku – Kamiennik i Kudłacze","url":"https://mynaszlaku.pl/kamiennik-schronisko-na-kudlaczach-z-dzieckiem/"}]
+            "name": "Wychodnie skalne Kamiennika",
+            "lat": 49.789,
+            "lon": 20.0508,
+            "desc": "Niewielkie piaskowcowe wychodnie i bloki skalne ukryte w lesie masywu Kamiennika.",
+            "why": "Urozmaicają leśne przejście pomiędzy Porębą, Suchą Polaną i Kudłaczami.",
+            "curiosity": "Skały są efektem odporności warstw piaskowca budujących flisz karpacki.",
+            "tags": [
+              "GEOLOGIA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "średnia; teren leśny i miejscami stromy",
+            "family": "dla starszych dzieci pod opieką",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy kaplicy w Porębie",
+            "parkingLat": 49.796,
+            "parkingLon": 20.0183,
+            "walkTime": "zależnie od wariantu",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Punkt wskazuje rejon występowania wychodni, a nie pojedynczą urządzoną atrakcję.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "MyNaSzlaku – Kamiennik i Kudłacze",
+                "url": "https://mynaszlaku.pl/kamiennik-schronisko-na-kudlaczach-z-dzieckiem/"
+              }
+            ]
           },
           {
-            "name": "Skalne Zamczysko nad Rabą", "lat": 49.8175518, "lon": 19.9466803,
-            "desc": "Skaliste fragmenty zbocza Uklejnej w obrębie rezerwatu Zamczysko nad Rabą.", "why": "Tworzą naturalną scenerię dla reliktów średniowiecznego założenia obronnego.", "curiosity": "Strome ukształtowanie miejsca sprzyjało wykorzystaniu go jako punktu obronnego.",
-            "tags": ["GEOLOGIA", "HISTORIA"], "difficulty": "łatwa do średniej; miejscami stromo", "family": "tak, przy zachowaniu ostrożności", "dog": "sprawdź regulamin rezerwatu", "fee": "bezpłatnie", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Nie opuszczaj udostępnionych ścieżek i nie wspinaj się na kruche fragmenty skał.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Beskid Makowski – Zamczysko nad Rabą","url":"https://magazynnaszczycie.pl/beskid-makowski"}]
+            "name": "Skalne Zamczysko nad Rabą",
+            "lat": 49.8175518,
+            "lon": 19.9466803,
+            "desc": "Skaliste fragmenty zbocza Uklejnej w obrębie rezerwatu Zamczysko nad Rabą.",
+            "why": "Tworzą naturalną scenerię dla reliktów średniowiecznego założenia obronnego.",
+            "curiosity": "Strome ukształtowanie miejsca sprzyjało wykorzystaniu go jako punktu obronnego.",
+            "tags": [
+              "GEOLOGIA",
+              "HISTORIA"
+            ],
+            "difficulty": "łatwa do średniej; miejscami stromo",
+            "family": "tak, przy zachowaniu ostrożności",
+            "dog": "sprawdź regulamin rezerwatu",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Nie opuszczaj udostępnionych ścieżek i nie wspinaj się na kruche fragmenty skał.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Beskid Makowski – Zamczysko nad Rabą",
+                "url": "https://magazynnaszczycie.pl/beskid-makowski"
+              }
+            ]
           }
         ]
       },
@@ -27280,14 +27854,76 @@ const DATA = {
         "icon": "🏠",
         "items": [
           {
-            "name": "Schronisko PTTK na Kudłaczach", "ele": 730, "lat": 49.7806, "lon": 20.0242,
-            "desc": "Całoroczne schronisko w paśmie Lubomira i Łysiny, popularny cel rodzinnych spacerów oraz baza na Lubomir.", "why": "To jedno z najłatwiej dostępnych schronisk górskich w pobliżu Krakowa.", "curiosity": "Od najwyżej położonego parkingu dzieli je tylko krótki odcinek podejścia.",
-            "tags": ["TOP", "RODZINNIE", "NOCLEG"], "difficulty": "łatwa przy starcie z górnego parkingu", "family": "tak", "dog": "zasady pobytu psa sprawdź bezpośrednio w schronisku", "fee": "wejście bezpłatne; parking, nocleg i gastronomia płatne", "parking": "Parking przy Schronisku PTTK na Kudłaczach", "parkingLat": 49.7812, "parkingLon": 20.0214, "walkTime": "około 5 min", "distance": "około 0,2 km", "elevationGain": "niewielkie", "routeNote": "Dojazd prowadzi lokalną drogą z Pcimia; zimą i po opadach sprawdź jej przejezdność.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"PTTK – Schronisko na Kudłaczach","url":"https://kudlacze.pttk.pl/"},{"name":"MyNaSzlaku – parking i dojście","url":"https://mynaszlaku.pl/kamiennik-schronisko-na-kudlaczach-z-dzieckiem/"}]
+            "name": "Schronisko PTTK na Kudłaczach",
+            "ele": 730,
+            "lat": 49.7806,
+            "lon": 20.0242,
+            "desc": "Całoroczne schronisko w paśmie Lubomira i Łysiny, popularny cel rodzinnych spacerów oraz baza na Lubomir.",
+            "why": "To jedno z najłatwiej dostępnych schronisk górskich w pobliżu Krakowa.",
+            "curiosity": "Od najwyżej położonego parkingu dzieli je tylko krótki odcinek podejścia.",
+            "tags": [
+              "TOP",
+              "RODZINNIE",
+              "NOCLEG"
+            ],
+            "difficulty": "łatwa przy starcie z górnego parkingu",
+            "family": "tak",
+            "dog": "zasady pobytu psa sprawdź bezpośrednio w schronisku",
+            "fee": "wejście bezpłatne; parking, nocleg i gastronomia płatne",
+            "parking": "Parking przy Schronisku PTTK na Kudłaczach",
+            "parkingLat": 49.7812,
+            "parkingLon": 20.0214,
+            "walkTime": "około 5 min",
+            "distance": "około 0,2 km",
+            "elevationGain": "niewielkie",
+            "routeNote": "Dojazd prowadzi lokalną drogą z Pcimia; zimą i po opadach sprawdź jej przejezdność.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "PTTK – Schronisko na Kudłaczach",
+                "url": "https://kudlacze.pttk.pl/"
+              },
+              {
+                "name": "MyNaSzlaku – parking i dojście",
+                "url": "https://mynaszlaku.pl/kamiennik-schronisko-na-kudlaczach-z-dzieckiem/"
+              }
+            ]
           },
           {
-            "name": "Studenckie Schronisko Turystyczne Chatka Lasek", "lat": 49.6480717, "lon": 19.3770494,
-            "desc": "Kameralne schronisko studenckie w Pewli Wielkiej, w zachodniej części Beskidu Makowskiego według regionalizacji Kondrackiego.", "why": "Pozwala poznać mniej uczęszczoną, zachodnią część pasma i atmosferę schroniska studenckiego.", "curiosity": "Obiekt jest znany z prostych warunków i społecznego charakteru prowadzenia.",
-            "tags": ["💎 MNIEJ ZNANY", "NOCLEG"], "difficulty": "zależna od wybranego dojścia", "family": "warunki i terminy działania należy sprawdzić przed wyjazdem", "dog": "sprawdź bezpośrednio u gospodarzy", "fee": "nocleg i świadczenia według aktualnych zasad obiektu", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Przed wyjściem potwierdź otwarcie schroniska oraz wybrany wariant dojścia.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Visit Małopolska – Beskid Makowski","url":"https://visitmalopolska.pl/-/beskid-maly-i-makowski-"}]
+            "name": "Studenckie Schronisko Turystyczne Chatka Lasek",
+            "lat": 49.6480717,
+            "lon": 19.3770494,
+            "desc": "Kameralne schronisko studenckie w Pewli Wielkiej, w zachodniej części Beskidu Makowskiego według regionalizacji Kondrackiego.",
+            "why": "Pozwala poznać mniej uczęszczoną, zachodnią część pasma i atmosferę schroniska studenckiego.",
+            "curiosity": "Obiekt jest znany z prostych warunków i społecznego charakteru prowadzenia.",
+            "tags": [
+              "💎 MNIEJ ZNANY",
+              "NOCLEG"
+            ],
+            "difficulty": "zależna od wybranego dojścia",
+            "family": "warunki i terminy działania należy sprawdzić przed wyjazdem",
+            "dog": "sprawdź bezpośrednio u gospodarzy",
+            "fee": "nocleg i świadczenia według aktualnych zasad obiektu",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Przed wyjściem potwierdź otwarcie schroniska oraz wybrany wariant dojścia.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Visit Małopolska – Beskid Makowski",
+                "url": "https://visitmalopolska.pl/-/beskid-maly-i-makowski-"
+              }
+            ]
           }
         ]
       },
@@ -27296,24 +27932,77 @@ const DATA = {
         "icon": "🏛️",
         "items": [
           {
-            "name": "Zamek Suski", "lat": 49.7463076, "lon": 19.6014332,
-            "desc": "Renesansowa rezydencja w Suchej Beskidzkiej, nazywana Małym Wawelem, otoczona parkiem.", "why": "To najważniejszy zabytek architektury świeckiej u zachodnich podnóży pasma.", "curiosity": "Dziedziniec z arkadowymi krużgankami przypomina rozwiązania znane z Wawelu.",
-            "tags": ["TOP", "HISTORIA", "RODZINNIE"], "difficulty": "łatwa", "family": "tak", "dog": "w parku zgodnie z regulaminem; do wnętrz zwykle nie", "fee": "park ogólnodostępny; zwiedzanie ekspozycji może być płatne", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Sprawdź aktualne godziny zwiedzania Muzeum Miejskiego.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Sucha Beskidzka – zespół zamkowo-parkowy","url":"https://sucha-beskidzka.pl/"}]
+            "name": "Zamek Suski",
+            "lat": 49.7463076,
+            "lon": 19.6014332,
+            "desc": "Renesansowa rezydencja w Suchej Beskidzkiej, nazywana Małym Wawelem, otoczona parkiem.",
+            "why": "To najważniejszy zabytek architektury świeckiej u zachodnich podnóży pasma.",
+            "curiosity": "Dziedziniec z arkadowymi krużgankami przypomina rozwiązania znane z Wawelu.",
+            "tags": [
+              "TOP",
+              "HISTORIA",
+              "RODZINNIE"
+            ],
+            "difficulty": "łatwa",
+            "parkingLat": 49.7469361,
+            "parkingLon": 19.6024739,
+            "family": "tak",
+            "dog": "w parku zgodnie z regulaminem; do wnętrz zwykle nie",
+            "fee": "park ogólnodostępny; zwiedzanie ekspozycji może być płatne"
           },
           {
-            "name": "Karczma Rzym", "lat": 49.7423943, "lon": 19.6015358,
-            "desc": "Zabytkowa drewniana karczma przy rynku w Suchej Beskidzkiej, kojarzona z legendą o panu Twardowskim.", "why": "Jest jednym z najbardziej rozpoznawalnych przykładów dawnej architektury karczemnej w regionie.", "curiosity": "Tradycja wiąże obiekt z balladą „Pani Twardowska” Adama Mickiewicza.",
-            "tags": ["HISTORIA", "KULTURA"], "difficulty": "łatwa", "family": "tak", "dog": "zgodnie z zasadami lokalu", "fee": "oglądanie z zewnątrz bezpłatne; gastronomia płatna", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Obiekt znajduje się bezpośrednio przy rynku.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Sucha Beskidzka – Karczma Rzym","url":"https://sucha-beskidzka.pl/"}]
+            "name": "Karczma Rzym",
+            "lat": 49.7423943,
+            "lon": 19.6015358,
+            "desc": "Zabytkowa drewniana karczma przy rynku w Suchej Beskidzkiej, kojarzona z legendą o panu Twardowskim.",
+            "why": "Jest jednym z najbardziej rozpoznawalnych przykładów dawnej architektury karczemnej w regionie.",
+            "curiosity": "Tradycja wiąże obiekt z balladą „Pani Twardowska” Adama Mickiewicza.",
+            "tags": [
+              "HISTORIA",
+              "KULTURA"
+            ],
+            "difficulty": "łatwa",
+            "parkingLat": 49.7463076,
+            "parkingLon": 19.6014332,
+            "family": "tak",
+            "dog": "zgodnie z zasadami lokalu",
+            "fee": "oglądanie z zewnątrz bezpłatne; gastronomia płatna"
           },
           {
-            "name": "Zespół kościelno-klasztorny w Suchej Beskidzkiej", "lat": 49.7404143, "lon": 19.6013939,
-            "desc": "Historyczny zespół obejmujący stary kościół Nawiedzenia NMP, nowszą świątynię i zabudowania dawnego klasztoru.", "why": "Pokazuje wielowarstwową historię sakralną miasta i regionu.", "curiosity": "Stary i nowy kościół stoją obok siebie, tworząc czytelny zapis kolejnych epok architektury.",
-            "tags": ["HISTORIA", "ARCHITEKTURA"], "difficulty": "łatwa", "family": "tak", "dog": "na zewnątrz na smyczy; do wnętrz nie", "fee": "bezpłatnie; uszanuj trwające nabożeństwa", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Obiekt znajduje się blisko rynku i można go połączyć ze zwiedzaniem zamku.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Sucha Beskidzka – zabytki miasta","url":"https://sucha-beskidzka.pl/"}]
+            "name": "Zespół kościelno-klasztorny w Suchej Beskidzkiej",
+            "lat": 49.7404143,
+            "lon": 19.6013939,
+            "desc": "Historyczny zespół obejmujący stary kościół Nawiedzenia NMP, nowszą świątynię i zabudowania dawnego klasztoru.",
+            "why": "Pokazuje wielowarstwową historię sakralną miasta i regionu.",
+            "curiosity": "Stary i nowy kościół stoją obok siebie, tworząc czytelny zapis kolejnych epok architektury.",
+            "tags": [
+              "HISTORIA",
+              "ARCHITEKTURA"
+            ],
+            "difficulty": "łatwa",
+            "parkingLat": 49.746306,
+            "parkingLon": 19.6024739,
+            "family": "tak",
+            "dog": "na zewnątrz na smyczy; do wnętrz nie",
+            "fee": "bezpłatnie; uszanuj trwające nabożeństwa"
           },
           {
-            "name": "Kaplica Konfederatów Barskich na Jasiu", "lat": 49.7514591, "lon": 19.5908814,
-            "desc": "Niewielka zabytkowa kaplica na górze Jasień ponad Suchą Beskidzką, związana z tradycją konfederacji barskiej.", "why": "Łączy lokalną historię z krótkim spacerem na widokowe wzgórze.", "curiosity": "Miejsce upamiętnia walki konfederatów barskich w okolicy Suchej Beskidzkiej.",
-            "tags": ["HISTORIA", "💎 MNIEJ ZNANY"], "difficulty": "łatwa do średniej", "family": "tak", "dog": "na smyczy", "fee": "bezpłatnie", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Do kaplicy prowadzi podejście z zabudowy Suchej Beskidzkiej.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Sucha Beskidzka – Kaplica Konfederatów Barskich","url":"https://sucha-beskidzka.pl/"}]
+            "name": "Kaplica Konfederatów Barskich na Jasiu",
+            "lat": 49.7514591,
+            "lon": 19.5908814,
+            "desc": "Niewielka zabytkowa kaplica na górze Jasień ponad Suchą Beskidzką, związana z tradycją konfederacji barskiej.",
+            "why": "Łączy lokalną historię z krótkim spacerem na widokowe wzgórze.",
+            "curiosity": "Miejsce upamiętnia walki konfederatów barskich w okolicy Suchej Beskidzkiej.",
+            "tags": [
+              "HISTORIA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa do średniej",
+            "parkingLat": 49.7463076,
+            "parkingLon": 19.6014332,
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie"
           }
         ]
       },
@@ -27322,24 +28011,144 @@ const DATA = {
         "icon": "💎",
         "items": [
           {
-            "name": "Sucha Polana", "lat": 49.783194, "lon": 20.050806,
-            "desc": "Leśna polana pomiędzy Łysiną a Kamiennikiem, z miejscem odpoczynku i pamiątkami związanymi z Armią Krajową.", "why": "Łączy spokojny krajobraz, historię partyzantów i dogodne położenie na trasach do Kudłaczy.", "curiosity": "We wrześniu 1944 r. odbyła się tu msza polowa zgrupowania partyzanckiego AK.",
-            "tags": ["HISTORIA", "💎 MNIEJ ZNANY", "MIEJSCE ODPOCZYNKU"], "difficulty": "średnia; zależna od wariantu", "family": "tak, przy właściwym doborze trasy", "dog": "na smyczy", "fee": "bezpłatnie", "parking": "Parking przy kaplicy w Porębie", "parkingLat": 49.796, "parkingLon": 20.0183, "walkTime": "około 1 godz. 30 min w jedną stronę", "distance": "zależnie od wariantu", "elevationGain": "", "routeNote": "Współrzędne polany potwierdza Nadleśnictwo Myślenice. Można ją połączyć z Kamiennikiem i Kudłaczami.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Nadleśnictwo Myślenice – obszar Sucha Polana","url":"https://myslenice.krakow.lasy.gov.pl/"},{"name":"MyNaSzlaku – Sucha Polana","url":"https://mynaszlaku.pl/kamiennik-schronisko-na-kudlaczach-z-dzieckiem/"}]
+            "name": "Sucha Polana",
+            "lat": 49.783194,
+            "lon": 20.050806,
+            "desc": "Leśna polana pomiędzy Łysiną a Kamiennikiem, z miejscem odpoczynku i pamiątkami związanymi z Armią Krajową.",
+            "why": "Łączy spokojny krajobraz, historię partyzantów i dogodne położenie na trasach do Kudłaczy.",
+            "curiosity": "We wrześniu 1944 r. odbyła się tu msza polowa zgrupowania partyzanckiego AK.",
+            "tags": [
+              "HISTORIA",
+              "💎 MNIEJ ZNANY",
+              "MIEJSCE ODPOCZYNKU"
+            ],
+            "difficulty": "średnia; zależna od wariantu",
+            "family": "tak, przy właściwym doborze trasy",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy kaplicy w Porębie",
+            "parkingLat": 49.796,
+            "parkingLon": 20.0183,
+            "walkTime": "około 1 godz. 30 min w jedną stronę",
+            "distance": "zależnie od wariantu",
+            "elevationGain": "",
+            "routeNote": "Współrzędne polany potwierdza Nadleśnictwo Myślenice. Można ją połączyć z Kamiennikiem i Kudłaczami.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Nadleśnictwo Myślenice – obszar Sucha Polana",
+                "url": "https://myslenice.krakow.lasy.gov.pl/"
+              },
+              {
+                "name": "MyNaSzlaku – Sucha Polana",
+                "url": "https://mynaszlaku.pl/kamiennik-schronisko-na-kudlaczach-z-dzieckiem/"
+              }
+            ]
           },
           {
-            "name": "Przełęcz Sanguszki", "ele": 480, "lat": 49.8064365, "lon": 19.7566116,
-            "desc": "Historyczna przełęcz drogowa pomiędzy Harbutowicami a Palczą, na północnym skraju Pasma Babicy.", "why": "Jest ciekawym punktem startowym i śladem dawnego traktu przez góry.", "curiosity": "Nazwa upamiętnia księcia Eustachego Sanguszkę, związanego z budową drogi w XIX wieku.",
-            "tags": ["HISTORIA", "START SZLAKU", "💎 MNIEJ ZNANY"], "difficulty": "łatwa", "family": "tak, z ostrożnością przy drodze", "dog": "na smyczy", "fee": "bezpłatnie", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Nie wskazano parkingu z powodu konieczności potwierdzenia legalnego miejsca postoju przy drodze.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Visit Małopolska – Pasmo Babicy","url":"https://visitmalopolska.pl/-/beskid-maly-i-makowski-"}]
+            "name": "Przełęcz Sanguszki",
+            "ele": 480,
+            "lat": 49.8064365,
+            "lon": 19.7566116,
+            "desc": "Historyczna przełęcz drogowa pomiędzy Harbutowicami a Palczą, na północnym skraju Pasma Babicy.",
+            "why": "Jest ciekawym punktem startowym i śladem dawnego traktu przez góry.",
+            "curiosity": "Nazwa upamiętnia księcia Eustachego Sanguszkę, związanego z budową drogi w XIX wieku.",
+            "tags": [
+              "HISTORIA",
+              "START SZLAKU",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak, z ostrożnością przy drodze",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Nie wskazano parkingu z powodu konieczności potwierdzenia legalnego miejsca postoju przy drodze.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Visit Małopolska – Pasmo Babicy",
+                "url": "https://visitmalopolska.pl/-/beskid-maly-i-makowski-"
+              }
+            ]
           },
           {
-            "name": "Leśna wiata na Uklejnej", "lat": 49.8065, "lon": 19.9717,
-            "desc": "Wiata turystyczna w leśnictwie Uklejna, położona w sieci spacerowych dróg nad Myślenicami.", "why": "Daje spokojne miejsce odpoczynku z dala od ruchliwego Zarabia.", "curiosity": "Miejsce wskazano w programie Lasów Państwowych „Zanocuj w lesie”.",
-            "tags": ["MIEJSCE ODPOCZYNKU", "💎 MNIEJ ZNANY"], "difficulty": "łatwa do średniej", "family": "tak", "dog": "na smyczy", "fee": "bezpłatnie; zasady biwakowania sprawdź w nadleśnictwie", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Współrzędne pochodzą z dokumentacji Nadleśnictwa Myślenice. Sprawdź aktualne zasady korzystania z obszaru.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Nadleśnictwo Myślenice – Zanocuj w lesie","url":"https://myslenice.krakow.lasy.gov.pl/"}]
+            "name": "Leśna wiata na Uklejnej",
+            "lat": 49.8065,
+            "lon": 19.9717,
+            "desc": "Wiata turystyczna w leśnictwie Uklejna, położona w sieci spacerowych dróg nad Myślenicami.",
+            "why": "Daje spokojne miejsce odpoczynku z dala od ruchliwego Zarabia.",
+            "curiosity": "Miejsce wskazano w programie Lasów Państwowych „Zanocuj w lesie”.",
+            "tags": [
+              "MIEJSCE ODPOCZYNKU",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie; zasady biwakowania sprawdź w nadleśnictwie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Współrzędne pochodzą z dokumentacji Nadleśnictwa Myślenice. Sprawdź aktualne zasady korzystania z obszaru.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Nadleśnictwo Myślenice – Zanocuj w lesie",
+                "url": "https://myslenice.krakow.lasy.gov.pl/"
+              }
+            ]
           },
           {
-            "name": "Kapliczka pod Koskową Górą", "lat": 49.7481, "lon": 19.7811,
-            "desc": "Kameralna kapliczka przy widokowej drodze pod szczytem Koskowej Góry.", "why": "Jest charakterystycznym przystankiem na trasie przez otwarte polany Bogdanówki.", "curiosity": "Okolica kapliczki należy do najczęściej fotografowanych miejsc Pasma Koskowej Góry.",
-            "tags": ["KULTURA", "WIDOKI", "💎 MNIEJ ZNANY"], "difficulty": "łatwa", "family": "tak", "dog": "na smyczy", "fee": "bezpłatnie", "parking": "", "parkingLat": "", "parkingLon": "", "walkTime": "", "distance": "", "elevationGain": "", "routeNote": "Nie wskazano parkingu do czasu potwierdzenia legalności postoju przy lokalnej drodze.", "photo": "", "photoPage": "", "photoCredit": "", "photoLicense": "", "sources": [{"name":"Odkrywając Beskidy – Koskowa Góra","url":"https://odkrywajacbeskidy.pl/jak-dotrzec-na-koskowa-gore-punkt-wyjscia-bogdanowka/"}]
+            "name": "Kapliczka pod Koskową Górą",
+            "lat": 49.7481,
+            "lon": 19.7811,
+            "desc": "Kameralna kapliczka przy widokowej drodze pod szczytem Koskowej Góry.",
+            "why": "Jest charakterystycznym przystankiem na trasie przez otwarte polany Bogdanówki.",
+            "curiosity": "Okolica kapliczki należy do najczęściej fotografowanych miejsc Pasma Koskowej Góry.",
+            "tags": [
+              "KULTURA",
+              "WIDOKI",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Nie wskazano parkingu do czasu potwierdzenia legalności postoju przy lokalnej drodze.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Odkrywając Beskidy – Koskowa Góra",
+                "url": "https://odkrywajacbeskidy.pl/jak-dotrzec-na-koskowa-gore-punkt-wyjscia-bogdanowka/"
+              }
+            ]
           }
         ]
       }
@@ -27347,222 +28156,4644 @@ const DATA = {
   },
   "beskid_wyspowy": {
     "name": "Beskid Wyspowy",
-    "center": [49.68, 20.23],
+    "center": [
+      49.68,
+      20.23
+    ],
     "zoom": 10,
     "categories": {
-      "szczyty": {"name":"Szczyty","icon":"⛰️","items":[
-        {"name":"Mogielica","ele":1170,"lat":49.6557,"lon":20.2761,"desc":"Najwyższy szczyt Beskidu Wyspowego, należący do Korony Gór Polski. Na wierzchołku stoi stalowa wieża widokowa.","why":"To najważniejszy cel w paśmie i znakomity punkt panoramy na Tatry, Gorce i sąsiednie beskidzkie wyspy.","curiosity":"Nazwa bywa łączona z dawnymi podaniami o mogiłach i zbójnickiej historii góry.","tags":["TOP","KORONA","WIDOKI"],"difficulty":"średnia; zależna od wariantu","family":"dla rodzin przy odpowiednim doborze trasy","dog":"na smyczy; część masywu obejmuje rezerwat","fee":"bezpłatnie","parking":"Parking Wyrębiska – Zalesie","parkingLat":49.6309,"parkingLon":20.3009,"walkTime":"około 1 godz. 45 min w jedną stronę","distance":"około 4,5 km w jedną stronę","elevationGain":"około 450 m","routeNote":"Popularny wariant prowadzi z Wyrębisk żółtym szlakiem; warunki parkingowe sprawdź przed wyjazdem.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Korona Gór Polski – Mogielica","url":"https://kgp.info.pl/wykaz-szczytow/mogielica/"},{"name":"Odkryj Beskid Wyspowy – szlaki","url":"https://www.odkryjbeskidwyspowy.pl/szlaki/"}]},
-        {"name":"Ćwilin","ele":1072,"lat":49.6881,"lon":20.1908,"desc":"Drugi pod względem wysokości szczyt pasma, rozpoznawalny dzięki rozległej Polanie Michurowej pod wierzchołkiem.","why":"Oferuje jedną z najpiękniejszych panoram Beskidu Wyspowego.","curiosity":"Od nazwy Ćwilina i sąsiedniej Śnieżnicy wywodzi się koncepcja określenia „Beskid Wyspowy”.","tags":["TOP","WIDOKI"],"difficulty":"średnia; miejscami stromo","family":"dla starszych dzieci przy dobrej kondycji","dog":"na smyczy","fee":"bezpłatnie","parking":"Przełęcz Gruszowiec przy drodze krajowej 28","parkingLat":49.7055,"parkingLon":20.1934,"walkTime":"około 1 godz. 30 min w jedną stronę","distance":"około 2,5 km w jedną stronę","elevationGain":"około 400 m","routeNote":"Niebieski szlak z Gruszowca jest krótki, ale bardzo stromy; zachowaj ostrożność przy parkowaniu i przechodzeniu przez drogę.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Plan na Wypad – Ćwilin","url":"https://plannawypad.pl/cwilin-beskid-wyspowy-szlaki/"},{"name":"Odkryj Beskid Wyspowy","url":"https://www.odkryjbeskidwyspowy.pl/"}]},
-        {"name":"Jasień","ele":1062,"lat":49.5944,"lon":20.2436,"desc":"Rozległy szczyt w południowej części pasma, otoczony halami i lasami.","why":"Spokojniejsza alternatywa dla Mogielicy, szczególnie atrakcyjna w dłuższej wędrówce grzbietowej.","curiosity":"Na stokach Jasienia leżą widokowe polany Skalne i Łąki.","tags":["WIDOKI","💎 MNIEJ ZNANY"],"difficulty":"średnia; zwykle długa trasa","family":"raczej dla starszych dzieci","dog":"na smyczy","fee":"bezpłatnie","parking":"","parkingLat":"","parkingLon":"","walkTime":"","distance":"","elevationGain":"","routeNote":"Najczęstsze warianty prowadzą z Lubomierza lub przez Krzystonów; wybierz legalny postój w miejscowości.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Odkryj Beskid Wyspowy – szlaki","url":"https://www.odkryjbeskidwyspowy.pl/szlaki/"}]},
-        {"name":"Modyń","ele":1029,"lat":49.6091,"lon":20.3941,"desc":"Wysoki, zalesiony szczyt we wschodniej części Beskidu Wyspowego, zwieńczony wieżą widokową.","why":"Wieża zapewnia rozległą panoramę mimo zalesienia wierzchołka.","curiosity":"Modyń bywa nazywana Górą Zakochanych.","tags":["WIDOKI","WIEŻA"],"difficulty":"łatwa do średniej","family":"tak przy krótszym wariancie","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking pod Modynią – Wierchomla/Przełęcz Cisowy Dział","parkingLat":49.6018,"parkingLon":20.4057,"walkTime":"około 45–60 min w jedną stronę","distance":"około 2 km w jedną stronę","elevationGain":"około 250 m","routeNote":"Dojazd lokalnymi drogami może być wąski; respektuj oznakowanie i własność prywatną.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Odkryj Beskid Wyspowy","url":"https://www.odkryjbeskidwyspowy.pl/"}]},
-        {"name":"Luboń Wielki","ele":1022,"lat":49.6536,"lon":19.9892,"desc":"Charakterystyczny szczyt nad Rabką-Zdrojem z przekaźnikiem, schroniskiem PTTK i rezerwatem przyrody.","why":"Łączy górską trasę, wyjątkowe gołoborze oraz jedno z najbardziej klimatycznych schronisk w Beskidach.","curiosity":"Schronisko ma charakterystyczną sylwetkę przypominającą domek z bajki.","tags":["TOP","SCHRONISKO","GEOLOGIA"],"difficulty":"średnia; Perć Borkowskiego miejscami wymagająca","family":"łatwiejszym wariantem; nie Percią Borkowskiego dla małych dzieci","dog":"na smyczy; sprawdź zasady rezerwatu","fee":"bezpłatnie","parking":"Parking przy kościele w Rabce-Zarytem","parkingLat":49.6328,"parkingLon":19.9749,"walkTime":"około 2 godz. w jedną stronę","distance":"około 4 km w jedną stronę","elevationGain":"około 500 m","routeNote":"Żółty szlak przez Perć Borkowskiego jest stromy i kamienisty; rodzinom polecany jest łagodniejszy wariant.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"PTTK Schronisko na Luboniu Wielkim","url":"https://lubon.pttk.pl/"},{"name":"Plan na Wypad – Beskid Wyspowy","url":"https://plannawypad.pl/beskid-wyspowy-atrakcje-szlaki-co-warto-zobaczyc/"}]},
-        {"name":"Śnieżnica","ele":1006,"lat":49.7153,"lon":20.1844,"desc":"Trójwierzchołkowy masyw nad Kasiną Wielką, łatwo rozpoznawalny z doliny Raby.","why":"Pozwala połączyć leśną wędrówkę z wizytą na widokowej polanie i w ośrodku rekolekcyjnym.","curiosity":"Nazwa odnosi się do śniegu długo zalegającego w zacienionych zagłębieniach stoków.","tags":["RODZINNIE","🥾 DLA PIECHURÓW"],"difficulty":"łatwa do średniej","family":"tak","dog":"na smyczy","fee":"szlak bezpłatny","parking":"Parking przy stacji Kasina Ski","parkingLat":49.7096,"parkingLon":20.1589,"walkTime":"około 1 godz. 30 min w jedną stronę","distance":"około 3,5 km w jedną stronę","elevationGain":"około 400 m","routeNote":"Można wejść niebieskim szlakiem z Przełęczy Gruszowiec lub od strony Kasiny Wielkiej.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Odkryj Beskid Wyspowy – szlaki","url":"https://www.odkryjbeskidwyspowy.pl/szlaki/"}]},
-        {"name":"Łopień","ele":961,"lat":49.6939,"lon":20.2672,"desc":"Rozłożysty masyw między Tymbarkiem a Dobrą, z widokową polaną Jaworze i jaskiniami szczelinowymi.","why":"Jest spokojnym celem z ciekawą przyrodą i łatwiejszymi wariantami wejścia.","curiosity":"W masywie znajduje się Jaskinia Zbójecka, jedno z większych znanych podziemi Beskidu Wyspowego.","tags":["NATURA","💎 MNIEJ ZNANY"],"difficulty":"łatwa do średniej","family":"tak przy krótszym wariancie","dog":"na smyczy","fee":"bezpłatnie","parking":"Przełęcz Rydza-Śmigłego","parkingLat":49.6748,"parkingLon":20.2549,"walkTime":"około 1 godz. 15 min w jedną stronę","distance":"około 3 km w jedną stronę","elevationGain":"około 300 m","routeNote":"Z przełęczy prowadzi znakowany szlak; nie wchodź do jaskiń bez przygotowania i odpowiedniego sprzętu.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Odkryj Beskid Wyspowy","url":"https://www.odkryjbeskidwyspowy.pl/"}]},
-        {"name":"Lubogoszcz","ele":968,"lat":49.6921,"lon":20.0806,"desc":"Potężny, niemal w całości zalesiony masyw między Mszaną Dolną a Kasiną Wielką.","why":"Daje możliwość spokojnej i kondycyjnej wycieczki blisko Mszany Dolnej.","curiosity":"Na zachodnich stokach działa baza szkoleniowo-wypoczynkowa Lubogoszcz.","tags":["🥾 DLA PIECHURÓW","💎 MNIEJ ZNANY"],"difficulty":"średnia; strome podejścia","family":"dla starszych dzieci","dog":"na smyczy","fee":"bezpłatnie","parking":"","parkingLat":"","parkingLon":"","walkTime":"","distance":"","elevationGain":"","routeNote":"Popularne wejścia prowadzą z Mszany Dolnej i Kasiny Wielkiej; miejsce postoju dobierz do wariantu.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Odkryj Beskid Wyspowy – szlaki","url":"https://www.odkryjbeskidwyspowy.pl/szlaki/"}]},
-        {"name":"Szczebel","ele":977,"lat":49.6745,"lon":20.0143,"desc":"Stromy, zalesiony szczyt wznoszący się między Lubniem i Mszaną Dolną.","why":"Oferuje wymagające podejście, jaskinię Zimna Dziura i polany z ograniczonymi widokami.","curiosity":"Szczyt bywa zapisywany również jako Strzebel.","tags":["JASKINIA","🥾 DLA PIECHURÓW"],"difficulty":"średnia; stromo","family":"dla starszych dzieci","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking przy kościele w Lubniu","parkingLat":49.7198,"parkingLon":19.9775,"walkTime":"około 2 godz. 30 min w jedną stronę","distance":"około 5 km w jedną stronę","elevationGain":"około 650 m","routeNote":"Podejście z Lubnia jest długie i strome; jaskinia wymaga ostrożności.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Odkryj Beskid Wyspowy","url":"https://www.odkryjbeskidwyspowy.pl/"}]},
-        {"name":"Kamionna","ele":801,"lat":49.7758,"lon":20.3436,"desc":"Szczyt na północno-wschodnim skraju pasma, objęty częściowo rezerwatem przyrody i wyposażony w wieżę widokową.","why":"Krótka trasa może prowadzić do jednej z nowszych wież widokowych regionu.","curiosity":"Wieża udostępniona w 2023 roku ma około 29 metrów wysokości.","tags":["WIEŻA","RODZINNIE"],"difficulty":"łatwa do średniej","family":"tak","dog":"na smyczy; sprawdź zasady rezerwatu","fee":"bezpłatnie","parking":"Przełęcz Widoma","parkingLat":49.7806,"parkingLon":20.3249,"walkTime":"około 35–50 min w jedną stronę","distance":"około 1,8 km w jedną stronę","elevationGain":"około 180 m","routeNote":"Start z rejonu Przełęczy Widoma; parkuj wyłącznie w wyznaczonym miejscu.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Rabkoland – atrakcje Beskidu Wyspowego","url":"https://www.rabkoland.pl/pl/blog/beskid-wyspowy-atrakcje-i-najpiekniejsze-miejsca-7-ciekawych-propozycji"}]},
-        {"name":"Skiełek","ele":749,"lat":49.6043,"lon":20.4457,"desc":"Łatwo dostępny szczyt nad Łukowicą z drewnianą wieżą widokową.","why":"Jest dobrym celem krótkiej rodzinnej wycieczki i zachodu słońca.","curiosity":"Z platformy widać m.in. Modyń, Mogielicę, Gorce i Tatry.","tags":["WIEŻA","RODZINNIE","WIDOKI"],"difficulty":"łatwa","family":"tak","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking pod wieżą na Skiełku","parkingLat":49.5989,"parkingLon":20.4498,"walkTime":"około 25–40 min w jedną stronę","distance":"około 1,3 km w jedną stronę","elevationGain":"około 150 m","routeNote":"Dojazd końcowym odcinkiem lokalnej drogi; stosuj się do bieżącego oznakowania parkingu.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Plan na Wypad – Beskid Wyspowy","url":"https://plannawypad.pl/beskid-wyspowy-atrakcje-szlaki-co-warto-zobaczyc/"},{"name":"Odkrywając Beskidy – Łukowica","url":"https://odkrywajacbeskidy.pl/2025/07/17/beskid-wyspowy-lukowica-i-okolica-te-miejsca-warto-odwiedzic/"}]}
-      ]},
-      "wodospady": {"name":"Wodospady","icon":"💧","items":[
-        {"name":"Wodospad Spad w Szczawie","lat":49.6179,"lon":20.3008,"desc":"Niewielki naturalny wodospad na potoku Głębieniec, ukryty w lesie w rejonie Szczawy.","why":"To kameralny cel krótkiego spaceru i jedna z najbardziej znanych kaskad Beskidu Wyspowego.","curiosity":"Przepływ i wygląd wodospadu mocno zależą od opadów.","tags":["NATURA","💎 MNIEJ ZNANY"],"difficulty":"łatwa do średniej; dojście może być śliskie","family":"tak pod opieką dorosłych","dog":"na smyczy","fee":"bezpłatnie","parking":"","parkingLat":"","parkingLon":"","walkTime":"","distance":"","elevationGain":"","routeNote":"Nie wskazano parkingu do czasu potwierdzenia legalnego miejsca postoju; po deszczu brzegi potoku są śliskie.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Odkryj Beskid Wyspowy","url":"https://www.odkryjbeskidwyspowy.pl/"}]},
-        {"name":"Wodospad w Zasadnem","lat":49.5779,"lon":20.3858,"desc":"Leśna kaskada na górskim potoku w dolinie pod Modynią, odwiedzana znacznie rzadziej niż główne szczyty.","why":"Pozwala poznać spokojną, wodną stronę Beskidu Wyspowego.","curiosity":"Najefektowniej wygląda po opadach i podczas wiosennych roztopów.","tags":["NATURA","💎 MNIEJ ZNANY"],"difficulty":"łatwa do średniej","family":"tak z ostrożnością nad wodą","dog":"na smyczy","fee":"bezpłatnie","parking":"","parkingLat":"","parkingLon":"","walkTime":"","distance":"","elevationGain":"","routeNote":"Dojście nie wszędzie jest wyraźne; nie wchodź na prywatne posesje i zachowaj ostrożność na mokrych kamieniach.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Odkryj Beskid Wyspowy","url":"https://www.odkryjbeskidwyspowy.pl/"}]}
-      ]},
-      "punkty_widokowe": {"name":"Punkty widokowe","icon":"👀","items":[
-        {"name":"Wieża widokowa na Mogielicy","lat":49.6557,"lon":20.2761,"desc":"Stalowa wieża o wysokości około 23 metrów, udostępniona w 2022 roku na najwyższym szczycie pasma.","why":"Zapewnia panoramę 360° obejmującą Tatry, Gorce, Pieniny i dużą część Beskidów.","curiosity":"Zastąpiła wcześniejszą drewnianą konstrukcję.","tags":["TOP","WIEŻA","WIDOKI"],"difficulty":"średnia","family":"tak przy przygotowaniu do górskiej trasy","dog":"na smyczy; nie wprowadzaj psa na zatłoczoną platformę","fee":"bezpłatnie","parking":"Parking Wyrębiska – Zalesie","parkingLat":49.6309,"parkingLon":20.3009,"walkTime":"około 1 godz. 45 min w jedną stronę","distance":"około 4,5 km w jedną stronę","elevationGain":"około 450 m","routeNote":"Przy silnym wietrze, oblodzeniu lub burzy nie wchodź na wieżę.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Góry dla Ciebie – atrakcje Beskidu Wyspowego","url":"https://gorydlaciebie.pl/wyprawy/atrakcje-beskidu-wyspowego/"}]},
-        {"name":"Wieża widokowa na Modyni","lat":49.6091,"lon":20.3941,"desc":"Drewniana wieża na zalesionym wierzchołku Modyni, otwierająca widok na Beskid Sądecki, Gorce i Tatry.","why":"Pozwala zobaczyć wschodnią część regionu z szerokiej perspektywy.","curiosity":"Budowę wieży zrealizowano dzięki współpracy lokalnych samorządów.","tags":["WIEŻA","WIDOKI"],"difficulty":"łatwa do średniej","family":"tak","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking pod Modynią – Przełęcz Cisowy Dział","parkingLat":49.6018,"parkingLon":20.4057,"walkTime":"około 45–60 min w jedną stronę","distance":"około 2 km w jedną stronę","elevationGain":"około 250 m","routeNote":"Sprawdź stan lokalnych dróg i aktualne oznakowanie parkingu.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Odkryj Beskid Wyspowy","url":"https://www.odkryjbeskidwyspowy.pl/"}]},
-        {"name":"Wieża widokowa na Kamionnej","lat":49.7758,"lon":20.3436,"desc":"Wysoka drewniana wieża stojąca na szczycie Kamionnej.","why":"Daje szeroki widok na północną część Beskidu Wyspowego i Pogórze.","curiosity":"Na platformę prowadzi ponad sto stopni.","tags":["WIEŻA","RODZINNIE"],"difficulty":"łatwa do średniej","family":"tak","dog":"na smyczy","fee":"bezpłatnie","parking":"Przełęcz Widoma","parkingLat":49.7806,"parkingLon":20.3249,"walkTime":"około 35–50 min w jedną stronę","distance":"około 1,8 km w jedną stronę","elevationGain":"około 180 m","routeNote":"Na schodach zachowaj odstęp i nie wchodź podczas burzy.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Rabkoland – Kamionna","url":"https://www.rabkoland.pl/pl/blog/beskid-wyspowy-atrakcje-i-najpiekniejsze-miejsca-7-ciekawych-propozycji"}]},
-        {"name":"Polana Michurowa na Ćwilinie","lat":49.6859,"lon":20.1887,"desc":"Rozległa hala tuż pod szczytem Ćwilina, otwarta ku południu i zachodowi.","why":"To jeden z klasycznych widoków Beskidu Wyspowego i dobre miejsce odpoczynku.","curiosity":"Na polanie znajduje się ołtarz polowy i miejsce pamięci związane z Janem Pawłem II.","tags":["WIDOKI","MIEJSCE ODPOCZYNKU"],"difficulty":"średnia; strome dojście z Gruszowca","family":"dla starszych dzieci","dog":"na smyczy; nie płosz zwierząt gospodarskich","fee":"bezpłatnie","parking":"Przełęcz Gruszowiec przy drodze krajowej 28","parkingLat":49.7055,"parkingLon":20.1934,"walkTime":"około 1 godz. 25 min w jedną stronę","distance":"około 2,4 km w jedną stronę","elevationGain":"około 390 m","routeNote":"Polana leży kilka minut przed wierzchołkiem Ćwilina.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Hasające Zające – Ćwilin","url":"https://hasajacezajace.com/cwilin-beskid-wyspowy/"}]}
-      ]},
-      "atrakcje": {"name":"Atrakcje","icon":"⭐","items":[
-        {"name":"Stacja kolejowa Kasina Wielka","lat":49.7008,"lon":20.1359,"desc":"Zabytkowa stacja na dawnej Galicyjskiej Kolei Transwersalnej, znana także jako plener filmowy.","why":"Łączy historię kolei, górski krajobraz i łatwy dostęp do lokalnych atrakcji.","curiosity":"Kręcono tu sceny kilku polskich filmów i seriali.","tags":["HISTORIA","RODZINNIE"],"difficulty":"łatwa","family":"tak","dog":"zgodnie z regulaminem obiektu","fee":"teren dostępny według zasad operatora","parking":"Parking przy stacji Kasina Wielka","parkingLat":49.7005,"parkingLon":20.1355,"walkTime":"1–3 min","distance":"poniżej 0,2 km","elevationGain":"minimalne","routeNote":"Sprawdź aktualną dostępność stacji i wydarzeń przed przyjazdem.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Kasina Ski & Bike Park","url":"https://kasina.com.pl/"}]},
-        {"name":"Kasina Ski & Bike Park","lat":49.7096,"lon":20.1589,"desc":"Całoroczny ośrodek na stokach Śnieżnicy z koleją krzesełkową, trasami narciarskimi i rowerowymi.","why":"Pozwala połączyć pobyt w Beskidzie Wyspowym z aktywnością inną niż piesza wędrówka.","curiosity":"Kolej może ułatwiać dostęp do wyższych partii Śnieżnicy w okresie działania.","tags":["AKTYWNIE","RODZINNIE"],"difficulty":"zależna od wybranej aktywności","family":"tak; zgodnie z regulaminem tras","dog":"sprawdź u operatora","fee":"atrakcje i kolej płatne według aktualnego cennika","parking":"Parking Kasina Ski","parkingLat":49.7096,"parkingLon":20.1589,"walkTime":"na miejscu","distance":"","elevationGain":"","routeNote":"Godziny działania i dostępność tras są sezonowe; sprawdź stronę operatora.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Kasina Ski & Bike Park","url":"https://kasina.com.pl/"}]},
-        {"name":"Trasy wokół Mogielicy – centrum Zalesie","lat":49.6257,"lon":20.3036,"desc":"Sieć tras pieszych, rowerowych i narciarstwa biegowego wokół najwyższego szczytu pasma.","why":"Umożliwia aktywne poznawanie masywu przez cały rok.","curiosity":"Zimą przygotowywane są tu trasy dla narciarstwa biegowego, zależnie od warunków śniegowych.","tags":["AKTYWNIE","ROWER","ZIMA"],"difficulty":"od łatwej do trudnej","family":"wybrane odcinki tak","dog":"na smyczy; uwzględnij zasady tras sportowych","fee":"zależnie od sezonu i usług","parking":"Centrum Obsługi Ruchu Turystycznego Zalesie","parkingLat":49.6257,"parkingLon":20.3036,"walkTime":"na miejscu","distance":"zależnie od pętli","elevationGain":"zależnie od pętli","routeNote":"Przed wyjazdem sprawdź aktualny stan tras i sezonowe zasady korzystania.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Gmina Słopnice","url":"https://slopnice.pl/"}]},
-        {"name":"Muzeum Regionalne Ziemi Limanowskiej","lat":49.7067,"lon":20.4213,"desc":"Muzeum w zabytkowym Dworze Marsów, prezentujące historię i kulturę Limanowej oraz regionu.","why":"Daje dobre wprowadzenie do historii Beskidu Wyspowego i jego mieszkańców.","curiosity":"Dwór Marsów jest jednym z charakterystycznych zabytków Limanowej.","tags":["HISTORIA","NA NIEPOGODĘ"],"difficulty":"łatwa","family":"tak","dog":"do wnętrz nie","fee":"zgodnie z aktualnym cennikiem","parking":"Parking w rejonie Parku Miejskiego w Limanowej","parkingLat":49.7068,"parkingLon":20.4201,"walkTime":"kilka minut","distance":"poniżej 0,5 km","elevationGain":"minimalne","routeNote":"Sprawdź godziny otwarcia muzeum przed wizytą.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Muzeum Regionalne Ziemi Limanowskiej","url":"https://muzeum.limanowa.pl/"}]}
-      ]},
-      "formacje_skalne": {"name":"Formacje skalne","icon":"🪨","items":[
-        {"name":"Gołoborze na Luboniu Wielkim","lat":49.6509,"lon":19.9868,"desc":"Największe w Beskidzie Wyspowym rumowisko piaskowcowych bloków, chronione w rezerwacie Luboń Wielki.","why":"To wyjątkowy element krajobrazu, rzadko spotykany w Beskidach.","curiosity":"Przez rumowisko prowadzi żółty szlak nazywany Percią Borkowskiego.","tags":["TOP","GEOLOGIA","REZERWAT"],"difficulty":"średnia do trudnej; stromo i kamieniście","family":"niezalecane dla małych dzieci","dog":"sprawdź zasady rezerwatu; trudny teren","fee":"bezpłatnie","parking":"Parking przy kościele w Rabce-Zarytem","parkingLat":49.6328,"parkingLon":19.9749,"walkTime":"około 1 godz. 40 min do początku rumowiska","distance":"zależnie od wariantu","elevationGain":"około 450 m","routeNote":"Nie schodź ze szlaku i nie przemieszczaj bloków skalnych.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Plan na Wypad – Luboń Wielki","url":"https://plannawypad.pl/beskid-wyspowy-atrakcje-szlaki-co-warto-zobaczyc/"}]},
-        {"name":"Zbójnicki Stół na Szczeblu","lat":49.6822,"lon":20.0055,"desc":"Okazały blok piaskowca przy szlaku na Szczebel, związany z lokalnymi legendami zbójnickimi.","why":"Stanowi ciekawy przystanek podczas stromego podejścia na szczyt.","curiosity":"Według podań zbójnicy mieli wykorzystywać płaski głaz jako stół.","tags":["GEOLOGIA","LEGENDA"],"difficulty":"średnia","family":"dla starszych dzieci","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking przy kościele w Lubniu","parkingLat":49.7198,"parkingLon":19.9775,"walkTime":"około 1 godz. 45 min w jedną stronę","distance":"około 3,5 km w jedną stronę","elevationGain":"około 450 m","routeNote":"Dojście prowadzi stromym leśnym szlakiem; po opadach bywa ślisko.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Rabkoland – atrakcje Beskidu Wyspowego","url":"https://www.rabkoland.pl/pl/blog/beskid-wyspowy-atrakcje-i-najpiekniejsze-miejsca-7-ciekawych-propozycji"}]},
-        {"name":"Jaskinia Zimna Dziura","lat":49.6925,"lon":20.0031,"desc":"Niewielka jaskinia szczelinowa na północnym stoku Szczebla, znana z utrzymującego się chłodnego mikroklimatu.","why":"Jest jedną z najłatwiej dostępnych jaskiń Beskidu Wyspowego.","curiosity":"W zagłębieniach śnieg i lód mogą utrzymywać się znacznie dłużej niż w otoczeniu.","tags":["JASKINIA","GEOLOGIA"],"difficulty":"średnia; strome dojście","family":"dla starszych dzieci pod opieką dorosłych","dog":"nie wprowadzaj do wnętrza","fee":"bezpłatnie","parking":"Parking przy kościele w Lubniu","parkingLat":49.7198,"parkingLon":19.9775,"walkTime":"około 1 godz. 20 min w jedną stronę","distance":"około 2,8 km w jedną stronę","elevationGain":"około 350 m","routeNote":"Do wnętrza wchodź tylko z latarką, odpowiednim obuwiem i przy bezpiecznych warunkach.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Odkryj Beskid Wyspowy","url":"https://www.odkryjbeskidwyspowy.pl/"}]}
-      ]},
-      "schroniska": {"name":"Schroniska","icon":"🏠","items":[
-        {"name":"Schronisko PTTK na Luboniu Wielkim","lat":49.6536,"lon":19.9892,"desc":"Niewielkie, zabytkowe schronisko turystyczne z 1931 roku stojące bezpośrednio na szczycie.","why":"Ma wyjątkowy klimat i jest jedynym klasycznym schroniskiem górskim w paśmie.","curiosity":"Budynek posiada charakterystyczną wieżyczkę i zachował historyczny wygląd.","tags":["TOP","NOCLEG","HISTORIA"],"difficulty":"średnia","family":"tak łatwiejszym wariantem","dog":"zasady pobytu potwierdź w schronisku","fee":"nocleg i gastronomia według aktualnego cennika","parking":"Parking przy kościele w Rabce-Zarytem","parkingLat":49.6328,"parkingLon":19.9749,"walkTime":"około 2 godz. w jedną stronę","distance":"około 4 km w jedną stronę","elevationGain":"około 500 m","routeNote":"Przed planowanym noclegiem zarezerwuj miejsce i sprawdź komunikaty schroniska.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Schronisko PTTK na Luboniu Wielkim","url":"https://lubon.pttk.pl/"}]},
-        {"name":"Baza Lubogoszcz","lat":49.6992,"lon":20.0616,"desc":"Górska baza szkoleniowo-wypoczynkowa na zachodnim stoku Lubogoszczy.","why":"Stanowi charakterystyczny punkt na trasach z Mszany Dolnej i miejsce związane z turystyką młodzieżową.","curiosity":"Historia bazy sięga okresu międzywojennego.","tags":["NOCLEG","HISTORIA","💎 MNIEJ ZNANY"],"difficulty":"łatwa do średniej","family":"tak; dostępność noclegów sprawdź wcześniej","dog":"potwierdź u gospodarza","fee":"według aktualnego cennika","parking":"","parkingLat":"","parkingLon":"","walkTime":"","distance":"","elevationGain":"","routeNote":"Obiekt nie jest klasycznym schroniskiem PTTK; przed wizytą potwierdź zasady i dostępność.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Baza Szkoleniowo-Wypoczynkowa Lubogoszcz","url":"https://lubogoszcz.pl/"}]}
-      ]},
-      "zabytki": {"name":"Zabytki","icon":"🏛️","items":[
-        {"name":"Opactwo Cystersów w Szczyrzycu","lat":49.7833,"lon":20.1885,"desc":"Historyczne opactwo cysterskie działające w Szczyrzycu od średniowiecza.","why":"To jeden z najcenniejszych zabytków sakralnych regionu.","curiosity":"Przy klasztorze działają muzeum i tradycje gospodarcze związane z cystersami.","tags":["TOP","HISTORIA","ARCHITEKTURA"],"difficulty":"łatwa","family":"tak","dog":"na zewnątrz na smyczy; do wnętrz nie","fee":"kościół dostępny zgodnie z zasadami; muzeum może być biletowane","parking":"Parking przy opactwie w Szczyrzycu","parkingLat":49.7829,"parkingLon":20.1881,"walkTime":"1–3 min","distance":"poniżej 0,2 km","elevationGain":"minimalne","routeNote":"Uszanuj nabożeństwa i zasady zwiedzania klasztoru.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Opactwo Cystersów w Szczyrzycu","url":"https://szczyrzyc.cystersi.pl/"}]},
-        {"name":"Bazylika Matki Boskiej Bolesnej w Limanowej","lat":49.7056,"lon":20.4222,"desc":"Monumentalna świątynia przy limanowskim rynku, ważne sanktuarium regionu.","why":"Jest najbardziej rozpoznawalnym zabytkiem centrum Limanowej.","curiosity":"Smukła wieża bazyliki stanowi dominantę panoramy miasta.","tags":["HISTORIA","ARCHITEKTURA"],"difficulty":"łatwa","family":"tak","dog":"do wnętrza nie","fee":"bezpłatnie; uszanuj nabożeństwa","parking":"Parking przy rynku w Limanowej","parkingLat":49.7054,"parkingLon":20.4212,"walkTime":"2–5 min","distance":"poniżej 0,3 km","elevationGain":"minimalne","routeNote":"W centrum obowiązuje lokalna organizacja ruchu i parkowania.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Miasto Limanowa","url":"https://miastolimanowa.pl/"}]},
-        {"name":"Drewniany kościół św. Andrzeja w Łukowicy","lat":49.6113,"lon":20.4387,"desc":"Zabytkowa drewniana świątynia o wielowiekowej historii, położona w centrum Łukowicy.","why":"Pozwala połączyć wejście na Skiełek z poznaniem lokalnej architektury sakralnej.","curiosity":"Kościół jest jednym z najważniejszych zabytków gminy Łukowica.","tags":["HISTORIA","DREWNIANA ARCHITEKTURA"],"difficulty":"łatwa","family":"tak","dog":"na zewnątrz na smyczy; do wnętrza nie","fee":"bezpłatnie; zwiedzanie zależne od dostępności","parking":"Parking w centrum Łukowicy","parkingLat":49.6111,"parkingLon":20.4392,"walkTime":"1–3 min","distance":"poniżej 0,2 km","elevationGain":"minimalne","routeNote":"Obiekt sakralny może być zamknięty poza nabożeństwami.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Odkrywając Beskidy – Łukowica i okolica","url":"https://odkrywajacbeskidy.pl/2025/07/17/beskid-wyspowy-lukowica-i-okolica-te-miejsca-warto-odwiedzic/"}]}
-      ]},
-      "mniej_znane": {"name":"Mniej znane miejsca","icon":"💎","items":[
-        {"name":"Przełęcz Rydza-Śmigłego","ele":700,"lat":49.6748,"lon":20.2549,"desc":"Widokowa przełęcz między Łopieniem i Mogielicą, z pomnikiem upamiętniającym walki Legionów Polskich.","why":"Jest dogodnym startem na dwa ważne szczyty i miejscem o dużym znaczeniu historycznym.","curiosity":"Nazwa upamiętnia marszałka Edwarda Rydza-Śmigłego.","tags":["HISTORIA","START SZLAKU","WIDOKI"],"difficulty":"łatwa","family":"tak","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking na Przełęczy Rydza-Śmigłego","parkingLat":49.6748,"parkingLon":20.2549,"walkTime":"na miejscu","distance":"","elevationGain":"","routeNote":"Parking ma ograniczoną liczbę miejsc; nie blokuj drogi i wjazdów.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Odkryj Beskid Wyspowy","url":"https://www.odkryjbeskidwyspowy.pl/"}]},
-        {"name":"Polana Stumorgowa","lat":49.6477,"lon":20.2673,"desc":"Rozległa hala pod Mogielicą, należąca do najbardziej widokowych polan całego pasma.","why":"Daje panoramę bez konieczności wchodzenia na wieżę i jest świetnym miejscem odpoczynku.","curiosity":"Nazwa nawiązuje do dawnej powierzchni polany mierzonej w morgach.","tags":["WIDOKI","💎 MNIEJ ZNANY"],"difficulty":"średnia","family":"tak przy przygotowaniu do dłuższej trasy","dog":"na smyczy; nie płosz zwierząt","fee":"bezpłatnie","parking":"Parking Wyrębiska – Zalesie","parkingLat":49.6309,"parkingLon":20.3009,"walkTime":"około 1 godz. 30 min w jedną stronę","distance":"około 4 km w jedną stronę","elevationGain":"około 380 m","routeNote":"Polanę warto połączyć ze zdobyciem Mogielicy; przy mgle łatwo stracić orientację na otwartym terenie.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Odkryj Beskid Wyspowy – szlaki","url":"https://www.odkryjbeskidwyspowy.pl/szlaki/"}]},
-        {"name":"Miejska Góra i Krzyż Milenijny w Limanowej","ele":716,"lat":49.7087,"lon":20.4005,"desc":"Wzniesienie nad Limanową z wysokim krzyżem i tarasem widokowym.","why":"Zapewnia łatwo dostępny widok na miasto, Sałasz, Jaworz i główne szczyty Beskidu Wyspowego.","curiosity":"Krzyż wzniesiono jako pamiątkę jubileuszu dwóch tysięcy lat chrześcijaństwa.","tags":["WIDOKI","BLISKO MIASTA"],"difficulty":"łatwa do średniej","family":"tak","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking przy ul. Leśnej w Limanowej","parkingLat":49.7038,"parkingLon":20.4064,"walkTime":"około 35–50 min w jedną stronę","distance":"około 1,8 km w jedną stronę","elevationGain":"około 220 m","routeNote":"Dostępnych jest kilka tras spacerowych z Limanowej.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Miasto Limanowa","url":"https://miastolimanowa.pl/"}]}
-      ]}
+      "szczyty": {
+        "name": "Szczyty",
+        "icon": "⛰️",
+        "items": [
+          {
+            "name": "Mogielica",
+            "ele": 1170,
+            "lat": 49.6557,
+            "lon": 20.2761,
+            "desc": "Najwyższy szczyt Beskidu Wyspowego, należący do Korony Gór Polski. Na wierzchołku stoi stalowa wieża widokowa.",
+            "why": "To najważniejszy cel w paśmie i znakomity punkt panoramy na Tatry, Gorce i sąsiednie beskidzkie wyspy.",
+            "curiosity": "Nazwa bywa łączona z dawnymi podaniami o mogiłach i zbójnickiej historii góry.",
+            "tags": [
+              "TOP",
+              "KORONA",
+              "WIDOKI"
+            ],
+            "difficulty": "średnia; zależna od wariantu",
+            "family": "dla rodzin przy odpowiednim doborze trasy",
+            "dog": "na smyczy; część masywu obejmuje rezerwat",
+            "fee": "bezpłatnie",
+            "parking": "Parking Wyrębiska – Zalesie",
+            "parkingLat": 49.6309,
+            "parkingLon": 20.3009,
+            "walkTime": "około 1 godz. 45 min w jedną stronę",
+            "distance": "około 4,5 km w jedną stronę",
+            "elevationGain": "około 450 m",
+            "routeNote": "Popularny wariant prowadzi z Wyrębisk żółtym szlakiem; warunki parkingowe sprawdź przed wyjazdem.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Korona Gór Polski – Mogielica",
+                "url": "https://kgp.info.pl/wykaz-szczytow/mogielica/"
+              },
+              {
+                "name": "Odkryj Beskid Wyspowy – szlaki",
+                "url": "https://www.odkryjbeskidwyspowy.pl/szlaki/"
+              }
+            ]
+          },
+          {
+            "name": "Ćwilin",
+            "ele": 1072,
+            "lat": 49.6881,
+            "lon": 20.1908,
+            "desc": "Drugi pod względem wysokości szczyt pasma, rozpoznawalny dzięki rozległej Polanie Michurowej pod wierzchołkiem.",
+            "why": "Oferuje jedną z najpiękniejszych panoram Beskidu Wyspowego.",
+            "curiosity": "Od nazwy Ćwilina i sąsiedniej Śnieżnicy wywodzi się koncepcja określenia „Beskid Wyspowy”.",
+            "tags": [
+              "TOP",
+              "WIDOKI"
+            ],
+            "difficulty": "średnia; miejscami stromo",
+            "family": "dla starszych dzieci przy dobrej kondycji",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Przełęcz Gruszowiec przy drodze krajowej 28",
+            "parkingLat": 49.7055,
+            "parkingLon": 20.1934,
+            "walkTime": "około 1 godz. 30 min w jedną stronę",
+            "distance": "około 2,5 km w jedną stronę",
+            "elevationGain": "około 400 m",
+            "routeNote": "Niebieski szlak z Gruszowca jest krótki, ale bardzo stromy; zachowaj ostrożność przy parkowaniu i przechodzeniu przez drogę.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Plan na Wypad – Ćwilin",
+                "url": "https://plannawypad.pl/cwilin-beskid-wyspowy-szlaki/"
+              },
+              {
+                "name": "Odkryj Beskid Wyspowy",
+                "url": "https://www.odkryjbeskidwyspowy.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Jasień",
+            "ele": 1062,
+            "lat": 49.5944,
+            "lon": 20.2436,
+            "desc": "Rozległy szczyt w południowej części pasma, otoczony halami i lasami.",
+            "why": "Spokojniejsza alternatywa dla Mogielicy, szczególnie atrakcyjna w dłuższej wędrówce grzbietowej.",
+            "curiosity": "Na stokach Jasienia leżą widokowe polany Skalne i Łąki.",
+            "tags": [
+              "WIDOKI",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "średnia; zwykle długa trasa",
+            "family": "raczej dla starszych dzieci",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Najczęstsze warianty prowadzą z Lubomierza lub przez Krzystonów; wybierz legalny postój w miejscowości.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Odkryj Beskid Wyspowy – szlaki",
+                "url": "https://www.odkryjbeskidwyspowy.pl/szlaki/"
+              }
+            ]
+          },
+          {
+            "name": "Modyń",
+            "ele": 1029,
+            "lat": 49.6091,
+            "lon": 20.3941,
+            "desc": "Wysoki, zalesiony szczyt we wschodniej części Beskidu Wyspowego, zwieńczony wieżą widokową.",
+            "why": "Wieża zapewnia rozległą panoramę mimo zalesienia wierzchołka.",
+            "curiosity": "Modyń bywa nazywana Górą Zakochanych.",
+            "tags": [
+              "WIDOKI",
+              "WIEŻA"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak przy krótszym wariancie",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking pod Modynią – Wierchomla/Przełęcz Cisowy Dział",
+            "parkingLat": 49.6018,
+            "parkingLon": 20.4057,
+            "walkTime": "około 45–60 min w jedną stronę",
+            "distance": "około 2 km w jedną stronę",
+            "elevationGain": "około 250 m",
+            "routeNote": "Dojazd lokalnymi drogami może być wąski; respektuj oznakowanie i własność prywatną.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Odkryj Beskid Wyspowy",
+                "url": "https://www.odkryjbeskidwyspowy.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Luboń Wielki",
+            "ele": 1022,
+            "lat": 49.6536,
+            "lon": 19.9892,
+            "desc": "Charakterystyczny szczyt nad Rabką-Zdrojem z przekaźnikiem, schroniskiem PTTK i rezerwatem przyrody.",
+            "why": "Łączy górską trasę, wyjątkowe gołoborze oraz jedno z najbardziej klimatycznych schronisk w Beskidach.",
+            "curiosity": "Schronisko ma charakterystyczną sylwetkę przypominającą domek z bajki.",
+            "tags": [
+              "TOP",
+              "SCHRONISKO",
+              "GEOLOGIA"
+            ],
+            "difficulty": "średnia; Perć Borkowskiego miejscami wymagająca",
+            "family": "łatwiejszym wariantem; nie Percią Borkowskiego dla małych dzieci",
+            "dog": "na smyczy; sprawdź zasady rezerwatu",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy kościele w Rabce-Zarytem",
+            "parkingLat": 49.6328,
+            "parkingLon": 19.9749,
+            "walkTime": "około 2 godz. w jedną stronę",
+            "distance": "około 4 km w jedną stronę",
+            "elevationGain": "około 500 m",
+            "routeNote": "Żółty szlak przez Perć Borkowskiego jest stromy i kamienisty; rodzinom polecany jest łagodniejszy wariant.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "PTTK Schronisko na Luboniu Wielkim",
+                "url": "https://lubon.pttk.pl/"
+              },
+              {
+                "name": "Plan na Wypad – Beskid Wyspowy",
+                "url": "https://plannawypad.pl/beskid-wyspowy-atrakcje-szlaki-co-warto-zobaczyc/"
+              }
+            ]
+          },
+          {
+            "name": "Śnieżnica",
+            "ele": 1006,
+            "lat": 49.7153,
+            "lon": 20.1844,
+            "desc": "Trójwierzchołkowy masyw nad Kasiną Wielką, łatwo rozpoznawalny z doliny Raby.",
+            "why": "Pozwala połączyć leśną wędrówkę z wizytą na widokowej polanie i w ośrodku rekolekcyjnym.",
+            "curiosity": "Nazwa odnosi się do śniegu długo zalegającego w zacienionych zagłębieniach stoków.",
+            "tags": [
+              "RODZINNIE",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "szlak bezpłatny",
+            "parking": "Parking przy stacji Kasina Ski",
+            "parkingLat": 49.7096,
+            "parkingLon": 20.1589,
+            "walkTime": "około 1 godz. 30 min w jedną stronę",
+            "distance": "około 3,5 km w jedną stronę",
+            "elevationGain": "około 400 m",
+            "routeNote": "Można wejść niebieskim szlakiem z Przełęczy Gruszowiec lub od strony Kasiny Wielkiej.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Odkryj Beskid Wyspowy – szlaki",
+                "url": "https://www.odkryjbeskidwyspowy.pl/szlaki/"
+              }
+            ]
+          },
+          {
+            "name": "Łopień",
+            "ele": 961,
+            "lat": 49.6939,
+            "lon": 20.2672,
+            "desc": "Rozłożysty masyw między Tymbarkiem a Dobrą, z widokową polaną Jaworze i jaskiniami szczelinowymi.",
+            "why": "Jest spokojnym celem z ciekawą przyrodą i łatwiejszymi wariantami wejścia.",
+            "curiosity": "W masywie znajduje się Jaskinia Zbójecka, jedno z większych znanych podziemi Beskidu Wyspowego.",
+            "tags": [
+              "NATURA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak przy krótszym wariancie",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Przełęcz Rydza-Śmigłego",
+            "parkingLat": 49.6748,
+            "parkingLon": 20.2549,
+            "walkTime": "około 1 godz. 15 min w jedną stronę",
+            "distance": "około 3 km w jedną stronę",
+            "elevationGain": "około 300 m",
+            "routeNote": "Z przełęczy prowadzi znakowany szlak; nie wchodź do jaskiń bez przygotowania i odpowiedniego sprzętu.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Odkryj Beskid Wyspowy",
+                "url": "https://www.odkryjbeskidwyspowy.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Lubogoszcz",
+            "ele": 968,
+            "lat": 49.6921,
+            "lon": 20.0806,
+            "desc": "Potężny, niemal w całości zalesiony masyw między Mszaną Dolną a Kasiną Wielką.",
+            "why": "Daje możliwość spokojnej i kondycyjnej wycieczki blisko Mszany Dolnej.",
+            "curiosity": "Na zachodnich stokach działa baza szkoleniowo-wypoczynkowa Lubogoszcz.",
+            "tags": [
+              "🥾 DLA PIECHURÓW",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "średnia; strome podejścia",
+            "family": "dla starszych dzieci",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Popularne wejścia prowadzą z Mszany Dolnej i Kasiny Wielkiej; miejsce postoju dobierz do wariantu.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Odkryj Beskid Wyspowy – szlaki",
+                "url": "https://www.odkryjbeskidwyspowy.pl/szlaki/"
+              }
+            ]
+          },
+          {
+            "name": "Szczebel",
+            "ele": 977,
+            "lat": 49.6745,
+            "lon": 20.0143,
+            "desc": "Stromy, zalesiony szczyt wznoszący się między Lubniem i Mszaną Dolną.",
+            "why": "Oferuje wymagające podejście, jaskinię Zimna Dziura i polany z ograniczonymi widokami.",
+            "curiosity": "Szczyt bywa zapisywany również jako Strzebel.",
+            "tags": [
+              "JASKINIA",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "średnia; stromo",
+            "family": "dla starszych dzieci",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy kościele w Lubniu",
+            "parkingLat": 49.7198,
+            "parkingLon": 19.9775,
+            "walkTime": "około 2 godz. 30 min w jedną stronę",
+            "distance": "około 5 km w jedną stronę",
+            "elevationGain": "około 650 m",
+            "routeNote": "Podejście z Lubnia jest długie i strome; jaskinia wymaga ostrożności.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Odkryj Beskid Wyspowy",
+                "url": "https://www.odkryjbeskidwyspowy.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Kamionna",
+            "ele": 801,
+            "lat": 49.7758,
+            "lon": 20.3436,
+            "desc": "Szczyt na północno-wschodnim skraju pasma, objęty częściowo rezerwatem przyrody i wyposażony w wieżę widokową.",
+            "why": "Krótka trasa może prowadzić do jednej z nowszych wież widokowych regionu.",
+            "curiosity": "Wieża udostępniona w 2023 roku ma około 29 metrów wysokości.",
+            "tags": [
+              "WIEŻA",
+              "RODZINNIE"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "na smyczy; sprawdź zasady rezerwatu",
+            "fee": "bezpłatnie",
+            "parking": "Przełęcz Widoma",
+            "parkingLat": 49.7806,
+            "parkingLon": 20.3249,
+            "walkTime": "około 35–50 min w jedną stronę",
+            "distance": "około 1,8 km w jedną stronę",
+            "elevationGain": "około 180 m",
+            "routeNote": "Start z rejonu Przełęczy Widoma; parkuj wyłącznie w wyznaczonym miejscu.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Rabkoland – atrakcje Beskidu Wyspowego",
+                "url": "https://www.rabkoland.pl/pl/blog/beskid-wyspowy-atrakcje-i-najpiekniejsze-miejsca-7-ciekawych-propozycji"
+              }
+            ]
+          },
+          {
+            "name": "Skiełek",
+            "ele": 749,
+            "lat": 49.6043,
+            "lon": 20.4457,
+            "desc": "Łatwo dostępny szczyt nad Łukowicą z drewnianą wieżą widokową.",
+            "why": "Jest dobrym celem krótkiej rodzinnej wycieczki i zachodu słońca.",
+            "curiosity": "Z platformy widać m.in. Modyń, Mogielicę, Gorce i Tatry.",
+            "tags": [
+              "WIEŻA",
+              "RODZINNIE",
+              "WIDOKI"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking pod wieżą na Skiełku",
+            "parkingLat": 49.5989,
+            "parkingLon": 20.4498,
+            "walkTime": "około 25–40 min w jedną stronę",
+            "distance": "około 1,3 km w jedną stronę",
+            "elevationGain": "około 150 m",
+            "routeNote": "Dojazd końcowym odcinkiem lokalnej drogi; stosuj się do bieżącego oznakowania parkingu.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Plan na Wypad – Beskid Wyspowy",
+                "url": "https://plannawypad.pl/beskid-wyspowy-atrakcje-szlaki-co-warto-zobaczyc/"
+              },
+              {
+                "name": "Odkrywając Beskidy – Łukowica",
+                "url": "https://odkrywajacbeskidy.pl/2025/07/17/beskid-wyspowy-lukowica-i-okolica-te-miejsca-warto-odwiedzic/"
+              }
+            ]
+          }
+        ]
+      },
+      "wodospady": {
+        "name": "Wodospady",
+        "icon": "💧",
+        "items": [
+          {
+            "name": "Wodospad Spad w Szczawie",
+            "lat": 49.6179,
+            "lon": 20.3008,
+            "desc": "Niewielki naturalny wodospad na potoku Głębieniec, ukryty w lesie w rejonie Szczawy.",
+            "why": "To kameralny cel krótkiego spaceru i jedna z najbardziej znanych kaskad Beskidu Wyspowego.",
+            "curiosity": "Przepływ i wygląd wodospadu mocno zależą od opadów.",
+            "tags": [
+              "NATURA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa do średniej; dojście może być śliskie",
+            "family": "tak pod opieką dorosłych",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Nie wskazano parkingu do czasu potwierdzenia legalnego miejsca postoju; po deszczu brzegi potoku są śliskie.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Odkryj Beskid Wyspowy",
+                "url": "https://www.odkryjbeskidwyspowy.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Wodospad w Zasadnem",
+            "lat": 49.5779,
+            "lon": 20.3858,
+            "desc": "Leśna kaskada na górskim potoku w dolinie pod Modynią, odwiedzana znacznie rzadziej niż główne szczyty.",
+            "why": "Pozwala poznać spokojną, wodną stronę Beskidu Wyspowego.",
+            "curiosity": "Najefektowniej wygląda po opadach i podczas wiosennych roztopów.",
+            "tags": [
+              "NATURA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak z ostrożnością nad wodą",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Dojście nie wszędzie jest wyraźne; nie wchodź na prywatne posesje i zachowaj ostrożność na mokrych kamieniach.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Odkryj Beskid Wyspowy",
+                "url": "https://www.odkryjbeskidwyspowy.pl/"
+              }
+            ]
+          }
+        ]
+      },
+      "punkty_widokowe": {
+        "name": "Punkty widokowe",
+        "icon": "👀",
+        "items": [
+          {
+            "name": "Wieża widokowa na Mogielicy",
+            "lat": 49.6557,
+            "lon": 20.2761,
+            "desc": "Stalowa wieża o wysokości około 23 metrów, udostępniona w 2022 roku na najwyższym szczycie pasma.",
+            "why": "Zapewnia panoramę 360° obejmującą Tatry, Gorce, Pieniny i dużą część Beskidów.",
+            "curiosity": "Zastąpiła wcześniejszą drewnianą konstrukcję.",
+            "tags": [
+              "TOP",
+              "WIEŻA",
+              "WIDOKI"
+            ],
+            "difficulty": "średnia",
+            "family": "tak przy przygotowaniu do górskiej trasy",
+            "dog": "na smyczy; nie wprowadzaj psa na zatłoczoną platformę",
+            "fee": "bezpłatnie",
+            "parking": "Parking Wyrębiska – Zalesie",
+            "parkingLat": 49.6309,
+            "parkingLon": 20.3009,
+            "walkTime": "około 1 godz. 45 min w jedną stronę",
+            "distance": "około 4,5 km w jedną stronę",
+            "elevationGain": "około 450 m",
+            "routeNote": "Przy silnym wietrze, oblodzeniu lub burzy nie wchodź na wieżę.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Góry dla Ciebie – atrakcje Beskidu Wyspowego",
+                "url": "https://gorydlaciebie.pl/wyprawy/atrakcje-beskidu-wyspowego/"
+              }
+            ]
+          },
+          {
+            "name": "Wieża widokowa na Modyni",
+            "lat": 49.6091,
+            "lon": 20.3941,
+            "desc": "Drewniana wieża na zalesionym wierzchołku Modyni, otwierająca widok na Beskid Sądecki, Gorce i Tatry.",
+            "why": "Pozwala zobaczyć wschodnią część regionu z szerokiej perspektywy.",
+            "curiosity": "Budowę wieży zrealizowano dzięki współpracy lokalnych samorządów.",
+            "tags": [
+              "WIEŻA",
+              "WIDOKI"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking pod Modynią – Przełęcz Cisowy Dział",
+            "parkingLat": 49.6018,
+            "parkingLon": 20.4057,
+            "walkTime": "około 45–60 min w jedną stronę",
+            "distance": "około 2 km w jedną stronę",
+            "elevationGain": "około 250 m",
+            "routeNote": "Sprawdź stan lokalnych dróg i aktualne oznakowanie parkingu.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Odkryj Beskid Wyspowy",
+                "url": "https://www.odkryjbeskidwyspowy.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Wieża widokowa na Kamionnej",
+            "lat": 49.7758,
+            "lon": 20.3436,
+            "desc": "Wysoka drewniana wieża stojąca na szczycie Kamionnej.",
+            "why": "Daje szeroki widok na północną część Beskidu Wyspowego i Pogórze.",
+            "curiosity": "Na platformę prowadzi ponad sto stopni.",
+            "tags": [
+              "WIEŻA",
+              "RODZINNIE"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Przełęcz Widoma",
+            "parkingLat": 49.7806,
+            "parkingLon": 20.3249,
+            "walkTime": "około 35–50 min w jedną stronę",
+            "distance": "około 1,8 km w jedną stronę",
+            "elevationGain": "około 180 m",
+            "routeNote": "Na schodach zachowaj odstęp i nie wchodź podczas burzy.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Rabkoland – Kamionna",
+                "url": "https://www.rabkoland.pl/pl/blog/beskid-wyspowy-atrakcje-i-najpiekniejsze-miejsca-7-ciekawych-propozycji"
+              }
+            ]
+          },
+          {
+            "name": "Polana Michurowa na Ćwilinie",
+            "lat": 49.6859,
+            "lon": 20.1887,
+            "desc": "Rozległa hala tuż pod szczytem Ćwilina, otwarta ku południu i zachodowi.",
+            "why": "To jeden z klasycznych widoków Beskidu Wyspowego i dobre miejsce odpoczynku.",
+            "curiosity": "Na polanie znajduje się ołtarz polowy i miejsce pamięci związane z Janem Pawłem II.",
+            "tags": [
+              "WIDOKI",
+              "MIEJSCE ODPOCZYNKU"
+            ],
+            "difficulty": "średnia; strome dojście z Gruszowca",
+            "family": "dla starszych dzieci",
+            "dog": "na smyczy; nie płosz zwierząt gospodarskich",
+            "fee": "bezpłatnie",
+            "parking": "Przełęcz Gruszowiec przy drodze krajowej 28",
+            "parkingLat": 49.7055,
+            "parkingLon": 20.1934,
+            "walkTime": "około 1 godz. 25 min w jedną stronę",
+            "distance": "około 2,4 km w jedną stronę",
+            "elevationGain": "około 390 m",
+            "routeNote": "Polana leży kilka minut przed wierzchołkiem Ćwilina.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Hasające Zające – Ćwilin",
+                "url": "https://hasajacezajace.com/cwilin-beskid-wyspowy/"
+              }
+            ]
+          }
+        ]
+      },
+      "atrakcje": {
+        "name": "Atrakcje",
+        "icon": "⭐",
+        "items": [
+          {
+            "name": "Stacja kolejowa Kasina Wielka",
+            "lat": 49.7008,
+            "lon": 20.1359,
+            "desc": "Zabytkowa stacja na dawnej Galicyjskiej Kolei Transwersalnej, znana także jako plener filmowy.",
+            "why": "Łączy historię kolei, górski krajobraz i łatwy dostęp do lokalnych atrakcji.",
+            "curiosity": "Kręcono tu sceny kilku polskich filmów i seriali.",
+            "tags": [
+              "HISTORIA",
+              "RODZINNIE"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "zgodnie z regulaminem obiektu",
+            "fee": "teren dostępny według zasad operatora",
+            "parking": "Parking przy stacji Kasina Wielka",
+            "parkingLat": 49.7005,
+            "parkingLon": 20.1355,
+            "walkTime": "1–3 min",
+            "distance": "poniżej 0,2 km",
+            "elevationGain": "minimalne",
+            "routeNote": "Sprawdź aktualną dostępność stacji i wydarzeń przed przyjazdem.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Kasina Ski & Bike Park",
+                "url": "https://kasina.com.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Kasina Ski & Bike Park",
+            "lat": 49.7096,
+            "lon": 20.1589,
+            "desc": "Całoroczny ośrodek na stokach Śnieżnicy z koleją krzesełkową, trasami narciarskimi i rowerowymi.",
+            "why": "Pozwala połączyć pobyt w Beskidzie Wyspowym z aktywnością inną niż piesza wędrówka.",
+            "curiosity": "Kolej może ułatwiać dostęp do wyższych partii Śnieżnicy w okresie działania.",
+            "tags": [
+              "AKTYWNIE",
+              "RODZINNIE"
+            ],
+            "difficulty": "zależna od wybranej aktywności",
+            "family": "tak; zgodnie z regulaminem tras",
+            "dog": "sprawdź u operatora",
+            "fee": "atrakcje i kolej płatne według aktualnego cennika",
+            "parking": "Parking Kasina Ski",
+            "parkingLat": 49.7096,
+            "parkingLon": 20.1589,
+            "walkTime": "na miejscu",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Godziny działania i dostępność tras są sezonowe; sprawdź stronę operatora.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Kasina Ski & Bike Park",
+                "url": "https://kasina.com.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Trasy wokół Mogielicy – centrum Zalesie",
+            "lat": 49.6257,
+            "lon": 20.3036,
+            "desc": "Sieć tras pieszych, rowerowych i narciarstwa biegowego wokół najwyższego szczytu pasma.",
+            "why": "Umożliwia aktywne poznawanie masywu przez cały rok.",
+            "curiosity": "Zimą przygotowywane są tu trasy dla narciarstwa biegowego, zależnie od warunków śniegowych.",
+            "tags": [
+              "AKTYWNIE",
+              "ROWER",
+              "ZIMA"
+            ],
+            "difficulty": "od łatwej do trudnej",
+            "family": "wybrane odcinki tak",
+            "dog": "na smyczy; uwzględnij zasady tras sportowych",
+            "fee": "zależnie od sezonu i usług",
+            "parking": "Centrum Obsługi Ruchu Turystycznego Zalesie",
+            "parkingLat": 49.6257,
+            "parkingLon": 20.3036,
+            "walkTime": "na miejscu",
+            "distance": "zależnie od pętli",
+            "elevationGain": "zależnie od pętli",
+            "routeNote": "Przed wyjazdem sprawdź aktualny stan tras i sezonowe zasady korzystania.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Gmina Słopnice",
+                "url": "https://slopnice.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Muzeum Regionalne Ziemi Limanowskiej",
+            "lat": 49.7067,
+            "lon": 20.4213,
+            "desc": "Muzeum w zabytkowym Dworze Marsów, prezentujące historię i kulturę Limanowej oraz regionu.",
+            "why": "Daje dobre wprowadzenie do historii Beskidu Wyspowego i jego mieszkańców.",
+            "curiosity": "Dwór Marsów jest jednym z charakterystycznych zabytków Limanowej.",
+            "tags": [
+              "HISTORIA",
+              "NA NIEPOGODĘ"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "do wnętrz nie",
+            "fee": "zgodnie z aktualnym cennikiem",
+            "parking": "Parking w rejonie Parku Miejskiego w Limanowej",
+            "parkingLat": 49.7068,
+            "parkingLon": 20.4201,
+            "walkTime": "kilka minut",
+            "distance": "poniżej 0,5 km",
+            "elevationGain": "minimalne",
+            "routeNote": "Sprawdź godziny otwarcia muzeum przed wizytą.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Muzeum Regionalne Ziemi Limanowskiej",
+                "url": "https://muzeum.limanowa.pl/"
+              }
+            ]
+          }
+        ]
+      },
+      "formacje_skalne": {
+        "name": "Formacje skalne",
+        "icon": "🪨",
+        "items": [
+          {
+            "name": "Gołoborze na Luboniu Wielkim",
+            "lat": 49.6509,
+            "lon": 19.9868,
+            "desc": "Największe w Beskidzie Wyspowym rumowisko piaskowcowych bloków, chronione w rezerwacie Luboń Wielki.",
+            "why": "To wyjątkowy element krajobrazu, rzadko spotykany w Beskidach.",
+            "curiosity": "Przez rumowisko prowadzi żółty szlak nazywany Percią Borkowskiego.",
+            "tags": [
+              "TOP",
+              "GEOLOGIA",
+              "REZERWAT"
+            ],
+            "difficulty": "średnia do trudnej; stromo i kamieniście",
+            "family": "niezalecane dla małych dzieci",
+            "dog": "sprawdź zasady rezerwatu; trudny teren",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy kościele w Rabce-Zarytem",
+            "parkingLat": 49.6328,
+            "parkingLon": 19.9749,
+            "walkTime": "około 1 godz. 40 min do początku rumowiska",
+            "distance": "zależnie od wariantu",
+            "elevationGain": "około 450 m",
+            "routeNote": "Nie schodź ze szlaku i nie przemieszczaj bloków skalnych.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Plan na Wypad – Luboń Wielki",
+                "url": "https://plannawypad.pl/beskid-wyspowy-atrakcje-szlaki-co-warto-zobaczyc/"
+              }
+            ]
+          },
+          {
+            "name": "Zbójnicki Stół na Szczeblu",
+            "lat": 49.6822,
+            "lon": 20.0055,
+            "desc": "Okazały blok piaskowca przy szlaku na Szczebel, związany z lokalnymi legendami zbójnickimi.",
+            "why": "Stanowi ciekawy przystanek podczas stromego podejścia na szczyt.",
+            "curiosity": "Według podań zbójnicy mieli wykorzystywać płaski głaz jako stół.",
+            "tags": [
+              "GEOLOGIA",
+              "LEGENDA"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy kościele w Lubniu",
+            "parkingLat": 49.7198,
+            "parkingLon": 19.9775,
+            "walkTime": "około 1 godz. 45 min w jedną stronę",
+            "distance": "około 3,5 km w jedną stronę",
+            "elevationGain": "około 450 m",
+            "routeNote": "Dojście prowadzi stromym leśnym szlakiem; po opadach bywa ślisko.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Rabkoland – atrakcje Beskidu Wyspowego",
+                "url": "https://www.rabkoland.pl/pl/blog/beskid-wyspowy-atrakcje-i-najpiekniejsze-miejsca-7-ciekawych-propozycji"
+              }
+            ]
+          },
+          {
+            "name": "Jaskinia Zimna Dziura",
+            "lat": 49.6925,
+            "lon": 20.0031,
+            "desc": "Niewielka jaskinia szczelinowa na północnym stoku Szczebla, znana z utrzymującego się chłodnego mikroklimatu.",
+            "why": "Jest jedną z najłatwiej dostępnych jaskiń Beskidu Wyspowego.",
+            "curiosity": "W zagłębieniach śnieg i lód mogą utrzymywać się znacznie dłużej niż w otoczeniu.",
+            "tags": [
+              "JASKINIA",
+              "GEOLOGIA"
+            ],
+            "difficulty": "średnia; strome dojście",
+            "family": "dla starszych dzieci pod opieką dorosłych",
+            "dog": "nie wprowadzaj do wnętrza",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy kościele w Lubniu",
+            "parkingLat": 49.7198,
+            "parkingLon": 19.9775,
+            "walkTime": "około 1 godz. 20 min w jedną stronę",
+            "distance": "około 2,8 km w jedną stronę",
+            "elevationGain": "około 350 m",
+            "routeNote": "Do wnętrza wchodź tylko z latarką, odpowiednim obuwiem i przy bezpiecznych warunkach.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Odkryj Beskid Wyspowy",
+                "url": "https://www.odkryjbeskidwyspowy.pl/"
+              }
+            ]
+          }
+        ]
+      },
+      "schroniska": {
+        "name": "Schroniska",
+        "icon": "🏠",
+        "items": [
+          {
+            "name": "Schronisko PTTK na Luboniu Wielkim",
+            "lat": 49.6536,
+            "lon": 19.9892,
+            "desc": "Niewielkie, zabytkowe schronisko turystyczne z 1931 roku stojące bezpośrednio na szczycie.",
+            "why": "Ma wyjątkowy klimat i jest jedynym klasycznym schroniskiem górskim w paśmie.",
+            "curiosity": "Budynek posiada charakterystyczną wieżyczkę i zachował historyczny wygląd.",
+            "tags": [
+              "TOP",
+              "NOCLEG",
+              "HISTORIA"
+            ],
+            "difficulty": "średnia",
+            "family": "tak łatwiejszym wariantem",
+            "dog": "zasady pobytu potwierdź w schronisku",
+            "fee": "nocleg i gastronomia według aktualnego cennika",
+            "parking": "Parking przy kościele w Rabce-Zarytem",
+            "parkingLat": 49.6328,
+            "parkingLon": 19.9749,
+            "walkTime": "około 2 godz. w jedną stronę",
+            "distance": "około 4 km w jedną stronę",
+            "elevationGain": "około 500 m",
+            "routeNote": "Przed planowanym noclegiem zarezerwuj miejsce i sprawdź komunikaty schroniska.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Schronisko PTTK na Luboniu Wielkim",
+                "url": "https://lubon.pttk.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Baza Lubogoszcz",
+            "lat": 49.6992,
+            "lon": 20.0616,
+            "desc": "Górska baza szkoleniowo-wypoczynkowa na zachodnim stoku Lubogoszczy.",
+            "why": "Stanowi charakterystyczny punkt na trasach z Mszany Dolnej i miejsce związane z turystyką młodzieżową.",
+            "curiosity": "Historia bazy sięga okresu międzywojennego.",
+            "tags": [
+              "NOCLEG",
+              "HISTORIA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak; dostępność noclegów sprawdź wcześniej",
+            "dog": "potwierdź u gospodarza",
+            "fee": "według aktualnego cennika",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Obiekt nie jest klasycznym schroniskiem PTTK; przed wizytą potwierdź zasady i dostępność.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Baza Szkoleniowo-Wypoczynkowa Lubogoszcz",
+                "url": "https://lubogoszcz.pl/"
+              }
+            ]
+          }
+        ]
+      },
+      "zabytki": {
+        "name": "Zabytki",
+        "icon": "🏛️",
+        "items": [
+          {
+            "name": "Opactwo Cystersów w Szczyrzycu",
+            "lat": 49.7833,
+            "lon": 20.1885,
+            "desc": "Historyczne opactwo cysterskie działające w Szczyrzycu od średniowiecza.",
+            "why": "To jeden z najcenniejszych zabytków sakralnych regionu.",
+            "curiosity": "Przy klasztorze działają muzeum i tradycje gospodarcze związane z cystersami.",
+            "tags": [
+              "TOP",
+              "HISTORIA",
+              "ARCHITEKTURA"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "na zewnątrz na smyczy; do wnętrz nie",
+            "fee": "kościół dostępny zgodnie z zasadami; muzeum może być biletowane",
+            "parking": "Parking przy opactwie w Szczyrzycu",
+            "parkingLat": 49.7829,
+            "parkingLon": 20.1881,
+            "walkTime": "1–3 min",
+            "distance": "poniżej 0,2 km",
+            "elevationGain": "minimalne",
+            "routeNote": "Uszanuj nabożeństwa i zasady zwiedzania klasztoru.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Opactwo Cystersów w Szczyrzycu",
+                "url": "https://szczyrzyc.cystersi.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Bazylika Matki Boskiej Bolesnej w Limanowej",
+            "lat": 49.7056,
+            "lon": 20.4222,
+            "desc": "Monumentalna świątynia przy limanowskim rynku, ważne sanktuarium regionu.",
+            "why": "Jest najbardziej rozpoznawalnym zabytkiem centrum Limanowej.",
+            "curiosity": "Smukła wieża bazyliki stanowi dominantę panoramy miasta.",
+            "tags": [
+              "HISTORIA",
+              "ARCHITEKTURA"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "do wnętrza nie",
+            "fee": "bezpłatnie; uszanuj nabożeństwa",
+            "parking": "Parking przy rynku w Limanowej",
+            "parkingLat": 49.7054,
+            "parkingLon": 20.4212,
+            "walkTime": "2–5 min",
+            "distance": "poniżej 0,3 km",
+            "elevationGain": "minimalne",
+            "routeNote": "W centrum obowiązuje lokalna organizacja ruchu i parkowania.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Miasto Limanowa",
+                "url": "https://miastolimanowa.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Drewniany kościół św. Andrzeja w Łukowicy",
+            "lat": 49.6113,
+            "lon": 20.4387,
+            "desc": "Zabytkowa drewniana świątynia o wielowiekowej historii, położona w centrum Łukowicy.",
+            "why": "Pozwala połączyć wejście na Skiełek z poznaniem lokalnej architektury sakralnej.",
+            "curiosity": "Kościół jest jednym z najważniejszych zabytków gminy Łukowica.",
+            "tags": [
+              "HISTORIA",
+              "DREWNIANA ARCHITEKTURA"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "na zewnątrz na smyczy; do wnętrza nie",
+            "fee": "bezpłatnie; zwiedzanie zależne od dostępności",
+            "parking": "Parking w centrum Łukowicy",
+            "parkingLat": 49.6111,
+            "parkingLon": 20.4392,
+            "walkTime": "1–3 min",
+            "distance": "poniżej 0,2 km",
+            "elevationGain": "minimalne",
+            "routeNote": "Obiekt sakralny może być zamknięty poza nabożeństwami.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Odkrywając Beskidy – Łukowica i okolica",
+                "url": "https://odkrywajacbeskidy.pl/2025/07/17/beskid-wyspowy-lukowica-i-okolica-te-miejsca-warto-odwiedzic/"
+              }
+            ]
+          }
+        ]
+      },
+      "mniej_znane": {
+        "name": "Mniej znane miejsca",
+        "icon": "💎",
+        "items": [
+          {
+            "name": "Przełęcz Rydza-Śmigłego",
+            "ele": 700,
+            "lat": 49.6748,
+            "lon": 20.2549,
+            "desc": "Widokowa przełęcz między Łopieniem i Mogielicą, z pomnikiem upamiętniającym walki Legionów Polskich.",
+            "why": "Jest dogodnym startem na dwa ważne szczyty i miejscem o dużym znaczeniu historycznym.",
+            "curiosity": "Nazwa upamiętnia marszałka Edwarda Rydza-Śmigłego.",
+            "tags": [
+              "HISTORIA",
+              "START SZLAKU",
+              "WIDOKI"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking na Przełęczy Rydza-Śmigłego",
+            "parkingLat": 49.6748,
+            "parkingLon": 20.2549,
+            "walkTime": "na miejscu",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Parking ma ograniczoną liczbę miejsc; nie blokuj drogi i wjazdów.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Odkryj Beskid Wyspowy",
+                "url": "https://www.odkryjbeskidwyspowy.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Polana Stumorgowa",
+            "lat": 49.6477,
+            "lon": 20.2673,
+            "desc": "Rozległa hala pod Mogielicą, należąca do najbardziej widokowych polan całego pasma.",
+            "why": "Daje panoramę bez konieczności wchodzenia na wieżę i jest świetnym miejscem odpoczynku.",
+            "curiosity": "Nazwa nawiązuje do dawnej powierzchni polany mierzonej w morgach.",
+            "tags": [
+              "WIDOKI",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "średnia",
+            "family": "tak przy przygotowaniu do dłuższej trasy",
+            "dog": "na smyczy; nie płosz zwierząt",
+            "fee": "bezpłatnie",
+            "parking": "Parking Wyrębiska – Zalesie",
+            "parkingLat": 49.6309,
+            "parkingLon": 20.3009,
+            "walkTime": "około 1 godz. 30 min w jedną stronę",
+            "distance": "około 4 km w jedną stronę",
+            "elevationGain": "około 380 m",
+            "routeNote": "Polanę warto połączyć ze zdobyciem Mogielicy; przy mgle łatwo stracić orientację na otwartym terenie.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Odkryj Beskid Wyspowy – szlaki",
+                "url": "https://www.odkryjbeskidwyspowy.pl/szlaki/"
+              }
+            ]
+          },
+          {
+            "name": "Miejska Góra i Krzyż Milenijny w Limanowej",
+            "ele": 716,
+            "lat": 49.7087,
+            "lon": 20.4005,
+            "desc": "Wzniesienie nad Limanową z wysokim krzyżem i tarasem widokowym.",
+            "why": "Zapewnia łatwo dostępny widok na miasto, Sałasz, Jaworz i główne szczyty Beskidu Wyspowego.",
+            "curiosity": "Krzyż wzniesiono jako pamiątkę jubileuszu dwóch tysięcy lat chrześcijaństwa.",
+            "tags": [
+              "WIDOKI",
+              "BLISKO MIASTA"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy ul. Leśnej w Limanowej",
+            "parkingLat": 49.7038,
+            "parkingLon": 20.4064,
+            "walkTime": "około 35–50 min w jedną stronę",
+            "distance": "około 1,8 km w jedną stronę",
+            "elevationGain": "około 220 m",
+            "routeNote": "Dostępnych jest kilka tras spacerowych z Limanowej.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Miasto Limanowa",
+                "url": "https://miastolimanowa.pl/"
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   "beskid_sadecki": {
     "name": "Beskid Sądecki",
-    "center": [49.48, 20.78],
+    "center": [
+      49.48,
+      20.78
+    ],
     "zoom": 10,
     "categories": {
-      "szczyty": {"name":"Szczyty","icon":"⛰️","items":[
-        {"name":"Radziejowa","ele":1266,"lat":49.4495,"lon":20.6045,"desc":"Najwyższy szczyt Beskidu Sądeckiego i całych Beskidów Zachodnich poza Tatrami, należący do Korony Gór Polski.","why":"Wieża widokowa otwiera panoramę Tatr, Pienin, Gorców i obu głównych pasm Beskidu Sądeckiego.","curiosity":"Obecna drewniana wieża zastąpiła starszą konstrukcję zniszczoną przez wiatr.","tags":["TOP","KORONA","WIEŻA"],"difficulty":"średnia; zależna od wariantu","family":"dla rodzin przy starcie z Obidzy i dobrej kondycji","dog":"na smyczy; teren Popradzkiego Parku Krajobrazowego","fee":"bezpłatnie","parking":"Parking na Przełęczy Obidza","parkingLat":49.4199,"parkingLon":20.6258,"walkTime":"około 2 godz. 15 min w jedną stronę","distance":"około 6 km w jedną stronę","elevationGain":"około 480 m","routeNote":"Dojazd na Obidzę prowadzi wąską lokalną drogą; parkuj wyłącznie w dozwolonym miejscu.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Korona Gór Polski – Radziejowa","url":"https://kgp.info.pl/wykaz-szczytow/radziejowa/"},{"name":"Beskid Sądecki – szlaki","url":"https://www.beskidsadecki.eu/"}]},
-        {"name":"Złomisty Wierch","ele":1224,"lat":49.4622,"lon":20.6197,"desc":"Zalesiony dwuwierzchołkowy masyw w głównym grzbiecie Pasma Radziejowej.","why":"Jest naturalnym etapem długiego przejścia między Przehybą i Radziejową.","curiosity":"Należy do czterech wzniesień Beskidu Sądeckiego przekraczających 1200 m.","tags":["🥾 DLA PIECHURÓW","💎 MNIEJ ZNANY"],"difficulty":"średnia; długa trasa","family":"dla starszych dzieci","dog":"na smyczy","fee":"bezpłatnie","parking":"","parkingLat":"","parkingLon":"","walkTime":"","distance":"","elevationGain":"","routeNote":"Najczęściej zdobywany podczas przejścia grzbietowego Przehyba–Radziejowa.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Beskid Sądecki – szczyty Pasma Radziejowej","url":"https://www.beskidsadecki.eu/"}]},
-        {"name":"Wielki Rogacz","ele":1182,"lat":49.4279,"lon":20.6018,"desc":"Widokowy węzeł szlaków w południowej części Pasma Radziejowej.","why":"Oferuje piękne spojrzenie na Tatry i dolinę Popradu oraz dogodne połączenie z Radziejową.","curiosity":"Nazwa odwołuje się do charakterystycznego układu grzbietów przypominających rogi.","tags":["WIDOKI","🥾 DLA PIECHURÓW"],"difficulty":"średnia","family":"dla starszych dzieci","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking na Przełęczy Obidza","parkingLat":49.4199,"parkingLon":20.6258,"walkTime":"około 1 godz. 20 min w jedną stronę","distance":"około 3,5 km w jedną stronę","elevationGain":"około 300 m","routeNote":"Węzeł szlaków pozwala kontynuować wycieczkę na Radziejową lub Niemcową.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Beskid Sądecki – szlaki piesze","url":"https://www.beskidsadecki.eu/"}]},
-        {"name":"Przehyba","ele":1175,"lat":49.4666,"lon":20.5579,"desc":"Rozległy grzbiet Pasma Radziejowej z przekaźnikiem i schroniskiem PTTK położonym tuż pod kulminacją.","why":"To jeden z najbardziej znanych celów w regionie, dostępny z wielu dolin.","curiosity":"Polana przy schronisku jest cenionym punktem widokowym na Tatry.","tags":["TOP","SCHRONISKO","WIDOKI"],"difficulty":"średnia; podejścia są długie","family":"dla starszych dzieci lub rodzin przy dobrej kondycji","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking przy Wodospadzie Zaskalnik w Szczawnicy","parkingLat":49.4117,"parkingLon":20.4569,"walkTime":"około 3 godz. w jedną stronę","distance":"około 8 km w jedną stronę","elevationGain":"około 750 m","routeNote":"Niebieski szlak ze Szczawnicy jest długi; zimą wymagane jest odpowiednie wyposażenie.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Schronisko PTTK na Przehybie","url":"https://przehyba.com.pl/"},{"name":"Beskid Sądecki – Przehyba","url":"https://www.beskidsadecki.eu/"}]},
-        {"name":"Jaworzyna Krynicka","ele":1114,"lat":49.4208,"lon":20.8956,"desc":"Najbardziej rozpoznawalny szczyt Pasma Jaworzyny z koleją gondolową, schroniskiem i rozległą infrastrukturą turystyczną.","why":"Łatwo dostępny punkt widokowy i dobry początek pieszych tras grzbietowych.","curiosity":"Kolej gondolowa pokonuje ponad 460 metrów różnicy wysokości.","tags":["TOP","KOLEJ","WIDOKI"],"difficulty":"łatwa przy wjeździe; średnia pieszo","family":"tak","dog":"sprawdź zasady przewozu koleją; na szlaku na smyczy","fee":"szlaki bezpłatne; kolej i atrakcje płatne","parking":"Parking dolnej stacji kolei gondolowej","parkingLat":49.4099,"parkingLon":20.9265,"walkTime":"kilka minut po wjeździe lub około 2,5–3 godz. pieszo","distance":"zależnie od wariantu","elevationGain":"pieszo około 550 m","routeNote":"Godziny działania i cennik kolei sprawdź przed przyjazdem.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Kolej Gondolowa Jaworzyna Krynicka","url":"https://www.pkl.pl/jaworzyna-krynicka/jaworzyna-krynicka.html"}]},
-        {"name":"Runek","ele":1080,"lat":49.4498,"lon":20.8988,"desc":"Zalesiony szczyt w głównym grzbiecie Pasma Jaworzyny, ważny węzeł szlaków.","why":"Pozwala połączyć Jaworzynę Krynicką z Bacówką nad Wierchomlą i Halą Łabowską.","curiosity":"W pobliżu szczytu odchodzi widokowy grzbiet w stronę Wierchomli.","tags":["🥾 DLA PIECHURÓW"],"difficulty":"średnia","family":"dla rodzin przy wykorzystaniu kolei na Jaworzynę","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking dolnej stacji kolei gondolowej","parkingLat":49.4099,"parkingLon":20.9265,"walkTime":"około 1 godz. 30 min od górnej stacji","distance":"około 5 km od górnej stacji","elevationGain":"niewielkie na grzbiecie","routeNote":"Najwygodniejszy wariant wykorzystuje wjazd na Jaworzynę; sprawdź godziny ostatniego zjazdu.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Beskid Sądecki – Pasmo Jaworzyny","url":"https://www.beskidsadecki.eu/"}]},
-        {"name":"Wierch nad Kamieniem","ele":1084,"lat":49.4823,"lon":20.8078,"desc":"Wysoki, spokojny szczyt między Halą Łabowską i Runkiem, otoczony rozległymi lasami.","why":"To dobry cel dla osób szukających długiej i mało zatłoczonej wędrówki.","curiosity":"Pod szczytem znajduje się charakterystyczna wychodnia zwana Kamieniem Świętej Kingi.","tags":["💎 MNIEJ ZNANY","GEOLOGIA"],"difficulty":"średnia; długa trasa","family":"dla starszych dzieci","dog":"na smyczy","fee":"bezpłatnie","parking":"","parkingLat":"","parkingLon":"","walkTime":"","distance":"","elevationGain":"","routeNote":"Najczęściej odwiedzany w trakcie przejścia Głównego Szlaku Beskidzkiego.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Beskid Sądecki – szczyty","url":"https://www.beskidsadecki.eu/"}]},
-        {"name":"Hala Łabowska","ele":1061,"lat":49.4939,"lon":20.7552,"desc":"Widokowa hala i kulminacja w Paśmie Jaworzyny, znana przede wszystkim ze schroniska PTTK.","why":"Łączy górski krajobraz, historię partyzantów i możliwość odpoczynku w schronisku.","curiosity":"W pobliżu znajdują się pomniki poświęcone partyzantom walczącym w czasie II wojny światowej.","tags":["SCHRONISKO","HISTORIA","WIDOKI"],"difficulty":"średnia","family":"dla starszych dzieci","dog":"na smyczy; zasady pobytu sprawdź w schronisku","fee":"bezpłatnie","parking":"Parking w Łabowej przy początku szlaku","parkingLat":49.5243,"parkingLon":20.8722,"walkTime":"około 3 godz. w jedną stronę","distance":"około 8 km w jedną stronę","elevationGain":"około 650 m","routeNote":"Dostępne są także warianty z Łomnicy-Zdroju i Rytra.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Schronisko PTTK Hala Łabowska","url":"https://hala-labowska.pttk.pl/"}]},
-        {"name":"Eliaszówka","ele":1024,"lat":49.3826,"lon":20.7132,"desc":"Graniczny szczyt nad Piwniczną-Zdrojem z drewnianą wieżą widokową.","why":"Zapewnia panoramę polskiej i słowackiej części Beskidów oraz spokojną trasę graniczną.","curiosity":"Przez masyw przebiega granica polsko-słowacka i szlak śladami kurierów beskidzkich.","tags":["WIEŻA","GRANICA","WIDOKI"],"difficulty":"średnia","family":"tak przy krótszym wariancie","dog":"na smyczy; przy przekraczaniu granicy miej wymagane dokumenty","fee":"bezpłatnie","parking":"Parking przy Czerczu w Piwnicznej-Zdroju","parkingLat":49.4265,"parkingLon":20.7098,"walkTime":"około 2 godz. 15 min w jedną stronę","distance":"około 6 km w jedną stronę","elevationGain":"około 550 m","routeNote":"Przebieg i czas zależą od wybranego szlaku z Piwnicznej lub Kosarzysk.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Plan na Wypad – Beskid Sądecki","url":"https://plannawypad.pl/beskid-sadecki-atrakcje-szlaki-co-warto-zobaczyc/"}]},
-        {"name":"Koziarz","ele":943,"lat":49.5169,"lon":20.4747,"desc":"Szczyt w bocznym grzbiecie Pasma Radziejowej, znany z drewnianej wieży widokowej.","why":"Jest jednym z najlepszych punktów panoramy na przełom Dunajca i Beskid Wyspowy.","curiosity":"Wieża została zbudowana tak, aby ponad koronami drzew odsłonić widok we wszystkich kierunkach.","tags":["WIEŻA","WIDOKI"],"difficulty":"łatwa do średniej","family":"tak przy krótszym wariancie","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking przy wieży w Brzynie","parkingLat":49.5237,"parkingLon":20.4589,"walkTime":"około 45–60 min w jedną stronę","distance":"około 2,5 km w jedną stronę","elevationGain":"około 250 m","routeNote":"Końcowy dojazd jest lokalny i miejscami wąski; respektuj oznakowanie.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Plan na Wypad – Beskid Sądecki","url":"https://plannawypad.pl/beskid-sadecki-atrakcje-szlaki-co-warto-zobaczyc/"}]},
-        {"name":"Pusta Wielka","ele":1061,"lat":49.4032,"lon":20.8464,"desc":"Zalesiony szczyt w południowej części Pasma Jaworzyny, górujący nad Żegiestowem i Wierchomlą.","why":"Jest spokojnym celem z widokowymi polanami na podejściu.","curiosity":"W pobliżu znajduje się rezerwat chroniący fragment naturalnego lasu regla dolnego.","tags":["NATURA","💎 MNIEJ ZNANY"],"difficulty":"średnia","family":"dla starszych dzieci","dog":"na smyczy; sprawdź zasady rezerwatu","fee":"bezpłatnie","parking":"","parkingLat":"","parkingLon":"","walkTime":"","distance":"","elevationGain":"","routeNote":"Popularne warianty prowadzą z Żegiestowa-Zdroju i Wierchomli; parking dobierz do wybranej trasy.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Beskid Sądecki – Pasmo Jaworzyny","url":"https://www.beskidsadecki.eu/"}]}
-      ]},
-      "wodospady": {"name":"Wodospady","icon":"💧","items":[
-        {"name":"Wodospad Zaskalnik","lat":49.4121,"lon":20.4567,"desc":"Około pięciometrowa kaskada na Potoku Sopotnickim w Szczawnicy, przy niebieskim szlaku na Przehybę.","why":"Jest łatwo dostępny i należy do najbardziej znanych wodospadów polskich Beskidów.","curiosity":"Pod progiem skalnym powstał naturalny kocioł eworsyjny.","tags":["TOP","RODZINNIE","NATURA"],"difficulty":"łatwa","family":"tak, z ostrożnością nad wodą","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking przy Wodospadzie Zaskalnik","parkingLat":49.4117,"parkingLon":20.4569,"walkTime":"2–5 min","distance":"poniżej 0,3 km","elevationGain":"minimalne","routeNote":"Skały przy wodospadzie są śliskie; nie wchodź pod próg przy wysokim stanie wody.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Góry dla Ciebie – wodospady w Beskidach","url":"https://gorydlaciebie.pl/wyprawy/najpiekniejsze-wodospady-w-beskidach/"}]},
-        {"name":"Wielki Wodospad w Obidzy","lat":49.3975,"lon":20.6528,"desc":"Naturalna kaskada o wysokości około pięciu metrów na Majdańskim Potoku w Obidzy.","why":"To jedna z ciekawszych, a zarazem mniej znanych atrakcji wodnych Pasma Radziejowej.","curiosity":"Pod wodospadem znajduje się charakterystyczny banior wyrzeźbiony przez spadającą wodę.","tags":["NATURA","💎 MNIEJ ZNANY"],"difficulty":"łatwa do średniej","family":"tak pod opieką dorosłych","dog":"na smyczy","fee":"bezpłatnie","parking":"","parkingLat":"","parkingLon":"","walkTime":"","distance":"","elevationGain":"","routeNote":"Nie wskazano parkingu do czasu potwierdzenia legalnego miejsca postoju w wąskiej dolinie.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"ODTUR – Wielki Wodospad w Obidzy","url":"https://odtur.pl/atrakcje/obidza-wodospad-wielki-na-majdanskim-potoku-38368.html"}]},
-        {"name":"Wodospad na Łomniczance","lat":49.4371,"lon":20.7448,"desc":"Skalny próg wodospadowy na potoku Łomniczanka w Łomnicy-Zdroju.","why":"Pozwala zobaczyć typową dla fliszu karpackiego budowę skalnego koryta.","curiosity":"Próg utworzył się na odpornej ławicy piaskowca nachylonej pod dużym kątem.","tags":["GEOLOGIA","💎 MNIEJ ZNANY"],"difficulty":"łatwa do średniej; brzegi mogą być śliskie","family":"tak z ostrożnością","dog":"na smyczy","fee":"bezpłatnie","parking":"","parkingLat":"","parkingLon":"","walkTime":"","distance":"","elevationGain":"","routeNote":"Dojście i możliwość postoju sprawdź na aktualnej mapie; nie wchodź na śliskie progi.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Ochrona wodospadów w Karpatach Polskich","url":"https://rcin.org.pl/Content/69483"}]}
-      ]},
-      "punkty_widokowe": {"name":"Punkty widokowe","icon":"👀","items":[
-        {"name":"Wieża widokowa na Radziejowej","lat":49.4495,"lon":20.6045,"desc":"Drewniana wieża na najwyższym szczycie Beskidu Sądeckiego.","why":"Daje panoramę 360° obejmującą Tatry, Pieniny, Gorce i Beskid Sądecki.","curiosity":"Na platformę prowadzą strome schody, a wierzchołek poza wieżą jest zalesiony.","tags":["TOP","WIEŻA","WIDOKI"],"difficulty":"średnia","family":"dla rodzin przy dobrej kondycji","dog":"na smyczy; nie wprowadzaj psa na zatłoczoną platformę","fee":"bezpłatnie","parking":"Parking na Przełęczy Obidza","parkingLat":49.4199,"parkingLon":20.6258,"walkTime":"około 2 godz. 15 min w jedną stronę","distance":"około 6 km w jedną stronę","elevationGain":"około 480 m","routeNote":"Nie wchodź na wieżę podczas burzy, oblodzenia lub bardzo silnego wiatru.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Góry dla Ciebie – wieże widokowe","url":"https://gorydlaciebie.pl/wyprawy/wieze-widokowe-w-beskidach/"}]},
-        {"name":"Platforma Ślimak w Woli Kroguleckiej","lat":49.4862,"lon":20.6465,"desc":"Oryginalna spiralna platforma widokowa zawieszona nad doliną Popradu.","why":"Jest łatwo dostępna i oferuje jeden z najbardziej rozpoznawalnych widoków regionu.","curiosity":"Konstrukcja nie ma typowych schodów, lecz łagodnie wznoszącą się rampę.","tags":["TOP","RODZINNIE","WIDOKI"],"difficulty":"łatwa","family":"tak","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking przy platformie w Woli Kroguleckiej","parkingLat":49.4865,"parkingLon":20.6461,"walkTime":"2–5 min","distance":"poniżej 0,3 km","elevationGain":"minimalne","routeNote":"Parking jest niewielki; w popularnych terminach rozważ dojście z niżej położonego miejsca.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Plan na Wypad – Beskid Sądecki","url":"https://plannawypad.pl/beskid-sadecki-atrakcje-szlaki-co-warto-zobaczyc/"}]},
-        {"name":"Wieża widokowa na Eliaszówce","lat":49.3826,"lon":20.7132,"desc":"Drewniana wieża na granicznym szczycie Eliaszówki.","why":"Otwiera szeroką panoramę na dolinę Popradu, Tatry i słowackie góry.","curiosity":"Przy wieży przygotowano miejsce odpoczynku dla turystów.","tags":["WIEŻA","GRANICA","WIDOKI"],"difficulty":"średnia","family":"tak przy krótszym wariancie","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking przy Czerczu w Piwnicznej-Zdroju","parkingLat":49.4265,"parkingLon":20.7098,"walkTime":"około 2 godz. 15 min w jedną stronę","distance":"około 6 km w jedną stronę","elevationGain":"około 550 m","routeNote":"Przy wycieczce granicznej miej dokument tożsamości i sprawdź warunki pogodowe.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Góry dla Ciebie – wieże widokowe","url":"https://gorydlaciebie.pl/wyprawy/wieze-widokowe-w-beskidach/"}]},
-        {"name":"Wieża widokowa na Koziarzu","lat":49.5169,"lon":20.4747,"desc":"Drewniana wieża ponad lasem na Koziarzu, z widokiem na dolinę Dunajca.","why":"To świetny cel krótkiej wycieczki z panoramą Beskidu Wyspowego, Gorców i Sądecczyzny.","curiosity":"Konstrukcja należy do sieci wież wybudowanych w regionie przez lokalne samorządy.","tags":["WIEŻA","WIDOKI"],"difficulty":"łatwa do średniej","family":"tak","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking przy wieży w Brzynie","parkingLat":49.5237,"parkingLon":20.4589,"walkTime":"około 45–60 min w jedną stronę","distance":"około 2,5 km w jedną stronę","elevationGain":"około 250 m","routeNote":"Na końcowym odcinku dojazdu zachowaj ostrożność i nie blokuj posesji.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Plan na Wypad – Beskid Sądecki","url":"https://plannawypad.pl/beskid-sadecki-atrakcje-szlaki-co-warto-zobaczyc/"}]}
-      ]},
-      "atrakcje": {"name":"Atrakcje","icon":"⭐","items":[
-        {"name":"Kolej Gondolowa Jaworzyna Krynicka","lat":49.4099,"lon":20.9265,"desc":"Całoroczna kolej gondolowa prowadząca z doliny Czarnego Potoku pod szczyt Jaworzyny Krynickiej.","why":"Ułatwia rodzinne poznanie wysokich partii Beskidu Sądeckiego.","curiosity":"Trasa kolei ma ponad dwa kilometry długości.","tags":["KOLEJ","RODZINNIE","WIDOKI"],"difficulty":"łatwa","family":"tak","dog":"przewóz zgodnie z regulaminem operatora","fee":"płatna według aktualnego cennika","parking":"Parking dolnej stacji kolei gondolowej","parkingLat":49.4099,"parkingLon":20.9265,"walkTime":"na miejscu","distance":"","elevationGain":"","routeNote":"Sprawdź godziny kursowania, pogodę i komunikaty techniczne operatora.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"PKL Jaworzyna Krynicka","url":"https://www.pkl.pl/jaworzyna-krynicka/jaworzyna-krynicka.html"}]},
-        {"name":"Ogrody Sensoryczne w Muszynie","lat":49.3584,"lon":20.8999,"desc":"Rozległy park na Zapopradziu podzielony na strefy pobudzające różne zmysły.","why":"To atrakcyjne rodzinne miejsce odpoczynku z panoramą Muszyny i doliny Popradu.","curiosity":"Jedną z części ogrodów jest wieża widokowa stylizowana na zamkową basztę.","tags":["RODZINNIE","PARK","WIDOKI"],"difficulty":"łatwa","family":"tak","dog":"zgodnie z aktualnym regulaminem","fee":"sprawdź aktualne zasady wstępu","parking":"Parking przy Ogrodach Sensorycznych","parkingLat":49.3576,"parkingLon":20.9011,"walkTime":"2–5 min","distance":"","elevationGain":"niewielkie","routeNote":"Godziny dostępności poszczególnych części mogą być sezonowe.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Miasto i Gmina Uzdrowiskowa Muszyna","url":"https://muszyna.pl/"}]},
-        {"name":"Leśne Molo w Starym Sączu","lat":49.5542,"lon":20.6141,"desc":"Drewniana kładka poprowadzona wśród koron drzew na Miejskiej Górze.","why":"Jest łatwo dostępną atrakcją rodzinną łączącą spacer, edukację i widoki.","curiosity":"Trasa kończy się platformą z widokiem na Stary Sącz i otaczające pasma.","tags":["RODZINNIE","BLISKO MIASTA","WIDOKI"],"difficulty":"łatwa","family":"tak","dog":"zgodnie z regulaminem obiektu","fee":"bezpłatnie","parking":"Parking przy ul. Parkowej w Starym Sączu","parkingLat":49.5581,"parkingLon":20.6202,"walkTime":"około 15–25 min","distance":"około 1 km","elevationGain":"około 100 m","routeNote":"Sprawdź aktualne zasady wejścia i możliwe czasowe zamknięcia po złej pogodzie.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Stary Sącz – portal miejski","url":"https://starysacz.um.gov.pl/"}]}
-      ]},
-      "formacje_skalne": {"name":"Formacje skalne","icon":"🪨","items":[
-        {"name":"Diabelski Kamień pod Jaworzyną Krynicką","lat":49.4146,"lon":20.9094,"desc":"Duża wychodnia piaskowca przy zielonym szlaku z Krynicy na Jaworzynę Krynicką.","why":"Jest najbardziej znaną formacją skalną Pasma Jaworzyny.","curiosity":"Z głazem wiąże się legenda o diable, który miał nieść kamień w stronę Krynicy.","tags":["GEOLOGIA","LEGENDA"],"difficulty":"średnia","family":"dla starszych dzieci","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking przy dolnej stacji kolei gondolowej","parkingLat":49.4099,"parkingLon":20.9265,"walkTime":"około 45–60 min w jedną stronę","distance":"około 2 km w jedną stronę","elevationGain":"około 250 m","routeNote":"Nie wspinaj się na mokrą lub oblodzoną skałę.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Beskid Sądecki – atrakcje przyrodnicze","url":"https://www.beskidsadecki.eu/"}]},
-        {"name":"Kamień Świętej Kingi","lat":49.4812,"lon":20.8171,"desc":"Okazała wychodnia skalna w rejonie Wierchu nad Kamieniem, przy grzbietowym szlaku Pasma Jaworzyny.","why":"Urozmaica długą leśną wędrówkę i pokazuje budowę geologiczną Beskidu Sądeckiego.","curiosity":"Nazwa nawiązuje do świętej Kingi, silnie związanej z historią Sądecczyzny.","tags":["GEOLOGIA","LEGENDA","💎 MNIEJ ZNANY"],"difficulty":"średnia; długa trasa","family":"dla starszych dzieci","dog":"na smyczy","fee":"bezpłatnie","parking":"","parkingLat":"","parkingLon":"","walkTime":"","distance":"","elevationGain":"","routeNote":"Formacja leży daleko od dróg; najlepiej odwiedzić ją podczas przejścia grzbietowego.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Beskid Sądecki – Pasmo Jaworzyny","url":"https://www.beskidsadecki.eu/"}]}
-      ]},
-      "schroniska": {"name":"Schroniska","icon":"🏠","items":[
-        {"name":"Schronisko PTTK na Przehybie","lat":49.4654,"lon":20.5598,"desc":"Duże schronisko w Paśmie Radziejowej, położone na wysokości około 1150 m.","why":"Jest ważnym węzłem tras i dogodną bazą do wejścia na Radziejową.","curiosity":"Z okolic schroniska przy dobrej pogodzie doskonale widać Tatry.","tags":["TOP","NOCLEG","WIDOKI"],"difficulty":"średnia","family":"dla starszych dzieci","dog":"zasady pobytu potwierdź w schronisku","fee":"nocleg i gastronomia według cennika","parking":"Parking przy Wodospadzie Zaskalnik w Szczawnicy","parkingLat":49.4117,"parkingLon":20.4569,"walkTime":"około 3 godz. w jedną stronę","distance":"około 8 km w jedną stronę","elevationGain":"około 750 m","routeNote":"Przed noclegiem zarezerwuj miejsce i sprawdź komunikaty schroniska.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Schronisko PTTK na Przehybie","url":"https://przehyba.com.pl/"}]},
-        {"name":"Schronisko PTTK na Hali Łabowskiej","lat":49.4943,"lon":20.7565,"desc":"Klimatyczne schronisko na rozległej hali w Paśmie Jaworzyny.","why":"To jeden z najlepszych celów dłuższych wędrówek w centralnej części Beskidu Sądeckiego.","curiosity":"Okolica była ważnym terenem działalności partyzanckiej podczas II wojny światowej.","tags":["TOP","NOCLEG","HISTORIA"],"difficulty":"średnia","family":"dla starszych dzieci","dog":"zasady pobytu potwierdź w schronisku","fee":"nocleg i gastronomia według cennika","parking":"Parking w Łabowej przy początku szlaku","parkingLat":49.5243,"parkingLon":20.8722,"walkTime":"około 3 godz. w jedną stronę","distance":"około 8 km w jedną stronę","elevationGain":"około 650 m","routeNote":"Możliwe są także dłuższe warianty z Łomnicy-Zdroju i Rytra.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Schronisko PTTK Hala Łabowska","url":"https://hala-labowska.pttk.pl/"}]},
-        {"name":"Schronisko Cyrla","lat":49.4877,"lon":20.6993,"desc":"Prywatne schronisko na polanie Cyrla nad Rytrem, przy Głównym Szlaku Beskidzkim.","why":"Jest stosunkowo łatwo dostępne i słynie z kameralnej atmosfery.","curiosity":"Cyrla może być celem samodzielnej wycieczki lub przystankiem w drodze na Halę Łabowską.","tags":["NOCLEG","RODZINNIE"],"difficulty":"łatwa do średniej","family":"tak","dog":"potwierdź zasady w obiekcie","fee":"nocleg i gastronomia według cennika","parking":"Parking przy stacji PKP w Rytrze","parkingLat":49.4892,"parkingLon":20.6657,"walkTime":"około 1 godz. 45 min w jedną stronę","distance":"około 5 km w jedną stronę","elevationGain":"około 450 m","routeNote":"Podejście z Rytra prowadzi znakowanym szlakiem; przed noclegiem sprawdź dostępność.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Beskid Sądecki – schroniska","url":"https://www.beskidsadecki.eu/"}]},
-        {"name":"Bacówka PTTK nad Wierchomlą","lat":49.4381,"lon":20.8302,"desc":"Niewielkie schronisko na widokowej polanie ponad doliną Wierchomli.","why":"Oferuje jedną z najpiękniejszych panoram Tatr w Paśmie Jaworzyny.","curiosity":"Bacówkę otwarto w latach 70. XX wieku w ramach programu budowy małych schronisk górskich.","tags":["NOCLEG","WIDOKI","RODZINNIE"],"difficulty":"łatwa do średniej","family":"tak","dog":"zasady pobytu potwierdź w bacówce","fee":"nocleg i gastronomia według cennika","parking":"Parking przy Wierchomla Ski","parkingLat":49.4204,"parkingLon":20.8258,"walkTime":"około 1 godz. 30 min w jedną stronę","distance":"około 4 km w jedną stronę","elevationGain":"około 400 m","routeNote":"Dostępność kolejki i wariantów dojścia zależy od sezonu.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Bacówka PTTK nad Wierchomlą","url":"https://wierchomla.pttk.pl/"}]}
-      ]},
-      "zabytki": {"name":"Zabytki","icon":"🏛️","items":[
-        {"name":"Ruiny zamku w Rytrze","lat":49.4863,"lon":20.6819,"desc":"Malownicze ruiny średniowiecznej warowni na wzgórzu ponad doliną Popradu.","why":"Łączą historię z łatwo dostępnym widokiem na Rytro i Pasmo Radziejowej.","curiosity":"Zamek strzegł ważnego szlaku handlowego prowadzącego doliną Popradu.","tags":["TOP","HISTORIA","WIDOKI"],"difficulty":"łatwa do średniej; krótkie strome podejście","family":"tak pod opieką dorosłych","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking pod zamkiem w Rytrze","parkingLat":49.4891,"parkingLon":20.6791,"walkTime":"około 15–25 min","distance":"około 0,8 km w jedną stronę","elevationGain":"około 120 m","routeNote":"Na terenie ruin zachowaj ostrożność i nie wchodź poza zabezpieczenia.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Gmina Rytro","url":"https://rytro.pl/"}]},
-        {"name":"Cerkiew św. Jakuba w Powroźniku","lat":49.3614,"lon":20.9543,"desc":"Drewniana dawna cerkiew greckokatolicka wpisana na Listę Światowego Dziedzictwa UNESCO.","why":"To jeden z najcenniejszych zabytków architektury drewnianej w polskich Karpatach.","curiosity":"Obiekt jest najstarszą zachowaną cerkwią łemkowską w Polsce.","tags":["UNESCO","HISTORIA","DREWNIANA ARCHITEKTURA"],"difficulty":"łatwa","family":"tak","dog":"do wnętrza nie","fee":"zwiedzanie zgodnie z aktualnymi zasadami","parking":"Parking przy cerkwi w Powroźniku","parkingLat":49.3612,"parkingLon":20.9538,"walkTime":"1–3 min","distance":"poniżej 0,2 km","elevationGain":"minimalne","routeNote":"Sprawdź godziny udostępniania wnętrza i uszanuj sakralny charakter miejsca.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"UNESCO – Wooden Tserkvas of the Carpathian Region","url":"https://whc.unesco.org/en/list/1424/"}]},
-        {"name":"Klasztor Klarysek w Starym Sączu","lat":49.5611,"lon":20.6354,"desc":"Średniowieczny zespół klasztorny ufundowany przez świętą Kingę, jeden z najważniejszych zabytków Sądecczyzny.","why":"Pozwala poznać historię miasta i duchowe dziedzictwo regionu.","curiosity":"Święta Kinga spędziła w klasztorze ostatnie lata życia.","tags":["TOP","HISTORIA","ARCHITEKTURA"],"difficulty":"łatwa","family":"tak","dog":"na zewnątrz na smyczy; do wnętrz nie","fee":"bezpłatnie; zwiedzanie zgodnie z zasadami","parking":"Parking przy rynku w Starym Sączu","parkingLat":49.5631,"parkingLon":20.6344,"walkTime":"około 5–10 min","distance":"około 0,5 km","elevationGain":"minimalne","routeNote":"Uszanuj klauzurę, nabożeństwa i zasady zwiedzania zespołu klasztornego.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Stary Sącz – portal miejski","url":"https://starysacz.um.gov.pl/"}]}
-      ]},
-      "mniej_znane": {"name":"Mniej znane miejsca","icon":"💎","items":[
-        {"name":"Rezerwat Baniska","lat":49.4897,"lon":20.6876,"desc":"Leśny rezerwat w Paśmie Radziejowej chroniący fragment naturalnej puszczy karpackiej.","why":"Pozwala zobaczyć stare drzewostany i spokojniejszą przyrodniczą stronę Beskidu Sądeckiego.","curiosity":"W rezerwacie zachowały się wiekowe jodły i buki o charakterze zbliżonym do pierwotnego lasu.","tags":["REZERWAT","NATURA","💎 MNIEJ ZNANY"],"difficulty":"średnia","family":"dla starszych dzieci","dog":"sprawdź aktualne zasady rezerwatu","fee":"bezpłatnie","parking":"","parkingLat":"","parkingLon":"","walkTime":"","distance":"","elevationGain":"","routeNote":"Poruszaj się wyłącznie udostępnionymi trasami i nie schodź w chroniony drzewostan.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Beskid Sądecki – rezerwaty","url":"https://beskidy.infopl.info/beskidy-zachodnie/beskid-sadecki"}]},
-        {"name":"Przełęcz Rozdziela","ele":803,"lat":49.3918,"lon":20.5585,"desc":"Widokowa przełęcz na granicy Beskidu Sądeckiego i Małych Pienin, w pobliżu granicy ze Słowacją.","why":"To spokojny punkt łączący szlaki Pasma Radziejowej z pienińskimi grzbietami.","curiosity":"Nazwa dobrze oddaje rolę przełęczy rozdzielającej dwa pasma górskie.","tags":["GRANICA","WIDOKI","💎 MNIEJ ZNANY"],"difficulty":"średnia","family":"dla starszych dzieci","dog":"na smyczy; miej dokumenty przy trasie granicznej","fee":"bezpłatnie","parking":"","parkingLat":"","parkingLon":"","walkTime":"","distance":"","elevationGain":"","routeNote":"Najczęstsze dojścia prowadzą z Obidzy i Jaworek; parametry zależą od wariantu.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Górska Ścieżka – Przełęcz Rozdziela","url":"https://gorskasciezka.pl/category/karpaty/beskid-sadecki/"}]}
-      ]}
+      "szczyty": {
+        "name": "Szczyty",
+        "icon": "⛰️",
+        "items": [
+          {
+            "name": "Radziejowa",
+            "ele": 1266,
+            "lat": 49.4495,
+            "lon": 20.6045,
+            "desc": "Najwyższy szczyt Beskidu Sądeckiego i całych Beskidów Zachodnich poza Tatrami, należący do Korony Gór Polski.",
+            "why": "Wieża widokowa otwiera panoramę Tatr, Pienin, Gorców i obu głównych pasm Beskidu Sądeckiego.",
+            "curiosity": "Obecna drewniana wieża zastąpiła starszą konstrukcję zniszczoną przez wiatr.",
+            "tags": [
+              "TOP",
+              "KORONA",
+              "WIEŻA"
+            ],
+            "difficulty": "średnia; zależna od wariantu",
+            "family": "dla rodzin przy starcie z Obidzy i dobrej kondycji",
+            "dog": "na smyczy; teren Popradzkiego Parku Krajobrazowego",
+            "fee": "bezpłatnie",
+            "parking": "Parking na Przełęczy Obidza",
+            "parkingLat": 49.4199,
+            "parkingLon": 20.6258,
+            "walkTime": "około 2 godz. 15 min w jedną stronę",
+            "distance": "około 6 km w jedną stronę",
+            "elevationGain": "około 480 m",
+            "routeNote": "Dojazd na Obidzę prowadzi wąską lokalną drogą; parkuj wyłącznie w dozwolonym miejscu.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Korona Gór Polski – Radziejowa",
+                "url": "https://kgp.info.pl/wykaz-szczytow/radziejowa/"
+              },
+              {
+                "name": "Beskid Sądecki – szlaki",
+                "url": "https://www.beskidsadecki.eu/"
+              }
+            ]
+          },
+          {
+            "name": "Złomisty Wierch",
+            "ele": 1224,
+            "lat": 49.4622,
+            "lon": 20.6197,
+            "desc": "Zalesiony dwuwierzchołkowy masyw w głównym grzbiecie Pasma Radziejowej.",
+            "why": "Jest naturalnym etapem długiego przejścia między Przehybą i Radziejową.",
+            "curiosity": "Należy do czterech wzniesień Beskidu Sądeckiego przekraczających 1200 m.",
+            "tags": [
+              "🥾 DLA PIECHURÓW",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "średnia; długa trasa",
+            "family": "dla starszych dzieci",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Najczęściej zdobywany podczas przejścia grzbietowego Przehyba–Radziejowa.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Beskid Sądecki – szczyty Pasma Radziejowej",
+                "url": "https://www.beskidsadecki.eu/"
+              }
+            ]
+          },
+          {
+            "name": "Wielki Rogacz",
+            "ele": 1182,
+            "lat": 49.4279,
+            "lon": 20.6018,
+            "desc": "Widokowy węzeł szlaków w południowej części Pasma Radziejowej.",
+            "why": "Oferuje piękne spojrzenie na Tatry i dolinę Popradu oraz dogodne połączenie z Radziejową.",
+            "curiosity": "Nazwa odwołuje się do charakterystycznego układu grzbietów przypominających rogi.",
+            "tags": [
+              "WIDOKI",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking na Przełęczy Obidza",
+            "parkingLat": 49.4199,
+            "parkingLon": 20.6258,
+            "walkTime": "około 1 godz. 20 min w jedną stronę",
+            "distance": "około 3,5 km w jedną stronę",
+            "elevationGain": "około 300 m",
+            "routeNote": "Węzeł szlaków pozwala kontynuować wycieczkę na Radziejową lub Niemcową.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Beskid Sądecki – szlaki piesze",
+                "url": "https://www.beskidsadecki.eu/"
+              }
+            ]
+          },
+          {
+            "name": "Przehyba",
+            "ele": 1175,
+            "lat": 49.4666,
+            "lon": 20.5579,
+            "desc": "Rozległy grzbiet Pasma Radziejowej z przekaźnikiem i schroniskiem PTTK położonym tuż pod kulminacją.",
+            "why": "To jeden z najbardziej znanych celów w regionie, dostępny z wielu dolin.",
+            "curiosity": "Polana przy schronisku jest cenionym punktem widokowym na Tatry.",
+            "tags": [
+              "TOP",
+              "SCHRONISKO",
+              "WIDOKI"
+            ],
+            "difficulty": "średnia; podejścia są długie",
+            "family": "dla starszych dzieci lub rodzin przy dobrej kondycji",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy Wodospadzie Zaskalnik w Szczawnicy",
+            "parkingLat": 49.4117,
+            "parkingLon": 20.4569,
+            "walkTime": "około 3 godz. w jedną stronę",
+            "distance": "około 8 km w jedną stronę",
+            "elevationGain": "około 750 m",
+            "routeNote": "Niebieski szlak ze Szczawnicy jest długi; zimą wymagane jest odpowiednie wyposażenie.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Schronisko PTTK na Przehybie",
+                "url": "https://przehyba.com.pl/"
+              },
+              {
+                "name": "Beskid Sądecki – Przehyba",
+                "url": "https://www.beskidsadecki.eu/"
+              }
+            ]
+          },
+          {
+            "name": "Jaworzyna Krynicka",
+            "ele": 1114,
+            "lat": 49.4208,
+            "lon": 20.8956,
+            "desc": "Najbardziej rozpoznawalny szczyt Pasma Jaworzyny z koleją gondolową, schroniskiem i rozległą infrastrukturą turystyczną.",
+            "why": "Łatwo dostępny punkt widokowy i dobry początek pieszych tras grzbietowych.",
+            "curiosity": "Kolej gondolowa pokonuje ponad 460 metrów różnicy wysokości.",
+            "tags": [
+              "TOP",
+              "KOLEJ",
+              "WIDOKI"
+            ],
+            "difficulty": "łatwa przy wjeździe; średnia pieszo",
+            "family": "tak",
+            "dog": "sprawdź zasady przewozu koleją; na szlaku na smyczy",
+            "fee": "szlaki bezpłatne; kolej i atrakcje płatne",
+            "parking": "Parking dolnej stacji kolei gondolowej",
+            "parkingLat": 49.4099,
+            "parkingLon": 20.9265,
+            "walkTime": "kilka minut po wjeździe lub około 2,5–3 godz. pieszo",
+            "distance": "zależnie od wariantu",
+            "elevationGain": "pieszo około 550 m",
+            "routeNote": "Godziny działania i cennik kolei sprawdź przed przyjazdem.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Kolej Gondolowa Jaworzyna Krynicka",
+                "url": "https://www.pkl.pl/jaworzyna-krynicka/jaworzyna-krynicka.html"
+              }
+            ]
+          },
+          {
+            "name": "Runek",
+            "ele": 1080,
+            "lat": 49.4498,
+            "lon": 20.8988,
+            "desc": "Zalesiony szczyt w głównym grzbiecie Pasma Jaworzyny, ważny węzeł szlaków.",
+            "why": "Pozwala połączyć Jaworzynę Krynicką z Bacówką nad Wierchomlą i Halą Łabowską.",
+            "curiosity": "W pobliżu szczytu odchodzi widokowy grzbiet w stronę Wierchomli.",
+            "tags": [
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "średnia",
+            "family": "dla rodzin przy wykorzystaniu kolei na Jaworzynę",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking dolnej stacji kolei gondolowej",
+            "parkingLat": 49.4099,
+            "parkingLon": 20.9265,
+            "walkTime": "około 1 godz. 30 min od górnej stacji",
+            "distance": "około 5 km od górnej stacji",
+            "elevationGain": "niewielkie na grzbiecie",
+            "routeNote": "Najwygodniejszy wariant wykorzystuje wjazd na Jaworzynę; sprawdź godziny ostatniego zjazdu.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Beskid Sądecki – Pasmo Jaworzyny",
+                "url": "https://www.beskidsadecki.eu/"
+              }
+            ]
+          },
+          {
+            "name": "Wierch nad Kamieniem",
+            "ele": 1084,
+            "lat": 49.4823,
+            "lon": 20.8078,
+            "desc": "Wysoki, spokojny szczyt między Halą Łabowską i Runkiem, otoczony rozległymi lasami.",
+            "why": "To dobry cel dla osób szukających długiej i mało zatłoczonej wędrówki.",
+            "curiosity": "Pod szczytem znajduje się charakterystyczna wychodnia zwana Kamieniem Świętej Kingi.",
+            "tags": [
+              "💎 MNIEJ ZNANY",
+              "GEOLOGIA"
+            ],
+            "difficulty": "średnia; długa trasa",
+            "family": "dla starszych dzieci",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Najczęściej odwiedzany w trakcie przejścia Głównego Szlaku Beskidzkiego.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Beskid Sądecki – szczyty",
+                "url": "https://www.beskidsadecki.eu/"
+              }
+            ]
+          },
+          {
+            "name": "Hala Łabowska",
+            "ele": 1061,
+            "lat": 49.4939,
+            "lon": 20.7552,
+            "desc": "Widokowa hala i kulminacja w Paśmie Jaworzyny, znana przede wszystkim ze schroniska PTTK.",
+            "why": "Łączy górski krajobraz, historię partyzantów i możliwość odpoczynku w schronisku.",
+            "curiosity": "W pobliżu znajdują się pomniki poświęcone partyzantom walczącym w czasie II wojny światowej.",
+            "tags": [
+              "SCHRONISKO",
+              "HISTORIA",
+              "WIDOKI"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci",
+            "dog": "na smyczy; zasady pobytu sprawdź w schronisku",
+            "fee": "bezpłatnie",
+            "parking": "Parking w Łabowej przy początku szlaku",
+            "parkingLat": 49.5243,
+            "parkingLon": 20.8722,
+            "walkTime": "około 3 godz. w jedną stronę",
+            "distance": "około 8 km w jedną stronę",
+            "elevationGain": "około 650 m",
+            "routeNote": "Dostępne są także warianty z Łomnicy-Zdroju i Rytra.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Schronisko PTTK Hala Łabowska",
+                "url": "https://hala-labowska.pttk.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Eliaszówka",
+            "ele": 1024,
+            "lat": 49.3826,
+            "lon": 20.7132,
+            "desc": "Graniczny szczyt nad Piwniczną-Zdrojem z drewnianą wieżą widokową.",
+            "why": "Zapewnia panoramę polskiej i słowackiej części Beskidów oraz spokojną trasę graniczną.",
+            "curiosity": "Przez masyw przebiega granica polsko-słowacka i szlak śladami kurierów beskidzkich.",
+            "tags": [
+              "WIEŻA",
+              "GRANICA",
+              "WIDOKI"
+            ],
+            "difficulty": "średnia",
+            "family": "tak przy krótszym wariancie",
+            "dog": "na smyczy; przy przekraczaniu granicy miej wymagane dokumenty",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy Czerczu w Piwnicznej-Zdroju",
+            "parkingLat": 49.4265,
+            "parkingLon": 20.7098,
+            "walkTime": "około 2 godz. 15 min w jedną stronę",
+            "distance": "około 6 km w jedną stronę",
+            "elevationGain": "około 550 m",
+            "routeNote": "Przebieg i czas zależą od wybranego szlaku z Piwnicznej lub Kosarzysk.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Plan na Wypad – Beskid Sądecki",
+                "url": "https://plannawypad.pl/beskid-sadecki-atrakcje-szlaki-co-warto-zobaczyc/"
+              }
+            ]
+          },
+          {
+            "name": "Koziarz",
+            "ele": 943,
+            "lat": 49.5169,
+            "lon": 20.4747,
+            "desc": "Szczyt w bocznym grzbiecie Pasma Radziejowej, znany z drewnianej wieży widokowej.",
+            "why": "Jest jednym z najlepszych punktów panoramy na przełom Dunajca i Beskid Wyspowy.",
+            "curiosity": "Wieża została zbudowana tak, aby ponad koronami drzew odsłonić widok we wszystkich kierunkach.",
+            "tags": [
+              "WIEŻA",
+              "WIDOKI"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak przy krótszym wariancie",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy wieży w Brzynie",
+            "parkingLat": 49.5237,
+            "parkingLon": 20.4589,
+            "walkTime": "około 45–60 min w jedną stronę",
+            "distance": "około 2,5 km w jedną stronę",
+            "elevationGain": "około 250 m",
+            "routeNote": "Końcowy dojazd jest lokalny i miejscami wąski; respektuj oznakowanie.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Plan na Wypad – Beskid Sądecki",
+                "url": "https://plannawypad.pl/beskid-sadecki-atrakcje-szlaki-co-warto-zobaczyc/"
+              }
+            ]
+          },
+          {
+            "name": "Pusta Wielka",
+            "ele": 1061,
+            "lat": 49.4032,
+            "lon": 20.8464,
+            "desc": "Zalesiony szczyt w południowej części Pasma Jaworzyny, górujący nad Żegiestowem i Wierchomlą.",
+            "why": "Jest spokojnym celem z widokowymi polanami na podejściu.",
+            "curiosity": "W pobliżu znajduje się rezerwat chroniący fragment naturalnego lasu regla dolnego.",
+            "tags": [
+              "NATURA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci",
+            "dog": "na smyczy; sprawdź zasady rezerwatu",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Popularne warianty prowadzą z Żegiestowa-Zdroju i Wierchomli; parking dobierz do wybranej trasy.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Beskid Sądecki – Pasmo Jaworzyny",
+                "url": "https://www.beskidsadecki.eu/"
+              }
+            ]
+          }
+        ]
+      },
+      "wodospady": {
+        "name": "Wodospady",
+        "icon": "💧",
+        "items": [
+          {
+            "name": "Wodospad Zaskalnik",
+            "lat": 49.4121,
+            "lon": 20.4567,
+            "desc": "Około pięciometrowa kaskada na Potoku Sopotnickim w Szczawnicy, przy niebieskim szlaku na Przehybę.",
+            "why": "Jest łatwo dostępny i należy do najbardziej znanych wodospadów polskich Beskidów.",
+            "curiosity": "Pod progiem skalnym powstał naturalny kocioł eworsyjny.",
+            "tags": [
+              "TOP",
+              "RODZINNIE",
+              "NATURA"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak, z ostrożnością nad wodą",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy Wodospadzie Zaskalnik",
+            "parkingLat": 49.4117,
+            "parkingLon": 20.4569,
+            "walkTime": "2–5 min",
+            "distance": "poniżej 0,3 km",
+            "elevationGain": "minimalne",
+            "routeNote": "Skały przy wodospadzie są śliskie; nie wchodź pod próg przy wysokim stanie wody.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Góry dla Ciebie – wodospady w Beskidach",
+                "url": "https://gorydlaciebie.pl/wyprawy/najpiekniejsze-wodospady-w-beskidach/"
+              }
+            ]
+          },
+          {
+            "name": "Wielki Wodospad w Obidzy",
+            "lat": 49.3975,
+            "lon": 20.6528,
+            "desc": "Naturalna kaskada o wysokości około pięciu metrów na Majdańskim Potoku w Obidzy.",
+            "why": "To jedna z ciekawszych, a zarazem mniej znanych atrakcji wodnych Pasma Radziejowej.",
+            "curiosity": "Pod wodospadem znajduje się charakterystyczny banior wyrzeźbiony przez spadającą wodę.",
+            "tags": [
+              "NATURA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak pod opieką dorosłych",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Nie wskazano parkingu do czasu potwierdzenia legalnego miejsca postoju w wąskiej dolinie.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "ODTUR – Wielki Wodospad w Obidzy",
+                "url": "https://odtur.pl/atrakcje/obidza-wodospad-wielki-na-majdanskim-potoku-38368.html"
+              }
+            ]
+          },
+          {
+            "name": "Wodospad na Łomniczance",
+            "lat": 49.4371,
+            "lon": 20.7448,
+            "desc": "Skalny próg wodospadowy na potoku Łomniczanka w Łomnicy-Zdroju.",
+            "why": "Pozwala zobaczyć typową dla fliszu karpackiego budowę skalnego koryta.",
+            "curiosity": "Próg utworzył się na odpornej ławicy piaskowca nachylonej pod dużym kątem.",
+            "tags": [
+              "GEOLOGIA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa do średniej; brzegi mogą być śliskie",
+            "family": "tak z ostrożnością",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Dojście i możliwość postoju sprawdź na aktualnej mapie; nie wchodź na śliskie progi.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Ochrona wodospadów w Karpatach Polskich",
+                "url": "https://rcin.org.pl/Content/69483"
+              }
+            ]
+          }
+        ]
+      },
+      "punkty_widokowe": {
+        "name": "Punkty widokowe",
+        "icon": "👀",
+        "items": [
+          {
+            "name": "Wieża widokowa na Radziejowej",
+            "lat": 49.4495,
+            "lon": 20.6045,
+            "desc": "Drewniana wieża na najwyższym szczycie Beskidu Sądeckiego.",
+            "why": "Daje panoramę 360° obejmującą Tatry, Pieniny, Gorce i Beskid Sądecki.",
+            "curiosity": "Na platformę prowadzą strome schody, a wierzchołek poza wieżą jest zalesiony.",
+            "tags": [
+              "TOP",
+              "WIEŻA",
+              "WIDOKI"
+            ],
+            "difficulty": "średnia",
+            "family": "dla rodzin przy dobrej kondycji",
+            "dog": "na smyczy; nie wprowadzaj psa na zatłoczoną platformę",
+            "fee": "bezpłatnie",
+            "parking": "Parking na Przełęczy Obidza",
+            "parkingLat": 49.4199,
+            "parkingLon": 20.6258,
+            "walkTime": "około 2 godz. 15 min w jedną stronę",
+            "distance": "około 6 km w jedną stronę",
+            "elevationGain": "około 480 m",
+            "routeNote": "Nie wchodź na wieżę podczas burzy, oblodzenia lub bardzo silnego wiatru.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Góry dla Ciebie – wieże widokowe",
+                "url": "https://gorydlaciebie.pl/wyprawy/wieze-widokowe-w-beskidach/"
+              }
+            ]
+          },
+          {
+            "name": "Platforma Ślimak w Woli Kroguleckiej",
+            "lat": 49.4862,
+            "lon": 20.6465,
+            "desc": "Oryginalna spiralna platforma widokowa zawieszona nad doliną Popradu.",
+            "why": "Jest łatwo dostępna i oferuje jeden z najbardziej rozpoznawalnych widoków regionu.",
+            "curiosity": "Konstrukcja nie ma typowych schodów, lecz łagodnie wznoszącą się rampę.",
+            "tags": [
+              "TOP",
+              "RODZINNIE",
+              "WIDOKI"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy platformie w Woli Kroguleckiej",
+            "parkingLat": 49.4865,
+            "parkingLon": 20.6461,
+            "walkTime": "2–5 min",
+            "distance": "poniżej 0,3 km",
+            "elevationGain": "minimalne",
+            "routeNote": "Parking jest niewielki; w popularnych terminach rozważ dojście z niżej położonego miejsca.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Plan na Wypad – Beskid Sądecki",
+                "url": "https://plannawypad.pl/beskid-sadecki-atrakcje-szlaki-co-warto-zobaczyc/"
+              }
+            ]
+          },
+          {
+            "name": "Wieża widokowa na Eliaszówce",
+            "lat": 49.3826,
+            "lon": 20.7132,
+            "desc": "Drewniana wieża na granicznym szczycie Eliaszówki.",
+            "why": "Otwiera szeroką panoramę na dolinę Popradu, Tatry i słowackie góry.",
+            "curiosity": "Przy wieży przygotowano miejsce odpoczynku dla turystów.",
+            "tags": [
+              "WIEŻA",
+              "GRANICA",
+              "WIDOKI"
+            ],
+            "difficulty": "średnia",
+            "family": "tak przy krótszym wariancie",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy Czerczu w Piwnicznej-Zdroju",
+            "parkingLat": 49.4265,
+            "parkingLon": 20.7098,
+            "walkTime": "około 2 godz. 15 min w jedną stronę",
+            "distance": "około 6 km w jedną stronę",
+            "elevationGain": "około 550 m",
+            "routeNote": "Przy wycieczce granicznej miej dokument tożsamości i sprawdź warunki pogodowe.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Góry dla Ciebie – wieże widokowe",
+                "url": "https://gorydlaciebie.pl/wyprawy/wieze-widokowe-w-beskidach/"
+              }
+            ]
+          },
+          {
+            "name": "Wieża widokowa na Koziarzu",
+            "lat": 49.5169,
+            "lon": 20.4747,
+            "desc": "Drewniana wieża ponad lasem na Koziarzu, z widokiem na dolinę Dunajca.",
+            "why": "To świetny cel krótkiej wycieczki z panoramą Beskidu Wyspowego, Gorców i Sądecczyzny.",
+            "curiosity": "Konstrukcja należy do sieci wież wybudowanych w regionie przez lokalne samorządy.",
+            "tags": [
+              "WIEŻA",
+              "WIDOKI"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy wieży w Brzynie",
+            "parkingLat": 49.5237,
+            "parkingLon": 20.4589,
+            "walkTime": "około 45–60 min w jedną stronę",
+            "distance": "około 2,5 km w jedną stronę",
+            "elevationGain": "około 250 m",
+            "routeNote": "Na końcowym odcinku dojazdu zachowaj ostrożność i nie blokuj posesji.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Plan na Wypad – Beskid Sądecki",
+                "url": "https://plannawypad.pl/beskid-sadecki-atrakcje-szlaki-co-warto-zobaczyc/"
+              }
+            ]
+          }
+        ]
+      },
+      "atrakcje": {
+        "name": "Atrakcje",
+        "icon": "⭐",
+        "items": [
+          {
+            "name": "Kolej Gondolowa Jaworzyna Krynicka",
+            "lat": 49.4099,
+            "lon": 20.9265,
+            "desc": "Całoroczna kolej gondolowa prowadząca z doliny Czarnego Potoku pod szczyt Jaworzyny Krynickiej.",
+            "why": "Ułatwia rodzinne poznanie wysokich partii Beskidu Sądeckiego.",
+            "curiosity": "Trasa kolei ma ponad dwa kilometry długości.",
+            "tags": [
+              "KOLEJ",
+              "RODZINNIE",
+              "WIDOKI"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "przewóz zgodnie z regulaminem operatora",
+            "fee": "płatna według aktualnego cennika",
+            "parking": "Parking dolnej stacji kolei gondolowej",
+            "parkingLat": 49.4099,
+            "parkingLon": 20.9265,
+            "walkTime": "na miejscu",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Sprawdź godziny kursowania, pogodę i komunikaty techniczne operatora.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "PKL Jaworzyna Krynicka",
+                "url": "https://www.pkl.pl/jaworzyna-krynicka/jaworzyna-krynicka.html"
+              }
+            ]
+          },
+          {
+            "name": "Ogrody Sensoryczne w Muszynie",
+            "lat": 49.3584,
+            "lon": 20.8999,
+            "desc": "Rozległy park na Zapopradziu podzielony na strefy pobudzające różne zmysły.",
+            "why": "To atrakcyjne rodzinne miejsce odpoczynku z panoramą Muszyny i doliny Popradu.",
+            "curiosity": "Jedną z części ogrodów jest wieża widokowa stylizowana na zamkową basztę.",
+            "tags": [
+              "RODZINNIE",
+              "PARK",
+              "WIDOKI"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "zgodnie z aktualnym regulaminem",
+            "fee": "sprawdź aktualne zasady wstępu",
+            "parking": "Parking przy Ogrodach Sensorycznych",
+            "parkingLat": 49.3576,
+            "parkingLon": 20.9011,
+            "walkTime": "2–5 min",
+            "distance": "",
+            "elevationGain": "niewielkie",
+            "routeNote": "Godziny dostępności poszczególnych części mogą być sezonowe.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Miasto i Gmina Uzdrowiskowa Muszyna",
+                "url": "https://muszyna.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Leśne Molo w Starym Sączu",
+            "lat": 49.5542,
+            "lon": 20.6141,
+            "desc": "Drewniana kładka poprowadzona wśród koron drzew na Miejskiej Górze.",
+            "why": "Jest łatwo dostępną atrakcją rodzinną łączącą spacer, edukację i widoki.",
+            "curiosity": "Trasa kończy się platformą z widokiem na Stary Sącz i otaczające pasma.",
+            "tags": [
+              "RODZINNIE",
+              "BLISKO MIASTA",
+              "WIDOKI"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "zgodnie z regulaminem obiektu",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy ul. Parkowej w Starym Sączu",
+            "parkingLat": 49.5581,
+            "parkingLon": 20.6202,
+            "walkTime": "około 15–25 min",
+            "distance": "około 1 km",
+            "elevationGain": "około 100 m",
+            "routeNote": "Sprawdź aktualne zasady wejścia i możliwe czasowe zamknięcia po złej pogodzie.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Stary Sącz – portal miejski",
+                "url": "https://starysacz.um.gov.pl/"
+              }
+            ]
+          }
+        ]
+      },
+      "formacje_skalne": {
+        "name": "Formacje skalne",
+        "icon": "🪨",
+        "items": [
+          {
+            "name": "Diabelski Kamień pod Jaworzyną Krynicką",
+            "lat": 49.4146,
+            "lon": 20.9094,
+            "desc": "Duża wychodnia piaskowca przy zielonym szlaku z Krynicy na Jaworzynę Krynicką.",
+            "why": "Jest najbardziej znaną formacją skalną Pasma Jaworzyny.",
+            "curiosity": "Z głazem wiąże się legenda o diable, który miał nieść kamień w stronę Krynicy.",
+            "tags": [
+              "GEOLOGIA",
+              "LEGENDA"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy dolnej stacji kolei gondolowej",
+            "parkingLat": 49.4099,
+            "parkingLon": 20.9265,
+            "walkTime": "około 45–60 min w jedną stronę",
+            "distance": "około 2 km w jedną stronę",
+            "elevationGain": "około 250 m",
+            "routeNote": "Nie wspinaj się na mokrą lub oblodzoną skałę.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Beskid Sądecki – atrakcje przyrodnicze",
+                "url": "https://www.beskidsadecki.eu/"
+              }
+            ]
+          },
+          {
+            "name": "Kamień Świętej Kingi",
+            "lat": 49.4812,
+            "lon": 20.8171,
+            "desc": "Okazała wychodnia skalna w rejonie Wierchu nad Kamieniem, przy grzbietowym szlaku Pasma Jaworzyny.",
+            "why": "Urozmaica długą leśną wędrówkę i pokazuje budowę geologiczną Beskidu Sądeckiego.",
+            "curiosity": "Nazwa nawiązuje do świętej Kingi, silnie związanej z historią Sądecczyzny.",
+            "tags": [
+              "GEOLOGIA",
+              "LEGENDA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "średnia; długa trasa",
+            "family": "dla starszych dzieci",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Formacja leży daleko od dróg; najlepiej odwiedzić ją podczas przejścia grzbietowego.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Beskid Sądecki – Pasmo Jaworzyny",
+                "url": "https://www.beskidsadecki.eu/"
+              }
+            ]
+          }
+        ]
+      },
+      "schroniska": {
+        "name": "Schroniska",
+        "icon": "🏠",
+        "items": [
+          {
+            "name": "Schronisko PTTK na Przehybie",
+            "lat": 49.4654,
+            "lon": 20.5598,
+            "desc": "Duże schronisko w Paśmie Radziejowej, położone na wysokości około 1150 m.",
+            "why": "Jest ważnym węzłem tras i dogodną bazą do wejścia na Radziejową.",
+            "curiosity": "Z okolic schroniska przy dobrej pogodzie doskonale widać Tatry.",
+            "tags": [
+              "TOP",
+              "NOCLEG",
+              "WIDOKI"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci",
+            "dog": "zasady pobytu potwierdź w schronisku",
+            "fee": "nocleg i gastronomia według cennika",
+            "parking": "Parking przy Wodospadzie Zaskalnik w Szczawnicy",
+            "parkingLat": 49.4117,
+            "parkingLon": 20.4569,
+            "walkTime": "około 3 godz. w jedną stronę",
+            "distance": "około 8 km w jedną stronę",
+            "elevationGain": "około 750 m",
+            "routeNote": "Przed noclegiem zarezerwuj miejsce i sprawdź komunikaty schroniska.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Schronisko PTTK na Przehybie",
+                "url": "https://przehyba.com.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Schronisko PTTK na Hali Łabowskiej",
+            "lat": 49.4943,
+            "lon": 20.7565,
+            "desc": "Klimatyczne schronisko na rozległej hali w Paśmie Jaworzyny.",
+            "why": "To jeden z najlepszych celów dłuższych wędrówek w centralnej części Beskidu Sądeckiego.",
+            "curiosity": "Okolica była ważnym terenem działalności partyzanckiej podczas II wojny światowej.",
+            "tags": [
+              "TOP",
+              "NOCLEG",
+              "HISTORIA"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci",
+            "dog": "zasady pobytu potwierdź w schronisku",
+            "fee": "nocleg i gastronomia według cennika",
+            "parking": "Parking w Łabowej przy początku szlaku",
+            "parkingLat": 49.5243,
+            "parkingLon": 20.8722,
+            "walkTime": "około 3 godz. w jedną stronę",
+            "distance": "około 8 km w jedną stronę",
+            "elevationGain": "około 650 m",
+            "routeNote": "Możliwe są także dłuższe warianty z Łomnicy-Zdroju i Rytra.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Schronisko PTTK Hala Łabowska",
+                "url": "https://hala-labowska.pttk.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Schronisko Cyrla",
+            "lat": 49.4877,
+            "lon": 20.6993,
+            "desc": "Prywatne schronisko na polanie Cyrla nad Rytrem, przy Głównym Szlaku Beskidzkim.",
+            "why": "Jest stosunkowo łatwo dostępne i słynie z kameralnej atmosfery.",
+            "curiosity": "Cyrla może być celem samodzielnej wycieczki lub przystankiem w drodze na Halę Łabowską.",
+            "tags": [
+              "NOCLEG",
+              "RODZINNIE"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "potwierdź zasady w obiekcie",
+            "fee": "nocleg i gastronomia według cennika",
+            "parking": "Parking przy stacji PKP w Rytrze",
+            "parkingLat": 49.4892,
+            "parkingLon": 20.6657,
+            "walkTime": "około 1 godz. 45 min w jedną stronę",
+            "distance": "około 5 km w jedną stronę",
+            "elevationGain": "około 450 m",
+            "routeNote": "Podejście z Rytra prowadzi znakowanym szlakiem; przed noclegiem sprawdź dostępność.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Beskid Sądecki – schroniska",
+                "url": "https://www.beskidsadecki.eu/"
+              }
+            ]
+          },
+          {
+            "name": "Bacówka PTTK nad Wierchomlą",
+            "lat": 49.4381,
+            "lon": 20.8302,
+            "desc": "Niewielkie schronisko na widokowej polanie ponad doliną Wierchomli.",
+            "why": "Oferuje jedną z najpiękniejszych panoram Tatr w Paśmie Jaworzyny.",
+            "curiosity": "Bacówkę otwarto w latach 70. XX wieku w ramach programu budowy małych schronisk górskich.",
+            "tags": [
+              "NOCLEG",
+              "WIDOKI",
+              "RODZINNIE"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "zasady pobytu potwierdź w bacówce",
+            "fee": "nocleg i gastronomia według cennika",
+            "parking": "Parking przy Wierchomla Ski",
+            "parkingLat": 49.4204,
+            "parkingLon": 20.8258,
+            "walkTime": "około 1 godz. 30 min w jedną stronę",
+            "distance": "około 4 km w jedną stronę",
+            "elevationGain": "około 400 m",
+            "routeNote": "Dostępność kolejki i wariantów dojścia zależy od sezonu.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Bacówka PTTK nad Wierchomlą",
+                "url": "https://wierchomla.pttk.pl/"
+              }
+            ]
+          }
+        ]
+      },
+      "zabytki": {
+        "name": "Zabytki",
+        "icon": "🏛️",
+        "items": [
+          {
+            "name": "Ruiny zamku w Rytrze",
+            "lat": 49.4863,
+            "lon": 20.6819,
+            "desc": "Malownicze ruiny średniowiecznej warowni na wzgórzu ponad doliną Popradu.",
+            "why": "Łączą historię z łatwo dostępnym widokiem na Rytro i Pasmo Radziejowej.",
+            "curiosity": "Zamek strzegł ważnego szlaku handlowego prowadzącego doliną Popradu.",
+            "tags": [
+              "TOP",
+              "HISTORIA",
+              "WIDOKI"
+            ],
+            "difficulty": "łatwa do średniej; krótkie strome podejście",
+            "family": "tak pod opieką dorosłych",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking pod zamkiem w Rytrze",
+            "parkingLat": 49.4891,
+            "parkingLon": 20.6791,
+            "walkTime": "około 15–25 min",
+            "distance": "około 0,8 km w jedną stronę",
+            "elevationGain": "około 120 m",
+            "routeNote": "Na terenie ruin zachowaj ostrożność i nie wchodź poza zabezpieczenia.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Gmina Rytro",
+                "url": "https://rytro.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Cerkiew św. Jakuba w Powroźniku",
+            "lat": 49.3614,
+            "lon": 20.9543,
+            "desc": "Drewniana dawna cerkiew greckokatolicka wpisana na Listę Światowego Dziedzictwa UNESCO.",
+            "why": "To jeden z najcenniejszych zabytków architektury drewnianej w polskich Karpatach.",
+            "curiosity": "Obiekt jest najstarszą zachowaną cerkwią łemkowską w Polsce.",
+            "tags": [
+              "UNESCO",
+              "HISTORIA",
+              "DREWNIANA ARCHITEKTURA"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "do wnętrza nie",
+            "fee": "zwiedzanie zgodnie z aktualnymi zasadami",
+            "parking": "Parking przy cerkwi w Powroźniku",
+            "parkingLat": 49.3612,
+            "parkingLon": 20.9538,
+            "walkTime": "1–3 min",
+            "distance": "poniżej 0,2 km",
+            "elevationGain": "minimalne",
+            "routeNote": "Sprawdź godziny udostępniania wnętrza i uszanuj sakralny charakter miejsca.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "UNESCO – Wooden Tserkvas of the Carpathian Region",
+                "url": "https://whc.unesco.org/en/list/1424/"
+              }
+            ]
+          },
+          {
+            "name": "Klasztor Klarysek w Starym Sączu",
+            "lat": 49.5611,
+            "lon": 20.6354,
+            "desc": "Średniowieczny zespół klasztorny ufundowany przez świętą Kingę, jeden z najważniejszych zabytków Sądecczyzny.",
+            "why": "Pozwala poznać historię miasta i duchowe dziedzictwo regionu.",
+            "curiosity": "Święta Kinga spędziła w klasztorze ostatnie lata życia.",
+            "tags": [
+              "TOP",
+              "HISTORIA",
+              "ARCHITEKTURA"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "na zewnątrz na smyczy; do wnętrz nie",
+            "fee": "bezpłatnie; zwiedzanie zgodnie z zasadami",
+            "parking": "Parking przy rynku w Starym Sączu",
+            "parkingLat": 49.5631,
+            "parkingLon": 20.6344,
+            "walkTime": "około 5–10 min",
+            "distance": "około 0,5 km",
+            "elevationGain": "minimalne",
+            "routeNote": "Uszanuj klauzurę, nabożeństwa i zasady zwiedzania zespołu klasztornego.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Stary Sącz – portal miejski",
+                "url": "https://starysacz.um.gov.pl/"
+              }
+            ]
+          }
+        ]
+      },
+      "mniej_znane": {
+        "name": "Mniej znane miejsca",
+        "icon": "💎",
+        "items": [
+          {
+            "name": "Rezerwat Baniska",
+            "lat": 49.4897,
+            "lon": 20.6876,
+            "desc": "Leśny rezerwat w Paśmie Radziejowej chroniący fragment naturalnej puszczy karpackiej.",
+            "why": "Pozwala zobaczyć stare drzewostany i spokojniejszą przyrodniczą stronę Beskidu Sądeckiego.",
+            "curiosity": "W rezerwacie zachowały się wiekowe jodły i buki o charakterze zbliżonym do pierwotnego lasu.",
+            "tags": [
+              "REZERWAT",
+              "NATURA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci",
+            "dog": "sprawdź aktualne zasady rezerwatu",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Poruszaj się wyłącznie udostępnionymi trasami i nie schodź w chroniony drzewostan.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Beskid Sądecki – rezerwaty",
+                "url": "https://beskidy.infopl.info/beskidy-zachodnie/beskid-sadecki"
+              }
+            ]
+          },
+          {
+            "name": "Przełęcz Rozdziela",
+            "ele": 803,
+            "lat": 49.3918,
+            "lon": 20.5585,
+            "desc": "Widokowa przełęcz na granicy Beskidu Sądeckiego i Małych Pienin, w pobliżu granicy ze Słowacją.",
+            "why": "To spokojny punkt łączący szlaki Pasma Radziejowej z pienińskimi grzbietami.",
+            "curiosity": "Nazwa dobrze oddaje rolę przełęczy rozdzielającej dwa pasma górskie.",
+            "tags": [
+              "GRANICA",
+              "WIDOKI",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci",
+            "dog": "na smyczy; miej dokumenty przy trasie granicznej",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Najczęstsze dojścia prowadzą z Obidzy i Jaworek; parametry zależą od wariantu.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Górska Ścieżka – Przełęcz Rozdziela",
+                "url": "https://gorskasciezka.pl/category/karpaty/beskid-sadecki/"
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   "beskid_niski": {
     "name": "Beskid Niski",
-    "center": [49.53, 21.45],
+    "center": [
+      49.53,
+      21.45
+    ],
     "zoom": 9,
     "categories": {
-      "szczyty": {"name":"Szczyty","icon":"⛰️","items":[
-        {"name":"Lackowa","ele":997,"lat":49.4266,"lon":21.1024,"desc":"Najwyższy szczyt polskiej części Beskidu Niskiego, położony na granicy ze Słowacją i zaliczany do Korony Gór Polski.","why":"To najważniejszy cel szczytowy pasma, znany z bardzo stromego zachodniego podejścia.","curiosity":"Wysokość 997 m kojarzona jest z dawnym numerem alarmowym policji, a zachodnie zbocze bywa nazywane Ścianą Płaczu.","tags":["TOP","KORONA","GRANICA"],"difficulty":"średnia do trudnej; bardzo strome odcinki","family":"raczej dla starszych dzieci z doświadczeniem","dog":"na smyczy; strome podejście może być trudne dla psa","fee":"bezpłatnie","parking":"Parking przy cerkwi w Izbach","parkingLat":49.4518,"parkingLon":21.0729,"walkTime":"około 2 godz. w jedną stronę","distance":"około 5 km w jedną stronę","elevationGain":"około 450 m","routeNote":"Najkrótszy wariant z Izb prowadzi przez Przełęcz Beskid; po deszczu i zimą strome zbocze jest szczególnie niebezpieczne.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Korona Gór Polski – Lackowa","url":"https://kgp.info.pl/wykaz-szczytow/lackowa-2/"},{"name":"Trasa dla Bobasa – Lackowa","url":"https://www.trasadlabobasa.pl/en/tab/articles/lackowa_trails_to_the_highest_polish_peak_of_the_low_beskids/908"}]},
-        {"name":"Ostry Wierch","ele":938,"lat":49.4429,"lon":21.1132,"desc":"Zalesiony szczyt w granicznym grzbiecie na północ od Lackowej.","why":"Pozwala ułożyć wymagającą pętlę z Lackową i poznać spokojne pogranicze.","curiosity":"Nazwa dobrze oddaje strome stoki i wyraźną sylwetkę góry.","tags":["GRANICA","💎 MNIEJ ZNANY"],"difficulty":"średnia do trudnej","family":"dla starszych dzieci","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking przy cerkwi w Izbach","parkingLat":49.4518,"parkingLon":21.0729,"walkTime":"około 2 godz. w jedną stronę","distance":"zależnie od wariantu","elevationGain":"około 450 m","routeNote":"Najczęściej łączony z Lackową; na granicznym szlaku miej dokument tożsamości.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Visit Małopolska – Lackowa","url":"https://narowery.visitmalopolska.pl/en_GB/obiekt/-/poi/lackowa-997-metry-nad-poziomem-morza-beskid-niski"}]},
-        {"name":"Jawor","ele":723,"lat":49.4308,"lon":21.1957,"desc":"Widokowa góra nad Wysową-Zdrojem, ważna dla wiernych obrządku greckokatolickiego.","why":"Łączy łatwą wędrówkę, panoramy i wyjątkowe sanktuarium na pograniczu.","curiosity":"Na stoku znajduje się cerkiew Opieki Matki Bożej związana z objawieniami z okresu międzywojennego.","tags":["WIDOKI","HISTORIA","RODZINNIE"],"difficulty":"łatwa do średniej","family":"tak","dog":"na smyczy; do świątyni nie","fee":"bezpłatnie","parking":"Parking w Wysowej-Zdroju przy Parku Zdrojowym","parkingLat":49.4388,"parkingLon":21.1749,"walkTime":"około 1 godz. 30 min w jedną stronę","distance":"około 4 km w jedną stronę","elevationGain":"około 250 m","routeNote":"Trasa prowadzi lokalną drogą i znakowanym szlakiem w kierunku granicy.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Plan na Wypad – Beskid Niski","url":"https://plannawypad.pl/beskid-niski-atrakcje-szlaki-cerkwie/"}]},
-        {"name":"Wysota","ele":784,"lat":49.4392,"lon":21.2378,"desc":"Zalesiony szczyt w grzbiecie nad Blechnarką, związany z wydarzeniami I wojny światowej.","why":"To spokojny cel dla osób szukających śladów historii poza popularnymi trasami.","curiosity":"W masywie zachowały się relikty okopów i cmentarz wojenny nr 50.","tags":["HISTORIA","💎 MNIEJ ZNANY"],"difficulty":"średnia","family":"dla starszych dzieci","dog":"na smyczy","fee":"bezpłatnie","parking":"","parkingLat":"","parkingLon":"","walkTime":"","distance":"","elevationGain":"","routeNote":"Najczęstsze dojście prowadzi z Wysowej lub Blechnarki; wybierz legalne miejsce postoju w miejscowości.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Beskid Niski – przewodnik regionalny","url":"https://www.beskid-niski.pl/"}]},
-        {"name":"Rotunda","ele":771,"lat":49.4779,"lon":21.2967,"desc":"Zalesiony szczyt ponad Regietowem z odrestaurowanym cmentarzem wojennym nr 51.","why":"Łączy krótką górską wycieczkę z jednym z najbardziej poruszających zabytków I wojny światowej.","curiosity":"Charakterystyczne drewniane wieże cmentarza odbudowano społecznie po wielu latach zniszczenia.","tags":["HISTORIA","💎 MNIEJ ZNANY"],"difficulty":"łatwa do średniej","family":"tak","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking w Regietowie przy bazie turystycznej","parkingLat":49.4894,"parkingLon":21.2838,"walkTime":"około 1 godz. w jedną stronę","distance":"około 2,5 km w jedną stronę","elevationGain":"około 250 m","routeNote":"Dojście prowadzi znakowanym szlakiem; na cmentarzu zachowaj ciszę.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Beskid Niski – atrakcje","url":"https://plannawypad.pl/beskid-niski-atrakcje-szlaki-cerkwie/"}]},
-        {"name":"Magura Małastowska","ele":813,"lat":49.5398,"lon":21.2527,"desc":"Rozległy leśny masyw nad Małastowem, przecięty Głównym Szlakiem Beskidzkim.","why":"Oferuje łatwo dostępne trasy, schronisko i liczne ślady historii wojennej.","curiosity":"Na południowym stoku działa ośrodek narciarski, a w pobliżu znajduje się cmentarz wojenny na przełęczy.","tags":["SCHRONISKO","HISTORIA"],"difficulty":"łatwa do średniej","family":"tak","dog":"na smyczy","fee":"szlaki bezpłatne","parking":"Parking na Przełęczy Małastowskiej","parkingLat":49.5487,"parkingLon":21.2461,"walkTime":"około 45–60 min w jedną stronę","distance":"około 2 km w jedną stronę","elevationGain":"około 220 m","routeNote":"Zimą uwzględnij działanie ośrodka i warunki śniegowe.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Beskid Niski – przewodnik regionalny","url":"https://www.beskid-niski.pl/"}]},
-        {"name":"Magura Wątkowska","ele":846,"lat":49.5742,"lon":21.4147,"desc":"Najwyższy masyw centralnej części Beskidu Niskiego, częściowo objęty Magurskim Parkiem Narodowym.","why":"To serce dzikiej, leśnej części pasma i ważny węzeł długich szlaków.","curiosity":"Nazwa masywu pochodzi od dawnej łemkowskiej wsi Wątkowa.","tags":["PARK NARODOWY","NATURA"],"difficulty":"średnia; długie warianty","family":"dla starszych dzieci","dog":"zakaz wprowadzania psów na szlaki Magurskiego Parku Narodowego poza wyjątkami regulaminowymi","fee":"w sezonie bilet MPN według aktualnego cennika","parking":"Parking Magurskiego Parku Narodowego w Foluszu","parkingLat":49.6168,"parkingLon":21.3827,"walkTime":"około 3 godz. w jedną stronę","distance":"około 8 km w jedną stronę","elevationGain":"około 500 m","routeNote":"Przed wyjściem sprawdź regulamin MPN, dostępność szlaków i zasady wstępu.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Magurski Park Narodowy","url":"https://www.magurskipn.pl/"}]},
-        {"name":"Cergowa","ele":716,"lat":49.5664,"lon":21.6822,"desc":"Trójwierzchołkowy masyw nad Duklą z wysoką wieżą widokową.","why":"Zapewnia jedną z najlepszych panoram wschodniego Beskidu Niskiego.","curiosity":"W masywie występują jaskinie szczelinowe, a tradycja wiąże górę ze świętym Janem z Dukli.","tags":["TOP","WIEŻA","WIDOKI"],"difficulty":"średnia; miejscami stromo","family":"dla starszych dzieci","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking przy Złotej Studzience","parkingLat":49.5721,"parkingLon":21.7033,"walkTime":"około 1 godz. 20 min w jedną stronę","distance":"około 3 km w jedną stronę","elevationGain":"około 350 m","routeNote":"Po deszczu strome odcinki bywają błotniste i śliskie.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Podkarpackie Travel – Beskid Niski","url":"https://podkarpackie.travel/en/en-top-beskid-niski"}]},
-        {"name":"Piotruś","ele":728,"lat":49.4454,"lon":21.6812,"desc":"Zalesiony szczyt nad doliną Jasiołki i uzdrowiskiem Tylawa.","why":"Jest spokojnym celem wędrówki w mniej uczęszczanej części pasma.","curiosity":"Na grzbiecie występują interesujące wychodnie piaskowcowe.","tags":["💎 MNIEJ ZNANY","NATURA"],"difficulty":"średnia","family":"dla starszych dzieci","dog":"na smyczy; sprawdź ograniczenia rezerwatu","fee":"bezpłatnie","parking":"","parkingLat":"","parkingLon":"","walkTime":"","distance":"","elevationGain":"","routeNote":"Popularne wejścia prowadzą z Tylawy i Zawadki Rymanowskiej; miejsce postoju dobierz do wariantu.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Podkarpackie Travel – Beskid Niski","url":"https://podkarpackie.travel/en/en-top-beskid-niski"}]},
-        {"name":"Ferdel","ele":648,"lat":49.6172,"lon":21.4502,"desc":"Leśny szczyt na północnym skraju Magurskiego Parku Narodowego z wieżą widokową.","why":"To stosunkowo łatwy cel z panoramą pasma i pogórzy.","curiosity":"Wieża wyrasta ponad korony drzew i pozwala zobaczyć krajobraz niedostępny z samego wierzchołka.","tags":["WIEŻA","PARK NARODOWY","RODZINNIE"],"difficulty":"łatwa do średniej","family":"tak","dog":"sprawdź aktualny regulamin MPN","fee":"wstęp do MPN według aktualnego cennika","parking":"Parking w Wapiennem","parkingLat":49.6322,"parkingLon":21.4072,"walkTime":"około 1 godz. 30 min w jedną stronę","distance":"około 4 km w jedną stronę","elevationGain":"około 300 m","routeNote":"Przed wyjściem sprawdź zasady wprowadzania zwierząt i aktualne komunikaty MPN.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Magurski Park Narodowy","url":"https://www.magurskipn.pl/"},{"name":"Atrakcje Beskidu Niskiego","url":"https://www.patrykbieganski.com/beskid-niski-atrakcje/"}]}
-      ]},
-      "wodospady": {"name":"Wodospady","icon":"💧","items":[
-        {"name":"Wodospad Magurski","lat":49.6026,"lon":21.3946,"desc":"Największy wodospad w Beskidzie Niskim, ukryty w lesie Magurskiego Parku Narodowego nad Foluszem.","why":"Jest główną atrakcją krótkiej pętli łączącej wodospad z Diablim Kamieniem.","curiosity":"Woda spada ze skalnego progu o wysokości około siedmiu metrów, lecz przepływ mocno zależy od opadów.","tags":["TOP","PARK NARODOWY","NATURA"],"difficulty":"łatwa do średniej; po deszczu ślisko","family":"tak pod opieką dorosłych","dog":"zakaz zgodnie z regulaminem MPN poza wyjątkami","fee":"bilet MPN w sezonie według cennika","parking":"Parking Magurskiego Parku Narodowego w Foluszu","parkingLat":49.6168,"parkingLon":21.3827,"walkTime":"około 45–60 min w jedną stronę","distance":"około 2 km w jedną stronę","elevationGain":"około 150 m","routeNote":"Najlepiej wygląda po opadach; nie wchodź na mokre progi i sprawdź regulamin parku.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Magurski Park Narodowy","url":"https://www.magurskipn.pl/"},{"name":"Góry dla Ciebie – Folusz","url":"https://gorydlaciebie.pl/wyprawy/diabli-kamien-wodospad-magurski-wieza-widokowa-ferdel/"}]},
-        {"name":"Wodospad Przy Młynie w Iwli","lat":49.5216,"lon":21.6607,"desc":"Niewielki, malowniczy wodospad na potoku Iwielka w miejscowości Iwla.","why":"Jest łatwo dostępnym przystankiem podczas zwiedzania okolic Dukli.","curiosity":"Miejsce było plenerem scen filmu „Wino truskawkowe”.","tags":["RODZINNIE","NATURA","FILM"],"difficulty":"łatwa","family":"tak z ostrożnością nad wodą","dog":"na smyczy","fee":"bezpłatnie","parking":"","parkingLat":"","parkingLon":"","walkTime":"","distance":"","elevationGain":"","routeNote":"Nie wskazano parkingu do czasu potwierdzenia legalnego miejsca postoju; nie blokuj lokalnej drogi.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Podkarpackie Travel – Beskid Niski","url":"https://podkarpackie.travel/en/en-top-beskid-niski"}]}
-      ]},
-      "punkty_widokowe": {"name":"Punkty widokowe","icon":"👀","items":[
-        {"name":"Wieża widokowa na Cergowej","lat":49.5664,"lon":21.6822,"desc":"Stalowo-drewniana wieża na najwyższym wierzchołku Cergowej.","why":"Oferuje rozległą panoramę Beskidu Niskiego, Bieszczadów i Pogórza Karpackiego.","curiosity":"Forma wieży nawiązuje do drewnianych konstrukcji związanych z przemysłem naftowym regionu.","tags":["TOP","WIEŻA","WIDOKI"],"difficulty":"średnia","family":"dla starszych dzieci","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking przy Złotej Studzience","parkingLat":49.5721,"parkingLon":21.7033,"walkTime":"około 1 godz. 20 min w jedną stronę","distance":"około 3 km w jedną stronę","elevationGain":"około 350 m","routeNote":"Nie wchodź na wieżę podczas burzy, oblodzenia lub silnego wiatru.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Podkarpackie Travel – Beskid Niski","url":"https://podkarpackie.travel/en/en-top-beskid-niski"}]},
-        {"name":"Wieża widokowa na Ferdlu","lat":49.6172,"lon":21.4502,"desc":"Drewniana wieża w północnej części Magurskiego Parku Narodowego.","why":"Pozwala zobaczyć ponad lasem pasmo Magury Wątkowskiej i otaczające pogórza.","curiosity":"To jedna z nielicznych wież położonych bezpośrednio w sąsiedztwie granic parku narodowego.","tags":["WIEŻA","PARK NARODOWY"],"difficulty":"łatwa do średniej","family":"tak","dog":"sprawdź regulamin MPN","fee":"według zasad wstępu do MPN","parking":"Parking w Wapiennem","parkingLat":49.6322,"parkingLon":21.4072,"walkTime":"około 1 godz. 30 min w jedną stronę","distance":"około 4 km w jedną stronę","elevationGain":"około 300 m","routeNote":"Przed wycieczką sprawdź komunikaty parku i pogodę.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Magurski Park Narodowy","url":"https://www.magurskipn.pl/"}]},
-        {"name":"Wieża widokowa na Grzywackiej Górze","lat":49.5565,"lon":21.5298,"desc":"Metalowa wieża zwieńczona krzyżem na widokowym grzbiecie nad Kątami.","why":"Zapewnia szeroki widok na Magurski Park Narodowy i dolinę Wisłoki.","curiosity":"Konstrukcja pełni równocześnie funkcję krzyża milenijnego.","tags":["WIEŻA","WIDOKI","RODZINNIE"],"difficulty":"łatwa do średniej","family":"tak","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking przy kościele w Kątach","parkingLat":49.5771,"parkingLon":21.5377,"walkTime":"około 1 godz. w jedną stronę","distance":"około 2,5 km w jedną stronę","elevationGain":"około 250 m","routeNote":"Na otwartym grzbiecie unikaj burz i silnego wiatru.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Beskid Niski – atrakcje regionalne","url":"https://goryiludzie.pl/2023/06/beskid-niski.html"}]}
-      ]},
-      "atrakcje": {"name":"Atrakcje","icon":"⭐","items":[
-        {"name":"Magurski Park Narodowy – Ośrodek Edukacyjno-Muzealny","lat":49.5114,"lon":21.5007,"desc":"Nowoczesny ośrodek w Krempnej prezentujący przyrodę, krajobraz i historię Magurskiego Parku Narodowego.","why":"To najlepsze miejsce na rozpoczęcie poznawania centralnej części Beskidu Niskiego.","curiosity":"Ekspozycja pokazuje zmienność przyrody parku w kolejnych porach roku.","tags":["PARK NARODOWY","RODZINNIE","NA NIEPOGODĘ"],"difficulty":"łatwa","family":"tak","dog":"do wnętrza nie","fee":"zgodnie z aktualnym cennikiem","parking":"Parking przy Ośrodku Edukacyjno-Muzealnym MPN","parkingLat":49.5113,"parkingLon":21.5004,"walkTime":"na miejscu","distance":"","elevationGain":"","routeNote":"Przed wizytą sprawdź godziny otwarcia i możliwość zwiedzania ekspozycji.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Magurski Park Narodowy","url":"https://www.magurskipn.pl/"}]},
-        {"name":"Park Zdrojowy w Wysowej-Zdroju","lat":49.4388,"lon":21.1749,"desc":"Zabytkowy park uzdrowiskowy z pijalnią wód mineralnych i alejami spacerowymi.","why":"Pozwala odpocząć po wycieczce i spróbować miejscowych wód leczniczych.","curiosity":"Wysowa jest jednym z najbardziej kameralnych uzdrowisk polskich Karpat.","tags":["UZDROWISKO","RODZINNIE"],"difficulty":"łatwa","family":"tak","dog":"na smyczy zgodnie z regulaminem parku","fee":"park bezpłatny; wody i usługi mogą być płatne","parking":"Parking przy Parku Zdrojowym w Wysowej","parkingLat":49.4388,"parkingLon":21.1749,"walkTime":"na miejscu","distance":"","elevationGain":"minimalne","routeNote":"Sprawdź godziny działania pijalni i ewentualne przeciwwskazania do spożywania wód leczniczych.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Uzdrowisko Wysowa","url":"https://uzdrowisko-wysowa.pl/"}]},
-        {"name":"Skansen Przemysłu Naftowego w Bóbrce","lat":49.6164,"lon":21.7096,"desc":"Muzeum na terenie jednej z najstarszych kopalń ropy naftowej na świecie.","why":"Pokazuje przemysłową historię regionu i pionierską działalność Ignacego Łukasiewicza.","curiosity":"Ropa była tu wydobywana metodami przemysłowymi już w połowie XIX wieku.","tags":["HISTORIA","RODZINNIE","NA NIEPOGODĘ"],"difficulty":"łatwa","family":"tak","dog":"zgodnie z regulaminem muzeum","fee":"płatne według aktualnego cennika","parking":"Parking przy Muzeum Przemysłu Naftowego w Bóbrce","parkingLat":49.6164,"parkingLon":21.7091,"walkTime":"na miejscu","distance":"","elevationGain":"minimalne","routeNote":"Sprawdź godziny otwarcia i dostępność ekspozycji terenowej.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Muzeum Przemysłu Naftowego i Gazowniczego w Bóbrce","url":"https://bobrka.pl/"}]},
-        {"name":"Uzdrowisko Iwonicz-Zdrój","lat":49.5624,"lon":21.7897,"desc":"Historyczne uzdrowisko z drewnianą zabudową zdrojową, pijalnią i parkowymi alejami.","why":"Łączy architekturę, lecznicze wody i łatwe spacery u podnóża Beskidu Niskiego.","curiosity":"Iwonicz należy do najstarszych polskich uzdrowisk.","tags":["UZDROWISKO","ARCHITEKTURA","RODZINNIE"],"difficulty":"łatwa","family":"tak","dog":"na smyczy; do obiektów zgodnie z regulaminem","fee":"spacer bezpłatny; zabiegi i część usług płatne","parking":"Parking przy ul. Zdrojowej w Iwoniczu-Zdroju","parkingLat":49.5644,"parkingLon":21.7883,"walkTime":"kilka minut","distance":"","elevationGain":"niewielkie","routeNote":"W centrum uzdrowiska stosuj się do aktualnej organizacji ruchu i parkowania.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Podkarpackie Travel – Beskid Niski","url":"https://podkarpackie.travel/en/en-top-beskid-niski"}]}
-      ]},
-      "formacje_skalne": {"name":"Formacje skalne","icon":"🪨","items":[
-        {"name":"Diabli Kamień w Foluszu","lat":49.6084,"lon":21.3729,"desc":"Grupa potężnych wychodni piaskowcowych w lesie Magurskiego Parku Narodowego.","why":"To najbardziej efektowna i łatwo dostępna formacja skalna Beskidu Niskiego.","curiosity":"Najwyższe ściany osiągają około siedmiu metrów, a z miejscem wiążą się legendy o diable.","tags":["TOP","GEOLOGIA","PARK NARODOWY"],"difficulty":"łatwa do średniej","family":"tak pod opieką dorosłych","dog":"zakaz zgodnie z regulaminem MPN poza wyjątkami","fee":"bilet MPN według aktualnego cennika","parking":"Parking Magurskiego Parku Narodowego w Foluszu","parkingLat":49.6168,"parkingLon":21.3827,"walkTime":"około 45 min w jedną stronę","distance":"około 1,8 km w jedną stronę","elevationGain":"około 140 m","routeNote":"Nie wspinaj się na skały i poruszaj się wyłącznie udostępnioną ścieżką.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Magurski Park Narodowy","url":"https://www.magurskipn.pl/"},{"name":"Diabli Kamień – opis trasy","url":"https://beskidzka-polana.pl/diabli-kamien-folusz/"}]},
-        {"name":"Rezerwat Kornuty","lat":49.5944,"lon":21.3751,"desc":"Rezerwat chroniący malownicze wychodnie piaskowca magurskiego na stokach Magury Wątkowskiej.","why":"Oferuje najbardziej rozbudowany skalny krajobraz w Beskidzie Niskim.","curiosity":"Szczeliny między blokami tworzą niewielkie jaskinie, w tym Jaskinię Mroczną.","tags":["REZERWAT","GEOLOGIA","NATURA"],"difficulty":"średnia","family":"dla starszych dzieci","dog":"zgodnie z regulaminem rezerwatu i parku","fee":"według zasad MPN","parking":"Parking Magurskiego Parku Narodowego w Foluszu","parkingLat":49.6168,"parkingLon":21.3827,"walkTime":"około 2 godz. w jedną stronę","distance":"około 5 km w jedną stronę","elevationGain":"około 400 m","routeNote":"Nie wchodź poza szlak ani do jaskiń bez przygotowania; teren jest objęty ochroną.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Magurski Park Narodowy","url":"https://www.magurskipn.pl/"},{"name":"Magurski Park Narodowy – Kornuty","url":"https://bardzogrubysmok.pl/magurski-park-narodowy-diabli-kamien-kornuty/"}]}
-      ]},
-      "schroniska": {"name":"Schroniska","icon":"🏠","items":[
-        {"name":"Bacówka PTTK w Bartnem","lat":49.5828,"lon":21.3275,"desc":"Kameralna bacówka na stokach Mareszki, ponad historyczną łemkowską wsią Bartne.","why":"Jest znakomitą bazą do poznawania Magury Wątkowskiej, Kornutów i dolin dawnych wsi.","curiosity":"Bacówkę otwarto w 1977 roku i zachowała atmosferę niewielkiego schroniska beskidzkiego.","tags":["TOP","NOCLEG","ŁEMKOWYNA"],"difficulty":"łatwa do średniej","family":"tak","dog":"zasady pobytu potwierdź w bacówce","fee":"nocleg i gastronomia według cennika","parking":"Parking przy cerkwi w Bartnem","parkingLat":49.5587,"parkingLon":21.3351,"walkTime":"około 50–70 min w jedną stronę","distance":"około 3 km w jedną stronę","elevationGain":"około 200 m","routeNote":"Przed noclegiem potwierdź dostępność miejsc; dojazd przez Bartne jest lokalny.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Bacówka PTTK w Bartnem","url":"https://bartne.pttk.pl/"},{"name":"Visit Małopolska – okolice Bartnego","url":"https://visitmalopolska.pl/obiekt/-/poi/szlak-pieszy-wokol-bartnego"}]},
-        {"name":"Schronisko PTTK na Magurze Małastowskiej","lat":49.5336,"lon":21.2598,"desc":"Schronisko w lesie na południowym stoku Magury Małastowskiej, niedaleko Głównego Szlaku Beskidzkiego.","why":"Jest łatwo dostępne z przełęczy i stanowi dobrą bazę dla rodzin oraz wędrowców długodystansowych.","curiosity":"Obiekt stoi w miejscu dawnego schroniska z okresu międzywojennego.","tags":["NOCLEG","RODZINNIE"],"difficulty":"łatwa","family":"tak","dog":"zasady pobytu potwierdź w schronisku","fee":"nocleg i gastronomia według cennika","parking":"Parking na Przełęczy Małastowskiej","parkingLat":49.5487,"parkingLon":21.2461,"walkTime":"około 25–40 min w jedną stronę","distance":"około 1,5 km w jedną stronę","elevationGain":"około 120 m","routeNote":"Zimą sprawdź warunki i działanie pobliskiej stacji narciarskiej.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"PTTK – schroniska górskie","url":"https://pttk.pl/"}]}
-      ]},
-      "zabytki": {"name":"Zabytki","icon":"🏛️","items":[
-        {"name":"Cerkiew św. Paraskewy w Kwiatoniu","lat":49.4247,"lon":21.1616,"desc":"Drewniana dawna cerkiew greckokatolicka wpisana na Listę Światowego Dziedzictwa UNESCO.","why":"Jest uznawana za jeden z najdoskonalszych przykładów klasycznej architektury łemkowskiej.","curiosity":"Smukłe, stopniowane wieże tworzą wyjątkowo harmonijną sylwetkę świątyni.","tags":["UNESCO","ŁEMKOWYNA","DREWNIANA ARCHITEKTURA"],"difficulty":"łatwa","family":"tak","dog":"do wnętrza nie","fee":"zwiedzanie zgodnie z aktualnymi zasadami","parking":"Parking przy cerkwi w Kwiatoniu","parkingLat":49.4245,"parkingLon":21.1613,"walkTime":"1–3 min","distance":"poniżej 0,2 km","elevationGain":"minimalne","routeNote":"Sprawdź godziny udostępniania wnętrza i uszanuj sakralny charakter obiektu.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"UNESCO – Wooden Tserkvas of the Carpathian Region","url":"https://whc.unesco.org/en/list/1424/"}]},
-        {"name":"Cerkiew Opieki Bogurodzicy w Owczarach","lat":49.6023,"lon":21.1803,"desc":"Drewniana cerkiew greckokatolicka z XVII wieku, wpisana na listę UNESCO.","why":"Łączy wysoką wartość architektoniczną z autentycznym wyposażeniem i krajobrazem dawnej Łemkowszczyzny.","curiosity":"Świątynia jest użytkowana wspólnie przez katolików dwóch obrządków.","tags":["UNESCO","ŁEMKOWYNA","HISTORIA"],"difficulty":"łatwa","family":"tak","dog":"do wnętrza nie","fee":"zwiedzanie zgodnie z aktualnymi zasadami","parking":"Parking przy cerkwi w Owczarach","parkingLat":49.6021,"parkingLon":21.1801,"walkTime":"1–3 min","distance":"poniżej 0,2 km","elevationGain":"minimalne","routeNote":"Nie zakłócaj nabożeństw i sprawdź możliwość zwiedzania wnętrza.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"UNESCO – Wooden Tserkvas of the Carpathian Region","url":"https://whc.unesco.org/en/list/1424/"}]},
-        {"name":"Cerkiew św. Michała Archanioła w Brunarach","lat":49.5314,"lon":21.1137,"desc":"Rozbudowana drewniana cerkiew łemkowska wpisana na listę UNESCO.","why":"Jest jednym z najważniejszych zabytków zachodniej części Beskidu Niskiego.","curiosity":"W bryle świątyni widoczne są ślady kolejnych przebudów i łączenia tradycji Wschodu i Zachodu.","tags":["UNESCO","DREWNIANA ARCHITEKTURA","HISTORIA"],"difficulty":"łatwa","family":"tak","dog":"do wnętrza nie","fee":"zgodnie z zasadami zwiedzania","parking":"Parking przy cerkwi w Brunarach","parkingLat":49.5312,"parkingLon":21.1134,"walkTime":"1–3 min","distance":"poniżej 0,2 km","elevationGain":"minimalne","routeNote":"Sprawdź godziny otwarcia i uszanuj trwające nabożeństwa.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"UNESCO – Wooden Tserkvas of the Carpathian Region","url":"https://whc.unesco.org/en/list/1424/"}]},
-        {"name":"Cerkiew św. Kosmy i Damiana w Bartnem","lat":49.5588,"lon":21.3352,"desc":"Zabytkowa drewniana cerkiew greckokatolicka, obecnie oddział muzealny prezentujący kulturę Łemków.","why":"To kluczowe miejsce dla zrozumienia historii i kamieniarskich tradycji Bartnego.","curiosity":"Wieś słynęła z łemkowskich kamieniarzy wykonujących krzyże, nagrobki i elementy budowlane.","tags":["ŁEMKOWYNA","MUZEUM","DREWNIANA ARCHITEKTURA"],"difficulty":"łatwa","family":"tak","dog":"do wnętrza nie","fee":"zgodnie z aktualnym cennikiem muzeum","parking":"Parking przy cerkwi w Bartnem","parkingLat":49.5587,"parkingLon":21.3351,"walkTime":"1–3 min","distance":"poniżej 0,2 km","elevationGain":"minimalne","routeNote":"Sprawdź godziny otwarcia oddziału muzealnego.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Bartne – wieś łemkowska","url":"https://hasajacezajace.com/bartne-beskid-niski/"}]},
-        {"name":"Cmentarz wojenny nr 51 na Rotundzie","lat":49.4779,"lon":21.2967,"desc":"Odrestaurowany cmentarz z okresu I wojny światowej na szczycie Rotundy.","why":"Należy do najbardziej charakterystycznych i symbolicznych miejsc Beskidu Niskiego.","curiosity":"Projekt cmentarza stworzył słowacki architekt Dušan Jurkovič.","tags":["HISTORIA","I WOJNA ŚWIATOWA","💎 MNIEJ ZNANY"],"difficulty":"łatwa do średniej","family":"tak","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking w Regietowie przy bazie turystycznej","parkingLat":49.4894,"parkingLon":21.2838,"walkTime":"około 1 godz. w jedną stronę","distance":"około 2,5 km w jedną stronę","elevationGain":"około 250 m","routeNote":"To miejsce pamięci; zachowaj ciszę i nie wchodź na elementy pomnika.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Beskid Niski – atrakcje","url":"https://plannawypad.pl/beskid-niski-atrakcje-szlaki-cerkwie/"}]},
-        {"name":"Pałac Mniszchów w Dukli","lat":49.5567,"lon":21.6832,"desc":"Późnobarokowy zespół pałacowo-parkowy mieszczący Muzeum Historyczne w Dukli.","why":"Stanowi dobre wprowadzenie do historii pogranicza przed wyjściem na Cergową.","curiosity":"Ekspozycja poświęcona jest m.in. walkom o Przełęcz Dukielską.","tags":["HISTORIA","MUZEUM","NA NIEPOGODĘ"],"difficulty":"łatwa","family":"tak","dog":"do wnętrza nie","fee":"muzeum płatne według cennika","parking":"Parking przy Muzeum Historycznym w Dukli","parkingLat":49.5571,"parkingLon":21.6816,"walkTime":"2–5 min","distance":"poniżej 0,3 km","elevationGain":"minimalne","routeNote":"Sprawdź godziny otwarcia muzeum i dostępność parku.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Muzeum Historyczne – Pałac w Dukli","url":"https://www.muzeumdukla.pl/"}]}
-      ]},
-      "mniej_znane": {"name":"Mniej znane miejsca","icon":"💎","items":[
-        {"name":"Nieznajowa – dolina dawnej wsi","lat":49.5282,"lon":21.3812,"desc":"Opustoszała dolina dawnej łemkowskiej wsi u zbiegu Wisłoki i Zawoi, na terenie Magurskiego Parku Narodowego.","why":"To jedno z miejsc, gdzie najmocniej odczuwa się ciszę i złożoną historię Beskidu Niskiego.","curiosity":"O dawnej zabudowie przypominają krzyże, cmentarz i ślady piwnic.","tags":["ŁEMKOWYNA","PARK NARODOWY","💎 MNIEJ ZNANY"],"difficulty":"średnia; długa dolinna trasa","family":"dla starszych dzieci","dog":"zgodnie z regulaminem MPN","fee":"według zasad wstępu do MPN","parking":"Parking w Rozstajnem","parkingLat":49.5055,"parkingLon":21.3979,"walkTime":"około 1 godz. 15 min w jedną stronę","distance":"około 4 km w jedną stronę","elevationGain":"niewielkie","routeNote":"Po opadach brody i drogi gruntowe mogą być trudne; sprawdź komunikaty parku.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Magurski Park Narodowy","url":"https://www.magurskipn.pl/"}]},
-        {"name":"Radocyna – dolina nieistniejącej wsi","lat":49.4618,"lon":21.4219,"desc":"Rozległa dolina przy granicy ze Słowacją, gdzie zachowały się cmentarze, krzyże i ślady dawnej wsi łemkowskiej.","why":"Pozwala połączyć spokojną wędrówkę z poznaniem trudnej historii wysiedleń.","curiosity":"Nazwa wsi pochodziła prawdopodobnie od imienia Radosław lub od słowa oznaczającego źródło.","tags":["ŁEMKOWYNA","HISTORIA","💎 MNIEJ ZNANY"],"difficulty":"łatwa do średniej; zależna od długości","family":"tak przy krótszym wariancie","dog":"na smyczy","fee":"bezpłatnie","parking":"","parkingLat":"","parkingLon":"","walkTime":"","distance":"","elevationGain":"","routeNote":"Dojazd drogami leśnymi i gruntowymi może podlegać ograniczeniom; nie wjeżdżaj za zakazy.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Beskid Niski – przewodnik regionalny","url":"https://www.beskid-niski.pl/"}]},
-        {"name":"Kamienny mostek w Olchowcu","lat":49.4907,"lon":21.5397,"desc":"Niewielki zabytkowy most kamienny prowadzący do drewnianej cerkwi w Olchowcu.","why":"Jest wyjątkowym detalem dawnego krajobrazu łemkowskiej wsi.","curiosity":"Mostek i cerkiew tworzą jeden z najbardziej malowniczych zespołów Beskidu Niskiego.","tags":["ŁEMKOWYNA","HISTORIA","💎 MNIEJ ZNANY"],"difficulty":"łatwa","family":"tak","dog":"na smyczy; do cerkwi nie","fee":"bezpłatnie","parking":"","parkingLat":"","parkingLon":"","walkTime":"","distance":"","elevationGain":"","routeNote":"Nie blokuj wąskiej drogi i prywatnych wjazdów; pozostaw samochód w legalnym miejscu we wsi.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Podkarpackie Travel – Beskid Niski","url":"https://podkarpackie.travel/en/en-top-beskid-niski"}]}
-      ]}
+      "szczyty": {
+        "name": "Szczyty",
+        "icon": "⛰️",
+        "items": [
+          {
+            "name": "Lackowa",
+            "ele": 997,
+            "lat": 49.4266,
+            "lon": 21.1024,
+            "desc": "Najwyższy szczyt polskiej części Beskidu Niskiego, położony na granicy ze Słowacją i zaliczany do Korony Gór Polski.",
+            "why": "To najważniejszy cel szczytowy pasma, znany z bardzo stromego zachodniego podejścia.",
+            "curiosity": "Wysokość 997 m kojarzona jest z dawnym numerem alarmowym policji, a zachodnie zbocze bywa nazywane Ścianą Płaczu.",
+            "tags": [
+              "TOP",
+              "KORONA",
+              "GRANICA"
+            ],
+            "difficulty": "średnia do trudnej; bardzo strome odcinki",
+            "family": "raczej dla starszych dzieci z doświadczeniem",
+            "dog": "na smyczy; strome podejście może być trudne dla psa",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy cerkwi w Izbach",
+            "parkingLat": 49.4518,
+            "parkingLon": 21.0729,
+            "walkTime": "około 2 godz. w jedną stronę",
+            "distance": "około 5 km w jedną stronę",
+            "elevationGain": "około 450 m",
+            "routeNote": "Najkrótszy wariant z Izb prowadzi przez Przełęcz Beskid; po deszczu i zimą strome zbocze jest szczególnie niebezpieczne.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Korona Gór Polski – Lackowa",
+                "url": "https://kgp.info.pl/wykaz-szczytow/lackowa-2/"
+              },
+              {
+                "name": "Trasa dla Bobasa – Lackowa",
+                "url": "https://www.trasadlabobasa.pl/en/tab/articles/lackowa_trails_to_the_highest_polish_peak_of_the_low_beskids/908"
+              }
+            ]
+          },
+          {
+            "name": "Ostry Wierch",
+            "ele": 938,
+            "lat": 49.4429,
+            "lon": 21.1132,
+            "desc": "Zalesiony szczyt w granicznym grzbiecie na północ od Lackowej.",
+            "why": "Pozwala ułożyć wymagającą pętlę z Lackową i poznać spokojne pogranicze.",
+            "curiosity": "Nazwa dobrze oddaje strome stoki i wyraźną sylwetkę góry.",
+            "tags": [
+              "GRANICA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "średnia do trudnej",
+            "family": "dla starszych dzieci",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy cerkwi w Izbach",
+            "parkingLat": 49.4518,
+            "parkingLon": 21.0729,
+            "walkTime": "około 2 godz. w jedną stronę",
+            "distance": "zależnie od wariantu",
+            "elevationGain": "około 450 m",
+            "routeNote": "Najczęściej łączony z Lackową; na granicznym szlaku miej dokument tożsamości.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Visit Małopolska – Lackowa",
+                "url": "https://narowery.visitmalopolska.pl/en_GB/obiekt/-/poi/lackowa-997-metry-nad-poziomem-morza-beskid-niski"
+              }
+            ]
+          },
+          {
+            "name": "Jawor",
+            "ele": 723,
+            "lat": 49.4308,
+            "lon": 21.1957,
+            "desc": "Widokowa góra nad Wysową-Zdrojem, ważna dla wiernych obrządku greckokatolickiego.",
+            "why": "Łączy łatwą wędrówkę, panoramy i wyjątkowe sanktuarium na pograniczu.",
+            "curiosity": "Na stoku znajduje się cerkiew Opieki Matki Bożej związana z objawieniami z okresu międzywojennego.",
+            "tags": [
+              "WIDOKI",
+              "HISTORIA",
+              "RODZINNIE"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "na smyczy; do świątyni nie",
+            "fee": "bezpłatnie",
+            "parking": "Parking w Wysowej-Zdroju przy Parku Zdrojowym",
+            "parkingLat": 49.4388,
+            "parkingLon": 21.1749,
+            "walkTime": "około 1 godz. 30 min w jedną stronę",
+            "distance": "około 4 km w jedną stronę",
+            "elevationGain": "około 250 m",
+            "routeNote": "Trasa prowadzi lokalną drogą i znakowanym szlakiem w kierunku granicy.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Plan na Wypad – Beskid Niski",
+                "url": "https://plannawypad.pl/beskid-niski-atrakcje-szlaki-cerkwie/"
+              }
+            ]
+          },
+          {
+            "name": "Wysota",
+            "ele": 784,
+            "lat": 49.4392,
+            "lon": 21.2378,
+            "desc": "Zalesiony szczyt w grzbiecie nad Blechnarką, związany z wydarzeniami I wojny światowej.",
+            "why": "To spokojny cel dla osób szukających śladów historii poza popularnymi trasami.",
+            "curiosity": "W masywie zachowały się relikty okopów i cmentarz wojenny nr 50.",
+            "tags": [
+              "HISTORIA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Najczęstsze dojście prowadzi z Wysowej lub Blechnarki; wybierz legalne miejsce postoju w miejscowości.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Beskid Niski – przewodnik regionalny",
+                "url": "https://www.beskid-niski.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Rotunda",
+            "ele": 771,
+            "lat": 49.4779,
+            "lon": 21.2967,
+            "desc": "Zalesiony szczyt ponad Regietowem z odrestaurowanym cmentarzem wojennym nr 51.",
+            "why": "Łączy krótką górską wycieczkę z jednym z najbardziej poruszających zabytków I wojny światowej.",
+            "curiosity": "Charakterystyczne drewniane wieże cmentarza odbudowano społecznie po wielu latach zniszczenia.",
+            "tags": [
+              "HISTORIA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking w Regietowie przy bazie turystycznej",
+            "parkingLat": 49.4894,
+            "parkingLon": 21.2838,
+            "walkTime": "około 1 godz. w jedną stronę",
+            "distance": "około 2,5 km w jedną stronę",
+            "elevationGain": "około 250 m",
+            "routeNote": "Dojście prowadzi znakowanym szlakiem; na cmentarzu zachowaj ciszę.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Beskid Niski – atrakcje",
+                "url": "https://plannawypad.pl/beskid-niski-atrakcje-szlaki-cerkwie/"
+              }
+            ]
+          },
+          {
+            "name": "Magura Małastowska",
+            "ele": 813,
+            "lat": 49.5398,
+            "lon": 21.2527,
+            "desc": "Rozległy leśny masyw nad Małastowem, przecięty Głównym Szlakiem Beskidzkim.",
+            "why": "Oferuje łatwo dostępne trasy, schronisko i liczne ślady historii wojennej.",
+            "curiosity": "Na południowym stoku działa ośrodek narciarski, a w pobliżu znajduje się cmentarz wojenny na przełęczy.",
+            "tags": [
+              "SCHRONISKO",
+              "HISTORIA"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "szlaki bezpłatne",
+            "parking": "Parking na Przełęczy Małastowskiej",
+            "parkingLat": 49.5487,
+            "parkingLon": 21.2461,
+            "walkTime": "około 45–60 min w jedną stronę",
+            "distance": "około 2 km w jedną stronę",
+            "elevationGain": "około 220 m",
+            "routeNote": "Zimą uwzględnij działanie ośrodka i warunki śniegowe.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Beskid Niski – przewodnik regionalny",
+                "url": "https://www.beskid-niski.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Magura Wątkowska",
+            "ele": 846,
+            "lat": 49.5742,
+            "lon": 21.4147,
+            "desc": "Najwyższy masyw centralnej części Beskidu Niskiego, częściowo objęty Magurskim Parkiem Narodowym.",
+            "why": "To serce dzikiej, leśnej części pasma i ważny węzeł długich szlaków.",
+            "curiosity": "Nazwa masywu pochodzi od dawnej łemkowskiej wsi Wątkowa.",
+            "tags": [
+              "PARK NARODOWY",
+              "NATURA"
+            ],
+            "difficulty": "średnia; długie warianty",
+            "family": "dla starszych dzieci",
+            "dog": "zakaz wprowadzania psów na szlaki Magurskiego Parku Narodowego poza wyjątkami regulaminowymi",
+            "fee": "w sezonie bilet MPN według aktualnego cennika",
+            "parking": "Parking Magurskiego Parku Narodowego w Foluszu",
+            "parkingLat": 49.6168,
+            "parkingLon": 21.3827,
+            "walkTime": "około 3 godz. w jedną stronę",
+            "distance": "około 8 km w jedną stronę",
+            "elevationGain": "około 500 m",
+            "routeNote": "Przed wyjściem sprawdź regulamin MPN, dostępność szlaków i zasady wstępu.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Magurski Park Narodowy",
+                "url": "https://www.magurskipn.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Cergowa",
+            "ele": 716,
+            "lat": 49.5664,
+            "lon": 21.6822,
+            "desc": "Trójwierzchołkowy masyw nad Duklą z wysoką wieżą widokową.",
+            "why": "Zapewnia jedną z najlepszych panoram wschodniego Beskidu Niskiego.",
+            "curiosity": "W masywie występują jaskinie szczelinowe, a tradycja wiąże górę ze świętym Janem z Dukli.",
+            "tags": [
+              "TOP",
+              "WIEŻA",
+              "WIDOKI"
+            ],
+            "difficulty": "średnia; miejscami stromo",
+            "family": "dla starszych dzieci",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy Złotej Studzience",
+            "parkingLat": 49.5721,
+            "parkingLon": 21.7033,
+            "walkTime": "około 1 godz. 20 min w jedną stronę",
+            "distance": "około 3 km w jedną stronę",
+            "elevationGain": "około 350 m",
+            "routeNote": "Po deszczu strome odcinki bywają błotniste i śliskie.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Podkarpackie Travel – Beskid Niski",
+                "url": "https://podkarpackie.travel/en/en-top-beskid-niski"
+              }
+            ]
+          },
+          {
+            "name": "Piotruś",
+            "ele": 728,
+            "lat": 49.4454,
+            "lon": 21.6812,
+            "desc": "Zalesiony szczyt nad doliną Jasiołki i uzdrowiskiem Tylawa.",
+            "why": "Jest spokojnym celem wędrówki w mniej uczęszczanej części pasma.",
+            "curiosity": "Na grzbiecie występują interesujące wychodnie piaskowcowe.",
+            "tags": [
+              "💎 MNIEJ ZNANY",
+              "NATURA"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci",
+            "dog": "na smyczy; sprawdź ograniczenia rezerwatu",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Popularne wejścia prowadzą z Tylawy i Zawadki Rymanowskiej; miejsce postoju dobierz do wariantu.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Podkarpackie Travel – Beskid Niski",
+                "url": "https://podkarpackie.travel/en/en-top-beskid-niski"
+              }
+            ]
+          },
+          {
+            "name": "Ferdel",
+            "ele": 648,
+            "lat": 49.6172,
+            "lon": 21.4502,
+            "desc": "Leśny szczyt na północnym skraju Magurskiego Parku Narodowego z wieżą widokową.",
+            "why": "To stosunkowo łatwy cel z panoramą pasma i pogórzy.",
+            "curiosity": "Wieża wyrasta ponad korony drzew i pozwala zobaczyć krajobraz niedostępny z samego wierzchołka.",
+            "tags": [
+              "WIEŻA",
+              "PARK NARODOWY",
+              "RODZINNIE"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "sprawdź aktualny regulamin MPN",
+            "fee": "wstęp do MPN według aktualnego cennika",
+            "parking": "Parking w Wapiennem",
+            "parkingLat": 49.6322,
+            "parkingLon": 21.4072,
+            "walkTime": "około 1 godz. 30 min w jedną stronę",
+            "distance": "około 4 km w jedną stronę",
+            "elevationGain": "około 300 m",
+            "routeNote": "Przed wyjściem sprawdź zasady wprowadzania zwierząt i aktualne komunikaty MPN.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Magurski Park Narodowy",
+                "url": "https://www.magurskipn.pl/"
+              },
+              {
+                "name": "Atrakcje Beskidu Niskiego",
+                "url": "https://www.patrykbieganski.com/beskid-niski-atrakcje/"
+              }
+            ]
+          }
+        ]
+      },
+      "wodospady": {
+        "name": "Wodospady",
+        "icon": "💧",
+        "items": [
+          {
+            "name": "Wodospad Magurski",
+            "lat": 49.6026,
+            "lon": 21.3946,
+            "desc": "Największy wodospad w Beskidzie Niskim, ukryty w lesie Magurskiego Parku Narodowego nad Foluszem.",
+            "why": "Jest główną atrakcją krótkiej pętli łączącej wodospad z Diablim Kamieniem.",
+            "curiosity": "Woda spada ze skalnego progu o wysokości około siedmiu metrów, lecz przepływ mocno zależy od opadów.",
+            "tags": [
+              "TOP",
+              "PARK NARODOWY",
+              "NATURA"
+            ],
+            "difficulty": "łatwa do średniej; po deszczu ślisko",
+            "family": "tak pod opieką dorosłych",
+            "dog": "zakaz zgodnie z regulaminem MPN poza wyjątkami",
+            "fee": "bilet MPN w sezonie według cennika",
+            "parking": "Parking Magurskiego Parku Narodowego w Foluszu",
+            "parkingLat": 49.6168,
+            "parkingLon": 21.3827,
+            "walkTime": "około 45–60 min w jedną stronę",
+            "distance": "około 2 km w jedną stronę",
+            "elevationGain": "około 150 m",
+            "routeNote": "Najlepiej wygląda po opadach; nie wchodź na mokre progi i sprawdź regulamin parku.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Magurski Park Narodowy",
+                "url": "https://www.magurskipn.pl/"
+              },
+              {
+                "name": "Góry dla Ciebie – Folusz",
+                "url": "https://gorydlaciebie.pl/wyprawy/diabli-kamien-wodospad-magurski-wieza-widokowa-ferdel/"
+              }
+            ]
+          },
+          {
+            "name": "Wodospad Przy Młynie w Iwli",
+            "lat": 49.5216,
+            "lon": 21.6607,
+            "desc": "Niewielki, malowniczy wodospad na potoku Iwielka w miejscowości Iwla.",
+            "why": "Jest łatwo dostępnym przystankiem podczas zwiedzania okolic Dukli.",
+            "curiosity": "Miejsce było plenerem scen filmu „Wino truskawkowe”.",
+            "tags": [
+              "RODZINNIE",
+              "NATURA",
+              "FILM"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak z ostrożnością nad wodą",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Nie wskazano parkingu do czasu potwierdzenia legalnego miejsca postoju; nie blokuj lokalnej drogi.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Podkarpackie Travel – Beskid Niski",
+                "url": "https://podkarpackie.travel/en/en-top-beskid-niski"
+              }
+            ]
+          }
+        ]
+      },
+      "punkty_widokowe": {
+        "name": "Punkty widokowe",
+        "icon": "👀",
+        "items": [
+          {
+            "name": "Wieża widokowa na Cergowej",
+            "lat": 49.5664,
+            "lon": 21.6822,
+            "desc": "Stalowo-drewniana wieża na najwyższym wierzchołku Cergowej.",
+            "why": "Oferuje rozległą panoramę Beskidu Niskiego, Bieszczadów i Pogórza Karpackiego.",
+            "curiosity": "Forma wieży nawiązuje do drewnianych konstrukcji związanych z przemysłem naftowym regionu.",
+            "tags": [
+              "TOP",
+              "WIEŻA",
+              "WIDOKI"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy Złotej Studzience",
+            "parkingLat": 49.5721,
+            "parkingLon": 21.7033,
+            "walkTime": "około 1 godz. 20 min w jedną stronę",
+            "distance": "około 3 km w jedną stronę",
+            "elevationGain": "około 350 m",
+            "routeNote": "Nie wchodź na wieżę podczas burzy, oblodzenia lub silnego wiatru.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Podkarpackie Travel – Beskid Niski",
+                "url": "https://podkarpackie.travel/en/en-top-beskid-niski"
+              }
+            ]
+          },
+          {
+            "name": "Wieża widokowa na Ferdlu",
+            "lat": 49.6172,
+            "lon": 21.4502,
+            "desc": "Drewniana wieża w północnej części Magurskiego Parku Narodowego.",
+            "why": "Pozwala zobaczyć ponad lasem pasmo Magury Wątkowskiej i otaczające pogórza.",
+            "curiosity": "To jedna z nielicznych wież położonych bezpośrednio w sąsiedztwie granic parku narodowego.",
+            "tags": [
+              "WIEŻA",
+              "PARK NARODOWY"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "sprawdź regulamin MPN",
+            "fee": "według zasad wstępu do MPN",
+            "parking": "Parking w Wapiennem",
+            "parkingLat": 49.6322,
+            "parkingLon": 21.4072,
+            "walkTime": "około 1 godz. 30 min w jedną stronę",
+            "distance": "około 4 km w jedną stronę",
+            "elevationGain": "około 300 m",
+            "routeNote": "Przed wycieczką sprawdź komunikaty parku i pogodę.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Magurski Park Narodowy",
+                "url": "https://www.magurskipn.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Wieża widokowa na Grzywackiej Górze",
+            "lat": 49.5565,
+            "lon": 21.5298,
+            "desc": "Metalowa wieża zwieńczona krzyżem na widokowym grzbiecie nad Kątami.",
+            "why": "Zapewnia szeroki widok na Magurski Park Narodowy i dolinę Wisłoki.",
+            "curiosity": "Konstrukcja pełni równocześnie funkcję krzyża milenijnego.",
+            "tags": [
+              "WIEŻA",
+              "WIDOKI",
+              "RODZINNIE"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking przy kościele w Kątach",
+            "parkingLat": 49.5771,
+            "parkingLon": 21.5377,
+            "walkTime": "około 1 godz. w jedną stronę",
+            "distance": "około 2,5 km w jedną stronę",
+            "elevationGain": "około 250 m",
+            "routeNote": "Na otwartym grzbiecie unikaj burz i silnego wiatru.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Beskid Niski – atrakcje regionalne",
+                "url": "https://goryiludzie.pl/2023/06/beskid-niski.html"
+              }
+            ]
+          }
+        ]
+      },
+      "atrakcje": {
+        "name": "Atrakcje",
+        "icon": "⭐",
+        "items": [
+          {
+            "name": "Magurski Park Narodowy – Ośrodek Edukacyjno-Muzealny",
+            "lat": 49.5114,
+            "lon": 21.5007,
+            "desc": "Nowoczesny ośrodek w Krempnej prezentujący przyrodę, krajobraz i historię Magurskiego Parku Narodowego.",
+            "why": "To najlepsze miejsce na rozpoczęcie poznawania centralnej części Beskidu Niskiego.",
+            "curiosity": "Ekspozycja pokazuje zmienność przyrody parku w kolejnych porach roku.",
+            "tags": [
+              "PARK NARODOWY",
+              "RODZINNIE",
+              "NA NIEPOGODĘ"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "do wnętrza nie",
+            "fee": "zgodnie z aktualnym cennikiem",
+            "parking": "Parking przy Ośrodku Edukacyjno-Muzealnym MPN",
+            "parkingLat": 49.5113,
+            "parkingLon": 21.5004,
+            "walkTime": "na miejscu",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Przed wizytą sprawdź godziny otwarcia i możliwość zwiedzania ekspozycji.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Magurski Park Narodowy",
+                "url": "https://www.magurskipn.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Park Zdrojowy w Wysowej-Zdroju",
+            "lat": 49.4388,
+            "lon": 21.1749,
+            "desc": "Zabytkowy park uzdrowiskowy z pijalnią wód mineralnych i alejami spacerowymi.",
+            "why": "Pozwala odpocząć po wycieczce i spróbować miejscowych wód leczniczych.",
+            "curiosity": "Wysowa jest jednym z najbardziej kameralnych uzdrowisk polskich Karpat.",
+            "tags": [
+              "UZDROWISKO",
+              "RODZINNIE"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "na smyczy zgodnie z regulaminem parku",
+            "fee": "park bezpłatny; wody i usługi mogą być płatne",
+            "parking": "Parking przy Parku Zdrojowym w Wysowej",
+            "parkingLat": 49.4388,
+            "parkingLon": 21.1749,
+            "walkTime": "na miejscu",
+            "distance": "",
+            "elevationGain": "minimalne",
+            "routeNote": "Sprawdź godziny działania pijalni i ewentualne przeciwwskazania do spożywania wód leczniczych.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Uzdrowisko Wysowa",
+                "url": "https://uzdrowisko-wysowa.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Skansen Przemysłu Naftowego w Bóbrce",
+            "lat": 49.6164,
+            "lon": 21.7096,
+            "desc": "Muzeum na terenie jednej z najstarszych kopalń ropy naftowej na świecie.",
+            "why": "Pokazuje przemysłową historię regionu i pionierską działalność Ignacego Łukasiewicza.",
+            "curiosity": "Ropa była tu wydobywana metodami przemysłowymi już w połowie XIX wieku.",
+            "tags": [
+              "HISTORIA",
+              "RODZINNIE",
+              "NA NIEPOGODĘ"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "zgodnie z regulaminem muzeum",
+            "fee": "płatne według aktualnego cennika",
+            "parking": "Parking przy Muzeum Przemysłu Naftowego w Bóbrce",
+            "parkingLat": 49.6164,
+            "parkingLon": 21.7091,
+            "walkTime": "na miejscu",
+            "distance": "",
+            "elevationGain": "minimalne",
+            "routeNote": "Sprawdź godziny otwarcia i dostępność ekspozycji terenowej.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Muzeum Przemysłu Naftowego i Gazowniczego w Bóbrce",
+                "url": "https://bobrka.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Uzdrowisko Iwonicz-Zdrój",
+            "lat": 49.5624,
+            "lon": 21.7897,
+            "desc": "Historyczne uzdrowisko z drewnianą zabudową zdrojową, pijalnią i parkowymi alejami.",
+            "why": "Łączy architekturę, lecznicze wody i łatwe spacery u podnóża Beskidu Niskiego.",
+            "curiosity": "Iwonicz należy do najstarszych polskich uzdrowisk.",
+            "tags": [
+              "UZDROWISKO",
+              "ARCHITEKTURA",
+              "RODZINNIE"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "na smyczy; do obiektów zgodnie z regulaminem",
+            "fee": "spacer bezpłatny; zabiegi i część usług płatne",
+            "parking": "Parking przy ul. Zdrojowej w Iwoniczu-Zdroju",
+            "parkingLat": 49.5644,
+            "parkingLon": 21.7883,
+            "walkTime": "kilka minut",
+            "distance": "",
+            "elevationGain": "niewielkie",
+            "routeNote": "W centrum uzdrowiska stosuj się do aktualnej organizacji ruchu i parkowania.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Podkarpackie Travel – Beskid Niski",
+                "url": "https://podkarpackie.travel/en/en-top-beskid-niski"
+              }
+            ]
+          }
+        ]
+      },
+      "formacje_skalne": {
+        "name": "Formacje skalne",
+        "icon": "🪨",
+        "items": [
+          {
+            "name": "Diabli Kamień w Foluszu",
+            "lat": 49.6084,
+            "lon": 21.3729,
+            "desc": "Grupa potężnych wychodni piaskowcowych w lesie Magurskiego Parku Narodowego.",
+            "why": "To najbardziej efektowna i łatwo dostępna formacja skalna Beskidu Niskiego.",
+            "curiosity": "Najwyższe ściany osiągają około siedmiu metrów, a z miejscem wiążą się legendy o diable.",
+            "tags": [
+              "TOP",
+              "GEOLOGIA",
+              "PARK NARODOWY"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak pod opieką dorosłych",
+            "dog": "zakaz zgodnie z regulaminem MPN poza wyjątkami",
+            "fee": "bilet MPN według aktualnego cennika",
+            "parking": "Parking Magurskiego Parku Narodowego w Foluszu",
+            "parkingLat": 49.6168,
+            "parkingLon": 21.3827,
+            "walkTime": "około 45 min w jedną stronę",
+            "distance": "około 1,8 km w jedną stronę",
+            "elevationGain": "około 140 m",
+            "routeNote": "Nie wspinaj się na skały i poruszaj się wyłącznie udostępnioną ścieżką.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Magurski Park Narodowy",
+                "url": "https://www.magurskipn.pl/"
+              },
+              {
+                "name": "Diabli Kamień – opis trasy",
+                "url": "https://beskidzka-polana.pl/diabli-kamien-folusz/"
+              }
+            ]
+          },
+          {
+            "name": "Rezerwat Kornuty",
+            "lat": 49.5944,
+            "lon": 21.3751,
+            "desc": "Rezerwat chroniący malownicze wychodnie piaskowca magurskiego na stokach Magury Wątkowskiej.",
+            "why": "Oferuje najbardziej rozbudowany skalny krajobraz w Beskidzie Niskim.",
+            "curiosity": "Szczeliny między blokami tworzą niewielkie jaskinie, w tym Jaskinię Mroczną.",
+            "tags": [
+              "REZERWAT",
+              "GEOLOGIA",
+              "NATURA"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci",
+            "dog": "zgodnie z regulaminem rezerwatu i parku",
+            "fee": "według zasad MPN",
+            "parking": "Parking Magurskiego Parku Narodowego w Foluszu",
+            "parkingLat": 49.6168,
+            "parkingLon": 21.3827,
+            "walkTime": "około 2 godz. w jedną stronę",
+            "distance": "około 5 km w jedną stronę",
+            "elevationGain": "około 400 m",
+            "routeNote": "Nie wchodź poza szlak ani do jaskiń bez przygotowania; teren jest objęty ochroną.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Magurski Park Narodowy",
+                "url": "https://www.magurskipn.pl/"
+              },
+              {
+                "name": "Magurski Park Narodowy – Kornuty",
+                "url": "https://bardzogrubysmok.pl/magurski-park-narodowy-diabli-kamien-kornuty/"
+              }
+            ]
+          }
+        ]
+      },
+      "schroniska": {
+        "name": "Schroniska",
+        "icon": "🏠",
+        "items": [
+          {
+            "name": "Bacówka PTTK w Bartnem",
+            "lat": 49.5828,
+            "lon": 21.3275,
+            "desc": "Kameralna bacówka na stokach Mareszki, ponad historyczną łemkowską wsią Bartne.",
+            "why": "Jest znakomitą bazą do poznawania Magury Wątkowskiej, Kornutów i dolin dawnych wsi.",
+            "curiosity": "Bacówkę otwarto w 1977 roku i zachowała atmosferę niewielkiego schroniska beskidzkiego.",
+            "tags": [
+              "TOP",
+              "NOCLEG",
+              "ŁEMKOWYNA"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "zasady pobytu potwierdź w bacówce",
+            "fee": "nocleg i gastronomia według cennika",
+            "parking": "Parking przy cerkwi w Bartnem",
+            "parkingLat": 49.5587,
+            "parkingLon": 21.3351,
+            "walkTime": "około 50–70 min w jedną stronę",
+            "distance": "około 3 km w jedną stronę",
+            "elevationGain": "około 200 m",
+            "routeNote": "Przed noclegiem potwierdź dostępność miejsc; dojazd przez Bartne jest lokalny.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Bacówka PTTK w Bartnem",
+                "url": "https://bartne.pttk.pl/"
+              },
+              {
+                "name": "Visit Małopolska – okolice Bartnego",
+                "url": "https://visitmalopolska.pl/obiekt/-/poi/szlak-pieszy-wokol-bartnego"
+              }
+            ]
+          },
+          {
+            "name": "Schronisko PTTK na Magurze Małastowskiej",
+            "lat": 49.5336,
+            "lon": 21.2598,
+            "desc": "Schronisko w lesie na południowym stoku Magury Małastowskiej, niedaleko Głównego Szlaku Beskidzkiego.",
+            "why": "Jest łatwo dostępne z przełęczy i stanowi dobrą bazę dla rodzin oraz wędrowców długodystansowych.",
+            "curiosity": "Obiekt stoi w miejscu dawnego schroniska z okresu międzywojennego.",
+            "tags": [
+              "NOCLEG",
+              "RODZINNIE"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "zasady pobytu potwierdź w schronisku",
+            "fee": "nocleg i gastronomia według cennika",
+            "parking": "Parking na Przełęczy Małastowskiej",
+            "parkingLat": 49.5487,
+            "parkingLon": 21.2461,
+            "walkTime": "około 25–40 min w jedną stronę",
+            "distance": "około 1,5 km w jedną stronę",
+            "elevationGain": "około 120 m",
+            "routeNote": "Zimą sprawdź warunki i działanie pobliskiej stacji narciarskiej.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "PTTK – schroniska górskie",
+                "url": "https://pttk.pl/"
+              }
+            ]
+          }
+        ]
+      },
+      "zabytki": {
+        "name": "Zabytki",
+        "icon": "🏛️",
+        "items": [
+          {
+            "name": "Cerkiew św. Paraskewy w Kwiatoniu",
+            "lat": 49.4247,
+            "lon": 21.1616,
+            "desc": "Drewniana dawna cerkiew greckokatolicka wpisana na Listę Światowego Dziedzictwa UNESCO.",
+            "why": "Jest uznawana za jeden z najdoskonalszych przykładów klasycznej architektury łemkowskiej.",
+            "curiosity": "Smukłe, stopniowane wieże tworzą wyjątkowo harmonijną sylwetkę świątyni.",
+            "tags": [
+              "UNESCO",
+              "ŁEMKOWYNA",
+              "DREWNIANA ARCHITEKTURA"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "do wnętrza nie",
+            "fee": "zwiedzanie zgodnie z aktualnymi zasadami",
+            "parking": "Parking przy cerkwi w Kwiatoniu",
+            "parkingLat": 49.4245,
+            "parkingLon": 21.1613,
+            "walkTime": "1–3 min",
+            "distance": "poniżej 0,2 km",
+            "elevationGain": "minimalne",
+            "routeNote": "Sprawdź godziny udostępniania wnętrza i uszanuj sakralny charakter obiektu.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "UNESCO – Wooden Tserkvas of the Carpathian Region",
+                "url": "https://whc.unesco.org/en/list/1424/"
+              }
+            ]
+          },
+          {
+            "name": "Cerkiew Opieki Bogurodzicy w Owczarach",
+            "lat": 49.6023,
+            "lon": 21.1803,
+            "desc": "Drewniana cerkiew greckokatolicka z XVII wieku, wpisana na listę UNESCO.",
+            "why": "Łączy wysoką wartość architektoniczną z autentycznym wyposażeniem i krajobrazem dawnej Łemkowszczyzny.",
+            "curiosity": "Świątynia jest użytkowana wspólnie przez katolików dwóch obrządków.",
+            "tags": [
+              "UNESCO",
+              "ŁEMKOWYNA",
+              "HISTORIA"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "do wnętrza nie",
+            "fee": "zwiedzanie zgodnie z aktualnymi zasadami",
+            "parking": "Parking przy cerkwi w Owczarach",
+            "parkingLat": 49.6021,
+            "parkingLon": 21.1801,
+            "walkTime": "1–3 min",
+            "distance": "poniżej 0,2 km",
+            "elevationGain": "minimalne",
+            "routeNote": "Nie zakłócaj nabożeństw i sprawdź możliwość zwiedzania wnętrza.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "UNESCO – Wooden Tserkvas of the Carpathian Region",
+                "url": "https://whc.unesco.org/en/list/1424/"
+              }
+            ]
+          },
+          {
+            "name": "Cerkiew św. Michała Archanioła w Brunarach",
+            "lat": 49.5314,
+            "lon": 21.1137,
+            "desc": "Rozbudowana drewniana cerkiew łemkowska wpisana na listę UNESCO.",
+            "why": "Jest jednym z najważniejszych zabytków zachodniej części Beskidu Niskiego.",
+            "curiosity": "W bryle świątyni widoczne są ślady kolejnych przebudów i łączenia tradycji Wschodu i Zachodu.",
+            "tags": [
+              "UNESCO",
+              "DREWNIANA ARCHITEKTURA",
+              "HISTORIA"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "do wnętrza nie",
+            "fee": "zgodnie z zasadami zwiedzania",
+            "parking": "Parking przy cerkwi w Brunarach",
+            "parkingLat": 49.5312,
+            "parkingLon": 21.1134,
+            "walkTime": "1–3 min",
+            "distance": "poniżej 0,2 km",
+            "elevationGain": "minimalne",
+            "routeNote": "Sprawdź godziny otwarcia i uszanuj trwające nabożeństwa.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "UNESCO – Wooden Tserkvas of the Carpathian Region",
+                "url": "https://whc.unesco.org/en/list/1424/"
+              }
+            ]
+          },
+          {
+            "name": "Cerkiew św. Kosmy i Damiana w Bartnem",
+            "lat": 49.5588,
+            "lon": 21.3352,
+            "desc": "Zabytkowa drewniana cerkiew greckokatolicka, obecnie oddział muzealny prezentujący kulturę Łemków.",
+            "why": "To kluczowe miejsce dla zrozumienia historii i kamieniarskich tradycji Bartnego.",
+            "curiosity": "Wieś słynęła z łemkowskich kamieniarzy wykonujących krzyże, nagrobki i elementy budowlane.",
+            "tags": [
+              "ŁEMKOWYNA",
+              "MUZEUM",
+              "DREWNIANA ARCHITEKTURA"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "do wnętrza nie",
+            "fee": "zgodnie z aktualnym cennikiem muzeum",
+            "parking": "Parking przy cerkwi w Bartnem",
+            "parkingLat": 49.5587,
+            "parkingLon": 21.3351,
+            "walkTime": "1–3 min",
+            "distance": "poniżej 0,2 km",
+            "elevationGain": "minimalne",
+            "routeNote": "Sprawdź godziny otwarcia oddziału muzealnego.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Bartne – wieś łemkowska",
+                "url": "https://hasajacezajace.com/bartne-beskid-niski/"
+              }
+            ]
+          },
+          {
+            "name": "Cmentarz wojenny nr 51 na Rotundzie",
+            "lat": 49.4779,
+            "lon": 21.2967,
+            "desc": "Odrestaurowany cmentarz z okresu I wojny światowej na szczycie Rotundy.",
+            "why": "Należy do najbardziej charakterystycznych i symbolicznych miejsc Beskidu Niskiego.",
+            "curiosity": "Projekt cmentarza stworzył słowacki architekt Dušan Jurkovič.",
+            "tags": [
+              "HISTORIA",
+              "I WOJNA ŚWIATOWA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking w Regietowie przy bazie turystycznej",
+            "parkingLat": 49.4894,
+            "parkingLon": 21.2838,
+            "walkTime": "około 1 godz. w jedną stronę",
+            "distance": "około 2,5 km w jedną stronę",
+            "elevationGain": "około 250 m",
+            "routeNote": "To miejsce pamięci; zachowaj ciszę i nie wchodź na elementy pomnika.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Beskid Niski – atrakcje",
+                "url": "https://plannawypad.pl/beskid-niski-atrakcje-szlaki-cerkwie/"
+              }
+            ]
+          },
+          {
+            "name": "Pałac Mniszchów w Dukli",
+            "lat": 49.5567,
+            "lon": 21.6832,
+            "desc": "Późnobarokowy zespół pałacowo-parkowy mieszczący Muzeum Historyczne w Dukli.",
+            "why": "Stanowi dobre wprowadzenie do historii pogranicza przed wyjściem na Cergową.",
+            "curiosity": "Ekspozycja poświęcona jest m.in. walkom o Przełęcz Dukielską.",
+            "tags": [
+              "HISTORIA",
+              "MUZEUM",
+              "NA NIEPOGODĘ"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "do wnętrza nie",
+            "fee": "muzeum płatne według cennika",
+            "parking": "Parking przy Muzeum Historycznym w Dukli",
+            "parkingLat": 49.5571,
+            "parkingLon": 21.6816,
+            "walkTime": "2–5 min",
+            "distance": "poniżej 0,3 km",
+            "elevationGain": "minimalne",
+            "routeNote": "Sprawdź godziny otwarcia muzeum i dostępność parku.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Muzeum Historyczne – Pałac w Dukli",
+                "url": "https://www.muzeumdukla.pl/"
+              }
+            ]
+          }
+        ]
+      },
+      "mniej_znane": {
+        "name": "Mniej znane miejsca",
+        "icon": "💎",
+        "items": [
+          {
+            "name": "Nieznajowa – dolina dawnej wsi",
+            "lat": 49.5282,
+            "lon": 21.3812,
+            "desc": "Opustoszała dolina dawnej łemkowskiej wsi u zbiegu Wisłoki i Zawoi, na terenie Magurskiego Parku Narodowego.",
+            "why": "To jedno z miejsc, gdzie najmocniej odczuwa się ciszę i złożoną historię Beskidu Niskiego.",
+            "curiosity": "O dawnej zabudowie przypominają krzyże, cmentarz i ślady piwnic.",
+            "tags": [
+              "ŁEMKOWYNA",
+              "PARK NARODOWY",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "średnia; długa dolinna trasa",
+            "family": "dla starszych dzieci",
+            "dog": "zgodnie z regulaminem MPN",
+            "fee": "według zasad wstępu do MPN",
+            "parking": "Parking w Rozstajnem",
+            "parkingLat": 49.5055,
+            "parkingLon": 21.3979,
+            "walkTime": "około 1 godz. 15 min w jedną stronę",
+            "distance": "około 4 km w jedną stronę",
+            "elevationGain": "niewielkie",
+            "routeNote": "Po opadach brody i drogi gruntowe mogą być trudne; sprawdź komunikaty parku.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Magurski Park Narodowy",
+                "url": "https://www.magurskipn.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Radocyna – dolina nieistniejącej wsi",
+            "lat": 49.4618,
+            "lon": 21.4219,
+            "desc": "Rozległa dolina przy granicy ze Słowacją, gdzie zachowały się cmentarze, krzyże i ślady dawnej wsi łemkowskiej.",
+            "why": "Pozwala połączyć spokojną wędrówkę z poznaniem trudnej historii wysiedleń.",
+            "curiosity": "Nazwa wsi pochodziła prawdopodobnie od imienia Radosław lub od słowa oznaczającego źródło.",
+            "tags": [
+              "ŁEMKOWYNA",
+              "HISTORIA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa do średniej; zależna od długości",
+            "family": "tak przy krótszym wariancie",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Dojazd drogami leśnymi i gruntowymi może podlegać ograniczeniom; nie wjeżdżaj za zakazy.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Beskid Niski – przewodnik regionalny",
+                "url": "https://www.beskid-niski.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Kamienny mostek w Olchowcu",
+            "lat": 49.4907,
+            "lon": 21.5397,
+            "desc": "Niewielki zabytkowy most kamienny prowadzący do drewnianej cerkwi w Olchowcu.",
+            "why": "Jest wyjątkowym detalem dawnego krajobrazu łemkowskiej wsi.",
+            "curiosity": "Mostek i cerkiew tworzą jeden z najbardziej malowniczych zespołów Beskidu Niskiego.",
+            "tags": [
+              "ŁEMKOWYNA",
+              "HISTORIA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "na smyczy; do cerkwi nie",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Nie blokuj wąskiej drogi i prywatnych wjazdów; pozostaw samochód w legalnym miejscu we wsi.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Podkarpackie Travel – Beskid Niski",
+                "url": "https://podkarpackie.travel/en/en-top-beskid-niski"
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   "gorce": {
     "name": "Gorce",
-    "center": [49.56, 20.19],
+    "center": [
+      49.56,
+      20.19
+    ],
     "zoom": 10,
     "categories": {
-      "szczyty": {"name":"Szczyty","icon":"⛰️","items":[
-        {"name":"Turbacz","ele":1310,"lat":49.5422,"lon":20.1113,"desc":"Najwyższy szczyt Gorców i jeden z najbardziej rozpoznawalnych celów w polskich Beskidach.","why":"Łączy rozległe panoramy z Hali Długiej, gęstą sieć szlaków i bliskość schroniska PTTK.","curiosity":"Sam wierzchołek jest zalesiony; najlepsze widoki rozciągają się z polan poniżej szczytu.","tags":["TOP","KORONA","SCHRONISKO"],"difficulty":"średnia; zależna od wariantu","family":"dla rodzin przy odpowiednim doborze trasy","dog":"na odcinkach Gorczańskiego Parku Narodowego obowiązują ograniczenia; sprawdź regulamin","fee":"wstęp do GPN może być biletowany","parking":"Parking przy Długiej Polanie w Nowym Targu","parkingLat":49.5164,"parkingLon":20.0717,"walkTime":"około 2 godz. 45 min w jedną stronę","distance":"około 8 km w jedną stronę","elevationGain":"około 650 m","routeNote":"Popularny wariant prowadzi zielonym szlakiem z Kowańca; przed wyjściem sprawdź komunikaty GPN.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Gorczański Park Narodowy","url":"https://gpn.gov.pl/"},{"name":"Góry dla Ciebie – trasy w Gorcach","url":"https://gorydlaciebie.pl/wyprawy/kudlon-turbacz-gorc-wokol-doliny-kamienicy/"}]},
-        {"name":"Jaworzyna Kamienicka","ele":1288,"lat":49.5681,"lon":20.1669,"desc":"Drugi pod względem wysokości szczyt Gorców, znany z rozległej polany i Kapliczki Bulandy.","why":"To jedno z najpiękniejszych połączeń widoków, pasterskiego krajobrazu i lokalnej historii.","curiosity":"Na polanie znajduje się torfowisko wysokie oraz najstarsza kapliczka na terenie GPN.","tags":["WIDOKI","PARK NARODOWY","HISTORIA"],"difficulty":"średnia; długa trasa","family":"dla starszych dzieci","dog":"zgodnie z regulaminem GPN","fee":"wstęp do GPN według aktualnego cennika","parking":"Parking GPN w dolinie Kamienicy – Trusiówka","parkingLat":49.6091,"parkingLon":20.1622,"walkTime":"około 3 godz. w jedną stronę","distance":"około 8 km w jedną stronę","elevationGain":"około 600 m","routeNote":"Dojście doliną Kamienicy i przez polany jest długie; poruszaj się tylko znakowanymi trasami.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"GPN – z Turbacza na Jaworzynę Kamienicką","url":"https://gpn.gov.pl/z-turbacza-na-jaworzyne-kamienicka"}]},
-        {"name":"Kiczora","ele":1282,"lat":49.5527,"lon":20.1516,"desc":"Wysoki szczyt w głównym grzbiecie Gorców, położony między Turbaczem a Jaworzyną Kamienicką.","why":"Oferuje spokojniejsze panoramy i naturalny etap grzbietowego przejścia przez najwyższe partie pasma.","curiosity":"Na południowych stokach zachowały się fragmenty górnoreglowej świerczyny.","tags":["PARK NARODOWY","🥾 DLA PIECHURÓW"],"difficulty":"średnia","family":"dla starszych dzieci","dog":"zgodnie z regulaminem GPN","fee":"wstęp do GPN według cennika","parking":"Parking przy Długiej Polanie w Nowym Targu","parkingLat":49.5164,"parkingLon":20.0717,"walkTime":"około 3 godz. 15 min w jedną stronę","distance":"około 9 km w jedną stronę","elevationGain":"około 700 m","routeNote":"Najczęściej odwiedzana podczas przejścia z Turbacza ku Jaworzynie Kamienickiej.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Gorczański Park Narodowy","url":"https://gpn.gov.pl/"}]},
-        {"name":"Kudłoń","ele":1274,"lat":49.5984,"lon":20.1881,"desc":"Potężny, zalesiony szczyt w północno-wschodniej części Gorczańskiego Parku Narodowego.","why":"Prowadzi do niego jedna z najdzikszych tras w Gorcach, mijająca słynny ostaniec Kudłoński Baca.","curiosity":"Masyw Kudłonia kryje liczne wychodnie skalne powstałe w piaskowcach magurskich.","tags":["PARK NARODOWY","GEOLOGIA"],"difficulty":"średnia do trudnej; długa trasa","family":"dla starszych dzieci","dog":"zgodnie z regulaminem GPN","fee":"wstęp do GPN według cennika","parking":"Parking GPN w dolinie Kamienicy – Trusiówka","parkingLat":49.6091,"parkingLon":20.1622,"walkTime":"około 3 godz. w jedną stronę","distance":"około 8 km w jedną stronę","elevationGain":"około 650 m","routeNote":"Po deszczu leśne odcinki bywają błotniste; nie schodź ze szlaku.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Góry dla Ciebie – Kudłoń, Turbacz i Gorc","url":"https://gorydlaciebie.pl/wyprawy/kudlon-turbacz-gorc-wokol-doliny-kamienicy/"}]},
-        {"name":"Gorc","ele":1228,"lat":49.5717,"lon":20.2532,"desc":"Wybitny szczyt we wschodniej części pasma z drewnianą wieżą widokową.","why":"Jest jednym z najlepszych punktów panoramy Tatr, Gorców i Beskidu Wyspowego.","curiosity":"Nazwa całego pasma prawdopodobnie wiąże się ze słowem „gorzeć”, odnoszącym się do wypalania polan.","tags":["TOP","WIEŻA","WIDOKI"],"difficulty":"średnia","family":"tak przy dobrej kondycji","dog":"na smyczy; sprawdź przebieg względem GPN","fee":"bezpłatnie poza odcinkami objętymi opłatami GPN","parking":"Parking Lubomierz-Rzeki","parkingLat":49.6248,"parkingLon":20.2159,"walkTime":"około 2 godz. 15 min w jedną stronę","distance":"około 6 km w jedną stronę","elevationGain":"około 600 m","routeNote":"Niebieski szlak z Rzek jest jednym z popularniejszych wariantów wejścia.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Wieże widokowe w Gorcach","url":"https://hasajacezajace.com/wieze-widokowe-w-gorcach/"},{"name":"Gmina Ochotnica Dolna – wieże","url":"https://www.ochotnica.pl/wieze-widokowe/"}]},
-        {"name":"Lubań","ele":1211,"lat":49.4907,"lon":20.3373,"desc":"Dwuwierzchołkowy masyw we wschodnich Gorcach, górujący nad Jeziorem Czorsztyńskim.","why":"Wieża na szczycie daje jeden z najbardziej efektownych widoków na Tatry i Pieniny.","curiosity":"Na polanie działają latem baza namiotowa i punkt GOPR, a w pobliżu zachowały się ślady dawnego schroniska.","tags":["TOP","WIEŻA","WIDOKI"],"difficulty":"średnia; długa trasa","family":"dla starszych dzieci","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking na Przełęczy Snozka","parkingLat":49.4649,"parkingLon":20.3184,"walkTime":"około 2 godz. 15 min w jedną stronę","distance":"około 6 km w jedną stronę","elevationGain":"około 500 m","routeNote":"Niebieski szlak z Przełęczy Snozka jest najkrótszym popularnym wariantem.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Wieże widokowe w Gorcach","url":"https://hasajacezajace.com/wieze-widokowe-w-gorcach/"},{"name":"Gmina Ochotnica Dolna – wieże","url":"https://www.ochotnica.pl/wieze-widokowe/"}]},
-        {"name":"Magurki","ele":1108,"lat":49.5458,"lon":20.2852,"desc":"Szczyt nad Ochotnicą Górną z zabudowaną drewnianą wieżą widokową.","why":"Łatwa pętla edukacyjna prowadzi przez polany i miejsce katastrofy bombowca Liberator.","curiosity":"Forma wieży nawiązuje do drewnianych gotyckich kościołów regionu.","tags":["WIEŻA","RODZINNIE","HISTORIA"],"difficulty":"łatwa do średniej","family":"tak","dog":"sprawdź aktualne zasady na odcinku GPN","fee":"zgodnie z zasadami GPN","parking":"Punkt startowy ścieżki Dolina Potoku Jaszcze","parkingLat":49.5258,"parkingLon":20.2993,"walkTime":"pętla około 3 godz. 30 min","distance":"pętla około 9,5 km","elevationGain":"około 450 m","routeNote":"Miejsce postoju jest niewielkie i jego organizacja może się zmieniać; nie blokuj drogi ani posesji.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Plan na Wypad – Magurki","url":"https://plannawypad.pl/magurki-wieza-widokowa-szlak-gorce/"},{"name":"Góry dla Ciebie – Magurki","url":"https://gorydlaciebie.pl/wyprawy/magurki-i-borsuczyny-sciezka-potoku-jaszcze/"}]},
-        {"name":"Czoło Turbacza","ele":1259,"lat":49.5526,"lon":20.1194,"desc":"Widokowy wierzchołek i polana na grzbiecie prowadzącym z Koninek ku Turbaczowi.","why":"Oferuje klasyczną panoramę Tatr i charakterystyczny widok na masyw Turbacza.","curiosity":"Na skale znajduje się metalowa tablica z fragmentem poematu Władysława Orkana.","tags":["WIDOKI","PARK NARODOWY"],"difficulty":"średnia","family":"dla starszych dzieci","dog":"zgodnie z regulaminem GPN","fee":"wstęp do GPN według cennika","parking":"Parking GPN w Koninkach","parkingLat":49.5917,"parkingLon":20.0747,"walkTime":"około 2 godz. 30 min w jedną stronę","distance":"około 7 km w jedną stronę","elevationGain":"około 650 m","routeNote":"Trasa prowadzi przez teren GPN; sprawdź aktualne komunikaty i zasady wstępu.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Gorczański Park Narodowy","url":"https://gpn.gov.pl/"}]},
-        {"name":"Obidowiec","ele":1106,"lat":49.5607,"lon":20.0689,"desc":"Zalesiony szczyt w zachodniej części Gorców, leżący na czerwonym szlaku między Starymi Wierchami i Turbaczem.","why":"Jest naturalnym etapem dłuższej, łagodnej wędrówki grzbietowej.","curiosity":"Na stokach Obidowca doszło w 1973 roku do katastrofy samolotu sanitarnego.","tags":["HISTORIA","🥾 DLA PIECHURÓW"],"difficulty":"średnia","family":"dla starszych dzieci","dog":"sprawdź przebieg szlaku i regulamin GPN","fee":"zależnie od odcinka trasy","parking":"Parking przy początku szlaku na Stare Wierchy w Obidowej","parkingLat":49.5715,"parkingLon":20.0046,"walkTime":"około 2 godz. 30 min w jedną stronę","distance":"około 7 km w jedną stronę","elevationGain":"około 550 m","routeNote":"Najciekawszy jako część przejścia Stare Wierchy–Turbacz.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Gorce – szczyty i trasy","url":"https://www.idewgory.pl/"}]},
-        {"name":"Turbaczyk","ele":1078,"lat":49.5729,"lon":20.1119,"desc":"Boczny grzbiet nad Koninkami z rozległą polaną i widokiem na centralne Gorce.","why":"Jest spokojniejszą alternatywą dla głównego szlaku na Turbacz.","curiosity":"Polany Turbaczyka zachowały ślady tradycyjnej gospodarki pasterskiej.","tags":["WIDOKI","💎 MNIEJ ZNANY"],"difficulty":"średnia","family":"dla starszych dzieci","dog":"zgodnie z regulaminem GPN","fee":"wstęp do GPN według cennika","parking":"Parking GPN w Koninkach","parkingLat":49.5917,"parkingLon":20.0747,"walkTime":"około 2 godz. w jedną stronę","distance":"około 5 km w jedną stronę","elevationGain":"około 500 m","routeNote":"Poruszaj się znakowanym szlakiem i nie wchodź na koszone lub wypasane fragmenty polan.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Gorczański Park Narodowy","url":"https://gpn.gov.pl/"}]}
-      ]},
-      "wodospady": {"name":"Wodospady","icon":"💧","items":[
-        {"name":"Wodospad Spad w Łopusznej","lat":49.5189,"lon":20.1588,"desc":"Leśna kaskada na górskim potoku w dolinie Łopusznej, u podnóża centralnych Gorców.","why":"To kameralny przyrodniczy przystanek z dala od głównych szczytowych tras.","curiosity":"Wygląd kaskady zmienia się wyraźnie wraz ze stanem wody i porą roku.","tags":["NATURA","💎 MNIEJ ZNANY"],"difficulty":"łatwa do średniej; mokre kamienie","family":"tak z ostrożnością","dog":"sprawdź przebieg względem granic GPN","fee":"zależnie od przebiegu trasy","parking":"","parkingLat":"","parkingLon":"","walkTime":"","distance":"","elevationGain":"","routeNote":"Nie wskazano parkingu do czasu potwierdzenia legalnego miejsca postoju w dolinie.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Gorczański Park Narodowy","url":"https://gpn.gov.pl/"}]},
-        {"name":"Kaskady Potoku Jaszcze","lat":49.5352,"lon":20.3004,"desc":"Ciąg niewielkich progów i kaskad w jednej z najpiękniejszych dolin Ochotnicy Górnej.","why":"Urozmaicają rodzinną ścieżkę edukacyjną prowadzącą na Magurki.","curiosity":"Dolina jest związana z historią katastrofy alianckiego bombowca B-24 Liberator.","tags":["NATURA","RODZINNIE","HISTORIA"],"difficulty":"łatwa do średniej","family":"tak","dog":"sprawdź regulamin GPN","fee":"zgodnie z zasadami GPN","parking":"Punkt startowy ścieżki Dolina Potoku Jaszcze","parkingLat":49.5258,"parkingLon":20.2993,"walkTime":"około 30–60 min do wybranych kaskad","distance":"zależnie od odcinka","elevationGain":"niewielkie","routeNote":"Po opadach brzegi potoku są śliskie; nie opuszczaj ścieżki edukacyjnej.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Góry dla Ciebie – Dolina Potoku Jaszcze","url":"https://gorydlaciebie.pl/wyprawy/magurki-i-borsuczyny-sciezka-potoku-jaszcze/"}]}
-      ]},
-      "punkty_widokowe": {"name":"Punkty widokowe","icon":"👀","items":[
-        {"name":"Wieża widokowa na Lubaniu","lat":49.4907,"lon":20.3373,"desc":"Drewniana wieża na wschodnim wierzchołku Lubania.","why":"Zapewnia wyjątkową panoramę Tatr, Pienin, Jeziora Czorsztyńskiego i Beskidu Sądeckiego.","curiosity":"Na najwyższej platformie umieszczono opisane panoramy i kamerę internetową.","tags":["TOP","WIEŻA","WIDOKI"],"difficulty":"średnia","family":"dla starszych dzieci","dog":"na smyczy; nie wprowadzaj na zatłoczoną platformę","fee":"bezpłatnie","parking":"Parking na Przełęczy Snozka","parkingLat":49.4649,"parkingLon":20.3184,"walkTime":"około 2 godz. 15 min w jedną stronę","distance":"około 6 km w jedną stronę","elevationGain":"około 500 m","routeNote":"Nie wchodź na wieżę podczas burzy, oblodzenia lub silnego wiatru.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Gmina Ochotnica Dolna – wieże widokowe","url":"https://www.ochotnica.pl/wieze-widokowe/"}]},
-        {"name":"Wieża widokowa na Gorcu","lat":49.5717,"lon":20.2532,"desc":"Zabudowana drewniana wieża na szczycie Gorca.","why":"Otwiera panoramę całego pasma, Beskidu Wyspowego i Tatr.","curiosity":"Konstrukcja należy do sieci wież Enklawy Aktywnego Wypoczynku.","tags":["WIEŻA","WIDOKI"],"difficulty":"średnia","family":"tak przy dobrej kondycji","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking Lubomierz-Rzeki","parkingLat":49.6248,"parkingLon":20.2159,"walkTime":"około 2 godz. 15 min w jedną stronę","distance":"około 6 km w jedną stronę","elevationGain":"około 600 m","routeNote":"Przy złej pogodzie nie wchodź na platformę.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Gmina Ochotnica Dolna – wieże widokowe","url":"https://www.ochotnica.pl/wieze-widokowe/"}]},
-        {"name":"Wieża widokowa na Magurkach","lat":49.5458,"lon":20.2852,"desc":"Bezpieczna, zabudowana wieża na widokowym szczycie ponad Ochotnicą Górną.","why":"Oferuje panoramę Tatr, Gorców, Pienin i dalekich pasm słowackich.","curiosity":"Na platformach umieszczono cztery tablice opisujące panoramy.","tags":["WIEŻA","RODZINNIE","WIDOKI"],"difficulty":"łatwa do średniej","family":"tak","dog":"sprawdź zasady GPN","fee":"zgodnie z zasadami GPN","parking":"Punkt startowy ścieżki Dolina Potoku Jaszcze","parkingLat":49.5258,"parkingLon":20.2993,"walkTime":"pętla około 3 godz. 30 min","distance":"pętla około 9,5 km","elevationGain":"około 450 m","routeNote":"W rejonie startu liczba legalnych miejsc postojowych jest ograniczona.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Góry dla Ciebie – Magurki","url":"https://gorydlaciebie.pl/wyprawy/magurki-i-borsuczyny-sciezka-potoku-jaszcze/"}]},
-        {"name":"Hala Długa","lat":49.5464,"lon":20.1186,"desc":"Rozległa polana pod Turbaczem, należąca do najpiękniejszych gorczańskich hal.","why":"To najlepsze miejsce w masywie Turbacza do podziwiania Tatr i wschodów słońca.","curiosity":"Na hali prowadzony jest kulturowy wypas owiec, pomagający chronić cenne zbiorowiska łąkowe.","tags":["TOP","WIDOKI","PASTERSTWO"],"difficulty":"średnia","family":"tak przy dobraniu trasy","dog":"zgodnie z regulaminem GPN","fee":"wstęp do GPN według cennika","parking":"Parking przy Długiej Polanie w Nowym Targu","parkingLat":49.5164,"parkingLon":20.0717,"walkTime":"około 2 godz. 30 min w jedną stronę","distance":"około 7,5 km w jedną stronę","elevationGain":"około 600 m","routeNote":"Nie płosz owiec i nie wchodź między zwierzęta a psy pasterskie.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Visit Małopolska – Gorczański Park Narodowy","url":"https://visitmalopolska.pl/obiekt/-/poi/gorczanski-park-narodowy"}]}
-      ]},
-      "atrakcje": {"name":"Atrakcje","icon":"⭐","items":[
-        {"name":"Ośrodek Edukacyjny GPN w Porębie Wielkiej","lat":49.6005,"lon":20.0642,"desc":"Centrum edukacyjne Gorczańskiego Parku Narodowego z ekspozycją poświęconą przyrodzie i kulturze Gorców.","why":"To najlepsze miejsce, aby przygotować się do świadomego zwiedzania parku.","curiosity":"Ekspozycje pokazują znaczenie gorczańskich lasów, polan i pasterstwa.","tags":["PARK NARODOWY","RODZINNIE","NA NIEPOGODĘ"],"difficulty":"łatwa","family":"tak","dog":"do wnętrza nie","fee":"zgodnie z aktualnym cennikiem","parking":"Parking przy Ośrodku Edukacyjnym GPN","parkingLat":49.6004,"parkingLon":20.064,"walkTime":"na miejscu","distance":"","elevationGain":"minimalne","routeNote":"Przed wizytą sprawdź godziny otwarcia i dostępność ekspozycji.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Gorczański Park Narodowy","url":"https://gpn.gov.pl/"}]},
-        {"name":"Brama w Gorce","lat":49.4938,"lon":20.0744,"desc":"Centrum przyrodniczo-edukacyjne w Waksmundzie z kładkami w koronach drzew i wieżami widokowymi.","why":"Pozwala rodzinom poznawać gorczańską przyrodę bez długiej górskiej wędrówki.","curiosity":"Trasa spacerowa prowadzi częściowo ponad dnem doliny i pomiędzy koronami drzew.","tags":["RODZINNIE","EDUKACJA","WIDOKI"],"difficulty":"łatwa","family":"tak","dog":"sprawdź regulamin obiektu","fee":"płatne według aktualnego cennika","parking":"Parking Brama w Gorce","parkingLat":49.4934,"parkingLon":20.0742,"walkTime":"na miejscu","distance":"zależnie od wariantu zwiedzania","elevationGain":"niewielkie","routeNote":"Sprawdź godziny otwarcia, ceny i ewentualne ograniczenia pogodowe.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Brama w Gorce","url":"https://bramawgorce.com/"}]},
-        {"name":"Wyciąg krzesełkowy Tobołów w Koninkach","lat":49.5888,"lon":20.0704,"desc":"Kolej krzesełkowa wywożąca turystów na Tobołów, skąd prowadzą szlaki w stronę Turbacza.","why":"Ułatwia rodzinne rozpoczęcie wycieczki w wyższych partiach zachodnich Gorców.","curiosity":"W okolicy Tobołowa wytyczono także trasy rowerowe i narciarskie.","tags":["KOLEJ","AKTYWNIE","RODZINNIE"],"difficulty":"łatwa przy wjeździe; dalej zależna od trasy","family":"tak","dog":"przewóz zgodnie z regulaminem operatora","fee":"płatne według aktualnego cennika","parking":"Parking przy dolnej stacji kolei w Koninkach","parkingLat":49.5902,"parkingLon":20.0689,"walkTime":"na miejscu","distance":"","elevationGain":"","routeNote":"Kolej działa sezonowo; sprawdź komunikaty operatora przed wyjazdem.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Ostoja Górska Koninki","url":"https://www.koninki.pl/"}]}
-      ]},
-      "formacje_skalne": {"name":"Formacje skalne","icon":"🪨","items":[
-        {"name":"Kudłoński Baca","lat":49.5977,"lon":20.1747,"desc":"Około szesnastometrowy ostaniec skalny na stokach Kudłonia, najsłynniejsza formacja skalna Gorców.","why":"Jest niezwykłym przystankiem na leśnej trasie przez Gorczański Park Narodowy.","curiosity":"Nazwa nawiązuje do sylwetki skały przypominającej siedzącego bacę.","tags":["TOP","GEOLOGIA","PARK NARODOWY"],"difficulty":"średnia","family":"dla starszych dzieci","dog":"zgodnie z regulaminem GPN","fee":"wstęp do GPN według cennika","parking":"Parking GPN w dolinie Kamienicy – Trusiówka","parkingLat":49.6091,"parkingLon":20.1622,"walkTime":"około 1 godz. 45 min w jedną stronę","distance":"około 5 km w jedną stronę","elevationGain":"około 400 m","routeNote":"Nie wspinaj się na ostaniec i nie opuszczaj znakowanego szlaku.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Góry dla Ciebie – Kudłoń","url":"https://gorydlaciebie.pl/wyprawy/kudlon-turbacz-gorc-wokol-doliny-kamienicy/"}]},
-        {"name":"Zbójnicka Jama pod Jaworzyną Kamienicką","lat":49.5665,"lon":20.1771,"desc":"Niewielka jaskinia szczelinowa ukryta w lesie poniżej Polany Jaworzyna Kamienicka.","why":"Uzupełnia widokową wycieczkę o ciekawy element geologiczny i zbójnickie legendy.","curiosity":"Według podań miała służyć jako kryjówka gorczańskich zbójników.","tags":["JASKINIA","LEGENDA","PARK NARODOWY"],"difficulty":"średnia","family":"dla starszych dzieci pod opieką dorosłych","dog":"zgodnie z regulaminem GPN; nie wprowadzaj do wnętrza","fee":"wstęp do GPN według cennika","parking":"Parking GPN w dolinie Kamienicy – Trusiówka","parkingLat":49.6091,"parkingLon":20.1622,"walkTime":"około 3 godz. w jedną stronę","distance":"około 8 km w jedną stronę","elevationGain":"około 600 m","routeNote":"Nie wchodź do szczeliny bez odpowiedniego przygotowania; teren podlega ochronie.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Gorczański Park Narodowy","url":"https://gpn.gov.pl/"}]}
-      ]},
-      "schroniska": {"name":"Schroniska","icon":"🏠","items":[
-        {"name":"Schronisko PTTK na Turbaczu","lat":49.5434,"lon":20.1178,"desc":"Największe i najważniejsze schronisko Gorców, położone na skraju Hali Długiej pod szczytem Turbacza.","why":"Jest centralnym węzłem szlaków oraz doskonałym miejscem odpoczynku i noclegu.","curiosity":"Obecny budynek oddano do użytku w 1958 roku, a jego taras słynie z panoramy Tatr.","tags":["TOP","NOCLEG","WIDOKI"],"difficulty":"średnia","family":"tak przy dobraniu odpowiedniej trasy","dog":"zasady pobytu potwierdź w schronisku; uwzględnij ograniczenia GPN","fee":"nocleg i gastronomia według cennika","parking":"Parking przy Długiej Polanie w Nowym Targu","parkingLat":49.5164,"parkingLon":20.0717,"walkTime":"około 2 godz. 40 min w jedną stronę","distance":"około 8 km w jedną stronę","elevationGain":"około 630 m","routeNote":"Przed noclegiem zarezerwuj miejsce i sprawdź komunikaty schroniska oraz GPN.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Schronisko PTTK na Turbaczu","url":"https://turbacz.net/"}]},
-        {"name":"Schronisko PTTK Stare Wierchy","lat":49.5754,"lon":20.0273,"desc":"Kameralne schronisko na polanie w zachodniej części Gorców, przy Głównym Szlaku Beskidzkim.","why":"Jest łatwym celem rodzinnej wycieczki i przystankiem w drodze na Turbacz.","curiosity":"Pierwsze schronisko w tym miejscu powstało przed II wojną światową.","tags":["NOCLEG","RODZINNIE"],"difficulty":"łatwa do średniej","family":"tak","dog":"zasady pobytu potwierdź w schronisku","fee":"nocleg i gastronomia według cennika","parking":"Parking przy początku szlaku w Obidowej","parkingLat":49.5715,"parkingLon":20.0046,"walkTime":"około 1 godz. 15 min w jedną stronę","distance":"około 3,5 km w jedną stronę","elevationGain":"około 250 m","routeNote":"Zimą trasa może być oblodzona; przed noclegiem sprawdź dostępność miejsc.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Schronisko PTTK Stare Wierchy","url":"https://starewierchy.pl/"}]},
-        {"name":"Bacówka PTTK na Maciejowej","lat":49.5937,"lon":20.0031,"desc":"Niewielka bacówka na polanie Przysłop pod szczytem Maciejowej.","why":"To jeden z najłatwiej dostępnych rodzinnych celów w zachodnich Gorcach.","curiosity":"Z polany przy bacówce rozciąga się panorama Beskidu Wyspowego i Tatr.","tags":["NOCLEG","RODZINNIE","WIDOKI"],"difficulty":"łatwa","family":"tak","dog":"zasady pobytu potwierdź w bacówce","fee":"nocleg i gastronomia według cennika","parking":"Parking przy ul. Gorczańskiej w Rabce-Zdroju","parkingLat":49.6078,"parkingLon":19.9741,"walkTime":"około 1 godz. 30 min w jedną stronę","distance":"około 4 km w jedną stronę","elevationGain":"około 300 m","routeNote":"Czerwony szlak z Rabki jest popularny i odpowiedni na spokojną wycieczkę.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Bacówka PTTK na Maciejowej","url":"https://maciejowa.pttk.pl/"}]}
-      ]},
-      "zabytki": {"name":"Zabytki","icon":"🏛️","items":[
-        {"name":"Kapliczka Bulandy","lat":49.5674,"lon":20.1691,"desc":"Biała kapliczka na Polanie Jaworzyna Kamienicka, ufundowana w 1904 roku przez bacę Tomasza Chlipałę.","why":"To najbardziej rozpoznawalny zabytek sakralny we wnętrzu Gorców.","curiosity":"Bulanda był słynnym bacą i znachorem, z którym wiąże się wiele lokalnych opowieści.","tags":["TOP","HISTORIA","PARK NARODOWY"],"difficulty":"średnia; długa trasa","family":"dla starszych dzieci","dog":"zgodnie z regulaminem GPN","fee":"wstęp do GPN według cennika","parking":"Parking GPN w dolinie Kamienicy – Trusiówka","parkingLat":49.6091,"parkingLon":20.1622,"walkTime":"około 3 godz. w jedną stronę","distance":"około 8 km w jedną stronę","elevationGain":"około 600 m","routeNote":"Kapliczka leży na chronionej polanie; nie schodź z udostępnionej trasy.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Turystyka Ochotnica – Kapliczka Bulandy","url":"https://turystyka.ochotnica.pl/bulandowa-kapliczka-na-polanie-jaworzyna-kamienicka/"}]},
-        {"name":"Orkanówka w Porębie Wielkiej","lat":49.6038,"lon":20.0474,"desc":"Dom Władysława Orkana, dziś muzeum biograficzne pisarza silnie związanego z Gorcami.","why":"Pozwala poznać kulturę Zagórzan i literacki obraz gorczańskiej wsi.","curiosity":"Dom został zaprojektowany częściowo przez samego pisarza i stoi na widokowym stoku Pustki.","tags":["MUZEUM","HISTORIA","KULTURA"],"difficulty":"łatwa","family":"tak","dog":"do wnętrza nie","fee":"zgodnie z aktualnym cennikiem","parking":"Parking przy Orkanówce","parkingLat":49.6034,"parkingLon":20.0478,"walkTime":"2–5 min","distance":"poniżej 0,3 km","elevationGain":"niewielkie","routeNote":"Sprawdź godziny otwarcia muzeum przed wizytą.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Gorczański Park Narodowy – okolice Poręby Wielkiej","url":"https://gpn.gov.pl/"}]},
-        {"name":"Dwór Tetmajerów w Łopusznej","lat":49.4728,"lon":20.1317,"desc":"Zabytkowy drewniany dwór szlachecki, obecnie oddział Muzeum Tatrzańskiego.","why":"Jest ważnym zabytkiem kultury u południowego podnóża Gorców.","curiosity":"Z Łopuszną związani byli Leon Przerwa-Tetmajer i poeta Kazimierz Przerwa-Tetmajer.","tags":["MUZEUM","DREWNIANA ARCHITEKTURA","HISTORIA"],"difficulty":"łatwa","family":"tak","dog":"do wnętrza nie","fee":"zgodnie z aktualnym cennikiem","parking":"Parking przy kościele i dworze w Łopusznej","parkingLat":49.4733,"parkingLon":20.1325,"walkTime":"2–5 min","distance":"poniżej 0,3 km","elevationGain":"minimalne","routeNote":"Sprawdź godziny udostępniania wnętrz i ekspozycji.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Muzeum Tatrzańskie – Dwór w Łopusznej","url":"https://muzeumtatrzanskie.pl/"}]}
-      ]},
-      "mniej_znane": {"name":"Mniej znane miejsca","icon":"💎","items":[
-        {"name":"Polana Jaworzyna Kamienicka","lat":49.5673,"lon":20.1694,"desc":"Rozległa polana pod Jaworzyną Kamienicką z panoramą Beskidu Sądeckiego i Wyspowego.","why":"Łączy widoki, pasterski krajobraz, torfowisko i Kapliczkę Bulandy.","curiosity":"Polana należy do symbolicznych miejsc Gorczańskiego Parku Narodowego.","tags":["WIDOKI","PARK NARODOWY","💎 MNIEJ ZNANY"],"difficulty":"średnia; długa trasa","family":"dla starszych dzieci","dog":"zgodnie z regulaminem GPN","fee":"wstęp do GPN według cennika","parking":"Parking GPN w dolinie Kamienicy – Trusiówka","parkingLat":49.6091,"parkingLon":20.1622,"walkTime":"około 3 godz. w jedną stronę","distance":"około 8 km w jedną stronę","elevationGain":"około 600 m","routeNote":"Nie opuszczaj szlaków i nie wchodź na chronione torfowisko.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Visit Małopolska – Gorczański Park Narodowy","url":"https://visitmalopolska.pl/obiekt/-/poi/gorczanski-park-narodowy"}]},
-        {"name":"Miejsce katastrofy Liberatora California Rocket","lat":49.5387,"lon":20.2967,"desc":"Miejsce upamiętniające katastrofę alianckiego bombowca B-24 w grudniu 1944 roku.","why":"Nadaje rodzinnej ścieżce Doliny Potoku Jaszcze ważny wymiar historyczny.","curiosity":"Załoga wyskoczyła ze spadochronami przed rozbiciem samolotu na gorczańskim grzbiecie.","tags":["HISTORIA","II WOJNA ŚWIATOWA","💎 MNIEJ ZNANY"],"difficulty":"łatwa do średniej","family":"tak","dog":"sprawdź zasady GPN","fee":"zgodnie z zasadami GPN","parking":"Punkt startowy ścieżki Dolina Potoku Jaszcze","parkingLat":49.5258,"parkingLon":20.2993,"walkTime":"około 1 godz. 30 min w jedną stronę","distance":"około 4 km w jedną stronę","elevationGain":"około 250 m","routeNote":"Miejsce leży przy ścieżce edukacyjnej; zachowaj szacunek dla pamiątki historycznej.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Góry dla Ciebie – Dolina Potoku Jaszcze","url":"https://gorydlaciebie.pl/wyprawy/magurki-i-borsuczyny-sciezka-potoku-jaszcze/"}]},
-        {"name":"Polana Gorc Kamienicki","lat":49.5731,"lon":20.2448,"desc":"Widokowa polana pod Gorcem, znacznie spokojniejsza od rejonu Turbacza.","why":"Oferuje szerokie widoki i atmosferę dawnych gorczańskich hal.","curiosity":"Nazwa odróżnia polanę od innych miejsc określanych w Gorcach słowem Gorc.","tags":["WIDOKI","PASTERSTWO","💎 MNIEJ ZNANY"],"difficulty":"średnia","family":"tak przy dobrej kondycji","dog":"sprawdź przebieg względem GPN","fee":"zależnie od przebiegu trasy","parking":"Parking Lubomierz-Rzeki","parkingLat":49.6248,"parkingLon":20.2159,"walkTime":"około 2 godz. w jedną stronę","distance":"około 5,5 km w jedną stronę","elevationGain":"około 550 m","routeNote":"Nie wchodź na użytkowane fragmenty polany i nie płosz zwierząt.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Gorczański Park Narodowy","url":"https://gpn.gov.pl/"}]},
-        {"name":"Polana Podskały","lat":49.6155,"lon":20.2361,"desc":"Rozległa, tradycyjna polana nad Lubomierzem z szałasami i widokiem na Beskid Wyspowy.","why":"Jest łatwiej dostępnym miejscem pozwalającym poczuć pasterski charakter Gorców.","curiosity":"Na polanie zachowały się przykłady dawnej zabudowy szałaśniczej.","tags":["PASTERSTWO","WIDOKI","💎 MNIEJ ZNANY"],"difficulty":"łatwa do średniej","family":"tak","dog":"na smyczy","fee":"bezpłatnie","parking":"Parking Lubomierz-Rzeki","parkingLat":49.6248,"parkingLon":20.2159,"walkTime":"około 1 godz. w jedną stronę","distance":"około 3 km w jedną stronę","elevationGain":"około 250 m","routeNote":"Szanuj prywatność właścicieli szałasów i nie wchodź do budynków.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Odkrywamy Gorce","url":"https://odkrywamygorce.pl/"}]},
-        {"name":"Polana Łapsowa","lat":49.5334,"lon":20.0453,"desc":"Widokowa polana nad Nowym Targiem, znana z panoramy Tatr i kameralnej koliby.","why":"Jest dobrym celem krótszej wycieczki, szczególnie o zachodzie słońca.","curiosity":"Przy dobrej przejrzystości widać stąd niemal pełną panoramę Tatr.","tags":["WIDOKI","RODZINNIE","💎 MNIEJ ZNANY"],"difficulty":"łatwa do średniej","family":"tak","dog":"na smyczy; zasady pobytu sprawdź w kolibie","fee":"szlak bezpłatny; gastronomia płatna","parking":"Parking przy osiedlu Marfiana Góra w Nowym Targu","parkingLat":49.5249,"parkingLon":20.0387,"walkTime":"około 40–60 min w jedną stronę","distance":"około 2 km w jedną stronę","elevationGain":"około 220 m","routeNote":"Parking ma ograniczoną pojemność; nie blokuj drogi ani posesji.","photo":"","photoPage":"","photoCredit":"","photoLicense":"","sources":[{"name":"Gorce – szlaki i miejsca","url":"https://mynaszlaku.pl/gorce/"}]}
-      ]}
+      "szczyty": {
+        "name": "Szczyty",
+        "icon": "⛰️",
+        "items": [
+          {
+            "name": "Turbacz",
+            "ele": 1310,
+            "lat": 49.5422,
+            "lon": 20.1113,
+            "desc": "Najwyższy szczyt Gorców i jeden z najbardziej rozpoznawalnych celów w polskich Beskidach.",
+            "why": "Łączy rozległe panoramy z Hali Długiej, gęstą sieć szlaków i bliskość schroniska PTTK.",
+            "curiosity": "Sam wierzchołek jest zalesiony; najlepsze widoki rozciągają się z polan poniżej szczytu.",
+            "tags": [
+              "TOP",
+              "KORONA",
+              "SCHRONISKO"
+            ],
+            "difficulty": "średnia; zależna od wariantu",
+            "family": "dla rodzin przy odpowiednim doborze trasy",
+            "dog": "na odcinkach Gorczańskiego Parku Narodowego obowiązują ograniczenia; sprawdź regulamin",
+            "fee": "wstęp do GPN może być biletowany",
+            "parking": "Parking przy Długiej Polanie w Nowym Targu",
+            "parkingLat": 49.5164,
+            "parkingLon": 20.0717,
+            "walkTime": "około 2 godz. 45 min w jedną stronę",
+            "distance": "około 8 km w jedną stronę",
+            "elevationGain": "około 650 m",
+            "routeNote": "Popularny wariant prowadzi zielonym szlakiem z Kowańca; przed wyjściem sprawdź komunikaty GPN.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Gorczański Park Narodowy",
+                "url": "https://gpn.gov.pl/"
+              },
+              {
+                "name": "Góry dla Ciebie – trasy w Gorcach",
+                "url": "https://gorydlaciebie.pl/wyprawy/kudlon-turbacz-gorc-wokol-doliny-kamienicy/"
+              }
+            ]
+          },
+          {
+            "name": "Jaworzyna Kamienicka",
+            "ele": 1288,
+            "lat": 49.5681,
+            "lon": 20.1669,
+            "desc": "Drugi pod względem wysokości szczyt Gorców, znany z rozległej polany i Kapliczki Bulandy.",
+            "why": "To jedno z najpiękniejszych połączeń widoków, pasterskiego krajobrazu i lokalnej historii.",
+            "curiosity": "Na polanie znajduje się torfowisko wysokie oraz najstarsza kapliczka na terenie GPN.",
+            "tags": [
+              "WIDOKI",
+              "PARK NARODOWY",
+              "HISTORIA"
+            ],
+            "difficulty": "średnia; długa trasa",
+            "family": "dla starszych dzieci",
+            "dog": "zgodnie z regulaminem GPN",
+            "fee": "wstęp do GPN według aktualnego cennika",
+            "parking": "Parking GPN w dolinie Kamienicy – Trusiówka",
+            "parkingLat": 49.6091,
+            "parkingLon": 20.1622,
+            "walkTime": "około 3 godz. w jedną stronę",
+            "distance": "około 8 km w jedną stronę",
+            "elevationGain": "około 600 m",
+            "routeNote": "Dojście doliną Kamienicy i przez polany jest długie; poruszaj się tylko znakowanymi trasami.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "GPN – z Turbacza na Jaworzynę Kamienicką",
+                "url": "https://gpn.gov.pl/z-turbacza-na-jaworzyne-kamienicka"
+              }
+            ]
+          },
+          {
+            "name": "Kiczora",
+            "ele": 1282,
+            "lat": 49.5527,
+            "lon": 20.1516,
+            "desc": "Wysoki szczyt w głównym grzbiecie Gorców, położony między Turbaczem a Jaworzyną Kamienicką.",
+            "why": "Oferuje spokojniejsze panoramy i naturalny etap grzbietowego przejścia przez najwyższe partie pasma.",
+            "curiosity": "Na południowych stokach zachowały się fragmenty górnoreglowej świerczyny.",
+            "tags": [
+              "PARK NARODOWY",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci",
+            "dog": "zgodnie z regulaminem GPN",
+            "fee": "wstęp do GPN według cennika",
+            "parking": "Parking przy Długiej Polanie w Nowym Targu",
+            "parkingLat": 49.5164,
+            "parkingLon": 20.0717,
+            "walkTime": "około 3 godz. 15 min w jedną stronę",
+            "distance": "około 9 km w jedną stronę",
+            "elevationGain": "około 700 m",
+            "routeNote": "Najczęściej odwiedzana podczas przejścia z Turbacza ku Jaworzynie Kamienickiej.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Gorczański Park Narodowy",
+                "url": "https://gpn.gov.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Kudłoń",
+            "ele": 1274,
+            "lat": 49.5984,
+            "lon": 20.1881,
+            "desc": "Potężny, zalesiony szczyt w północno-wschodniej części Gorczańskiego Parku Narodowego.",
+            "why": "Prowadzi do niego jedna z najdzikszych tras w Gorcach, mijająca słynny ostaniec Kudłoński Baca.",
+            "curiosity": "Masyw Kudłonia kryje liczne wychodnie skalne powstałe w piaskowcach magurskich.",
+            "tags": [
+              "PARK NARODOWY",
+              "GEOLOGIA"
+            ],
+            "difficulty": "średnia do trudnej; długa trasa",
+            "family": "dla starszych dzieci",
+            "dog": "zgodnie z regulaminem GPN",
+            "fee": "wstęp do GPN według cennika",
+            "parking": "Parking GPN w dolinie Kamienicy – Trusiówka",
+            "parkingLat": 49.6091,
+            "parkingLon": 20.1622,
+            "walkTime": "około 3 godz. w jedną stronę",
+            "distance": "około 8 km w jedną stronę",
+            "elevationGain": "około 650 m",
+            "routeNote": "Po deszczu leśne odcinki bywają błotniste; nie schodź ze szlaku.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Góry dla Ciebie – Kudłoń, Turbacz i Gorc",
+                "url": "https://gorydlaciebie.pl/wyprawy/kudlon-turbacz-gorc-wokol-doliny-kamienicy/"
+              }
+            ]
+          },
+          {
+            "name": "Gorc",
+            "ele": 1228,
+            "lat": 49.5717,
+            "lon": 20.2532,
+            "desc": "Wybitny szczyt we wschodniej części pasma z drewnianą wieżą widokową.",
+            "why": "Jest jednym z najlepszych punktów panoramy Tatr, Gorców i Beskidu Wyspowego.",
+            "curiosity": "Nazwa całego pasma prawdopodobnie wiąże się ze słowem „gorzeć”, odnoszącym się do wypalania polan.",
+            "tags": [
+              "TOP",
+              "WIEŻA",
+              "WIDOKI"
+            ],
+            "difficulty": "średnia",
+            "family": "tak przy dobrej kondycji",
+            "dog": "na smyczy; sprawdź przebieg względem GPN",
+            "fee": "bezpłatnie poza odcinkami objętymi opłatami GPN",
+            "parking": "Parking Lubomierz-Rzeki",
+            "parkingLat": 49.6248,
+            "parkingLon": 20.2159,
+            "walkTime": "około 2 godz. 15 min w jedną stronę",
+            "distance": "około 6 km w jedną stronę",
+            "elevationGain": "około 600 m",
+            "routeNote": "Niebieski szlak z Rzek jest jednym z popularniejszych wariantów wejścia.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wieże widokowe w Gorcach",
+                "url": "https://hasajacezajace.com/wieze-widokowe-w-gorcach/"
+              },
+              {
+                "name": "Gmina Ochotnica Dolna – wieże",
+                "url": "https://www.ochotnica.pl/wieze-widokowe/"
+              }
+            ]
+          },
+          {
+            "name": "Lubań",
+            "ele": 1211,
+            "lat": 49.4907,
+            "lon": 20.3373,
+            "desc": "Dwuwierzchołkowy masyw we wschodnich Gorcach, górujący nad Jeziorem Czorsztyńskim.",
+            "why": "Wieża na szczycie daje jeden z najbardziej efektownych widoków na Tatry i Pieniny.",
+            "curiosity": "Na polanie działają latem baza namiotowa i punkt GOPR, a w pobliżu zachowały się ślady dawnego schroniska.",
+            "tags": [
+              "TOP",
+              "WIEŻA",
+              "WIDOKI"
+            ],
+            "difficulty": "średnia; długa trasa",
+            "family": "dla starszych dzieci",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking na Przełęczy Snozka",
+            "parkingLat": 49.4649,
+            "parkingLon": 20.3184,
+            "walkTime": "około 2 godz. 15 min w jedną stronę",
+            "distance": "około 6 km w jedną stronę",
+            "elevationGain": "około 500 m",
+            "routeNote": "Niebieski szlak z Przełęczy Snozka jest najkrótszym popularnym wariantem.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wieże widokowe w Gorcach",
+                "url": "https://hasajacezajace.com/wieze-widokowe-w-gorcach/"
+              },
+              {
+                "name": "Gmina Ochotnica Dolna – wieże",
+                "url": "https://www.ochotnica.pl/wieze-widokowe/"
+              }
+            ]
+          },
+          {
+            "name": "Magurki",
+            "ele": 1108,
+            "lat": 49.5458,
+            "lon": 20.2852,
+            "desc": "Szczyt nad Ochotnicą Górną z zabudowaną drewnianą wieżą widokową.",
+            "why": "Łatwa pętla edukacyjna prowadzi przez polany i miejsce katastrofy bombowca Liberator.",
+            "curiosity": "Forma wieży nawiązuje do drewnianych gotyckich kościołów regionu.",
+            "tags": [
+              "WIEŻA",
+              "RODZINNIE",
+              "HISTORIA"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "sprawdź aktualne zasady na odcinku GPN",
+            "fee": "zgodnie z zasadami GPN",
+            "parking": "Punkt startowy ścieżki Dolina Potoku Jaszcze",
+            "parkingLat": 49.5258,
+            "parkingLon": 20.2993,
+            "walkTime": "pętla około 3 godz. 30 min",
+            "distance": "pętla około 9,5 km",
+            "elevationGain": "około 450 m",
+            "routeNote": "Miejsce postoju jest niewielkie i jego organizacja może się zmieniać; nie blokuj drogi ani posesji.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Plan na Wypad – Magurki",
+                "url": "https://plannawypad.pl/magurki-wieza-widokowa-szlak-gorce/"
+              },
+              {
+                "name": "Góry dla Ciebie – Magurki",
+                "url": "https://gorydlaciebie.pl/wyprawy/magurki-i-borsuczyny-sciezka-potoku-jaszcze/"
+              }
+            ]
+          },
+          {
+            "name": "Czoło Turbacza",
+            "ele": 1259,
+            "lat": 49.5526,
+            "lon": 20.1194,
+            "desc": "Widokowy wierzchołek i polana na grzbiecie prowadzącym z Koninek ku Turbaczowi.",
+            "why": "Oferuje klasyczną panoramę Tatr i charakterystyczny widok na masyw Turbacza.",
+            "curiosity": "Na skale znajduje się metalowa tablica z fragmentem poematu Władysława Orkana.",
+            "tags": [
+              "WIDOKI",
+              "PARK NARODOWY"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci",
+            "dog": "zgodnie z regulaminem GPN",
+            "fee": "wstęp do GPN według cennika",
+            "parking": "Parking GPN w Koninkach",
+            "parkingLat": 49.5917,
+            "parkingLon": 20.0747,
+            "walkTime": "około 2 godz. 30 min w jedną stronę",
+            "distance": "około 7 km w jedną stronę",
+            "elevationGain": "około 650 m",
+            "routeNote": "Trasa prowadzi przez teren GPN; sprawdź aktualne komunikaty i zasady wstępu.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Gorczański Park Narodowy",
+                "url": "https://gpn.gov.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Obidowiec",
+            "ele": 1106,
+            "lat": 49.5607,
+            "lon": 20.0689,
+            "desc": "Zalesiony szczyt w zachodniej części Gorców, leżący na czerwonym szlaku między Starymi Wierchami i Turbaczem.",
+            "why": "Jest naturalnym etapem dłuższej, łagodnej wędrówki grzbietowej.",
+            "curiosity": "Na stokach Obidowca doszło w 1973 roku do katastrofy samolotu sanitarnego.",
+            "tags": [
+              "HISTORIA",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci",
+            "dog": "sprawdź przebieg szlaku i regulamin GPN",
+            "fee": "zależnie od odcinka trasy",
+            "parking": "Parking przy początku szlaku na Stare Wierchy w Obidowej",
+            "parkingLat": 49.5715,
+            "parkingLon": 20.0046,
+            "walkTime": "około 2 godz. 30 min w jedną stronę",
+            "distance": "około 7 km w jedną stronę",
+            "elevationGain": "około 550 m",
+            "routeNote": "Najciekawszy jako część przejścia Stare Wierchy–Turbacz.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Gorce – szczyty i trasy",
+                "url": "https://www.idewgory.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Turbaczyk",
+            "ele": 1078,
+            "lat": 49.5729,
+            "lon": 20.1119,
+            "desc": "Boczny grzbiet nad Koninkami z rozległą polaną i widokiem na centralne Gorce.",
+            "why": "Jest spokojniejszą alternatywą dla głównego szlaku na Turbacz.",
+            "curiosity": "Polany Turbaczyka zachowały ślady tradycyjnej gospodarki pasterskiej.",
+            "tags": [
+              "WIDOKI",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci",
+            "dog": "zgodnie z regulaminem GPN",
+            "fee": "wstęp do GPN według cennika",
+            "parking": "Parking GPN w Koninkach",
+            "parkingLat": 49.5917,
+            "parkingLon": 20.0747,
+            "walkTime": "około 2 godz. w jedną stronę",
+            "distance": "około 5 km w jedną stronę",
+            "elevationGain": "około 500 m",
+            "routeNote": "Poruszaj się znakowanym szlakiem i nie wchodź na koszone lub wypasane fragmenty polan.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Gorczański Park Narodowy",
+                "url": "https://gpn.gov.pl/"
+              }
+            ]
+          }
+        ]
+      },
+      "wodospady": {
+        "name": "Wodospady",
+        "icon": "💧",
+        "items": [
+          {
+            "name": "Wodospad Spad w Łopusznej",
+            "lat": 49.5189,
+            "lon": 20.1588,
+            "desc": "Leśna kaskada na górskim potoku w dolinie Łopusznej, u podnóża centralnych Gorców.",
+            "why": "To kameralny przyrodniczy przystanek z dala od głównych szczytowych tras.",
+            "curiosity": "Wygląd kaskady zmienia się wyraźnie wraz ze stanem wody i porą roku.",
+            "tags": [
+              "NATURA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa do średniej; mokre kamienie",
+            "family": "tak z ostrożnością",
+            "dog": "sprawdź przebieg względem granic GPN",
+            "fee": "zależnie od przebiegu trasy",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Nie wskazano parkingu do czasu potwierdzenia legalnego miejsca postoju w dolinie.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Gorczański Park Narodowy",
+                "url": "https://gpn.gov.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Kaskady Potoku Jaszcze",
+            "lat": 49.5352,
+            "lon": 20.3004,
+            "desc": "Ciąg niewielkich progów i kaskad w jednej z najpiękniejszych dolin Ochotnicy Górnej.",
+            "why": "Urozmaicają rodzinną ścieżkę edukacyjną prowadzącą na Magurki.",
+            "curiosity": "Dolina jest związana z historią katastrofy alianckiego bombowca B-24 Liberator.",
+            "tags": [
+              "NATURA",
+              "RODZINNIE",
+              "HISTORIA"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "sprawdź regulamin GPN",
+            "fee": "zgodnie z zasadami GPN",
+            "parking": "Punkt startowy ścieżki Dolina Potoku Jaszcze",
+            "parkingLat": 49.5258,
+            "parkingLon": 20.2993,
+            "walkTime": "około 30–60 min do wybranych kaskad",
+            "distance": "zależnie od odcinka",
+            "elevationGain": "niewielkie",
+            "routeNote": "Po opadach brzegi potoku są śliskie; nie opuszczaj ścieżki edukacyjnej.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Góry dla Ciebie – Dolina Potoku Jaszcze",
+                "url": "https://gorydlaciebie.pl/wyprawy/magurki-i-borsuczyny-sciezka-potoku-jaszcze/"
+              }
+            ]
+          }
+        ]
+      },
+      "punkty_widokowe": {
+        "name": "Punkty widokowe",
+        "icon": "👀",
+        "items": [
+          {
+            "name": "Wieża widokowa na Lubaniu",
+            "lat": 49.4907,
+            "lon": 20.3373,
+            "desc": "Drewniana wieża na wschodnim wierzchołku Lubania.",
+            "why": "Zapewnia wyjątkową panoramę Tatr, Pienin, Jeziora Czorsztyńskiego i Beskidu Sądeckiego.",
+            "curiosity": "Na najwyższej platformie umieszczono opisane panoramy i kamerę internetową.",
+            "tags": [
+              "TOP",
+              "WIEŻA",
+              "WIDOKI"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci",
+            "dog": "na smyczy; nie wprowadzaj na zatłoczoną platformę",
+            "fee": "bezpłatnie",
+            "parking": "Parking na Przełęczy Snozka",
+            "parkingLat": 49.4649,
+            "parkingLon": 20.3184,
+            "walkTime": "około 2 godz. 15 min w jedną stronę",
+            "distance": "około 6 km w jedną stronę",
+            "elevationGain": "około 500 m",
+            "routeNote": "Nie wchodź na wieżę podczas burzy, oblodzenia lub silnego wiatru.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Gmina Ochotnica Dolna – wieże widokowe",
+                "url": "https://www.ochotnica.pl/wieze-widokowe/"
+              }
+            ]
+          },
+          {
+            "name": "Wieża widokowa na Gorcu",
+            "lat": 49.5717,
+            "lon": 20.2532,
+            "desc": "Zabudowana drewniana wieża na szczycie Gorca.",
+            "why": "Otwiera panoramę całego pasma, Beskidu Wyspowego i Tatr.",
+            "curiosity": "Konstrukcja należy do sieci wież Enklawy Aktywnego Wypoczynku.",
+            "tags": [
+              "WIEŻA",
+              "WIDOKI"
+            ],
+            "difficulty": "średnia",
+            "family": "tak przy dobrej kondycji",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking Lubomierz-Rzeki",
+            "parkingLat": 49.6248,
+            "parkingLon": 20.2159,
+            "walkTime": "około 2 godz. 15 min w jedną stronę",
+            "distance": "około 6 km w jedną stronę",
+            "elevationGain": "około 600 m",
+            "routeNote": "Przy złej pogodzie nie wchodź na platformę.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Gmina Ochotnica Dolna – wieże widokowe",
+                "url": "https://www.ochotnica.pl/wieze-widokowe/"
+              }
+            ]
+          },
+          {
+            "name": "Wieża widokowa na Magurkach",
+            "lat": 49.5458,
+            "lon": 20.2852,
+            "desc": "Bezpieczna, zabudowana wieża na widokowym szczycie ponad Ochotnicą Górną.",
+            "why": "Oferuje panoramę Tatr, Gorców, Pienin i dalekich pasm słowackich.",
+            "curiosity": "Na platformach umieszczono cztery tablice opisujące panoramy.",
+            "tags": [
+              "WIEŻA",
+              "RODZINNIE",
+              "WIDOKI"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "sprawdź zasady GPN",
+            "fee": "zgodnie z zasadami GPN",
+            "parking": "Punkt startowy ścieżki Dolina Potoku Jaszcze",
+            "parkingLat": 49.5258,
+            "parkingLon": 20.2993,
+            "walkTime": "pętla około 3 godz. 30 min",
+            "distance": "pętla około 9,5 km",
+            "elevationGain": "około 450 m",
+            "routeNote": "W rejonie startu liczba legalnych miejsc postojowych jest ograniczona.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Góry dla Ciebie – Magurki",
+                "url": "https://gorydlaciebie.pl/wyprawy/magurki-i-borsuczyny-sciezka-potoku-jaszcze/"
+              }
+            ]
+          },
+          {
+            "name": "Hala Długa",
+            "lat": 49.5464,
+            "lon": 20.1186,
+            "desc": "Rozległa polana pod Turbaczem, należąca do najpiękniejszych gorczańskich hal.",
+            "why": "To najlepsze miejsce w masywie Turbacza do podziwiania Tatr i wschodów słońca.",
+            "curiosity": "Na hali prowadzony jest kulturowy wypas owiec, pomagający chronić cenne zbiorowiska łąkowe.",
+            "tags": [
+              "TOP",
+              "WIDOKI",
+              "PASTERSTWO"
+            ],
+            "difficulty": "średnia",
+            "family": "tak przy dobraniu trasy",
+            "dog": "zgodnie z regulaminem GPN",
+            "fee": "wstęp do GPN według cennika",
+            "parking": "Parking przy Długiej Polanie w Nowym Targu",
+            "parkingLat": 49.5164,
+            "parkingLon": 20.0717,
+            "walkTime": "około 2 godz. 30 min w jedną stronę",
+            "distance": "około 7,5 km w jedną stronę",
+            "elevationGain": "około 600 m",
+            "routeNote": "Nie płosz owiec i nie wchodź między zwierzęta a psy pasterskie.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Visit Małopolska – Gorczański Park Narodowy",
+                "url": "https://visitmalopolska.pl/obiekt/-/poi/gorczanski-park-narodowy"
+              }
+            ]
+          }
+        ]
+      },
+      "atrakcje": {
+        "name": "Atrakcje",
+        "icon": "⭐",
+        "items": [
+          {
+            "name": "Ośrodek Edukacyjny GPN w Porębie Wielkiej",
+            "lat": 49.6005,
+            "lon": 20.0642,
+            "desc": "Centrum edukacyjne Gorczańskiego Parku Narodowego z ekspozycją poświęconą przyrodzie i kulturze Gorców.",
+            "why": "To najlepsze miejsce, aby przygotować się do świadomego zwiedzania parku.",
+            "curiosity": "Ekspozycje pokazują znaczenie gorczańskich lasów, polan i pasterstwa.",
+            "tags": [
+              "PARK NARODOWY",
+              "RODZINNIE",
+              "NA NIEPOGODĘ"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "do wnętrza nie",
+            "fee": "zgodnie z aktualnym cennikiem",
+            "parking": "Parking przy Ośrodku Edukacyjnym GPN",
+            "parkingLat": 49.6004,
+            "parkingLon": 20.064,
+            "walkTime": "na miejscu",
+            "distance": "",
+            "elevationGain": "minimalne",
+            "routeNote": "Przed wizytą sprawdź godziny otwarcia i dostępność ekspozycji.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Gorczański Park Narodowy",
+                "url": "https://gpn.gov.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Brama w Gorce",
+            "lat": 49.4938,
+            "lon": 20.0744,
+            "desc": "Centrum przyrodniczo-edukacyjne w Waksmundzie z kładkami w koronach drzew i wieżami widokowymi.",
+            "why": "Pozwala rodzinom poznawać gorczańską przyrodę bez długiej górskiej wędrówki.",
+            "curiosity": "Trasa spacerowa prowadzi częściowo ponad dnem doliny i pomiędzy koronami drzew.",
+            "tags": [
+              "RODZINNIE",
+              "EDUKACJA",
+              "WIDOKI"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "sprawdź regulamin obiektu",
+            "fee": "płatne według aktualnego cennika",
+            "parking": "Parking Brama w Gorce",
+            "parkingLat": 49.4934,
+            "parkingLon": 20.0742,
+            "walkTime": "na miejscu",
+            "distance": "zależnie od wariantu zwiedzania",
+            "elevationGain": "niewielkie",
+            "routeNote": "Sprawdź godziny otwarcia, ceny i ewentualne ograniczenia pogodowe.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Brama w Gorce",
+                "url": "https://bramawgorce.com/"
+              }
+            ]
+          },
+          {
+            "name": "Wyciąg krzesełkowy Tobołów w Koninkach",
+            "lat": 49.5888,
+            "lon": 20.0704,
+            "desc": "Kolej krzesełkowa wywożąca turystów na Tobołów, skąd prowadzą szlaki w stronę Turbacza.",
+            "why": "Ułatwia rodzinne rozpoczęcie wycieczki w wyższych partiach zachodnich Gorców.",
+            "curiosity": "W okolicy Tobołowa wytyczono także trasy rowerowe i narciarskie.",
+            "tags": [
+              "KOLEJ",
+              "AKTYWNIE",
+              "RODZINNIE"
+            ],
+            "difficulty": "łatwa przy wjeździe; dalej zależna od trasy",
+            "family": "tak",
+            "dog": "przewóz zgodnie z regulaminem operatora",
+            "fee": "płatne według aktualnego cennika",
+            "parking": "Parking przy dolnej stacji kolei w Koninkach",
+            "parkingLat": 49.5902,
+            "parkingLon": 20.0689,
+            "walkTime": "na miejscu",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Kolej działa sezonowo; sprawdź komunikaty operatora przed wyjazdem.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Ostoja Górska Koninki",
+                "url": "https://www.koninki.pl/"
+              }
+            ]
+          }
+        ]
+      },
+      "formacje_skalne": {
+        "name": "Formacje skalne",
+        "icon": "🪨",
+        "items": [
+          {
+            "name": "Kudłoński Baca",
+            "lat": 49.5977,
+            "lon": 20.1747,
+            "desc": "Około szesnastometrowy ostaniec skalny na stokach Kudłonia, najsłynniejsza formacja skalna Gorców.",
+            "why": "Jest niezwykłym przystankiem na leśnej trasie przez Gorczański Park Narodowy.",
+            "curiosity": "Nazwa nawiązuje do sylwetki skały przypominającej siedzącego bacę.",
+            "tags": [
+              "TOP",
+              "GEOLOGIA",
+              "PARK NARODOWY"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci",
+            "dog": "zgodnie z regulaminem GPN",
+            "fee": "wstęp do GPN według cennika",
+            "parking": "Parking GPN w dolinie Kamienicy – Trusiówka",
+            "parkingLat": 49.6091,
+            "parkingLon": 20.1622,
+            "walkTime": "około 1 godz. 45 min w jedną stronę",
+            "distance": "około 5 km w jedną stronę",
+            "elevationGain": "około 400 m",
+            "routeNote": "Nie wspinaj się na ostaniec i nie opuszczaj znakowanego szlaku.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Góry dla Ciebie – Kudłoń",
+                "url": "https://gorydlaciebie.pl/wyprawy/kudlon-turbacz-gorc-wokol-doliny-kamienicy/"
+              }
+            ]
+          },
+          {
+            "name": "Zbójnicka Jama pod Jaworzyną Kamienicką",
+            "lat": 49.5665,
+            "lon": 20.1771,
+            "desc": "Niewielka jaskinia szczelinowa ukryta w lesie poniżej Polany Jaworzyna Kamienicka.",
+            "why": "Uzupełnia widokową wycieczkę o ciekawy element geologiczny i zbójnickie legendy.",
+            "curiosity": "Według podań miała służyć jako kryjówka gorczańskich zbójników.",
+            "tags": [
+              "JASKINIA",
+              "LEGENDA",
+              "PARK NARODOWY"
+            ],
+            "difficulty": "średnia",
+            "family": "dla starszych dzieci pod opieką dorosłych",
+            "dog": "zgodnie z regulaminem GPN; nie wprowadzaj do wnętrza",
+            "fee": "wstęp do GPN według cennika",
+            "parking": "Parking GPN w dolinie Kamienicy – Trusiówka",
+            "parkingLat": 49.6091,
+            "parkingLon": 20.1622,
+            "walkTime": "około 3 godz. w jedną stronę",
+            "distance": "około 8 km w jedną stronę",
+            "elevationGain": "około 600 m",
+            "routeNote": "Nie wchodź do szczeliny bez odpowiedniego przygotowania; teren podlega ochronie.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Gorczański Park Narodowy",
+                "url": "https://gpn.gov.pl/"
+              }
+            ]
+          }
+        ]
+      },
+      "schroniska": {
+        "name": "Schroniska",
+        "icon": "🏠",
+        "items": [
+          {
+            "name": "Schronisko PTTK na Turbaczu",
+            "lat": 49.5434,
+            "lon": 20.1178,
+            "desc": "Największe i najważniejsze schronisko Gorców, położone na skraju Hali Długiej pod szczytem Turbacza.",
+            "why": "Jest centralnym węzłem szlaków oraz doskonałym miejscem odpoczynku i noclegu.",
+            "curiosity": "Obecny budynek oddano do użytku w 1958 roku, a jego taras słynie z panoramy Tatr.",
+            "tags": [
+              "TOP",
+              "NOCLEG",
+              "WIDOKI"
+            ],
+            "difficulty": "średnia",
+            "family": "tak przy dobraniu odpowiedniej trasy",
+            "dog": "zasady pobytu potwierdź w schronisku; uwzględnij ograniczenia GPN",
+            "fee": "nocleg i gastronomia według cennika",
+            "parking": "Parking przy Długiej Polanie w Nowym Targu",
+            "parkingLat": 49.5164,
+            "parkingLon": 20.0717,
+            "walkTime": "około 2 godz. 40 min w jedną stronę",
+            "distance": "około 8 km w jedną stronę",
+            "elevationGain": "około 630 m",
+            "routeNote": "Przed noclegiem zarezerwuj miejsce i sprawdź komunikaty schroniska oraz GPN.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Schronisko PTTK na Turbaczu",
+                "url": "https://turbacz.net/"
+              }
+            ]
+          },
+          {
+            "name": "Schronisko PTTK Stare Wierchy",
+            "lat": 49.5754,
+            "lon": 20.0273,
+            "desc": "Kameralne schronisko na polanie w zachodniej części Gorców, przy Głównym Szlaku Beskidzkim.",
+            "why": "Jest łatwym celem rodzinnej wycieczki i przystankiem w drodze na Turbacz.",
+            "curiosity": "Pierwsze schronisko w tym miejscu powstało przed II wojną światową.",
+            "tags": [
+              "NOCLEG",
+              "RODZINNIE"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "zasady pobytu potwierdź w schronisku",
+            "fee": "nocleg i gastronomia według cennika",
+            "parking": "Parking przy początku szlaku w Obidowej",
+            "parkingLat": 49.5715,
+            "parkingLon": 20.0046,
+            "walkTime": "około 1 godz. 15 min w jedną stronę",
+            "distance": "około 3,5 km w jedną stronę",
+            "elevationGain": "około 250 m",
+            "routeNote": "Zimą trasa może być oblodzona; przed noclegiem sprawdź dostępność miejsc.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Schronisko PTTK Stare Wierchy",
+                "url": "https://starewierchy.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Bacówka PTTK na Maciejowej",
+            "lat": 49.5937,
+            "lon": 20.0031,
+            "desc": "Niewielka bacówka na polanie Przysłop pod szczytem Maciejowej.",
+            "why": "To jeden z najłatwiej dostępnych rodzinnych celów w zachodnich Gorcach.",
+            "curiosity": "Z polany przy bacówce rozciąga się panorama Beskidu Wyspowego i Tatr.",
+            "tags": [
+              "NOCLEG",
+              "RODZINNIE",
+              "WIDOKI"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "zasady pobytu potwierdź w bacówce",
+            "fee": "nocleg i gastronomia według cennika",
+            "parking": "Parking przy ul. Gorczańskiej w Rabce-Zdroju",
+            "parkingLat": 49.6078,
+            "parkingLon": 19.9741,
+            "walkTime": "około 1 godz. 30 min w jedną stronę",
+            "distance": "około 4 km w jedną stronę",
+            "elevationGain": "około 300 m",
+            "routeNote": "Czerwony szlak z Rabki jest popularny i odpowiedni na spokojną wycieczkę.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Bacówka PTTK na Maciejowej",
+                "url": "https://maciejowa.pttk.pl/"
+              }
+            ]
+          }
+        ]
+      },
+      "zabytki": {
+        "name": "Zabytki",
+        "icon": "🏛️",
+        "items": [
+          {
+            "name": "Kapliczka Bulandy",
+            "lat": 49.5674,
+            "lon": 20.1691,
+            "desc": "Biała kapliczka na Polanie Jaworzyna Kamienicka, ufundowana w 1904 roku przez bacę Tomasza Chlipałę.",
+            "why": "To najbardziej rozpoznawalny zabytek sakralny we wnętrzu Gorców.",
+            "curiosity": "Bulanda był słynnym bacą i znachorem, z którym wiąże się wiele lokalnych opowieści.",
+            "tags": [
+              "TOP",
+              "HISTORIA",
+              "PARK NARODOWY"
+            ],
+            "difficulty": "średnia; długa trasa",
+            "family": "dla starszych dzieci",
+            "dog": "zgodnie z regulaminem GPN",
+            "fee": "wstęp do GPN według cennika",
+            "parking": "Parking GPN w dolinie Kamienicy – Trusiówka",
+            "parkingLat": 49.6091,
+            "parkingLon": 20.1622,
+            "walkTime": "około 3 godz. w jedną stronę",
+            "distance": "około 8 km w jedną stronę",
+            "elevationGain": "około 600 m",
+            "routeNote": "Kapliczka leży na chronionej polanie; nie schodź z udostępnionej trasy.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Turystyka Ochotnica – Kapliczka Bulandy",
+                "url": "https://turystyka.ochotnica.pl/bulandowa-kapliczka-na-polanie-jaworzyna-kamienicka/"
+              }
+            ]
+          },
+          {
+            "name": "Orkanówka w Porębie Wielkiej",
+            "lat": 49.6038,
+            "lon": 20.0474,
+            "desc": "Dom Władysława Orkana, dziś muzeum biograficzne pisarza silnie związanego z Gorcami.",
+            "why": "Pozwala poznać kulturę Zagórzan i literacki obraz gorczańskiej wsi.",
+            "curiosity": "Dom został zaprojektowany częściowo przez samego pisarza i stoi na widokowym stoku Pustki.",
+            "tags": [
+              "MUZEUM",
+              "HISTORIA",
+              "KULTURA"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "do wnętrza nie",
+            "fee": "zgodnie z aktualnym cennikiem",
+            "parking": "Parking przy Orkanówce",
+            "parkingLat": 49.6034,
+            "parkingLon": 20.0478,
+            "walkTime": "2–5 min",
+            "distance": "poniżej 0,3 km",
+            "elevationGain": "niewielkie",
+            "routeNote": "Sprawdź godziny otwarcia muzeum przed wizytą.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Gorczański Park Narodowy – okolice Poręby Wielkiej",
+                "url": "https://gpn.gov.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Dwór Tetmajerów w Łopusznej",
+            "lat": 49.4728,
+            "lon": 20.1317,
+            "desc": "Zabytkowy drewniany dwór szlachecki, obecnie oddział Muzeum Tatrzańskiego.",
+            "why": "Jest ważnym zabytkiem kultury u południowego podnóża Gorców.",
+            "curiosity": "Z Łopuszną związani byli Leon Przerwa-Tetmajer i poeta Kazimierz Przerwa-Tetmajer.",
+            "tags": [
+              "MUZEUM",
+              "DREWNIANA ARCHITEKTURA",
+              "HISTORIA"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "do wnętrza nie",
+            "fee": "zgodnie z aktualnym cennikiem",
+            "parking": "Parking przy kościele i dworze w Łopusznej",
+            "parkingLat": 49.4733,
+            "parkingLon": 20.1325,
+            "walkTime": "2–5 min",
+            "distance": "poniżej 0,3 km",
+            "elevationGain": "minimalne",
+            "routeNote": "Sprawdź godziny udostępniania wnętrz i ekspozycji.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Muzeum Tatrzańskie – Dwór w Łopusznej",
+                "url": "https://muzeumtatrzanskie.pl/"
+              }
+            ]
+          }
+        ]
+      },
+      "mniej_znane": {
+        "name": "Mniej znane miejsca",
+        "icon": "💎",
+        "items": [
+          {
+            "name": "Polana Jaworzyna Kamienicka",
+            "lat": 49.5673,
+            "lon": 20.1694,
+            "desc": "Rozległa polana pod Jaworzyną Kamienicką z panoramą Beskidu Sądeckiego i Wyspowego.",
+            "why": "Łączy widoki, pasterski krajobraz, torfowisko i Kapliczkę Bulandy.",
+            "curiosity": "Polana należy do symbolicznych miejsc Gorczańskiego Parku Narodowego.",
+            "tags": [
+              "WIDOKI",
+              "PARK NARODOWY",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "średnia; długa trasa",
+            "family": "dla starszych dzieci",
+            "dog": "zgodnie z regulaminem GPN",
+            "fee": "wstęp do GPN według cennika",
+            "parking": "Parking GPN w dolinie Kamienicy – Trusiówka",
+            "parkingLat": 49.6091,
+            "parkingLon": 20.1622,
+            "walkTime": "około 3 godz. w jedną stronę",
+            "distance": "około 8 km w jedną stronę",
+            "elevationGain": "około 600 m",
+            "routeNote": "Nie opuszczaj szlaków i nie wchodź na chronione torfowisko.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Visit Małopolska – Gorczański Park Narodowy",
+                "url": "https://visitmalopolska.pl/obiekt/-/poi/gorczanski-park-narodowy"
+              }
+            ]
+          },
+          {
+            "name": "Miejsce katastrofy Liberatora California Rocket",
+            "lat": 49.5387,
+            "lon": 20.2967,
+            "desc": "Miejsce upamiętniające katastrofę alianckiego bombowca B-24 w grudniu 1944 roku.",
+            "why": "Nadaje rodzinnej ścieżce Doliny Potoku Jaszcze ważny wymiar historyczny.",
+            "curiosity": "Załoga wyskoczyła ze spadochronami przed rozbiciem samolotu na gorczańskim grzbiecie.",
+            "tags": [
+              "HISTORIA",
+              "II WOJNA ŚWIATOWA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "sprawdź zasady GPN",
+            "fee": "zgodnie z zasadami GPN",
+            "parking": "Punkt startowy ścieżki Dolina Potoku Jaszcze",
+            "parkingLat": 49.5258,
+            "parkingLon": 20.2993,
+            "walkTime": "około 1 godz. 30 min w jedną stronę",
+            "distance": "około 4 km w jedną stronę",
+            "elevationGain": "około 250 m",
+            "routeNote": "Miejsce leży przy ścieżce edukacyjnej; zachowaj szacunek dla pamiątki historycznej.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Góry dla Ciebie – Dolina Potoku Jaszcze",
+                "url": "https://gorydlaciebie.pl/wyprawy/magurki-i-borsuczyny-sciezka-potoku-jaszcze/"
+              }
+            ]
+          },
+          {
+            "name": "Polana Gorc Kamienicki",
+            "lat": 49.5731,
+            "lon": 20.2448,
+            "desc": "Widokowa polana pod Gorcem, znacznie spokojniejsza od rejonu Turbacza.",
+            "why": "Oferuje szerokie widoki i atmosferę dawnych gorczańskich hal.",
+            "curiosity": "Nazwa odróżnia polanę od innych miejsc określanych w Gorcach słowem Gorc.",
+            "tags": [
+              "WIDOKI",
+              "PASTERSTWO",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "średnia",
+            "family": "tak przy dobrej kondycji",
+            "dog": "sprawdź przebieg względem GPN",
+            "fee": "zależnie od przebiegu trasy",
+            "parking": "Parking Lubomierz-Rzeki",
+            "parkingLat": 49.6248,
+            "parkingLon": 20.2159,
+            "walkTime": "około 2 godz. w jedną stronę",
+            "distance": "około 5,5 km w jedną stronę",
+            "elevationGain": "około 550 m",
+            "routeNote": "Nie wchodź na użytkowane fragmenty polany i nie płosz zwierząt.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Gorczański Park Narodowy",
+                "url": "https://gpn.gov.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Polana Podskały",
+            "lat": 49.6155,
+            "lon": 20.2361,
+            "desc": "Rozległa, tradycyjna polana nad Lubomierzem z szałasami i widokiem na Beskid Wyspowy.",
+            "why": "Jest łatwiej dostępnym miejscem pozwalającym poczuć pasterski charakter Gorców.",
+            "curiosity": "Na polanie zachowały się przykłady dawnej zabudowy szałaśniczej.",
+            "tags": [
+              "PASTERSTWO",
+              "WIDOKI",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Parking Lubomierz-Rzeki",
+            "parkingLat": 49.6248,
+            "parkingLon": 20.2159,
+            "walkTime": "około 1 godz. w jedną stronę",
+            "distance": "około 3 km w jedną stronę",
+            "elevationGain": "około 250 m",
+            "routeNote": "Szanuj prywatność właścicieli szałasów i nie wchodź do budynków.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Odkrywamy Gorce",
+                "url": "https://odkrywamygorce.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Polana Łapsowa",
+            "lat": 49.5334,
+            "lon": 20.0453,
+            "desc": "Widokowa polana nad Nowym Targiem, znana z panoramy Tatr i kameralnej koliby.",
+            "why": "Jest dobrym celem krótszej wycieczki, szczególnie o zachodzie słońca.",
+            "curiosity": "Przy dobrej przejrzystości widać stąd niemal pełną panoramę Tatr.",
+            "tags": [
+              "WIDOKI",
+              "RODZINNIE",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "na smyczy; zasady pobytu sprawdź w kolibie",
+            "fee": "szlak bezpłatny; gastronomia płatna",
+            "parking": "Parking przy osiedlu Marfiana Góra w Nowym Targu",
+            "parkingLat": 49.5249,
+            "parkingLon": 20.0387,
+            "walkTime": "około 40–60 min w jedną stronę",
+            "distance": "około 2 km w jedną stronę",
+            "elevationGain": "około 220 m",
+            "routeNote": "Parking ma ograniczoną pojemność; nie blokuj drogi ani posesji.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Gorce – szlaki i miejsca",
+                "url": "https://mynaszlaku.pl/gorce/"
+              }
+            ]
+          }
+        ]
+      }
     }
   }
 };
