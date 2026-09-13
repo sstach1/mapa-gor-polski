@@ -5165,43 +5165,23 @@ const DATA = {
             "lat": 50.2072,
             "lon": 16.8494,
             "desc": "Najwyższy szczyt Masywu Śnieżnika po polskiej stronie i jeden z najwyższych w Sudetach. Rozległy wierzchołek leży na granicy polsko-czeskiej; stoi na nim nowa wieża widokowa.",
-            "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%9Anie%C5%BCnik.JPG?width=900",
-            "photoPage": "https://commons.wikimedia.org/wiki/File:%C5%9Anie%C5%BCnik.JPG",
-            "photoCredit": "Gregory Reshetniak",
-            "photoLicense": "CC BY-SA 3.0 PL",
+            "why": "Najwyższy szczyt Masywu Śnieżnika, z nową wieżą widokową i szeroką panoramą Sudetów.",
             "tags": [
               "TOP",
               "WIDOKI",
               "KORONA",
               "🥾 DLA PIECHURÓW"
             ],
-            "why": "Najwyższy szczyt Masywu Śnieżnika, z nową wieżą widokową i szeroką panoramą Sudetów.",
-            "curiosity": "",
             "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "na szlakach poza obiektami zamkniętymi zwykle na smyczy; w rezerwatach i obiektach turystycznych sprawdź lokalny regulamin",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
             "parking": "Międzygórze – parking leśny „Pod Skocznią”, koniec ul. Śnieżnej",
             "parkingLat": 50.2199,
             "parkingLon": 16.7898,
             "walkTime": "około 2 h 30 min – 2 h 45 min w jedną stronę",
-            "distance": "",
-            "routeNote": "Praktyczny start z Międzygórza na Halę pod Śnieżnikiem, Śnieżnik i okoliczne szlaki. Parking znajduje się przy końcu ogólnodostępnego dojazdu; dalej należy iść pieszo.",
-            "elevationGain": "",
-            "sources": [
-              {
-                "name": "Gmina Stronie Śląskie",
-                "url": "https://stronie.pl/"
-              },
-              {
-                "name": "Jaskinia Niedźwiedzia",
-                "url": "https://www.jaskinianiedzwiedzia.pl/"
-              },
-              {
-                "name": "MyNaSzlaku – parking Pod Skocznią",
-                "url": "https://mynaszlaku.pl/opis-szlaku-z-miedzygorza-na-snieznik/"
-              }
-            ]
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "na szlakach poza obiektami zamkniętymi zwykle na smyczy; w rezerwatach i obiektach turystycznych sprawdź lokalny regulamin",
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
+            "photo": "zdjecia/masyw-snieznika/snieznik.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Mały Śnieżnik",
@@ -15587,10 +15567,7 @@ const DATA = {
             "family": "zależy od wybranej trasy",
             "dog": "na smyczy; sprawdź lokalne zasady ochrony przyrody",
             "fee": "wieża bezpłatna",
-            "photo": "zdjecia/gory-orlickie/orlica.jpg",
-            "photoPage": "",
-            "photoCredit": "Zdjęcie własne",
-            "photoLicense": ""
+            "photo": "zdjecia/gory-orlickie/orlica.jpg"
           },
           {
             "name": "Šerlich",
