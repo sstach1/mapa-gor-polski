@@ -15523,11 +15523,11 @@ const DATA = {
           },
           {
             "name": "Orlica",
+            "ele": 1084,
             "lat": 50.354059,
             "lon": 16.361252,
             "desc": "Najwyższy szczyt polskiej części Gór Orlickich. Około 50 m od właściwego wierzchołka stoi drewniano-kamienna wieża widokowa.",
             "why": "Najwyższy szczyt polskiej części pasma i jeden z najważniejszych punktów widokowych regionu.",
-            "curiosity": "",
             "tags": [
               "⭐ TOP",
               "👀 WIDOKI",
@@ -15535,39 +15535,13 @@ const DATA = {
               "🥾 DLA PIECHURÓW"
             ],
             "difficulty": "łatwa/średnia z Zieleńca",
-            "family": "zależy od wybranej trasy",
-            "dog": "na smyczy; sprawdź lokalne zasady ochrony przyrody",
-            "fee": "wieża bezpłatna",
             "parking": "Mały parking przy Kamieniu Rübartscha – start na Orlicę",
             "parkingLat": 50.347467,
             "parkingLon": 16.381232,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "routeNote": "Praktyczny start bezpośrednio przy wejściu na trasę na Orlicę. Parking jest niewielki; przy dużym ruchu skorzystaj z ogólnodostępnych parkingów w Zieleńcu.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
-            "sources": [
-              {
-                "name": "Szlaki Dolnego Śląska PTTK – Orlica",
-                "url": "https://dolnoslaskie.szlaki.pttk.pl/2219-dolnoslaskie-orlica-wieza-widokowa"
-              },
-              {
-                "name": "Zieleniec – wieża na Orlicy",
-                "url": "https://zieleniec.pl/artykuly/wieza-widokowa-na-orlicy"
-              },
-              {
-                "name": "Zieleniec Sport Arena – parkingi",
-                "url": "https://zieleniec.pl/wiecej/parking"
-              },
-              {
-                "name": "Orlica – dojście od Kamienia Rübartscha",
-                "url": "https://monknaszlaku.pl/2020/01/22/orlica-gory-orlickie/"
-              }
-            ],
-            "ele": 1084
+            "family": "zależy od wybranej trasy",
+            "dog": "na smyczy; sprawdź lokalne zasady ochrony przyrody",
+            "fee": "wieża bezpłatna",
+            "photo": "zdjecia/gory-orlickie/orlica.jpg"
           },
           {
             "name": "Šerlich",
