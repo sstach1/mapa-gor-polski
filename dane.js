@@ -2460,19 +2460,42 @@ const DATA = {
           {
             "name": "Czernik",
             "ele": 832,
-            "lat": 50.318089,
-            "lon": 16.9448619,
+            "lat": 50.3180696,
+            "lon": 16.9443041,
             "desc": "Mniej znany szczyt Gór Złotych, położony w południowo-środkowej części pasma. To miejsce dla osób, które wolą spokojne leśne wędrówki od najbardziej popularnych celów.",
             "tags": [
               "🥾 DLA PIECHURÓW"
             ],
             "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
-            "parking": "Parking na Trojak – ul. Leśna / Hotel Trojan, Lądek-Zdrój",
-            "parkingLat": 50.339695,
-            "parkingLon": 16.8929794,
             "family": "zależy od wybranej trasy, wieku dzieci i warunków",
             "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji"
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
+            "routeNote": "Praktyczny start z górnej części Lądka-Zdroju na Trojak, Karpiak i okolice.",
+            "parking": "Parking na Trojak – ul. Leśna / Hotel Trojan, Lądek-Zdrój",
+            "parkingLat": 50.340607,
+            "parkingLon": 16.891203,
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "curiosity": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Lądek-Zdrój",
+                "url": "https://ladek.pl/"
+              },
+              {
+                "name": "Złoty Stok",
+                "url": "https://zlotystok.pl/"
+              },
+              {
+                "name": "Dostępne Miejsce – Leśna 4A",
+                "url": "https://dostepnemiejsce.pl/pl/000121987/hotel-trojan"
+              }
+            ]
           },
           {
             "name": "Karpiak",
@@ -2524,12 +2547,35 @@ const DATA = {
               "🥾 DLA PIECHURÓW"
             ],
             "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
-            "parking": "Parking na Trojak – ul. Leśna / Hotel Trojan, Lądek-Zdrój",
-            "parkingLat": 50.339695,
-            "parkingLon": 16.8929794,
             "family": "zależy od wybranej trasy, wieku dzieci i warunków",
             "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji"
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
+            "routeNote": "Praktyczny start z górnej części Lądka-Zdroju na Trojak, Karpiak i okolice.",
+            "parking": "Parking na Trojak – ul. Leśna / Hotel Trojan, Lądek-Zdrój",
+            "parkingLat": 50.340607,
+            "parkingLon": 16.891203,
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "curiosity": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Lądek-Zdrój",
+                "url": "https://ladek.pl/"
+              },
+              {
+                "name": "Złoty Stok",
+                "url": "https://zlotystok.pl/"
+              },
+              {
+                "name": "Dostępne Miejsce – Leśna 4A",
+                "url": "https://dostepnemiejsce.pl/pl/000121987/hotel-trojan"
+              }
+            ]
           },
           {
             "name": "Ptasznik",
@@ -15541,7 +15587,10 @@ const DATA = {
             "family": "zależy od wybranej trasy",
             "dog": "na smyczy; sprawdź lokalne zasady ochrony przyrody",
             "fee": "wieża bezpłatna",
-            "photo": "zdjecia/gory-orlickie/orlica.jpg"
+            "photo": "zdjecia/gory-orlickie/orlica.jpg",
+            "photoPage": "",
+            "photoCredit": "Zdjęcie własne",
+            "photoLicense": ""
           },
           {
             "name": "Šerlich",
@@ -16699,7 +16748,7 @@ const DATA = {
             "family": "zależy od długości trasy i wieku dzieci",
             "dog": "sprawdź aktualne zasady rezerwatu i wybranego szlaku",
             "fee": "szlak bezpłatny; parkingi lub obiekty mogą być płatne",
-            "photo": "zdjecia/masyw-slezy/sleza.jpg"
+            "photo": "zdjecia/sleza/sleza.jpg"
           },
           {
             "name": "Radunia",
@@ -26926,26 +26975,38 @@ const DATA = {
             "ele": 909
           },
           {
-            "name": "Schronisko Górskie PTTK na Leskowcu",
-            "ele": 890,
-            "lat": 49.7952486,
-            "lon": 19.4474233,
-            "desc": "Historyczne schronisko położone pod Groniem Jana Pawła II, w pobliżu Leskowca.",
-            "why": "Najważniejsza baza turystyczna we wschodniej części Beskidu Małego.",
-            "tags": [
-              "🛖 SCHRONISKO",
-              "⭐ TOP"
-            ],
+            "curiosity": "",
             "difficulty": "zależna od wybranego wariantu i warunków",
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "na smyczy; w rezerwatach i obszarach chronionych sprawdź aktualne zasady przed wyjściem",
+            "fee": "szlaki piesze zasadniczo bezpłatne; parkingi, koleje i wybrane obiekty mogą być płatne",
             "parking": "Rzyki–Mydlarze – parking przy wejściu na czarny szlak",
             "parkingLat": 49.796861,
             "parkingLon": 19.425528,
             "walkTime": "ok. 1 h 15–1 h 35 min w jedną stronę",
             "distance": "ok. 3 km w jedną stronę",
             "elevationGain": "ok. 440 m",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "na smyczy; w rezerwatach i obszarach chronionych sprawdź aktualne zasady przed wyjściem",
-            "fee": "szlaki piesze zasadniczo bezpłatne; parkingi, koleje i wybrane obiekty mogą być płatne"
+            "routeNote": "Czas, dystans i przewyższenie zależą od wybranego wariantu. Przed wyjściem sprawdź aktualny przebieg szlaku.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "name": "Schronisko Górskie PTTK na Leskowcu",
+            "lat": 49.7819,
+            "lon": 19.4406,
+            "desc": "Historyczne schronisko położone pod Groniem Jana Pawła II, w pobliżu Leskowca.",
+            "why": "Najważniejsza baza turystyczna we wschodniej części Beskidu Małego.",
+            "tags": [
+              "🛖 SCHRONISKO",
+              "⭐ TOP"
+            ],
+            "sources": [
+              {
+                "name": "PTTK – Schronisko na Leskowcu",
+                "url": "https://schroniska.pttk.pl/leskowiec/pl"
+              }
+            ],
+            "ele": 890
           }
         ]
       },
@@ -27918,11 +27979,26 @@ const DATA = {
               "RODZINNIE"
             ],
             "difficulty": "łatwa",
-            "parkingLat": 49.7469361,
-            "parkingLon": 19.6024739,
             "family": "tak",
             "dog": "w parku zgodnie z regulaminem; do wnętrz zwykle nie",
-            "fee": "park ogólnodostępny; zwiedzanie ekspozycji może być płatne"
+            "fee": "park ogólnodostępny; zwiedzanie ekspozycji może być płatne",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Sprawdź aktualne godziny zwiedzania Muzeum Miejskiego.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Sucha Beskidzka – zespół zamkowo-parkowy",
+                "url": "https://sucha-beskidzka.pl/"
+              }
+            ]
           },
           {
             "name": "Karczma Rzym",
@@ -27936,11 +28012,26 @@ const DATA = {
               "KULTURA"
             ],
             "difficulty": "łatwa",
-            "parkingLat": 49.7463076,
-            "parkingLon": 19.6014332,
             "family": "tak",
             "dog": "zgodnie z zasadami lokalu",
-            "fee": "oglądanie z zewnątrz bezpłatne; gastronomia płatna"
+            "fee": "oglądanie z zewnątrz bezpłatne; gastronomia płatna",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Obiekt znajduje się bezpośrednio przy rynku.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Sucha Beskidzka – Karczma Rzym",
+                "url": "https://sucha-beskidzka.pl/"
+              }
+            ]
           },
           {
             "name": "Zespół kościelno-klasztorny w Suchej Beskidzkiej",
@@ -27954,11 +28045,26 @@ const DATA = {
               "ARCHITEKTURA"
             ],
             "difficulty": "łatwa",
-            "parkingLat": 49.746306,
-            "parkingLon": 19.6024739,
             "family": "tak",
             "dog": "na zewnątrz na smyczy; do wnętrz nie",
-            "fee": "bezpłatnie; uszanuj trwające nabożeństwa"
+            "fee": "bezpłatnie; uszanuj trwające nabożeństwa",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Obiekt znajduje się blisko rynku i można go połączyć ze zwiedzaniem zamku.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Sucha Beskidzka – zabytki miasta",
+                "url": "https://sucha-beskidzka.pl/"
+              }
+            ]
           },
           {
             "name": "Kaplica Konfederatów Barskich na Jasiu",
@@ -27972,11 +28078,26 @@ const DATA = {
               "💎 MNIEJ ZNANY"
             ],
             "difficulty": "łatwa do średniej",
-            "parkingLat": 49.7463076,
-            "parkingLon": 19.6014332,
             "family": "tak",
             "dog": "na smyczy",
-            "fee": "bezpłatnie"
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Do kaplicy prowadzi podejście z zabudowy Suchej Beskidzkiej.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Sucha Beskidzka – Kaplica Konfederatów Barskich",
+                "url": "https://sucha-beskidzka.pl/"
+              }
+            ]
           }
         ]
       },
