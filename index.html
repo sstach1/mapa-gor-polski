@@ -254,9 +254,11 @@ function popup(p,cat){
  const navBtn=hasStart?`<a target="_blank" rel="noopener" href="${nav}">🚗 Nawiguj</a>`:`<span class="action-disabled" title="Brak zweryfikowanego parkingu/punktu startowego">🚗 Nawiguj – brak zweryfikowanego startu</span>`;
  const walkBtn=walking?`<a class="secondary" target="_blank" rel="noopener" href="${walking}">🥾 Trasa piesza</a>`:`<span class="action-disabled" title="Trasa zostanie udostępniona po weryfikacji punktu startowego">🥾 Trasa piesza – brak zweryfikowanego startu</span>`;
 
+ const isLocalPhoto=p.photo && !/^(?:https?:)?\/\//i.test(p.photo);
+ const defaultPhotoCredit=isLocalPhoto?'Zdjęcie własne':'Wikimedia Commons';
  const photo=p.photo
    ?`<img class="place-photo" src="${esc(p.photo)}" alt="${esc(p.name)}" loading="lazy" referrerpolicy="no-referrer">
-      <div class="photo-credit">Zdjęcie: ${p.photoPage?`<a href="${esc(p.photoPage)}" target="_blank" rel="noopener">${esc(p.photoCredit||'Wikimedia Commons')}</a>`:esc(p.photoCredit||'Wikimedia Commons')}${p.photoLicense?` • ${esc(p.photoLicense)}`:''}</div>`
+      <div class="photo-credit">Zdjęcie: ${p.photoPage?`<a href="${esc(p.photoPage)}" target="_blank" rel="noopener">${esc(p.photoCredit||defaultPhotoCredit)}</a>`:esc(p.photoCredit||defaultPhotoCredit)}${p.photoLicense?` • ${esc(p.photoLicense)}`:''}</div>`
    :`<div class="no-photo">📷 Zdjęcie zostanie dodane</div>`;
 
  const badges=(p.tags||[]).length
@@ -530,6 +532,9 @@ function ownPhotoSelected(){
  const folder=photoFolder();
  const rel=`zdjecia/${folder}/${filename}`;
  $('edPhoto').value=rel;
+ $('edPhotoPage').value='';
+ $('edPhotoCredit').value='Zdjęcie własne';
+ $('edPhotoLicense').value='';
 
  // Podgląd działa natychmiast z wybranego pliku.
  const objectUrl=URL.createObjectURL(file);
