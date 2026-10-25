@@ -397,7 +397,7 @@ if(DATA.karkonosze){
 syncQuick();render();
 </script>
 
-<button class="edit-launch" id="editLaunch">✏️ Panel edycji</button>
+<button class="edit-launch" id="editLaunch" hidden>✏️ Panel edycji</button>
 <div class="editor-backdrop" id="editorBackdrop">
   <section class="editor" role="dialog" aria-modal="true" aria-labelledby="editorTitle">
     <div class="editor-head">
@@ -723,7 +723,9 @@ $('edExportJs').onclick=exportJs;
 $('edExportJson').onclick=exportJson;
 $('edClearLocal').onclick=clearLocal;
 $('edPreview').onclick=previewPlace;
-if(!DATA_LOADED) $('editLaunch').style.display='none';
+// Przycisk panelu edycji widać tylko po dopisaniu do adresu ?edycja (lub #edycja)
+const editMode=new URLSearchParams(location.search).has('edycja')||location.hash==='#edycja';
+$('editLaunch').hidden=!(DATA_LOADED&&editMode);
 })();
 </script>
 
