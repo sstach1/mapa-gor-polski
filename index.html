@@ -9,8 +9,8 @@
 :root{--bg:#0d1f1c;--panel:#132b26;--panel2:#19362f;--text:#f3f6f5;--muted:#b7c8c1;--line:#315248;--accent:#9fd8bf}
 *{box-sizing:border-box}
 html,body{height:100%;margin:0;font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text)}
-.app{display:grid;grid-template-columns:390px 1fr;height:100vh}
-.sidebar{background:linear-gradient(180deg,#153129,#0f241f);border-right:1px solid var(--line);display:flex;flex-direction:column;min-width:0}
+.app{display:grid;grid-template-columns:390px 1fr;height:100vh;height:100dvh}
+.sidebar{background:linear-gradient(180deg,#153129,#0f241f);border-right:1px solid var(--line);display:flex;flex-direction:column;min-width:0;min-height:0}
 .header{padding:18px;border-bottom:1px solid var(--line)}
 h1{font-size:22px;margin:0 0 6px}
 .sub{font-size:13px;color:var(--muted);line-height:1.4}
@@ -20,13 +20,15 @@ select,input{width:100%;padding:11px 12px;border-radius:10px;border:1px solid va
 select:focus,input:focus{border-color:var(--accent)}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .count{font-size:12px;color:var(--muted)}
-.list{overflow:auto;padding:10px 12px 80px}
+.list{overflow:auto;padding:10px 12px 80px;flex:1;min-height:0}
 .card{padding:12px;margin-bottom:8px;border-radius:12px;border:1px solid var(--line);background:rgba(25,54,47,.76);cursor:pointer}
-.card:hover{border-color:var(--accent)}
+.card:hover,.card:focus-visible{border-color:var(--accent);outline:none}
+.card.is-visited{border-left:4px solid #9fbf4a}
 .card h3{font-size:14px;margin:0 0 4px;line-height:1.3}
 .card .meta{font-size:11px;color:var(--muted)}
 .empty{padding:20px 12px;color:var(--muted);line-height:1.5;font-size:13px}
-#map{height:100vh}
+.empty.error{color:#ffb4a2}
+#map{height:100vh;height:100dvh}
 .leaflet-popup-content h2{margin:0 0 4px;color:#16342c;font-size:18px}
 .leaflet-popup-content p{line-height:1.45;color:#29453d}
 .leaflet-popup-content .tag{font-size:12px;color:#657b74;margin-bottom:8px}
@@ -52,7 +54,9 @@ select:focus,input:focus{border-color:var(--accent)}
 
 .mobile{display:none}
 @media(max-width:820px){
- .app{display:block}.sidebar{position:absolute;z-index:1200;width:min(92vw,390px);height:100vh;left:-100%;transition:.2s;box-shadow:10px 0 30px rgba(0,0,0,.35)}.sidebar.open{left:0}.mobile{display:block;position:absolute;z-index:1300;right:12px;top:12px;background:#153129;color:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px}.app>#map{height:100vh}
+ .app{display:block}.sidebar{position:absolute;z-index:1200;width:min(92vw,390px);height:100vh;height:100dvh;left:-100%;transition:.2s;box-shadow:10px 0 30px rgba(0,0,0,.35)}.sidebar.open{left:0}.mobile{display:block;position:absolute;z-index:1300;right:12px;top:12px;background:#153129;color:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+ /* przełącznik warstw nie może chować się pod przyciskiem „Wybór” */
+ .leaflet-top.leaflet-right{top:52px}
 }
 
 @media (min-width:700px){
@@ -64,8 +68,7 @@ select:focus,input:focus{border-color:var(--accent)}
   .leaflet-popup-content{width:auto!important;max-width:calc(100vw - 72px)!important}
 }
 
-
-/* ===== Panel edycji v17 poprawiona ===== */
+/* ===== Panel edycji ===== */
 .edit-launch{position:absolute;z-index:1300;right:12px;bottom:18px;background:#153129;color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:12px;padding:10px 14px;box-shadow:0 8px 24px rgba(0,0,0,.28);cursor:pointer;font-weight:700}
 .editor-backdrop{display:none;position:fixed;inset:0;z-index:3000;background:rgba(0,0,0,.58);align-items:center;justify-content:center;padding:18px}
 .editor-backdrop.open{display:flex}
@@ -90,50 +93,15 @@ select:focus,input:focus{border-color:var(--accent)}
 .editor-status{margin-top:10px;font-size:12px;font-weight:700;color:#315f51}
 @media(max-width:700px){.editor-grid{grid-template-columns:1fr}.editor-grid .full{grid-column:auto}.edit-launch{bottom:12px}}
 
-
-/* ===== Przesuwane popupy v18 ===== */
-.leaflet-popup-content-wrapper{
-  max-height:calc(100vh - 80px);
-}
-.leaflet-popup-content{
-  max-height:calc(100vh - 130px);
-  overflow-y:auto;
-  overflow-x:hidden;
-}
-.leaflet-popup.drag-enabled .leaflet-popup-content-wrapper{
-  cursor:grab;
-  user-select:none;
-}
-.leaflet-popup.drag-enabled.dragging .leaflet-popup-content-wrapper{
-  cursor:grabbing;
-}
-.leaflet-popup.drag-enabled .leaflet-popup-content input,
-.leaflet-popup.drag-enabled .leaflet-popup-content textarea,
-.leaflet-popup.drag-enabled .leaflet-popup-content select,
-.leaflet-popup.drag-enabled .leaflet-popup-content button,
-.leaflet-popup.drag-enabled .leaflet-popup-content a{
-  user-select:auto;
-}
-.popup-drag-hint{
-  font-size:10px;
-  color:#6a7c75;
-  text-align:right;
-  margin:-2px 0 5px;
-}
-
+/* ===== Przesuwane popupy ===== */
+.leaflet-popup-content-wrapper{max-height:calc(100vh - 80px)}
+.leaflet-popup-content{max-height:calc(100vh - 130px);overflow-y:auto;overflow-x:hidden}
+.leaflet-popup.drag-enabled .drag-handle{cursor:grab;user-select:none}
+.leaflet-popup.drag-enabled.dragging .drag-handle{cursor:grabbing}
+.popup-drag-hint{font-size:10px;color:#6a7c75;text-align:right;margin:-2px 0 5px;padding:4px 0;touch-action:none}
 
 .source-list{font-size:11px;color:#64736d;margin:8px 0 2px}
-.source-list a{
- color:#ffffff !important;
- background:#2f6f55;
- border:1px solid #245943;
- border-radius:7px;
- padding:5px 8px;
- margin:3px 4px 3px 0;
- display:inline-block;
- font-weight:700;
- text-decoration:none !important;
-}
+.source-list a{color:#ffffff !important;background:#2f6f55;border:1px solid #245943;border-radius:7px;padding:5px 8px;margin:3px 4px 3px 0;display:inline-block;font-weight:700;text-decoration:none !important}
 .source-list a:hover{background:#245943;color:#ffffff !important}
 .route-note{font-size:11px;color:#61706a;background:#f3f6f4;border-radius:7px;padding:7px 8px;margin:7px 0}
 
@@ -148,28 +116,28 @@ select:focus,input:focus{border-color:var(--accent)}
 </style>
 </head>
 <body>
-<button class="mobile" id="mobileBtn">☰ Wybór</button>
+<button class="mobile" id="mobileBtn" aria-controls="sidebar" aria-expanded="false">☰ Wybór</button>
 <div class="app">
   <aside class="sidebar" id="sidebar">
     <div class="header">
       <h1>🗺️ Mapa atrakcji górskich</h1>
-      <div class="sub">Najpierw wybierz region i kategorię. Karta miejsca obsługuje teraz zdjęcie, opis, tagi, parking/start, czas dojścia, dystans, przewyższenie, trudność, informacje rodzinne, psa, opłaty, ciekawostkę, trasę pieszą i oznaczanie odwiedzonych miejsc. W prawym górnym rogu mapy przełączysz podkład.</div>
+      <div class="sub">Wybierz region i kategorię, a potem kliknij miejsce na liście lub znacznik na mapie. Odwiedzone miejsca możesz oznaczać w karcie miejsca. Podkład mapy przełączysz w prawym górnym rogu.</div>
     </div>
     <div class="controls">
       <div>
-        <label>Szybki wybór</label>
+        <label for="quick">Szybki wybór</label>
         <input id="quick" list="quickList" placeholder="np. Karkonosze – Szczyty">
         <datalist id="quickList"></datalist>
       </div>
       <div class="grid2">
-        <div><label>Region</label><select id="region"></select></div>
-        <div><label>Kategoria</label><select id="category"></select></div>
+        <div><label for="region">Region</label><select id="region"></select></div>
+        <div><label for="category">Kategoria</label><select id="category"></select></div>
       </div>
       <div>
-        <label>Szukaj na liście</label>
-        <input id="search" placeholder="np. Śnieżka">
+        <label for="search">Szukaj na liście</label>
+        <input id="search" type="search" placeholder="np. sniezka, Śnieżka, TOP">
       </div>
-      <div class="count" id="count">Wybierz kategorię.</div>
+      <div class="count" id="count" aria-live="polite">Wybierz kategorię.</div>
     </div>
     <div class="list" id="list"></div>
   </aside>
@@ -179,43 +147,78 @@ select:focus,input:focus{border-color:var(--accent)}
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="dane.js"></script>
 <script>
-/* Dane przeniesiono do osobnego pliku dane.js */
+/* Dane znajdują się w osobnym pliku dane.js */
+const DATA_LOADED = (typeof DATA !== 'undefined' && DATA && typeof DATA === 'object');
+if(!DATA_LOADED) window.DATA = {};
+
+/* Bezpieczny dostęp do localStorage (tryb prywatny / zablokowane dane strony) */
+const store={
+  get(k){try{return localStorage.getItem(k)}catch(e){return null}},
+  set(k,v){try{localStorage.setItem(k,v);return true}catch(e){console.warn(e);return false}},
+  del(k){try{localStorage.removeItem(k)}catch(e){}}
+};
+
 const map=L.map('map').setView([50.76,15.68],11);
 
 const topo=L.tileLayer(
   'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',
   {maxZoom:19, attribution:'Tiles © Esri'}
 );
-
 const sat=L.tileLayer(
   'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
   {maxZoom:19, attribution:'Tiles © Esri — Source: Esri, Maxar, Earthstar Geographics'}
 );
-
 topo.addTo(map);
 L.control.layers(
   {'🗺️ Mapa topograficzna':topo,'🛰️ Satelita':sat},
   {},
-  {position:'topright',collapsed:false}
+  {position:'topright',collapsed:innerWidth<=820}
 ).addTo(map);
 
 let layer=L.layerGroup().addTo(map);
-let markerMap={};
+let markerMap={}, cardMap={};
 
-const region=document.getElementById('region'), category=document.getElementById('category'),
+const sidebar=document.getElementById('sidebar'), mobileBtn=document.getElementById('mobileBtn'),
+      region=document.getElementById('region'), category=document.getElementById('category'),
       list=document.getElementById('list'), search=document.getElementById('search'),
       quick=document.getElementById('quick'), quickList=document.getElementById('quickList'),
       count=document.getElementById('count');
 
+/* ---------- pomocnicze ---------- */
+function esc(v){
+ return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+}
+// Wyszukiwanie bez polskich znaków: „sniezka” znajdzie „Śnieżka”
+function norm(v){
+ return String(v??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ł/g,'l').replace(/Ł/g,'L').toLowerCase();
+}
+// Przepuszcza tylko http(s), adresy względne i ścieżki do plików — blokuje np. javascript:
+function safeUrl(u){
+ const s=String(u??'').trim();
+ if(!s) return '';
+ if(/^(https?:)?\/\//i.test(s)) return s;
+ if(!/^[a-z][a-z0-9+.-]*:/i.test(s)) return s;
+ return '';
+}
+function validCoords(lat,lon){
+ if(lat===null||lat===undefined||lat===''||lon===null||lon===undefined||lon==='') return false;
+ const a=Number(lat), b=Number(lon);
+ return Number.isFinite(a)&&Number.isFinite(b)&&a>=-90&&a<=90&&b>=-180&&b<=180&&!(a===0&&b===0);
+}
+function isMobile(){return innerWidth<=820}
+function setSidebar(open){
+ sidebar.classList.toggle('open',open);
+ mobileBtn.setAttribute('aria-expanded',String(open));
+}
+
+/* ---------- listy wyboru ---------- */
 function fillRegions(){
- region.innerHTML='<option value="">Wybierz…</option>'+Object.entries(DATA).map(([k,v])=>`<option value="${k}">${v.name}</option>`).join('');
+ region.innerHTML='<option value="">Wybierz…</option>'+Object.entries(DATA).map(([k,v])=>`<option value="${esc(k)}">${esc(v.name)}</option>`).join('');
 }
 function fillQuick(){
- let options=[];
- Object.entries(DATA).forEach(([rk,r])=>{
-   Object.entries(r.categories).forEach(([ck,c])=>{
-     options.push(`<option value="${r.name} – ${c.name}">`);
-   });
+ const options=[];
+ Object.values(DATA).forEach(r=>{
+   Object.values(r.categories||{}).forEach(c=>options.push(`<option value="${esc(r.name)} – ${esc(c.name)}">`));
  });
  quickList.innerHTML=options.join('');
 }
@@ -223,46 +226,47 @@ function fillCategories(){
  const r=DATA[region.value];
  category.innerHTML='<option value="">Wybierz…</option>';
  if(!r) return;
- category.innerHTML += Object.entries(r.categories).map(([k,v])=>`<option value="${k}">${v.icon} ${v.name}</option>`).join('');
+ category.innerHTML += Object.entries(r.categories||{}).map(([k,v])=>`<option value="${esc(k)}">${esc(v.icon)} ${esc(v.name)}</option>`).join('');
 }
 function currentItems(){
  const r=DATA[region.value], c=r?.categories?.[category.value];
  return c?.items||[];
 }
-function esc(v){
- return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+
+/* ---------- odwiedzone ---------- */
+function visitKey(rk,ck,p){return `mountainMapVisited|${rk}|${ck}|${p.name}`}
+function isVisitedKey(key){return store.get(key)==='1'}
+function setVisited(key,on){store.set(key,on?'1':'0')}
+function updateCardVisited(name,on){
+ const el=cardMap[name]; if(!el) return;
+ el.classList.toggle('is-visited',on);
+ const mark=el.querySelector('.visited-mark');
+ if(mark) mark.textContent=on?' ✓':'';
 }
-function visitKey(p){
- return `mountainMapVisited|${region.value}|${category.value}|${p.name}`;
-}
-function isVisited(p){return localStorage.getItem(visitKey(p))==='1'}
-function toggleVisited(encodedKey,btn){
- const key=decodeURIComponent(encodedKey);
- const on=localStorage.getItem(key)==='1';
- localStorage.setItem(key,on?'0':'1');
- btn.textContent=on?'✓ Byłem tutaj':'✓ Oznaczono';
- btn.classList.toggle('done',!on);
- render();
-}
-function popup(p,cat){
- const hasStart=(p.parkingLat!==null&&p.parkingLat!==undefined&&p.parkingLat!==''&&p.parkingLon!==null&&p.parkingLon!==undefined&&p.parkingLon!==''&&Number.isFinite(Number(p.parkingLat))&&Number.isFinite(Number(p.parkingLon))&&Number(p.parkingLat)>=-90&&Number(p.parkingLat)<=90&&Number(p.parkingLon)>=-180&&Number(p.parkingLon)<=180&&!(Number(p.parkingLat)===0&&Number(p.parkingLon)===0));
- const nav=hasStart?`https://www.google.com/maps/dir/?api=1&destination=${p.parkingLat},${p.parkingLon}`:'';
- const osm=`https://www.openstreetmap.org/?mlat=${p.lat}&mlon=${p.lon}#map=16/${p.lat}/${p.lon}`;
+
+/* ---------- karta miejsca ---------- */
+function popup(p,cat,rk,ck){
+ const hasStart=validCoords(p.parkingLat,p.parkingLon);
+ const lat=Number(p.lat), lon=Number(p.lon);
+ const nav=hasStart?`https://www.google.com/maps/dir/?api=1&destination=${Number(p.parkingLat)},${Number(p.parkingLon)}`:'';
+ const osm=`https://www.openstreetmap.org/?mlat=${lat}&mlon=${lon}#map=16/${lat}/${lon}`;
  const walking=hasStart
-   ?`https://www.google.com/maps/dir/?api=1&origin=${p.parkingLat},${p.parkingLon}&destination=${p.lat},${p.lon}&travelmode=walking`
-   :(p.routeUrl||'');
- const navBtn=hasStart?`<a target="_blank" rel="noopener" href="${nav}">🚗 Nawiguj</a>`:`<span class="action-disabled" title="Brak zweryfikowanego parkingu/punktu startowego">🚗 Nawiguj – brak zweryfikowanego startu</span>`;
- const walkBtn=walking?`<a class="secondary" target="_blank" rel="noopener" href="${walking}">🥾 Trasa piesza</a>`:`<span class="action-disabled" title="Trasa zostanie udostępniona po weryfikacji punktu startowego">🥾 Trasa piesza – brak zweryfikowanego startu</span>`;
+   ?`https://www.google.com/maps/dir/?api=1&origin=${Number(p.parkingLat)},${Number(p.parkingLon)}&destination=${lat},${lon}&travelmode=walking`
+   :safeUrl(p.routeUrl);
+ const navBtn=hasStart?`<a target="_blank" rel="noopener" href="${esc(nav)}">🚗 Nawiguj</a>`:`<span class="action-disabled" title="Brak zweryfikowanego parkingu/punktu startowego">🚗 Nawiguj – brak zweryfikowanego startu</span>`;
+ const walkBtn=walking?`<a class="secondary" target="_blank" rel="noopener" href="${esc(walking)}">🥾 Trasa piesza</a>`:`<span class="action-disabled" title="Trasa zostanie udostępniona po weryfikacji punktu startowego">🥾 Trasa piesza – brak zweryfikowanego startu</span>`;
 
- const isLocalPhoto=p.photo && !/^(?:https?:)?\/\//i.test(p.photo);
+ const photoUrl=safeUrl(p.photo);
+ const photoPage=safeUrl(p.photoPage);
+ const isLocalPhoto=photoUrl && !/^(?:https?:)?\/\//i.test(photoUrl);
  const defaultPhotoCredit=isLocalPhoto?'Zdjęcie własne':'Wikimedia Commons';
- const photo=p.photo
-   ?`<img class="place-photo" src="${esc(p.photo)}" alt="${esc(p.name)}" loading="lazy" referrerpolicy="no-referrer">
-      <div class="photo-credit">Zdjęcie: ${p.photoPage?`<a href="${esc(p.photoPage)}" target="_blank" rel="noopener">${esc(p.photoCredit||defaultPhotoCredit)}</a>`:esc(p.photoCredit||defaultPhotoCredit)}${p.photoLicense?` • ${esc(p.photoLicense)}`:''}</div>`
-   :`<div class="no-photo">📷 Zdjęcie zostanie dodane</div>`;
+ const photo=photoUrl
+   ?`<img class="place-photo drag-handle" src="${esc(photoUrl)}" alt="${esc(p.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;no-photo drag-handle&quot;>📷 Nie udało się wczytać zdjęcia</div>'">
+      <div class="photo-credit">Zdjęcie: ${photoPage?`<a href="${esc(photoPage)}" target="_blank" rel="noopener">${esc(p.photoCredit||defaultPhotoCredit)}</a>`:esc(p.photoCredit||defaultPhotoCredit)}${p.photoLicense?` • ${esc(p.photoLicense)}`:''}</div>`
+   :`<div class="no-photo drag-handle">📷 Zdjęcie zostanie dodane</div>`;
 
- const badges=(p.tags||[]).length
-   ?`<div class="badges">${p.tags.map(t=>`<span class="badge">⭐ ${esc(t)}</span>`).join('')}</div>`:'';
+ const tags=Array.isArray(p.tags)?p.tags:[];
+ const badges=tags.length?`<div class="badges">${tags.map(t=>`<span class="badge">⭐ ${esc(t)}</span>`).join('')}</div>`:'';
 
  const practical=[
    p.parking?['🚗',`<b>Parking/start:</b> ${esc(p.parking)}`]:null,
@@ -280,66 +284,117 @@ function popup(p,cat){
  const why=p.why?`<div class="why"><b>Dlaczego warto?</b><br>${esc(p.why)}</div>`:'';
  const curiosity=p.curiosity?`<div class="curiosity"><b>💡 Ciekawostka</b><br>${esc(p.curiosity)}</div>`:'';
  const routeNote=p.routeNote?`<div class="route-note">ℹ️ ${esc(p.routeNote)}</div>`:'';
- const sources=(p.sources||[]).length?`<div class="source-list"><b>Źródła:</b> ${(p.sources||[]).map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)}</a>`).join(' • ')}</div>`:'';
- const key=encodeURIComponent(visitKey(p));
- const visited=isVisited(p);
+ const srcs=(Array.isArray(p.sources)?p.sources:[]).filter(x=>safeUrl(x?.url));
+ const sources=srcs.length?`<div class="source-list"><b>Źródła:</b> ${srcs.map(x=>`<a href="${esc(safeUrl(x.url))}" target="_blank" rel="noopener">${esc(x.name||x.url)}</a>`).join(' • ')}</div>`:'';
+ const key=visitKey(rk,ck,p);
+ const visited=isVisitedKey(key);
 
  return `${photo}
-   <div class="popup-drag-hint">↕ przeciągnij okno, aby je przesunąć</div>
-   <h2>${cat.icon} ${esc(p.name)}</h2>
-   <div class="tag">${esc(cat.name)}${p.ele?` • ${p.ele} m n.p.m.`:''}</div>
+   <div class="popup-drag-hint drag-handle">↕ przeciągnij okno, aby je przesunąć</div>
+   <h2 class="drag-handle">${esc(cat.icon)} ${esc(p.name)}</h2>
+   <div class="tag">${esc(cat.name)}${p.ele?` • ${esc(p.ele)} m n.p.m.`:''}</div>
    ${badges}
-   <p>${esc(p.desc)}</p>
+   ${p.desc?`<p>${esc(p.desc)}</p>`:''}
    ${why}${practicalHtml}${routeNote}${curiosity}${sources}
    <div class="popup-actions">
      ${navBtn}
      ${walkBtn}
-     <a class="secondary" target="_blank" rel="noopener" href="${osm}">📍 Mapa</a>
-     <button class="visited ${visited?'done':''}" onclick="toggleVisited('${key}',this)">${visited?'✓ Oznaczono':'✓ Byłem tutaj'}</button>
+     <a class="secondary" target="_blank" rel="noopener" href="${esc(osm)}">📍 Mapa</a>
+     <button type="button" class="visited js-visited ${visited?'done':''}" data-key="${esc(key)}" data-name="${esc(p.name)}">${visited?'✓ Oznaczono':'✓ Byłem tutaj'}</button>
    </div>`;
 }
-function render(){
- layer.clearLayers(); markerMap={}; list.innerHTML='';
- const r=DATA[region.value], cat=r?.categories?.[category.value];
- if(!r || !cat){count.textContent='Wybierz region i kategorię.';return;}
- map.setView(r.center,r.zoom);
- const q=search.value.trim().toLowerCase();
- const items=cat.items.filter(x=>!q||x.name.toLowerCase().includes(q));
- count.textContent=cat.items.length?`Znaleziono: ${items.length} z ${cat.items.length} miejsc`:`Ta kategoria jest przygotowana do uzupełnienia w kolejnym etapie.`;
- if(!items.length){
-   list.innerHTML=`<div class="empty">${cat.items.length?'Brak wyników wyszukiwania.':'Dla tej kategorii nie dodano jeszcze opisanych miejsc. Struktura mapy jest już gotowa — wystarczy dopisać kolejną listę atrakcji.'}</div>`;
+
+// Przycisk „Byłem tutaj” — bez przebudowy mapy, więc okno się nie zamyka
+map.on('popupopen',e=>{
+ const el=e.popup.getElement(); if(!el) return;
+ el.querySelectorAll('.js-visited').forEach(btn=>{
+   btn.onclick=()=>{
+     const key=btn.dataset.key, on=!isVisitedKey(key);
+     setVisited(key,on);
+     btn.textContent=on?'✓ Oznaczono':'✓ Byłem tutaj';
+     btn.classList.toggle('done',on);
+     updateCardVisited(btn.dataset.name,on);
+   };
+ });
+});
+
+/* ---------- renderowanie ---------- */
+function render(fit=true){
+ layer.clearLayers(); markerMap={}; cardMap={}; list.innerHTML='';
+ if(!DATA_LOADED){
+   count.textContent='Nie wczytano danych.';
+   list.innerHTML='<div class="empty error">Nie udało się wczytać pliku <b>dane.js</b>. Sprawdź, czy leży w tym samym folderze co index.html i czy nie zawiera błędu składni (konsola przeglądarki: F12).</div>';
    return;
  }
+ const rk=region.value, ck=category.value;
+ const r=DATA[rk], cat=r?.categories?.[ck];
+ if(!r || !cat){count.textContent='Wybierz region i kategorię.';return;}
+ const all=Array.isArray(cat.items)?cat.items:[];
+ const q=norm(search.value.trim());
+ const items=all.filter(x=>!q||norm(x.name).includes(q)||(Array.isArray(x.tags)&&x.tags.some(t=>norm(t).includes(q))));
+ count.textContent=all.length?`Znaleziono: ${items.length} z ${all.length} miejsc`:'Ta kategoria jest przygotowana do uzupełnienia w kolejnym etapie.';
+ if(!items.length){
+   list.innerHTML=`<div class="empty">${all.length?'Brak wyników wyszukiwania.':'Dla tej kategorii nie dodano jeszcze opisanych miejsc. Struktura mapy jest już gotowa — wystarczy dopisać kolejną listę atrakcji.'}</div>`;
+   if(fit && r.center) map.setView(r.center,r.zoom||11);
+   return;
+ }
+ const popupOpts={maxWidth:560,minWidth:Math.min(480,innerWidth-60),autoPanPadding:[20,20]};
+ const placed=[];
  items.forEach((p,i)=>{
-   const m=L.marker([p.lat,p.lon]).addTo(layer).bindPopup(popup(p,cat),{maxWidth:560,minWidth:480});
-   markerMap[p.name]=m;
-   const el=document.createElement('div');el.className='card';
-   el.innerHTML=`<h3>${i+1}. ${cat.icon} ${p.name}${isVisited(p)?' ✓':''}</h3><div class="meta">${cat.name}${p.ele?` • ${p.ele} m n.p.m.`:''}${p.tags?.length?` • ${p.tags.join(' • ')}`:''}</div>`;
-   el.onclick=()=>{map.setView([p.lat,p.lon],14);m.openPopup();if(innerWidth<=820)sidebar.classList.remove('open')};
+   const ok=validCoords(p.lat,p.lon);
+   let m=null;
+   if(ok){
+     m=L.marker([Number(p.lat),Number(p.lon)],{title:p.name}).addTo(layer).bindPopup(()=>popup(p,cat,rk,ck),popupOpts);
+     markerMap[p.name]=m; placed.push([Number(p.lat),Number(p.lon)]);
+   }
+   const visited=isVisitedKey(visitKey(rk,ck,p));
+   const tags=Array.isArray(p.tags)?p.tags:[];
+   const el=document.createElement('div');
+   el.className='card'+(visited?' is-visited':'');
+   el.tabIndex=0; el.setAttribute('role','button');
+   el.innerHTML=`<h3>${i+1}. ${esc(cat.icon)} ${esc(p.name)}<span class="visited-mark">${visited?' ✓':''}</span></h3><div class="meta">${esc(cat.name)}${p.ele?` • ${esc(p.ele)} m n.p.m.`:''}${tags.length?` • ${tags.map(esc).join(' • ')}`:''}${ok?'':' • ⚠️ brak poprawnych współrzędnych'}</div>`;
+   const open=()=>{
+     if(!m) return;
+     map.setView([Number(p.lat),Number(p.lon)],Math.max(map.getZoom(),14));
+     m.openPopup();
+     if(isMobile()) setSidebar(false);
+   };
+   el.onclick=open;
+   el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open()}};
+   cardMap[p.name]=el;
    list.appendChild(el);
  });
- if(items.length>1){const bounds=L.latLngBounds(items.map(p=>[p.lat,p.lon]));map.fitBounds(bounds,{padding:[30,30]});}
+ if(fit){
+   if(placed.length>1) map.fitBounds(L.latLngBounds(placed),{padding:[30,30],maxZoom:15});
+   else if(placed.length===1) map.setView(placed[0],14);
+   else if(r.center) map.setView(r.center,r.zoom||11);
+ }
 }
-region.onchange=()=>{fillCategories();category.value='';search.value='';render()};
+
+region.onchange=()=>{fillCategories();category.value='';search.value='';syncQuick();render()};
 category.onchange=()=>{search.value='';syncQuick();render()};
-search.oninput=render;
+search.oninput=()=>render();
 function syncQuick(){
  const r=DATA[region.value], c=r?.categories?.[category.value];
  quick.value=(r&&c)?`${r.name} – ${c.name}`:'';
 }
 quick.onchange=()=>{
- const val=quick.value.trim().toLowerCase().replace(/-/g,'–');
+ const val=norm(quick.value.trim().replace(/\s*[-–—]\s*/g,' – '));
  let found=null;
- Object.entries(DATA).forEach(([rk,r])=>Object.entries(r.categories).forEach(([ck,c])=>{
-   const label=`${r.name} – ${c.name}`.toLowerCase();
-   if(label===val) found=[rk,ck];
+ Object.entries(DATA).forEach(([rk,r])=>Object.entries(r.categories||{}).forEach(([ck,c])=>{
+   if(norm(`${r.name} – ${c.name}`)===val) found=[rk,ck];
  }));
  if(found){region.value=found[0];fillCategories();category.value=found[1];search.value='';render();}
 };
-document.getElementById('mobileBtn').onclick=()=>document.getElementById('sidebar').classList.toggle('open');
+mobileBtn.onclick=()=>setSidebar(!sidebar.classList.contains('open'));
+map.on('click',()=>{if(isMobile()) setSidebar(false)});
 
 fillRegions();fillQuick();
-region.value='karkonosze';fillCategories();category.value='szczyty';syncQuick();render();
+if(DATA.karkonosze){
+ region.value='karkonosze';fillCategories();
+ if(DATA.karkonosze.categories?.szczyty) category.value='szczyty';
+}
+syncQuick();render();
 </script>
 
 <button class="edit-launch" id="editLaunch">✏️ Panel edycji</button>
@@ -347,12 +402,12 @@ region.value='karkonosze';fillCategories();category.value='szczyty';syncQuick();
   <section class="editor" role="dialog" aria-modal="true" aria-labelledby="editorTitle">
     <div class="editor-head">
       <h2 id="editorTitle">✏️ Edycja bazy miejsc</h2>
-      <button class="editor-close" id="editorClose" title="Zamknij">×</button>
+      <button class="editor-close" id="editorClose" title="Zamknij (Esc)" aria-label="Zamknij">×</button>
     </div>
     <div class="editor-body">
       <div class="editor-note">
         Wszystkie dotychczasowe dane mapy pozostają w <b>dane.js</b>.
-        Zmiany z panelu możesz zapisać lokalnie, a następnie pobrać nowy <b>dane.js</b>.
+        Zmiany z panelu zapisują się w tej przeglądarce — po zakończeniu edycji pobierz nowy <b>dane.js</b> i podmień plik w projekcie.
         Własne zdjęcie możesz wskazać np. jako <b>zdjecia/karkonosze/sniezka.jpg</b>.
       </div>
       <div class="editor-toolbar">
@@ -363,34 +418,34 @@ region.value='karkonosze';fillCategories();category.value='szczyty';syncQuick();
         <button class="warn" id="edClearLocal">Usuń lokalne zmiany</button>
       </div>
       <div class="editor-grid">
-        <div><label>Region</label><select id="edRegion"></select></div>
-        <div><label>Kategoria</label><select id="edCategory"></select></div>
-        <div class="full"><label>Miejsce</label><select id="edPlace"></select></div>
+        <div><label for="edRegion">Region</label><select id="edRegion"></select></div>
+        <div><label for="edCategory">Kategoria</label><select id="edCategory"></select></div>
+        <div class="full"><label for="edPlace">Miejsce</label><select id="edPlace"></select></div>
 
-        <div><label>Nazwa</label><input id="edName"></div>
-        <div><label>Wysokość m n.p.m.</label><input id="edEle" type="number" step="1"></div>
-        <div><label>Lat</label><input id="edLat" type="number" step="0.000001"></div>
-        <div><label>Lon</label><input id="edLon" type="number" step="0.000001"></div>
+        <div><label for="edName">Nazwa</label><input id="edName"></div>
+        <div><label for="edEle">Wysokość m n.p.m.</label><input id="edEle" type="number" step="1"></div>
+        <div><label for="edLat">Lat</label><input id="edLat" type="number" step="0.000001" min="-90" max="90"></div>
+        <div><label for="edLon">Lon</label><input id="edLon" type="number" step="0.000001" min="-180" max="180"></div>
 
-        <div class="full"><label>Opis</label><textarea id="edDesc"></textarea></div>
-        <div class="full"><label>Dlaczego warto?</label><textarea id="edWhy"></textarea></div>
-        <div class="full"><label>Ciekawostka</label><textarea id="edCuriosity"></textarea></div>
+        <div class="full"><label for="edDesc">Opis</label><textarea id="edDesc"></textarea></div>
+        <div class="full"><label for="edWhy">Dlaczego warto?</label><textarea id="edWhy"></textarea></div>
+        <div class="full"><label for="edCuriosity">Ciekawostka</label><textarea id="edCuriosity"></textarea></div>
 
-        <div><label>Tagi — po przecinku</label><input id="edTags" placeholder="TOP, WIDOKI, KORONA"></div>
-        <div><label>Trudność</label><input id="edDifficulty"></div>
+        <div><label for="edTags">Tagi — po przecinku</label><input id="edTags" placeholder="TOP, WIDOKI, KORONA"></div>
+        <div><label for="edDifficulty">Trudność</label><input id="edDifficulty"></div>
 
-        <div class="full"><label>Parking / start</label><input id="edParking"></div>
-        <div><label>GPS parkingu — lat</label><input id="edParkingLat" type="number" step="0.000001"></div>
-        <div><label>GPS parkingu — lon</label><input id="edParkingLon" type="number" step="0.000001"></div>
-        <div><label>Czas dojścia</label><input id="edWalkTime"></div>
-        <div><label>Dystans</label><input id="edDistance"></div>
-        <div><label>Przewyższenie</label><input id="edElevationGain"></div>
-        <div><label>Dla rodzin</label><input id="edFamily"></div>
-        <div><label>Pies</label><input id="edDog"></div>
-        <div><label>Opłaty</label><input id="edFee"></div>
+        <div class="full"><label for="edParking">Parking / start</label><input id="edParking"></div>
+        <div><label for="edParkingLat">GPS parkingu — lat</label><input id="edParkingLat" type="number" step="0.000001"></div>
+        <div><label for="edParkingLon">GPS parkingu — lon</label><input id="edParkingLon" type="number" step="0.000001"></div>
+        <div><label for="edWalkTime">Czas dojścia</label><input id="edWalkTime"></div>
+        <div><label for="edDistance">Dystans</label><input id="edDistance"></div>
+        <div><label for="edElevationGain">Przewyższenie</label><input id="edElevationGain"></div>
+        <div><label for="edFamily">Dla rodzin</label><input id="edFamily"></div>
+        <div><label for="edDog">Pies</label><input id="edDog"></div>
+        <div><label for="edFee">Opłaty</label><input id="edFee"></div>
 
         <div class="full">
-          <label>Zdjęcie — URL Wikimedia lub ścieżka do własnego pliku</label>
+          <label for="edPhoto">Zdjęcie — URL Wikimedia lub ścieżka do własnego pliku</label>
           <input id="edPhoto">
           <div class="editor-photo-tools">
             <input type="file" id="edPhotoFile" accept="image/*" style="display:none">
@@ -401,36 +456,49 @@ region.value='karkonosze';fillCategories();category.value='szczyty';syncQuick();
           </div>
           <div class="editor-preview" id="edPhotoPreview">Brak zdjęcia</div>
         </div>
-        <div><label>Strona zdjęcia / źródło</label><input id="edPhotoPage"></div>
-        <div><label>Autor zdjęcia</label><input id="edPhotoCredit"></div>
-        <div><label>Licencja</label><input id="edPhotoLicense"></div>
-        <div><label>Link do trasy</label><input id="edRouteUrl"></div>
+        <div><label for="edPhotoPage">Strona zdjęcia / źródło</label><input id="edPhotoPage"></div>
+        <div><label for="edPhotoCredit">Autor zdjęcia</label><input id="edPhotoCredit"></div>
+        <div><label for="edPhotoLicense">Licencja</label><input id="edPhotoLicense"></div>
+        <div><label for="edRouteUrl">Link do trasy</label><input id="edRouteUrl"></div>
       </div>
       <div class="editor-actions">
         <button id="edSave">💾 Zapisz lokalnie</button>
         <button class="light" id="edPreview">👁 Pokaż na mapie</button>
         <button class="warn" id="edDelete">🗑 Usuń miejsce</button>
       </div>
-      <div class="editor-status" id="edStatus"></div>
+      <div class="editor-status" id="edStatus" aria-live="polite"></div>
     </div>
   </section>
 </div>
-
 
 <script>
 (function(){
 const EDIT_STORAGE_KEY='mountainMapDataV56';
 
+/* Łączenie zapisu z przeglądarki z dane.js:
+   - regiony i kategorie dodane później w dane.js zostają,
+   - lista miejsc kategorii edytowanej w panelu pochodzi z zapisu lokalnego. */
 function restoreStored(){
+  if(!DATA_LOADED) return false;
   try{
-    const raw=localStorage.getItem(EDIT_STORAGE_KEY);
+    const raw=store.get(EDIT_STORAGE_KEY);
     if(!raw) return false;
     const saved=JSON.parse(raw);
     if(!saved || typeof saved!=='object') return false;
-    // Zachowaj nowe regiony z dane.js, a zapisane lokalnie zmiany
-    // zastosuj tylko do regionów obecnych w starszej kopii przeglądarki.
-    Object.assign(DATA,saved);
+    Object.entries(saved).forEach(([rk,sr])=>{
+      if(!sr || typeof sr!=='object') return;
+      const base=DATA[rk];
+      if(!base){DATA[rk]=sr;return;}
+      base.categories=base.categories||{};
+      Object.entries(sr.categories||{}).forEach(([ck,sc])=>{
+        if(!sc || typeof sc!=='object') return;
+        if(!base.categories[ck]) base.categories[ck]=sc;
+        else if(Array.isArray(sc.items)) base.categories[ck].items=sc.items;
+      });
+    });
+    const rv=region.value, cv=category.value;
     fillRegions(); fillQuick();
+    region.value=rv; fillCategories(); category.value=cv; syncQuick(); render();
     return true;
   }catch(e){ console.warn(e); return false; }
 }
@@ -439,29 +507,16 @@ restoreStored();
 const $=id=>document.getElementById(id);
 
 const PHOTO_FOLDER_BY_REGION={
-  karkonosze:'karkonosze',
-  gory_zlote:'gory-zlote',
-  stolowe:'gory-stolowe',
-  sowie:'gory-sowie',
-  snieznik:'masyw-snieznika',
-  bialskie:'gory-bialskie',
-  izerskie:'gory-izerskie',
-  kaczawskie:'gory-kaczawskie',
-  rudawy:'rudawy-janowickie',
-  kamienne:'gory-kamienne',
-  walbrzyskie:'gory-walbrzyskie',
-  bardzkie:'gory-bardzkie',
-  bystrzyckie:'gory-bystrzyckie',
-  orlickie:'gory-orlickie',
-  sleza:'masyw-slezy',
-  opolskie:'gory-opawskie',
-  beskid_zywiecki:'beskid-zywiecki',
-  beskid_makowski:'beskid-makowski',
-  tatry:'tatry'
+  karkonosze:'karkonosze', gory_zlote:'gory-zlote', stolowe:'gory-stolowe', sowie:'gory-sowie',
+  snieznik:'masyw-snieznika', bialskie:'gory-bialskie', izerskie:'gory-izerskie',
+  kaczawskie:'gory-kaczawskie', rudawy:'rudawy-janowickie', kamienne:'gory-kamienne',
+  walbrzyskie:'gory-walbrzyskie', bardzkie:'gory-bardzkie', bystrzyckie:'gory-bystrzyckie',
+  orlickie:'gory-orlickie', sleza:'masyw-slezy', opolskie:'gory-opawskie',
+  beskid_zywiecki:'beskid-zywiecki', beskid_makowski:'beskid-makowski', tatry:'tatry'
 };
 function safePhotoFilename(name){
  return (name||'zdjecie')
-   .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+   .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ł/g,'l').replace(/Ł/g,'L')
    .toLowerCase()
    .replace(/[^a-z0-9.]+/g,'-')
    .replace(/^-+|-+$/g,'');
@@ -482,46 +537,57 @@ const fields={
  fee:'edFee',photo:'edPhoto',photoPage:'edPhotoPage',photoCredit:'edPhotoCredit',
  photoLicense:'edPhotoLicense',routeUrl:'edRouteUrl'
 };
+let previewObjectUrl=null;
+
 function status(t,bad=false){ed.status.textContent=t;ed.status.style.color=bad?'#9a4632':'#315f51'}
+function edItems(){return DATA[ed.region.value]?.categories?.[ed.category.value]?.items||[]}
+// Uwaga: Number('') === 0, dlatego pusty wybór musi dawać -1 (inaczej „nowe miejsce” nadpisywało pierwsze na liście)
+function selIndex(){
+ const v=ed.place.value;
+ if(v==='') return -1;
+ const i=Number(v);
+ return Number.isInteger(i)&&i>=0&&i<edItems().length?i:-1;
+}
 function fillEdRegions(){
- ed.region.innerHTML=Object.entries(DATA).map(([k,v])=>`<option value="${k}">${esc(v.name)}</option>`).join('');
+ ed.region.innerHTML=Object.entries(DATA).map(([k,v])=>`<option value="${esc(k)}">${esc(v.name)}</option>`).join('');
  if(region.value&&DATA[region.value]) ed.region.value=region.value;
  fillEdCats();
 }
 function fillEdCats(){
  const r=DATA[ed.region.value];
- ed.category.innerHTML=Object.entries(r?.categories||{}).map(([k,v])=>`<option value="${k}">${v.icon} ${esc(v.name)}</option>`).join('');
+ ed.category.innerHTML=Object.entries(r?.categories||{}).map(([k,v])=>`<option value="${esc(k)}">${esc(v.icon)} ${esc(v.name)}</option>`).join('');
  if(ed.region.value===region.value && category.value && r?.categories?.[category.value]) ed.category.value=category.value;
  fillEdPlaces();
 }
 function fillEdPlaces(name){
- const items=DATA[ed.region.value]?.categories?.[ed.category.value]?.items||[];
- ed.place.innerHTML=items.length?items.map((p,i)=>`<option value="${i}">${i+1}. ${esc(p.name)}</option>`).join(''):'<option value="">— brak miejsc —</option>';
+ const items=edItems();
+ ed.place.innerHTML='<option value="">＋ nowe miejsce</option>'+items.map((p,i)=>`<option value="${i}">${i+1}. ${esc(p.name)}</option>`).join('');
  if(name){const i=items.findIndex(p=>p.name===name);if(i>=0)ed.place.value=String(i)}
+ else if(items.length) ed.place.value='0';
  loadPlace();
 }
-function current(){
- const items=DATA[ed.region.value]?.categories?.[ed.category.value]?.items||[];
- const i=Number(ed.place.value); return Number.isInteger(i)?items[i]:null;
-}
+function current(){const i=selIndex();return i>=0?edItems()[i]:null}
 function setField(k,v){
  const el=$(fields[k]); if(!el)return;
  el.value=k==='tags'?(Array.isArray(v)?v.join(', '):(v||'')):(v??'');
 }
+function resetPhotoInfo(){
+ const info=$('edPhotoFileInfo');
+ info.className='editor-photo-info';
+ info.textContent='Możesz wkleić URL Wikimedia albo wybrać własny plik. Panel sam wpisze właściwą ścieżkę do folderu zdjęć.';
+ $('edPhotoFile').value='';
+}
 function loadPlace(){
  const p=current();
  Object.keys(fields).forEach(k=>setField(k,p?.[k]));
- updatePhoto();
- status(p?'Wczytano miejsce.':'Kategoria jest pusta — możesz dodać nowe miejsce.');
+ resetPhotoInfo(); updatePhoto();
+ status(p?'Wczytano miejsce.':(edItems().length?'Nowy wpis — uzupełnij dane.':'Kategoria jest pusta — możesz dodać nowe miejsce.'));
 }
 function updatePhoto(){
  const u=$('edPhoto').value.trim();
- ed.preview.innerHTML=u?`<img src="${esc(u)}" alt="Podgląd" onerror="this.parentElement.textContent='Nie udało się wczytać podglądu.'">`:'Brak zdjęcia';
+ ed.preview.innerHTML=u?`<img src="${esc(u)}" alt="Podgląd" onerror="this.parentElement.textContent='Nie udało się wczytać podglądu (dla własnego pliku: sprawdź, czy leży we wskazanym folderze).'">`:'Brak zdjęcia';
 }
-
-function chooseOwnPhoto(){
- $('edPhotoFile').click();
-}
+function chooseOwnPhoto(){ $('edPhotoFile').click(); }
 function ownPhotoSelected(){
  const file=$('edPhotoFile').files?.[0];
  if(!file)return;
@@ -536,19 +602,20 @@ function ownPhotoSelected(){
  $('edPhotoCredit').value='Zdjęcie własne';
  $('edPhotoLicense').value='';
 
- // Podgląd działa natychmiast z wybranego pliku.
- const objectUrl=URL.createObjectURL(file);
- ed.preview.innerHTML=`<img src="${objectUrl}" alt="Podgląd własnego zdjęcia">`;
+ if(previewObjectUrl) URL.revokeObjectURL(previewObjectUrl);
+ previewObjectUrl=URL.createObjectURL(file);
+ ed.preview.innerHTML=`<img src="${previewObjectUrl}" alt="Podgląd własnego zdjęcia">`;
 
  const info=$('edPhotoFileInfo');
  info.className='editor-photo-info ok';
- info.innerHTML=`Ścieżka została wpisana automatycznie: <code>${rel}</code><br>
- <span style="color:#8a5b00">Skopiuj plik <b>${filename}</b> do folderu <b>zdjecia/${folder}/</b> projektu. 
+ const renamed=filename!==file.name?` (oryginalnie „${esc(file.name)}” — zmień nazwę pliku)`:'';
+ info.innerHTML=`Ścieżka została wpisana automatycznie: <code>${esc(rel)}</code><br>
+ <span style="color:#8a5b00">Skopiuj plik jako <b>${esc(filename)}</b>${renamed} do folderu <b>zdjecia/${esc(folder)}/</b> projektu.
  Po zapisaniu zmian wyeksportuj nowy <b>dane.js</b>.</span>`;
 }
 
 function text(id){const v=$(id).value.trim();return v===''?undefined:v}
-function num(id){const v=$(id).value.trim();return v===''?undefined:Number(v)}
+function num(id){const v=$(id).value.trim().replace(',','.');return v===''?undefined:Number(v)}
 function readForm(){
  const p={
   name:text('edName'),ele:num('edEle'),lat:num('edLat'),lon:num('edLon'),
@@ -561,58 +628,87 @@ function readForm(){
   photoPage:text('edPhotoPage'),photoCredit:text('edPhotoCredit'),
   photoLicense:text('edPhotoLicense'),routeUrl:text('edRouteUrl')
  };
- Object.keys(p).forEach(k=>{if(p[k]===undefined||(Array.isArray(p[k])&&!p[k].length))delete p[k]});
+ Object.keys(p).forEach(k=>{if(p[k]===undefined||(typeof p[k]==='number'&&!Number.isFinite(p[k]))||(Array.isArray(p[k])&&!p[k].length))delete p[k]});
  return p;
 }
 function persist(){
- localStorage.setItem(EDIT_STORAGE_KEY,JSON.stringify(DATA));
+ const ok=store.set(EDIT_STORAGE_KEY,JSON.stringify(DATA));
  fillRegions();fillQuick();
- region.value=ed.region.value;fillCategories();category.value=ed.category.value;syncQuick();render();
+ region.value=ed.region.value;fillCategories();category.value=ed.category.value;search.value='';syncQuick();render();
+ return ok;
 }
 function save(){
  const p=readForm();
- if(!p.name||!Number.isFinite(p.lat)||!Number.isFinite(p.lon)){status('Podaj nazwę oraz poprawne współrzędne lat/lon.',true);return}
- const items=DATA[ed.region.value].categories[ed.category.value].items;
- const i=Number(ed.place.value);
- if(Number.isInteger(i)&&items[i])items[i]=p;else items.push(p);
- persist();fillEdPlaces(p.name);status('Zapisano w tej przeglądarce. Plik dane.js na dysku NIE zmienia się automatycznie — po zakończeniu edycji wyeksportuj nowy dane.js.');
+ if(!p.name){status('Podaj nazwę miejsca.',true);return}
+ if(!validCoords(p.lat,p.lon)){status('Podaj poprawne współrzędne (lat: -90…90, lon: -180…180).',true);return}
+ const hasPLat=p.parkingLat!==undefined, hasPLon=p.parkingLon!==undefined;
+ if((hasPLat||hasPLon)&&!validCoords(p.parkingLat,p.parkingLon)){status('GPS parkingu jest niepełny lub błędny — uzupełnij oba pola albo zostaw puste.',true);return}
+ const cat=DATA[ed.region.value]?.categories?.[ed.category.value];
+ if(!cat){status('Wybierz region i kategorię.',true);return}
+ if(!Array.isArray(cat.items)) cat.items=[];
+ const items=cat.items;
+ const i=selIndex();
+ const dup=items.findIndex((x,j)=>j!==i&&x.name===p.name);
+ if(dup>=0){status(`W tej kategorii jest już miejsce „${p.name}”. Użyj innej nazwy.`,true);return}
+ if(i>=0){
+   // Zachowaj pola, których nie ma w formularzu (np. sources, routeNote)
+   const merged={...items[i]};
+   Object.keys(fields).forEach(k=>delete merged[k]);
+   items[i]=Object.assign(merged,p);
+ } else items.push(p);
+ const ok=persist();fillEdPlaces(p.name);
+ status(ok
+   ?'Zapisano w tej przeglądarce. Plik dane.js na dysku NIE zmienia się automatycznie — po zakończeniu edycji wyeksportuj nowy dane.js.'
+   :'Zmiana jest widoczna na mapie, ale przeglądarka nie pozwoliła zapisać jej trwale (brak miejsca lub tryb prywatny). Wyeksportuj dane.js teraz.',!ok);
 }
 function newPlace(){
  ed.place.value='';
  Object.keys(fields).forEach(k=>setField(k,''));
- updatePhoto();status('Nowy wpis — uzupełnij dane.');
+ resetPhotoInfo(); updatePhoto();
+ status('Nowy wpis — uzupełnij dane.');
+ $('edName').focus();
 }
 function delPlace(){
- const items=DATA[ed.region.value]?.categories?.[ed.category.value]?.items||[];
- const i=Number(ed.place.value);
- if(!Number.isInteger(i)||!items[i]){status('Nie wybrano miejsca.',true);return}
+ const items=edItems();
+ const i=selIndex();
+ if(i<0){status('Nie wybrano miejsca.',true);return}
  if(!confirm(`Usunąć „${items[i].name}”?`))return;
  items.splice(i,1);persist();fillEdPlaces();status('Usunięto miejsce z lokalnej kopii.');
 }
 function downloadFile(name,text,type='text/plain'){
  const blob=new Blob([text],{type:type+';charset=utf-8'}),u=URL.createObjectURL(blob);
- const a=document.createElement('a');a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),500);
+ const a=document.createElement('a');a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);
 }
 function exportJs(){
- downloadFile('dane.js','// Baza danych mapy gór Polski – eksport v22\nconst DATA = '+JSON.stringify(DATA,null,2)+';\n','text/javascript');
- status('Pobrano dane.js.');
+ const stamp=new Date().toLocaleString('pl-PL');
+ downloadFile('dane.js',`// Baza danych mapy gór Polski – eksport z panelu edycji (${stamp})\nconst DATA = `+JSON.stringify(DATA,null,2)+';\n','text/javascript');
+ status('Pobrano dane.js. Podmień nim plik w projekcie, a potem kliknij „Usuń lokalne zmiany”, żeby przeglądarka czytała już tylko z pliku.');
 }
 function exportJson(){downloadFile('mapa_gor_polskich_kopia.json',JSON.stringify(DATA,null,2),'application/json');status('Pobrano kopię JSON.')}
 function clearLocal(){
- if(!confirm('Usunąć wszystkie lokalne zmiany?'))return;
- localStorage.removeItem(EDIT_STORAGE_KEY);
- status('Usunięto lokalne zmiany. Odśwież stronę, aby wrócić do dane.js.');
+ if(!confirm('Usunąć wszystkie lokalne zmiany i wczytać ponownie dane.js?'))return;
+ store.del(EDIT_STORAGE_KEY);
+ location.reload();
 }
-function preview(){
- const p=current()||readForm();
- if(!p?.name||!Number.isFinite(Number(p.lat))||!Number.isFinite(Number(p.lon))){status('Brak poprawnego miejsca.',true);return}
- region.value=ed.region.value;fillCategories();category.value=ed.category.value;search.value=p.name;render();
- map.setView([Number(p.lat),Number(p.lon)],14);ed.backdrop.classList.remove('open');
+function previewPlace(){
+ const f=readForm();
+ const p=validCoords(f.lat,f.lon)&&f.name?f:current();
+ if(!p?.name||!validCoords(p.lat,p.lon)){status('Brak poprawnego miejsca.',true);return}
+ region.value=ed.region.value;fillCategories();category.value=ed.category.value;syncQuick();
+ search.value=current()?.name===p.name?p.name:'';
+ render(false);
+ map.setView([Number(p.lat),Number(p.lon)],14);
+ markerMap[p.name]?.openPopup();
+ if(!markerMap[p.name]) L.popup().setLatLng([Number(p.lat),Number(p.lon)]).setContent(`<b>${esc(p.name)}</b><br><small>Podgląd niezapisanego miejsca</small>`).openOn(map);
+ closeEditor();
 }
+function openEditor(){fillEdRegions();ed.backdrop.classList.add('open');$('editorClose').focus()}
+function closeEditor(){ed.backdrop.classList.remove('open');$('editLaunch').focus()}
 
-$('editLaunch').onclick=()=>{fillEdRegions();ed.backdrop.classList.add('open')};
-$('editorClose').onclick=()=>ed.backdrop.classList.remove('open');
-ed.backdrop.addEventListener('click',e=>{if(e.target===ed.backdrop)ed.backdrop.classList.remove('open')});
+$('editLaunch').onclick=openEditor;
+$('editorClose').onclick=closeEditor;
+ed.backdrop.addEventListener('click',e=>{if(e.target===ed.backdrop)closeEditor()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&ed.backdrop.classList.contains('open'))closeEditor()});
 ed.region.onchange=fillEdCats;
 ed.category.onchange=()=>fillEdPlaces();
 ed.place.onchange=loadPlace;
@@ -626,12 +722,15 @@ $('edDelete').onclick=delPlace;
 $('edExportJs').onclick=exportJs;
 $('edExportJson').onclick=exportJson;
 $('edClearLocal').onclick=clearLocal;
-$('edPreview').onclick=preview;
+$('edPreview').onclick=previewPlace;
+if(!DATA_LOADED) $('editLaunch').style.display='none';
 })();
 </script>
 
 <script>
-// ===== Przesuwanie popupów v18 =====
+// ===== Przesuwanie popupów =====
+// Okno chwyta się za zdjęcie, nagłówek lub pasek „przeciągnij” — dzięki temu
+// przewijanie treści i zaznaczanie tekstu (także na telefonie) działa normalnie.
 (function(){
   let dragState=null;
 
@@ -641,74 +740,50 @@ $('edPreview').onclick=preview;
     const m=new DOMMatrixReadOnly(tr);
     return {x:m.m41,y:m.m42};
   }
+  function start(popupEl,x,y){
+    const p=getPointFromTransform(popupEl);
+    dragState={popupEl,startX:x,startY:y,baseX:p.x,baseY:p.y};
+    popupEl.classList.add('dragging');
+  }
+  function move(x,y){
+    if(!dragState) return;
+    dragState.popupEl.style.transform=`translate3d(${dragState.baseX+x-dragState.startX}px,${dragState.baseY+y-dragState.startY}px,0)`;
+  }
+  function end(){
+    if(!dragState) return;
+    dragState.popupEl.classList.remove('dragging');
+    dragState=null;
+  }
 
   map.on('popupopen', function(e){
     const popupEl=e.popup.getElement();
     if(!popupEl) return;
-
     popupEl.classList.add('drag-enabled');
-    const handle=popupEl.querySelector('.leaflet-popup-content-wrapper');
-    if(!handle || handle.dataset.dragReady==='1') return;
-    handle.dataset.dragReady='1';
+    if(popupEl.dataset.dragReady==='1') return;
+    popupEl.dataset.dragReady='1';
 
-    handle.addEventListener('mousedown', function(ev){
-      // Nie rozpoczynaj przesuwania podczas klikania w elementy interaktywne.
-      if(ev.target.closest('a,button,input,textarea,select')) return;
-
-      const start=getPointFromTransform(popupEl);
-      dragState={
-        popupEl,
-        startX:ev.clientX,
-        startY:ev.clientY,
-        baseX:start.x,
-        baseY:start.y
-      };
-      popupEl.classList.add('dragging');
-      ev.preventDefault();
-      ev.stopPropagation();
+    popupEl.addEventListener('mousedown', function(ev){
+      if(ev.button!==0 || !ev.target.closest('.drag-handle') || ev.target.closest('a,button,input,textarea,select')) return;
+      start(popupEl,ev.clientX,ev.clientY);
+      ev.preventDefault(); ev.stopPropagation();
     });
-
-    handle.addEventListener('touchstart', function(ev){
-      if(ev.target.closest('a,button,input,textarea,select')) return;
-      const t=ev.touches[0];
-      const start=getPointFromTransform(popupEl);
-      dragState={
-        popupEl,
-        startX:t.clientX,
-        startY:t.clientY,
-        baseX:start.x,
-        baseY:start.y
-      };
-      popupEl.classList.add('dragging');
+    popupEl.addEventListener('touchstart', function(ev){
+      if(ev.touches.length!==1 || !ev.target.closest('.drag-handle') || ev.target.closest('a,button,input,textarea,select')) return;
+      start(popupEl,ev.touches[0].clientX,ev.touches[0].clientY);
+      ev.stopPropagation();
     }, {passive:true});
   });
+  map.on('popupclose', end);
 
-  document.addEventListener('mousemove', function(ev){
-    if(!dragState) return;
-    const dx=ev.clientX-dragState.startX;
-    const dy=ev.clientY-dragState.startY;
-    dragState.popupEl.style.transform=`translate3d(${dragState.baseX+dx}px,${dragState.baseY+dy}px,0)`;
-  });
-
-  document.addEventListener('mouseup', function(){
-    if(!dragState) return;
-    dragState.popupEl.classList.remove('dragging');
-    dragState=null;
-  });
-
+  document.addEventListener('mousemove', ev=>move(ev.clientX,ev.clientY));
+  document.addEventListener('mouseup', end);
   document.addEventListener('touchmove', function(ev){
     if(!dragState || !ev.touches.length) return;
-    const t=ev.touches[0];
-    const dx=t.clientX-dragState.startX;
-    const dy=t.clientY-dragState.startY;
-    dragState.popupEl.style.transform=`translate3d(${dragState.baseX+dx}px,${dragState.baseY+dy}px,0)`;
-  }, {passive:true});
-
-  document.addEventListener('touchend', function(){
-    if(!dragState) return;
-    dragState.popupEl.classList.remove('dragging');
-    dragState=null;
-  });
+    ev.preventDefault();
+    move(ev.touches[0].clientX,ev.touches[0].clientY);
+  }, {passive:false});
+  document.addEventListener('touchend', end);
+  document.addEventListener('touchcancel', end);
 })();
 </script>
 </body></html>
