@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:09:51)
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:11:26)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795633789749;
+const DATA_VERSION = 1795633884254;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -2311,30 +2311,7 @@ const DATA = {
             ]
           },
           {
-            "name": "Borówkowa",
-            "ele": 900,
-            "lat": 50.390639,
-            "lon": 16.902667,
-            "desc": "Jeden z najatrakcyjniejszych turystycznie szczytów Gór Złotych. Na wierzchołku stoi wieża widokowa, dzięki której Borówkowa jest jednym z najlepszych punktów panoramowych w paśmie.",
-            "tags": [
-              "🥾 DLA PIECHURÓW"
-            ],
-            "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
             "routeNote": "Parking i miejsce odpoczynku na Przełęczy Lądeckiej; praktyczny start na Borówkową i okoliczne grzbiety.",
-            "parking": "Parking na Przełęczy Lądeckiej",
-            "parkingLat": 50.369911,
-            "parkingLon": 16.918927,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "curiosity": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Lądek-Zdrój",
@@ -2348,7 +2325,24 @@ const DATA = {
                 "name": "PTTK – Przełęcz Lądecka",
                 "url": "https://dolnoslaskie.szlaki.pttk.pl/1923-dolnoslaskie-przelecz-ladecka"
               }
-            ]
+            ],
+            "name": "Borówkowa",
+            "ele": 900,
+            "lat": 50.390639,
+            "lon": 16.902667,
+            "desc": "Jeden z najatrakcyjniejszych turystycznie szczytów Gór Złotych. Na wierzchołku stoi wieża widokowa, dzięki której Borówkowa jest jednym z najlepszych punktów panoramowych w paśmie.",
+            "tags": [
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
+            "parking": "Parking na Przełęczy Lądeckiej",
+            "parkingLat": 50.369911,
+            "parkingLon": 16.918927,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
+            "photo": "zdjecia/gory-zlote/borowkowa-1rxw.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "routeNote": "Ogólnodostępny parking na obrzeżu Złotego Stoku; dobry start na Jawornik Wielki i północną część Gór Złotych.",
