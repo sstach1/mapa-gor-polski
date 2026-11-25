@@ -132,3 +132,19 @@ v24 – WIDOK CAŁEJ POLSKI I WYGODNIEJSZE PRZEGLĄDANIE
 - Mapa pamięta ostatnio wybrany region, kategorię i filtry.
 - Zdjęcia w folderze zdjecia/ zmniejszone do 1600 px (17 MB → 3,4 MB).
 - Plik dane.js bez zmian – format danych jest w pełni zgodny.
+
+v25 – PRZYCISK „✅ ZMIEŃ NA STRONIE” W PANELU EDYCJI
+---------------------------------------------------
+Panel edycji (adres strony z dopiskiem ?edycja) publikuje zmiany sam,
+bez ręcznego eksportu i wgrywania plików:
+1. Za pierwszym razem rozwiń „🔑 Połączenie z GitHub” i wklej token
+   (instrukcja tworzenia tokenu jest w panelu; uprawnienie
+   „Contents: Read and write” tylko dla repozytorium mapa-gor-polski).
+2. Popraw dane miejsca lub wybierz zdjęcie (panel sam zmniejsza je do
+   1600 px i zapisuje jako JPG z nazwą miejsca).
+3. Kliknij „✅ Zmień na stronie”. Zdjęcie i dane.js trafiają na GitHub
+   jednym commitem, a strona pokazuje zmiany po ok. 1–2 minutach.
+
+Token jest przechowywany wyłącznie w przeglądarce, w której go wpisano.
+Plik dane.js zawiera linię DATA_VERSION – panel używa jej, by nie nadpisać
+nowszej wersji zmienionej z innego urządzenia. Nie usuwaj tej linii.

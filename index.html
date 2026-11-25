@@ -97,6 +97,21 @@ select:focus,input:focus{border-color:var(--accent)}
 .editor-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;padding-top:14px;border-top:1px solid #cad6d2}
 .editor-preview{margin-top:8px;min-height:72px;border:1px dashed #b8c8c3;border-radius:10px;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden;color:#6a7e77;font-size:12px}
 .editor-preview img{max-width:100%;max-height:220px;display:block}
+.editor-actions .publish{background:#1f7a4d;font-size:15px;padding:11px 16px}
+.editor-actions .publish:disabled{opacity:.6;cursor:wait}
+.gh-box{margin-top:16px;border:1px solid #cad6d2;border-radius:10px;background:#f4f8f6;padding:0}
+.gh-box summary{cursor:pointer;padding:10px 12px;font-weight:800;font-size:13px;color:#24453b}
+.gh-box summary span{font-weight:600;font-size:12px}
+.gh-box summary span.ok{color:#27664f}.gh-box summary span.bad{color:#9a4632}
+.gh-inner{padding:0 12px 12px}
+.gh-help{font-size:12px;line-height:1.5;color:#3f5a51;margin:0 0 10px}
+.gh-help ol{margin:6px 0 6px 18px;padding:0}
+.gh-help a{color:#1f6a50;font-weight:700}
+.gh-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:8px}
+.gh-row label.inline{display:flex;align-items:center;gap:6px;text-transform:none;letter-spacing:0;font-weight:600;font-size:12px;margin:0}
+.gh-row label.inline input{width:auto}
+.gh-row button{border:0;border-radius:9px;padding:8px 11px;cursor:pointer;font-weight:700;background:#617b72;color:#fff}
+.editor-status a{color:#1f6a50;font-weight:800}
 .editor-status{margin-top:10px;font-size:12px;font-weight:700;color:#315f51}
 @media(max-width:700px){.editor-grid{grid-template-columns:1fr}.editor-grid .full{grid-column:auto}.edit-launch{bottom:12px}}
 
@@ -251,6 +266,12 @@ const sidebar=document.getElementById('sidebar'), mobileBtn=document.getElementB
       fTop=document.getElementById('fTop'), fTodo=document.getElementById('fTodo'),
       fPhoto=document.getElementById('fPhoto'), nearBtn=document.getElementById('nearBtn');
 /* ---------- pomocnicze ---------- */
+// Zdjęcia wybrane w panelu edycji, jeszcze niewysłane na GitHub (ścieżka → obraz)
+window.PENDING_PHOTOS=window.PENDING_PHOTOS||{};
+// Zdjęcia już wysłane — pokazujemy je z pamięci, dopóki GitHub Pages ich nie udostępni
+window.PUBLISHED_PHOTOS=window.PUBLISHED_PHOTOS||{};
+function localPhoto(path){return window.PENDING_PHOTOS[path]||window.PUBLISHED_PHOTOS[path]||''}
+function photoSrc(p){return localPhoto(p.photo)||safeUrl(p.photo)}
 function esc(v){
  return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
 }
@@ -408,7 +429,7 @@ function popup(p,cat,rk,ck){
  const navBtn=hasStart?`<a target="_blank" rel="noopener" href="${esc(nav)}">🚗 Nawiguj</a>`:`<span class="action-disabled" title="Brak zweryfikowanego parkingu/punktu startowego">🚗 Nawiguj – brak zweryfikowanego startu</span>`;
  const walkBtn=walking?`<a class="secondary" target="_blank" rel="noopener" href="${esc(walking)}">🥾 Trasa piesza</a>`:`<span class="action-disabled" title="Trasa zostanie udostępniona po weryfikacji punktu startowego">🥾 Trasa piesza – brak zweryfikowanego startu</span>`;
 
- const photoUrl=safeUrl(p.photo);
+ const photoUrl=photoSrc(p);
  const photoPage=safeUrl(p.photoPage);
  const isLocalPhoto=photoUrl && !/^(?:https?:)?\/\//i.test(photoUrl);
  const defaultPhotoCredit=isLocalPhoto?'Zdjęcie własne':'Wikimedia Commons';
@@ -540,7 +561,7 @@ function render(fit=true){
    el.style.setProperty('--c',catColor(ck));
    el.tabIndex=0; el.setAttribute('role','button');
    const where=[multiRegion?r.name:'',multiCat?cat.name:''].filter(Boolean).join(' • ');
-   el.innerHTML=`<div class="thumb">${p.photo?`<img src="${esc(safeUrl(p.photo))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:''}<span>${esc(cat.icon)}</span></div>
+   el.innerHTML=`<div class="thumb">${p.photo?`<img src="${esc(photoSrc(p))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:''}<span>${esc(cat.icon)}</span></div>
      <div class="card-body"><h3>${esc(p.name)}<span class="visited-mark">${visited?' ✓':''}</span></h3>
      <div class="meta">${where?esc(where)+' • ':''}${p.ele?`${esc(p.ele)} m n.p.m.`:''}${d!==undefined&&d!==Infinity?` • <b>${fmtKm(d)}</b>`:''}${ok?'':' • brak GPS'}</div>
      ${tags.length?`<div class="chips">${tags.slice(0,4).map(t=>`<span>${esc(t)}</span>`).join('')}</div>`:''}</div>`;
@@ -654,9 +675,9 @@ if(!openFromHash()) render();
     </div>
     <div class="editor-body">
       <div class="editor-note">
-        Wszystkie dotychczasowe dane mapy pozostają w <b>dane.js</b>.
-        Zmiany z panelu zapisują się w tej przeglądarce — po zakończeniu edycji pobierz nowy <b>dane.js</b> i podmień plik w projekcie.
-        Własne zdjęcie możesz wskazać np. jako <b>zdjecia/karkonosze/sniezka.jpg</b>.
+        Wybierz miejsce, popraw dane lub dodaj zdjęcie i kliknij <b>✅ Zmień na stronie</b> na dole.
+        Zmiany (razem ze zdjęciem) trafią na GitHub, a strona pokaże je wszystkim po ok. 1–2 minutach.
+        Za pierwszym razem trzeba wkleić token w sekcji <b>🔑 Połączenie z GitHub</b>.
       </div>
       <div class="editor-toolbar">
         <button id="edReload">↻ Wczytaj miejsce</button>
@@ -709,8 +730,36 @@ if(!openFromHash()) render();
         <div><label for="edPhotoLicense">Licencja</label><input id="edPhotoLicense"></div>
         <div><label for="edRouteUrl">Link do trasy</label><input id="edRouteUrl"></div>
       </div>
+      <details class="gh-box" id="ghBox">
+        <summary>🔑 Połączenie z GitHub <span id="ghState"></span></summary>
+        <div class="gh-inner">
+          <div class="gh-help">
+            Dzięki temu przycisk <b>„✅ Zmień na stronie”</b> sam wysyła zmiany i zdjęcia na GitHub. Wystarczy zrobić to <b>raz</b> na danym urządzeniu:
+            <ol>
+              <li>Otwórz <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com → nowy token</a> (musisz być zalogowany).</li>
+              <li><b>Token name</b>: np. „panel mapy”, <b>Expiration</b>: np. 1 rok.</li>
+              <li><b>Repository access</b>: „Only select repositories” → wybierz <b>mapa-gor-polski</b>.</li>
+              <li><b>Permissions</b> → <b>Contents</b> → „Read and write”.</li>
+              <li>Kliknij <b>Generate token</b>, skopiuj go (zaczyna się od <code>github_pat_</code>) i wklej poniżej.</li>
+            </ol>
+            Token zostaje tylko w tej przeglądarce. Nie wpisuj go na cudzym komputerze. W razie potrzeby usuniesz go na GitHubie jednym kliknięciem.
+          </div>
+          <div class="editor-grid">
+            <div><label for="ghOwner">Właściciel</label><input id="ghOwner" autocomplete="off"></div>
+            <div><label for="ghRepo">Repozytorium</label><input id="ghRepo" autocomplete="off"></div>
+            <div><label for="ghBranch">Gałąź</label><input id="ghBranch" autocomplete="off"></div>
+            <div><label for="ghToken">Token</label><input id="ghToken" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…"></div>
+          </div>
+          <div class="gh-row">
+            <label class="inline"><input type="checkbox" id="ghRemember"> Zapamiętaj na tym urządzeniu</label>
+            <button type="button" id="ghTest">Sprawdź połączenie</button>
+            <button type="button" id="ghForget">Usuń token</button>
+          </div>
+        </div>
+      </details>
       <div class="editor-actions">
-        <button id="edSave">💾 Zapisz lokalnie</button>
+        <button class="publish" id="edPublish" title="Zapisuje zmiany i publikuje je na stronie">✅ Zmień na stronie</button>
+        <button class="light" id="edSave">💾 Zapisz lokalnie</button>
         <button class="light" id="edPreview">👁 Pokaż na mapie</button>
         <button class="warn" id="edDelete">🗑 Usuń miejsce</button>
       </div>
@@ -729,6 +778,12 @@ const EDIT_STORAGE_KEY='mountainMapDataV56';
 function restoreStored(){
   if(!DATA_LOADED) return false;
   try{
+    // Zmiany opublikowane z panelu są już w dane.js — kopia w przeglądarce nie jest potrzebna
+    const pubVer=Number(store.get('mountainMapPublishedVersion'))||0;
+    const loadedVer=(typeof DATA_VERSION!=='undefined'&&Number(DATA_VERSION))||0;
+    if(pubVer&&loadedVer>=pubVer&&store.get('mountainMapDirty')!=='1'){
+      store.del(EDIT_STORAGE_KEY);store.del('mountainMapPublishedVersion');return false;
+    }
     const raw=store.get(EDIT_STORAGE_KEY);
     if(!raw) return false;
     const saved=JSON.parse(raw);
@@ -833,33 +888,34 @@ function loadPlace(){
 }
 function updatePhoto(){
  const u=$('edPhoto').value.trim();
- ed.preview.innerHTML=u?`<img src="${esc(u)}" alt="Podgląd" onerror="this.parentElement.textContent='Nie udało się wczytać podglądu (dla własnego pliku: sprawdź, czy leży we wskazanym folderze).'">`:'Brak zdjęcia';
+ ed.preview.innerHTML=u?`<img src="${esc(localPhoto(u)||u)}" alt="Podgląd" onerror="this.parentElement.textContent='Nie udało się wczytać podglądu (dla własnego pliku: sprawdź, czy leży we wskazanym folderze).'">`:'Brak zdjęcia';
 }
 function chooseOwnPhoto(){ $('edPhotoFile').click(); }
-function ownPhotoSelected(){
+async function ownPhotoSelected(){
  const file=$('edPhotoFile').files?.[0];
+ $('edPhotoFile').value='';
  if(!file)return;
- const dot=file.name.lastIndexOf('.');
- const ext=dot>=0?file.name.slice(dot).toLowerCase():'.jpg';
- const base=safePhotoFilename(dot>=0?file.name.slice(0,dot):file.name)||'zdjecie';
- const filename=base+ext;
- const folder=photoFolder();
- const rel=`zdjecia/${folder}/${filename}`;
+ const info=$('edPhotoFileInfo');
+ info.className='editor-photo-info';info.textContent='⏳ Przygotowuję zdjęcie…';
+ let out;
+ try{out=await resizeToJpeg(file)}
+ catch(e){
+   info.className='editor-photo-info warn';
+   info.textContent='Nie udało się odczytać tego zdjęcia (np. format HEIC z iPhone’a). Zapisz je jako JPG lub PNG i wybierz ponownie.';
+   return;
+ }
+ // Nazwa z nazwy miejsca + krótki dopisek, żeby podmienione zdjęcie nie wisiało w pamięci przeglądarek
+ const base=safePhotoFilename($('edName').value.trim()||file.name.replace(/\.[^.]+$/,''))||'zdjecie';
+ const rel=`zdjecia/${photoFolder()}/${base}-${Date.now().toString(36).slice(-4)}.jpg`;
+ window.PENDING_PHOTOS[rel]=out.dataUrl;
  $('edPhoto').value=rel;
  $('edPhotoPage').value='';
  $('edPhotoCredit').value='Zdjęcie własne';
  $('edPhotoLicense').value='';
-
- if(previewObjectUrl) URL.revokeObjectURL(previewObjectUrl);
- previewObjectUrl=URL.createObjectURL(file);
- ed.preview.innerHTML=`<img src="${previewObjectUrl}" alt="Podgląd własnego zdjęcia">`;
-
- const info=$('edPhotoFileInfo');
+ ed.preview.innerHTML=`<img src="${out.dataUrl}" alt="Podgląd własnego zdjęcia">`;
+ const kb=Math.round(out.dataUrl.length*3/4/1024);
  info.className='editor-photo-info ok';
- const renamed=filename!==file.name?` (oryginalnie „${esc(file.name)}” — zmień nazwę pliku)`:'';
- info.innerHTML=`Ścieżka została wpisana automatycznie: <code>${esc(rel)}</code><br>
- <span style="color:#8a5b00">Skopiuj plik jako <b>${esc(filename)}</b>${renamed} do folderu <b>zdjecia/${esc(folder)}/</b> projektu.
- Po zapisaniu zmian wyeksportuj nowy <b>dane.js</b>.</span>`;
+ info.innerHTML=`✓ Zdjęcie gotowe (${out.w}×${out.h} px, ok. ${kb} KB). Kliknij <b>✅ Zmień na stronie</b> na dole, aby je opublikować.`;
 }
 
 function text(id){const v=$(id).value.trim();return v===''?undefined:v}
@@ -881,23 +937,24 @@ function readForm(){
 }
 function persist(){
  const ok=store.set(EDIT_STORAGE_KEY,JSON.stringify(DATA));
+ store.set('mountainMapDirty','1');
  fillRegions();fillQuick();
  region.value=ed.region.value;fillCategories();category.value=ed.category.value;search.value='';syncQuick();render();
  return ok;
 }
 function save(){
  const p=readForm();
- if(!p.name){status('Podaj nazwę miejsca.',true);return}
- if(!validCoords(p.lat,p.lon)){status('Podaj poprawne współrzędne (lat: -90…90, lon: -180…180).',true);return}
+ if(!p.name){status('Podaj nazwę miejsca.',true);return false}
+ if(!validCoords(p.lat,p.lon)){status('Podaj poprawne współrzędne (lat: -90…90, lon: -180…180).',true);return false}
  const hasPLat=p.parkingLat!==undefined, hasPLon=p.parkingLon!==undefined;
- if((hasPLat||hasPLon)&&!validCoords(p.parkingLat,p.parkingLon)){status('GPS parkingu jest niepełny lub błędny — uzupełnij oba pola albo zostaw puste.',true);return}
+ if((hasPLat||hasPLon)&&!validCoords(p.parkingLat,p.parkingLon)){status('GPS parkingu jest niepełny lub błędny — uzupełnij oba pola albo zostaw puste.',true);return false}
  const cat=DATA[ed.region.value]?.categories?.[ed.category.value];
- if(!cat){status('Wybierz region i kategorię.',true);return}
+ if(!cat){status('Wybierz region i kategorię.',true);return false}
  if(!Array.isArray(cat.items)) cat.items=[];
  const items=cat.items;
  const i=selIndex();
  const dup=items.findIndex((x,j)=>j!==i&&x.name===p.name);
- if(dup>=0){status(`W tej kategorii jest już miejsce „${p.name}”. Użyj innej nazwy.`,true);return}
+ if(dup>=0){status(`W tej kategorii jest już miejsce „${p.name}”. Użyj innej nazwy.`,true);return false}
  if(i>=0){
    // Zachowaj pola, których nie ma w formularzu (np. sources, routeNote)
    const merged={...items[i]};
@@ -906,8 +963,9 @@ function save(){
  } else items.push(p);
  const ok=persist();fillEdPlaces(p.name);
  status(ok
-   ?'Zapisano w tej przeglądarce. Plik dane.js na dysku NIE zmienia się automatycznie — po zakończeniu edycji wyeksportuj nowy dane.js.'
-   :'Zmiana jest widoczna na mapie, ale przeglądarka nie pozwoliła zapisać jej trwale (brak miejsca lub tryb prywatny). Wyeksportuj dane.js teraz.',!ok);
+   ?'Zapisano w tej przeglądarce (widzisz to tylko Ty). Aby zmiana pojawiła się na stronie dla wszystkich, kliknij „✅ Zmień na stronie”.'
+   :'Zmiana jest widoczna na mapie, ale przeglądarka nie pozwoliła zapisać jej trwale (brak miejsca lub tryb prywatny). Kliknij teraz „✅ Zmień na stronie”, aby jej nie stracić.',!ok);
+ return true;
 }
 function newPlace(){
  ed.place.value='';
@@ -928,9 +986,10 @@ function downloadFile(name,text,type='text/plain'){
  const a=document.createElement('a');a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);
 }
 function exportJs(){
- const stamp=new Date().toLocaleString('pl-PL');
- downloadFile('dane.js',`// Baza danych mapy gór Polski – eksport z panelu edycji (${stamp})\nconst DATA = `+JSON.stringify(DATA,null,2)+';\n','text/javascript');
- status('Pobrano dane.js. Podmień nim plik w projekcie, a potem kliknij „Usuń lokalne zmiany”, żeby przeglądarka czytała już tylko z pliku.');
+ const ver=Date.now();
+ downloadFile('dane.js',buildDaneJs(ver),'text/javascript');
+ store.set('mountainMapPublishedVersion',String(ver));store.set('mountainMapDirty','0');
+ status('Pobrano dane.js. Jeśli wgrywasz go ręcznie: podmień plik w repozytorium. Prościej użyć przycisku „✅ Zmień na stronie”.');
 }
 function exportJson(){downloadFile('mapa_gor_polskich_kopia.json',JSON.stringify(DATA,null,2),'application/json');status('Pobrano kopię JSON.')}
 function clearLocal(){
@@ -953,6 +1012,177 @@ function previewPlace(){
 }
 function openEditor(){fillEdRegions();ed.backdrop.classList.add('open');$('editorClose').focus()}
 function closeEditor(){ed.backdrop.classList.remove('open');$('editLaunch').focus()}
+
+/* ===== Publikacja zmian na GitHub (przycisk „Zmień na stronie”) =====
+   Strona jest statyczna, więc zmiany wysyłamy przez API GitHuba z tokenem właściciela.
+   Token zostaje wyłącznie w tej przeglądarce. Zdjęcie i dane.js trafiają do repozytorium
+   jednym commitem, a GitHub Pages sam przebudowuje stronę (ok. 1–2 min). */
+const GH_KEY='mountainMapGitHub', PUB_VER_KEY='mountainMapPublishedVersion', DIRTY_KEY='mountainMapDirty';
+const ss={
+  get(k){try{return sessionStorage.getItem(k)}catch(e){return null}},
+  set(k,v){try{sessionStorage.setItem(k,v)}catch(e){}},
+  del(k){try{sessionStorage.removeItem(k)}catch(e){}}
+};
+function ghDefaults(){
+ const m=location.hostname.match(/^([^.]+)\.github\.io$/i);
+ const owner=m?m[1]:'sstach1';
+ const repo=m?(location.pathname.split('/').filter(Boolean)[0]||`${owner}.github.io`):'mapa-gor-polski';
+ return {owner,repo,branch:'main',token:'',remember:false};
+}
+function ghCfg(){
+ let c={};
+ try{c=JSON.parse(store.get(GH_KEY)||ss.get(GH_KEY)||'{}')||{}}catch(e){}
+ return {...ghDefaults(),...c};
+}
+function ghSaveCfg(){
+ const c={owner:$('ghOwner').value.trim(),repo:$('ghRepo').value.trim(),branch:$('ghBranch').value.trim()||'main',
+          token:$('ghToken').value.trim(),remember:$('ghRemember').checked};
+ const json=JSON.stringify(c);
+ if(c.remember){store.set(GH_KEY,json);ss.del(GH_KEY)}
+ else {ss.set(GH_KEY,json);store.del(GH_KEY)}
+ ghShowState();
+}
+function ghFillForm(){
+ const c=ghCfg();
+ $('ghOwner').value=c.owner;$('ghRepo').value=c.repo;$('ghBranch').value=c.branch;
+ $('ghToken').value=c.token;$('ghRemember').checked=!!c.remember;
+ ghShowState();
+}
+function ghShowState(msg){
+ const c=ghCfg();
+ $('ghState').textContent=msg||(c.token?'— token wpisany':'— brak tokenu');
+ $('ghState').className=c.token?'ok':'bad';
+}
+function ghErr(statusCode,msg){
+ if(statusCode===401) return 'GitHub nie przyjął tokenu — jest błędny albo wygasł. Wygeneruj nowy i wklej go w sekcji „Połączenie z GitHub”.';
+ if(statusCode===403||statusCode===404) return 'Token nie ma dostępu do repozytorium albo nazwa repozytorium jest błędna. Sprawdź, czy token obejmuje to repozytorium i ma uprawnienie „Contents: Read and write”.';
+ if(statusCode===409||statusCode===422) return 'GitHub odrzucił zapis, bo w międzyczasie zmieniła się zawartość repozytorium. Odśwież stronę (Ctrl+F5) i spróbuj ponownie.';
+ return `Błąd GitHub (${statusCode}): ${msg||'nieznany'}`;
+}
+async function gh(path,opt={}){
+ const c=ghCfg();
+ const headers={'Accept':'application/vnd.github+json','Authorization':'Bearer '+c.token,'X-GitHub-Api-Version':'2022-11-28',...(opt.headers||{})};
+ if(opt.body) headers['Content-Type']='application/json';
+ let r;
+ try{r=await fetch('https://api.github.com'+path,{method:opt.method||'GET',headers,body:opt.body?JSON.stringify(opt.body):undefined,cache:'no-store'})}
+ catch(e){throw new Error('Brak połączenia z GitHub — sprawdź internet i spróbuj ponownie.')}
+ if(!r.ok){let m='';try{m=(await r.json()).message}catch(e){}throw new Error(ghErr(r.status,m))}
+ return opt.raw?r.text():r.json();
+}
+function repoPath(){const c=ghCfg();return `/repos/${encodeURIComponent(c.owner)}/${encodeURIComponent(c.repo)}`}
+function utf8ToBase64(str){
+ const bytes=new TextEncoder().encode(str);let bin='';
+ for(let i=0;i<bytes.length;i+=0x8000) bin+=String.fromCharCode.apply(null,bytes.subarray(i,i+0x8000));
+ return btoa(bin);
+}
+function loadedVersion(){return (typeof DATA_VERSION!=='undefined'&&Number(DATA_VERSION))||0}
+function buildDaneJs(ver){
+ const stamp=new Date().toLocaleString('pl-PL');
+ return `// Baza danych mapy gór Polski – zapis z panelu edycji (${stamp})\n`+
+        `// DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.\n`+
+        `const DATA_VERSION = ${ver};\n`+
+        `const DATA = `+JSON.stringify(DATA,null,2)+';\n';
+}
+function usedPhotoPaths(){
+ const s=new Set();
+ Object.values(DATA).forEach(r=>Object.values(r.categories||{}).forEach(c=>(c.items||[]).forEach(p=>{if(p.photo)s.add(p.photo)})));
+ return s;
+}
+async function ghTest(){
+ ghSaveCfg();
+ if(!ghCfg().token){ghShowState('— wklej token');return}
+ ghShowState('— sprawdzam…');
+ try{
+   const r=await gh(repoPath());
+   if(r.permissions&&r.permissions.push===false) ghShowState('— token działa, ale bez prawa zapisu');
+   else ghShowState(`✓ połączono z ${r.full_name}`);
+ }catch(e){ghShowState('— '+e.message)}
+}
+function ghForget(){
+ store.del(GH_KEY);ss.del(GH_KEY);$('ghToken').value='';$('ghRemember').checked=false;ghShowState();
+ status('Token usunięty z tej przeglądarki.');
+}
+
+let publishing=false;
+async function publishNow(){
+ if(publishing) return;
+ const c=ghCfg();
+ if(!c.token){
+   $('ghBox').open=true;$('ghToken').focus();
+   status('Aby zmiany pojawiły się na stronie, najpierw wklej token GitHub w sekcji „🔑 Połączenie z GitHub” (instrukcja jest w środku). Robisz to tylko raz.',true);
+   return;
+ }
+ // Najpierw zapisz to, co jest w formularzu (jeśli formularz jest wypełniony)
+ if($('edName').value.trim() && save()===false) return;
+ const btn=$('edPublish');
+ publishing=true;btn.disabled=true;const label=btn.textContent;btn.textContent='⏳ Wysyłanie…';
+ try{
+   const base=repoPath(), branch=encodeURIComponent(c.branch);
+   status('⏳ Sprawdzam aktualną wersję na GitHub…');
+   const remote=await gh(`${base}/contents/dane.js?ref=${branch}`,{headers:{Accept:'application/vnd.github.raw+json'},raw:true});
+   const remoteVer=Number((remote.match(/DATA_VERSION\s*=\s*(\d+)/)||[])[1]||0);
+   const knownVer=Math.max(loadedVersion(),Number(store.get(PUB_VER_KEY))||0);
+   if(remoteVer>knownVer) throw new Error('Na GitHubie jest nowsza wersja dane.js niż ta, którą edytujesz (zmieniona z innego urządzenia lub przeglądarki). Aby niczego nie nadpisać: wyeksportuj kopię JSON, odśwież stronę (Ctrl+F5) i wprowadź zmianę ponownie.');
+
+   const ver=Date.now();
+   const used=usedPhotoPaths();
+   const photos=Object.entries(window.PENDING_PHOTOS).filter(([p])=>used.has(p));
+   const ref=await gh(`${base}/git/ref/heads/${branch}`);
+   const head=ref.object.sha;
+   const headCommit=await gh(`${base}/git/commits/${head}`);
+   const tree=[];
+   for(let i=0;i<photos.length;i++){
+     status(`⏳ Wysyłam zdjęcie ${i+1} z ${photos.length}…`);
+     const b=await gh(`${base}/git/blobs`,{method:'POST',body:{content:photos[i][1].split(',')[1],encoding:'base64'}});
+     tree.push({path:photos[i][0],mode:'100644',type:'blob',sha:b.sha});
+   }
+   status('⏳ Wysyłam dane.js…');
+   const db=await gh(`${base}/git/blobs`,{method:'POST',body:{content:utf8ToBase64(buildDaneJs(ver)),encoding:'base64'}});
+   tree.push({path:'dane.js',mode:'100644',type:'blob',sha:db.sha});
+   const t=await gh(`${base}/git/trees`,{method:'POST',body:{base_tree:headCommit.tree.sha,tree}});
+   const place=$('edName').value.trim();
+   const msg=`Panel edycji: ${place||'zmiany w bazie miejsc'}${photos.length?` + ${photos.length} ${photos.length===1?'zdjęcie':'zdjęcia'}`:''}`;
+   const nc=await gh(`${base}/git/commits`,{method:'POST',body:{message:msg,tree:t.sha,parents:[head]}});
+   await gh(`${base}/git/refs/heads/${branch}`,{method:'PATCH',body:{sha:nc.sha,force:false}});
+
+   store.set(PUB_VER_KEY,String(ver));store.set(DIRTY_KEY,'0');
+   photos.forEach(([p,d])=>{window.PUBLISHED_PHOTOS[p]=d;delete window.PENDING_PHOTOS[p]});
+   const info=$('edPhotoFileInfo');if(info&&photos.length){info.className='editor-photo-info ok';info.textContent='Zdjęcie zostało opublikowane.'}
+   status(`✅ Gotowe! Zmiany są już na GitHubie. Strona pokaże je wszystkim za ok. 1–2 minuty (potem odśwież ją: Ctrl+F5 lub przeciągnij w dół na telefonie).`);
+   const a=document.createElement('a');a.href=nc.html_url;a.target='_blank';a.rel='noopener';a.textContent=' Zobacz zmianę na GitHub ↗';
+   ed.status.appendChild(a);
+ }catch(e){
+   status('❌ '+e.message+' Twoje zmiany zostały zachowane w tej przeglądarce.',true);
+ }finally{
+   publishing=false;btn.disabled=false;btn.textContent=label;
+ }
+}
+
+/* Zmniejszenie zdjęcia w przeglądarce: maks. 1600 px, JPEG — szybkie ładowanie na telefonie */
+async function resizeToJpeg(file,max=1600,q=0.82){
+ const url=URL.createObjectURL(file);
+ try{
+   const img=await new Promise((res,rej)=>{const i=new Image();i.onload=()=>res(i);i.onerror=rej;i.src=url});
+   let w=img.naturalWidth,h=img.naturalHeight;
+   const s=Math.min(1,max/Math.max(w,h));w=Math.round(w*s);h=Math.round(h*s);
+   const cv=document.createElement('canvas');cv.width=w;cv.height=h;
+   const cx=cv.getContext('2d');cx.fillStyle='#fff';cx.fillRect(0,0,w,h);cx.drawImage(img,0,0,w,h);
+   return {dataUrl:cv.toDataURL('image/jpeg',q),w,h};
+ }finally{URL.revokeObjectURL(url)}
+}
+
+window.addEventListener('beforeunload',e=>{
+ const used=usedPhotoPaths();
+ if(Object.keys(window.PENDING_PHOTOS).some(p=>used.has(p))){e.preventDefault();e.returnValue=''}
+});
+
+$('ghBox').addEventListener('toggle',()=>{if($('ghBox').open)ghFillForm()});
+['ghOwner','ghRepo','ghBranch','ghToken'].forEach(id=>$(id).addEventListener('change',ghSaveCfg));
+$('ghRemember').addEventListener('change',ghSaveCfg);
+$('ghTest').onclick=ghTest;
+$('ghForget').onclick=ghForget;
+$('edPublish').onclick=publishNow;
+ghFillForm();
 
 $('editLaunch').onclick=openEditor;
 $('editorClose').onclick=closeEditor;
