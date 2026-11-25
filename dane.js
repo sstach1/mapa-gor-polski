@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:14:33)
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:16:16)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795634071661;
+const DATA_VERSION = 1795634174947;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -2581,30 +2581,7 @@ const DATA = {
         "icon": "👀",
         "items": [
           {
-            "name": "Borówkowa – wieża widokowa",
-            "ele": 900,
-            "lat": 50.390639,
-            "lon": 16.902667,
-            "desc": "Jeden z najlepszych punktów widokowych Gór Złotych. Wieża na szczycie Borówkowej pozwala oglądać szeroką panoramę ziemi kłodzkiej, Gór Złotych i terenów po czeskiej stronie granicy.",
-            "tags": [
-              "📸 FOTOGENICZNE"
-            ],
-            "difficulty": "średnia; zależna od punktu startu",
-            "family": "tak dla aktywnych rodzin",
-            "dog": "na smyczy",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
             "routeNote": "Parking i miejsce odpoczynku na Przełęczy Lądeckiej; praktyczny start na Borówkową i okoliczne grzbiety.",
-            "parking": "Parking na Przełęczy Lądeckiej",
-            "parkingLat": 50.369911,
-            "parkingLon": 16.918927,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "curiosity": "Na szczycie stoi wieża widokowa położona tuż przy granicy polsko-czeskiej.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Lądek-Zdrój",
@@ -2618,7 +2595,25 @@ const DATA = {
                 "name": "PTTK – Przełęcz Lądecka",
                 "url": "https://dolnoslaskie.szlaki.pttk.pl/1923-dolnoslaskie-przelecz-ladecka"
               }
-            ]
+            ],
+            "name": "Borówkowa – wieża widokowa",
+            "ele": 900,
+            "lat": 50.390639,
+            "lon": 16.902667,
+            "desc": "Jeden z najlepszych punktów widokowych Gór Złotych. Wieża na szczycie Borówkowej pozwala oglądać szeroką panoramę ziemi kłodzkiej, Gór Złotych i terenów po czeskiej stronie granicy.",
+            "curiosity": "Na szczycie stoi wieża widokowa położona tuż przy granicy polsko-czeskiej.",
+            "tags": [
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "średnia; zależna od punktu startu",
+            "parking": "Parking na Przełęczy Lądeckiej",
+            "parkingLat": 50.369911,
+            "parkingLon": 16.918927,
+            "family": "tak dla aktywnych rodzin",
+            "dog": "na smyczy",
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
+            "photo": "zdjecia/gory-zlote/borowkowa-wieza-widokowa-81u2.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Trojak – platforma widokowa",
