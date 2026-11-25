@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:34:04)
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:37:01)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795635242553;
+const DATA_VERSION = 1795635419530;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -2823,27 +2823,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Średniowieczna Osada Górnicza",
-            "lat": 50.4447,
-            "lon": 16.8793,
-            "desc": "Interaktywna atrakcja pokazująca dawne techniki wydobycia i obróbki rud. Rekonstrukcje urządzeń górniczych pozwalają zobaczyć, jak mogła wyglądać praca w dawnym ośrodku górniczym.",
-            "tags": [],
-            "difficulty": "zależna od wybranego dojścia; zwykle łatwa przy atrakcjach dostępnych z miejscowości",
-            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
-            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
             "routeNote": "Bezpłatny parking kompleksu Kopalni Złota przy ul. Złotej; właściwy dojazd do kopalni i sąsiednich atrakcji.",
-            "parking": "Główny parking Kopalni Złota, Złoty Stok",
-            "parkingLat": 50.4436,
-            "parkingLon": 16.8782,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "curiosity": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Lądek-Zdrój",
@@ -2857,7 +2837,20 @@ const DATA = {
                 "name": "Kopalnia Złota – dojazd i parking",
                 "url": "https://kopalniazlota.pl/informacje-i-pomoc/dojazd/"
               }
-            ]
+            ],
+            "name": "Średniowieczna Osada Górnicza",
+            "lat": 50.4447,
+            "lon": 16.8793,
+            "desc": "Interaktywna atrakcja pokazująca dawne techniki wydobycia i obróbki rud. Rekonstrukcje urządzeń górniczych pozwalają zobaczyć, jak mogła wyglądać praca w dawnym ośrodku górniczym.",
+            "difficulty": "zależna od wybranego dojścia; zwykle łatwa przy atrakcjach dostępnych z miejscowości",
+            "parking": "Główny parking Kopalni Złota, Złoty Stok",
+            "parkingLat": 50.4436,
+            "parkingLon": 16.8782,
+            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
+            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
+            "photo": "zdjecia/gory-zlote/sredniowieczna-osada-gornicza-yqr9.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Ruiny zamku Karpień",
