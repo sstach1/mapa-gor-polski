@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 19:52:42)
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 19:55:17)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795632760914;
+const DATA_VERSION = 1795632915795;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -2511,30 +2511,7 @@ const DATA = {
             ]
           },
           {
-            "name": "Trojak",
-            "ele": 766,
-            "lat": 50.3381687,
-            "lon": 16.9133202,
-            "desc": "Jeden z najpopularniejszych celów krótkich wycieczek z Lądka-Zdroju. Szczyt i jego skalne otoczenie są znane z punktów widokowych oraz charakterystycznych formacji skalnych.",
-            "tags": [
-              "🥾 DLA PIECHURÓW"
-            ],
-            "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
             "routeNote": "Praktyczny start z górnej części Lądka-Zdroju na Trojak, Karpiak i okolice.",
-            "parking": "Parking na Trojak – ul. Leśna / Hotel Trojan, Lądek-Zdrój",
-            "parkingLat": 50.340607,
-            "parkingLon": 16.891203,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "curiosity": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Lądek-Zdrój",
@@ -2548,7 +2525,24 @@ const DATA = {
                 "name": "Dostępne Miejsce – Leśna 4A",
                 "url": "https://dostepnemiejsce.pl/pl/000121987/hotel-trojan"
               }
-            ]
+            ],
+            "name": "Trojak",
+            "ele": 766,
+            "lat": 50.3381687,
+            "lon": 16.9133202,
+            "desc": "Jeden z najpopularniejszych celów krótkich wycieczek z Lądka-Zdroju. Szczyt i jego skalne otoczenie są znane z punktów widokowych oraz charakterystycznych formacji skalnych.",
+            "tags": [
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
+            "parking": "Parking na Trojak – ul. Leśna / Hotel Trojan, Lądek-Zdrój",
+            "parkingLat": 50.340607,
+            "parkingLon": 16.891203,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
+            "photo": "zdjecia/gory-zlote/trojak-h27e.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Ptasznik",
