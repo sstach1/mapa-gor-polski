@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:07:26)
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:09:51)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795633644312;
+const DATA_VERSION = 1795633789749;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -2351,30 +2351,7 @@ const DATA = {
             ]
           },
           {
-            "name": "Jawornik Wielki",
-            "ele": 872,
-            "lat": 50.406667,
-            "lon": 16.851111,
-            "desc": "Najwyższy szczyt północnej części Gór Złotych, położony blisko Złotego Stoku. To spokojniejszy cel wędrówki, dobry dla osób szukających mniej zatłoczonych sudeckich tras.",
-            "tags": [
-              "🥾 DLA PIECHURÓW"
-            ],
-            "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
             "routeNote": "Ogólnodostępny parking na obrzeżu Złotego Stoku; dobry start na Jawornik Wielki i północną część Gór Złotych.",
-            "parking": "Skalisko – parking, Złoty Stok",
-            "parkingLat": 50.43699,
-            "parkingLon": 16.873346,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "curiosity": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Lądek-Zdrój",
@@ -2388,7 +2365,24 @@ const DATA = {
                 "name": "Mapa Turystyczna – Skalisko, parking",
                 "url": "https://mapa-turystyczna.pl/route?q=50.4369900%2C16.8733460%3B50.4077480%2C16.8604250%3B50.4072320%2C16.8509290"
               }
-            ]
+            ],
+            "name": "Jawornik Wielki",
+            "ele": 872,
+            "lat": 50.406667,
+            "lon": 16.851111,
+            "desc": "Najwyższy szczyt północnej części Gór Złotych, położony blisko Złotego Stoku. To spokojniejszy cel wędrówki, dobry dla osób szukających mniej zatłoczonych sudeckich tras.",
+            "tags": [
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
+            "parking": "Skalisko – parking, Złoty Stok",
+            "parkingLat": 50.43699,
+            "parkingLon": 16.873346,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
+            "photo": "zdjecia/gory-zlote/jawornik-wielki-zrpe.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Kobyla Kopa",
