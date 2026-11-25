@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:28:29)
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:32:46)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795634907470;
+const DATA_VERSION = 1795635164493;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -2793,27 +2793,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Sztolnia Ochrowa",
-            "lat": 50.445,
-            "lon": 16.886,
-            "desc": "Dawne wyrobisko górnicze udostępnione do zwiedzania jako osobna trasa. Nazwa pochodzi od intensywnie pomarańczowych osadów ochry powstających w wodach wypływających ze sztolni.",
-            "tags": [],
-            "difficulty": "zależna od wybranego dojścia; zwykle łatwa przy atrakcjach dostępnych z miejscowości",
-            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
-            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
             "routeNote": "Bezpłatny parking kompleksu Kopalni Złota przy ul. Złotej; właściwy dojazd do kopalni i sąsiednich atrakcji.",
-            "parking": "Główny parking Kopalni Złota, Złoty Stok",
-            "parkingLat": 50.4436,
-            "parkingLon": 16.8782,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "curiosity": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Lądek-Zdrój",
@@ -2827,7 +2807,20 @@ const DATA = {
                 "name": "Kopalnia Złota – dojazd i parking",
                 "url": "https://kopalniazlota.pl/informacje-i-pomoc/dojazd/"
               }
-            ]
+            ],
+            "name": "Sztolnia Ochrowa",
+            "lat": 50.445,
+            "lon": 16.886,
+            "desc": "Dawne wyrobisko górnicze udostępnione do zwiedzania jako osobna trasa. Nazwa pochodzi od intensywnie pomarańczowych osadów ochry powstających w wodach wypływających ze sztolni.",
+            "difficulty": "zależna od wybranego dojścia; zwykle łatwa przy atrakcjach dostępnych z miejscowości",
+            "parking": "Główny parking Kopalni Złota, Złoty Stok",
+            "parkingLat": 50.4436,
+            "parkingLon": 16.8782,
+            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
+            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
+            "photo": "zdjecia/gory-zlote/sztolnia-ochrowa-t90q.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Średniowieczna Osada Górnicza",
