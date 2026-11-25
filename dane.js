@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:39:57)
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:42:13)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795635595868;
+const DATA_VERSION = 1795635731693;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -16620,31 +16620,7 @@ const DATA = {
             "photo": "zdjecia/sleza/sleza.jpg"
           },
           {
-            "name": "Radunia",
-            "lat": 50.8277,
-            "lon": 16.7047,
-            "desc": "Drugi najwyższy szczyt Masywu Ślęży, objęty ochroną rezerwatową. Charakterystyczny, zalesiony grzbiet.",
-            "why": "Spokojniejsza alternatywa dla zatłoczonej Ślęży.",
-            "curiosity": "",
-            "tags": [
-              "🥾 DLA PIECHURÓW",
-              "💎 MNIEJ ZNANY"
-            ],
-            "difficulty": "zależna od wariantu i warunków",
-            "family": "zależy od długości trasy i wieku dzieci",
-            "dog": "sprawdź aktualne zasady rezerwatu i wybranego szlaku",
-            "fee": "szlak bezpłatny; parkingi lub obiekty mogą być płatne",
-            "parking": "",
-            "parkingLat": null,
-            "parkingLon": null,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Szczyt Raduni znajduje się w rezerwacie. Dawny szlak przez wierzchołek został zlikwidowany; korzystaj wyłącznie z aktualnie udostępnionych szlaków trawersujących rezerwat.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "PTTK – Szlak archeologiczny",
@@ -16655,7 +16631,22 @@ const DATA = {
                 "url": "https://www.sleza.sobotka.pl/szlaki-turystyczne/"
               }
             ],
-            "ele": 573
+            "name": "Radunia",
+            "ele": 573,
+            "lat": 50.8277,
+            "lon": 16.7047,
+            "desc": "Drugi najwyższy szczyt Masywu Ślęży, objęty ochroną rezerwatową. Charakterystyczny, zalesiony grzbiet.",
+            "why": "Spokojniejsza alternatywa dla zatłoczonej Ślęży.",
+            "tags": [
+              "🥾 DLA PIECHURÓW",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "zależna od wariantu i warunków",
+            "family": "zależy od długości trasy i wieku dzieci",
+            "dog": "sprawdź aktualne zasady rezerwatu i wybranego szlaku",
+            "fee": "szlak bezpłatny; parkingi lub obiekty mogą być płatne",
+            "photo": "zdjecia/masyw-slezy/radunia-5fbi.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Wieżyca",
