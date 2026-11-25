@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:02:01)
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:03:06)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795633319995;
+const DATA_VERSION = 1795633384716;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -23333,7 +23333,7 @@ const DATA = {
             "family": "zależy od wybranej trasy, wieku dzieci i warunków",
             "dog": "na szlakach poza obiektami zamkniętymi zwykle na smyczy; w rezerwatach i obiektach turystycznych sprawdź lokalny regulamin",
             "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
-            "photo": "zdjecia/gory-bialskie/czernica-plev.jpg",
+            "photo": "zdjecia/gory-bialskie/czernica-qxu0.jpg",
             "photoCredit": "Zdjęcie własne"
           },
           {
