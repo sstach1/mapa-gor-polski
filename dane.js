@@ -1,4 +1,6 @@
-// Baza danych mapy gór Polski – eksport v22
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 19:52:42)
+// DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
+const DATA_VERSION = 1795632760914;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -2218,6 +2220,21 @@ const DATA = {
         "icon": "⛰️",
         "items": [
           {
+            "routeNote": "Legalny/praktyczny start w Bielicach przy końcu ogólnodostępnego dojazdu. Dalej pieszo szlakami w południowej części Gór Złotych.",
+            "sources": [
+              {
+                "name": "Lądek-Zdrój",
+                "url": "https://ladek.pl/"
+              },
+              {
+                "name": "Złoty Stok",
+                "url": "https://zlotystok.pl/"
+              },
+              {
+                "name": "Wycieczkoteka – parking Bielice",
+                "url": "https://wycieczkoteka.pl/zwiedzaj-polske/gorki-i-pagorki/rudawiec-gory-bialskie"
+              }
+            ],
             "name": "Kowadło",
             "ele": 989,
             "lat": 50.2643034,
@@ -2227,75 +2244,31 @@ const DATA = {
               "🥾 DLA PIECHURÓW"
             ],
             "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
-            "routeNote": "Legalny/praktyczny start w Bielicach przy końcu ogólnodostępnego dojazdu. Dalej pieszo szlakami w południowej części Gór Złotych.",
             "parking": "Parking Turystyczny Bielice Leśniczówka",
             "parkingLat": 50.26435,
             "parkingLon": 16.99692,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "curiosity": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
-            "sources": [
-              {
-                "name": "Lądek-Zdrój",
-                "url": "https://ladek.pl/"
-              },
-              {
-                "name": "Złoty Stok",
-                "url": "https://zlotystok.pl/"
-              },
-              {
-                "name": "Wycieczkoteka – parking Bielice",
-                "url": "https://wycieczkoteka.pl/zwiedzaj-polske/gorki-i-pagorki/rudawiec-gory-bialskie"
-              }
-            ]
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
+            "photo": "zdjecia/gory-zlote/kowadlo-z6yi.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Czartowiec",
             "ele": 944,
-            "lat": 50.2960227,
-            "lon": 17.0035147,
+            "lat": 50.2963158,
+            "lon": 17.0033194,
             "desc": "Wysoki, zalesiony szczyt południowej części Gór Złotych. Należy do Korony Gór Złotych i jest znacznie mniej uczęszczany niż Kowadło czy Borówkowa.",
             "tags": [
               "🥾 DLA PIECHURÓW"
             ],
             "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
-            "routeNote": "Legalny/praktyczny start w Bielicach przy końcu ogólnodostępnego dojazdu. Dalej pieszo szlakami w południowej części Gór Złotych.",
             "parking": "Parking Turystyczny Bielice Leśniczówka",
             "parkingLat": 50.26435,
             "parkingLon": 16.99692,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "curiosity": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
-            "sources": [
-              {
-                "name": "Lądek-Zdrój",
-                "url": "https://ladek.pl/"
-              },
-              {
-                "name": "Złoty Stok",
-                "url": "https://zlotystok.pl/"
-              },
-              {
-                "name": "Wycieczkoteka – parking Bielice",
-                "url": "https://wycieczkoteka.pl/zwiedzaj-polske/gorki-i-pagorki/rudawiec-gory-bialskie"
-              }
-            ]
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji"
           },
           {
             "name": "Pasieczna",
