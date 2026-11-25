@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:18:02)
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:18:47)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795634280152;
+const DATA_VERSION = 1795634325549;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -2650,30 +2650,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Jawornik Wielki – wieża widokowa",
-            "ele": 872,
-            "lat": 50.406667,
-            "lon": 16.851111,
-            "desc": "Spokojniejszy punkt widokowy w północnej części Gór Złotych. Drewniana wieża na Jaworniku Wielkim jest dobrym celem wycieczki ze Złotego Stoku i pozwala spojrzeć na pasmo z mniej uczęszczanej perspektywy.",
-            "tags": [
-              "📸 FOTOGENICZNE"
-            ],
-            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
             "routeNote": "Ogólnodostępny parking na obrzeżu Złotego Stoku; dobry start na Jawornik Wielki i północną część Gór Złotych.",
-            "parking": "Skalisko – parking, Złoty Stok",
-            "parkingLat": 50.43699,
-            "parkingLon": 16.873346,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "curiosity": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Lądek-Zdrój",
@@ -2687,7 +2664,24 @@ const DATA = {
                 "name": "Mapa Turystyczna – Skalisko, parking",
                 "url": "https://mapa-turystyczna.pl/route?q=50.4369900%2C16.8733460%3B50.4077480%2C16.8604250%3B50.4072320%2C16.8509290"
               }
-            ]
+            ],
+            "name": "Jawornik Wielki – wieża widokowa",
+            "ele": 872,
+            "lat": 50.406667,
+            "lon": 16.851111,
+            "desc": "Spokojniejszy punkt widokowy w północnej części Gór Złotych. Drewniana wieża na Jaworniku Wielkim jest dobrym celem wycieczki ze Złotego Stoku i pozwala spojrzeć na pasmo z mniej uczęszczanej perspektywy.",
+            "tags": [
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
+            "parking": "Skalisko – parking, Złoty Stok",
+            "parkingLat": 50.43699,
+            "parkingLon": 16.873346,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
+            "photo": "zdjecia/gory-zlote/jawornik-wielki-wieza-widokowa-bak3.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Wieża widokowa w Złotym Stoku",
