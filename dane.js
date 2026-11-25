@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:42:13)
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:44:48)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795635731693;
+const DATA_VERSION = 1795635886663;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -16649,32 +16649,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Wieżyca",
-            "lat": 50.886797,
-            "lon": 16.728945,
-            "desc": "Szczyt o stromych zboczach, zbudowany z amfibolitów. Na wierzchołku stoi kamienna wieża widokowa z lat 1905–1907.",
-            "why": "Łatwo połączyć ją ze spacerem z Sobótki na Ślężę.",
-            "curiosity": "",
-            "tags": [
-              "👀 WIDOKI",
-              "🏰 HISTORIA",
-              "👨‍👩‍👧 DLA RODZIN"
-            ],
-            "difficulty": "zależna od wariantu i warunków",
-            "family": "zależy od długości trasy i wieku dzieci",
-            "dog": "sprawdź aktualne zasady rezerwatu i wybranego szlaku",
-            "fee": "szlak bezpłatny; parkingi lub obiekty mogą być płatne",
-            "parking": "Parking Pod Wieżycą – ul. Armii Krajowej, Sobótka",
-            "parkingLat": 50.8916738,
-            "parkingLon": 16.7383541,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Duży i popularny punkt startowy przy podejściu na Przełęcz pod Wieżycą; dogodny dla tras na Wieżycę, Gozdnicę i północną część masywu.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "PTTK – Wieżyca, wieża widokowa",
@@ -16689,7 +16664,26 @@ const DATA = {
                 "url": "https://www.sleza.sobotka.pl/szlaki-turystyczne/"
               }
             ],
-            "ele": 414
+            "name": "Wieżyca",
+            "ele": 414,
+            "lat": 50.886797,
+            "lon": 16.728945,
+            "desc": "Szczyt o stromych zboczach, zbudowany z amfibolitów. Na wierzchołku stoi kamienna wieża widokowa z lat 1905–1907.",
+            "why": "Łatwo połączyć ją ze spacerem z Sobótki na Ślężę.",
+            "tags": [
+              "👀 WIDOKI",
+              "🏰 HISTORIA",
+              "👨‍👩‍👧 DLA RODZIN"
+            ],
+            "difficulty": "zależna od wariantu i warunków",
+            "parking": "Parking Pod Wieżycą – ul. Armii Krajowej, Sobótka",
+            "parkingLat": 50.8916738,
+            "parkingLon": 16.7383541,
+            "family": "zależy od długości trasy i wieku dzieci",
+            "dog": "sprawdź aktualne zasady rezerwatu i wybranego szlaku",
+            "fee": "szlak bezpłatny; parkingi lub obiekty mogą być płatne",
+            "photo": "zdjecia/masyw-slezy/wiezyca-8qfu.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Gozdnica",
