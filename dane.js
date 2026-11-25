@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:20:55)
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:24:01)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795634453384;
+const DATA_VERSION = 1795634639082;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -2912,27 +2912,7 @@ const DATA = {
             ]
           },
           {
-            "name": "Jaskinia Radochowska",
-            "lat": 50.3429,
-            "lon": 16.8417,
-            "desc": "Jedna z najbardziej znanych jaskiń Sudetów Wschodnich, rozwinięta w marmurach. Jej korytarze i komory są interesującym uzupełnieniem górskich wycieczek w rejonie Radochowa.",
-            "tags": [],
-            "difficulty": "zależna od wybranego dojścia; zwykle łatwa przy atrakcjach dostępnych z miejscowości",
-            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
-            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
             "routeNote": "Parking przed leśnym dojściem do Jaskini Radochowskiej; od parkingu około 1,3 km pieszo.",
-            "parking": "Parking przy Winiarni Radochowskiej / dojście do Jaskini Radochowskiej",
-            "parkingLat": 50.34922,
-            "parkingLon": 16.81513,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "curiosity": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Lądek-Zdrój",
@@ -2946,7 +2926,20 @@ const DATA = {
                 "name": "Jaskinia Radochowska – punkt startowy",
                 "url": "https://jaskiniaradochowska.pl/winiarnia"
               }
-            ]
+            ],
+            "name": "Jaskinia Radochowska",
+            "lat": 50.3429,
+            "lon": 16.8417,
+            "desc": "Jedna z najbardziej znanych jaskiń Sudetów Wschodnich, rozwinięta w marmurach. Jej korytarze i komory są interesującym uzupełnieniem górskich wycieczek w rejonie Radochowa.",
+            "difficulty": "zależna od wybranego dojścia; zwykle łatwa przy atrakcjach dostępnych z miejscowości",
+            "parking": "Parking przy Winiarni Radochowskiej / dojście do Jaskini Radochowskiej",
+            "parkingLat": 50.34922,
+            "parkingLon": 16.81513,
+            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
+            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
+            "photo": "zdjecia/gory-zlote/jaskinia-radochowska-hzht.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Rynek w Złotym Stoku",
