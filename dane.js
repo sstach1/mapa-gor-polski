@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:03:06)
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:04:53)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795633384716;
+const DATA_VERSION = 1795633491663;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -23275,6 +23275,13 @@ const DATA = {
             ]
           },
           {
+            "routeNote": "Czas, dystans i przewyższenie zależą od punktu startu. Jeśli brak dokładnych parametrów, wybierz wariant w mapie przed wyjściem.",
+            "sources": [
+              {
+                "name": "Gmina Stronie Śląskie",
+                "url": "https://stronie.pl/"
+              }
+            ],
             "name": "Rudawiec",
             "ele": 1112,
             "lat": 50.2446,
@@ -23288,26 +23295,14 @@ const DATA = {
               "🥾 DLA PIECHURÓW"
             ],
             "difficulty": "średnia; długa leśna wędrówka bez trudności technicznych",
-            "family": "raczej dla starszych dzieci przyzwyczajonych do dłuższych tras",
-            "dog": "na smyczy; w rezerwacie Puszcza Śnieżnej Białki sprawdź aktualne zasady",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
             "parking": "Bielice – parking przy końcu wsi / leśniczówce, przed drogą leśną",
             "parkingLat": 50.2643,
             "parkingLon": 16.9967,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
-            "routeNote": "Czas, dystans i przewyższenie zależą od punktu startu. Jeśli brak dokładnych parametrów, wybierz wariant w mapie przed wyjściem.",
-            "elevationGain": "",
-            "sources": [
-              {
-                "name": "Gmina Stronie Śląskie",
-                "url": "https://stronie.pl/"
-              }
-            ]
+            "family": "raczej dla starszych dzieci przyzwyczajonych do dłuższych tras",
+            "dog": "na smyczy; w rezerwacie Puszcza Śnieżnej Białki sprawdź aktualne zasady",
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
+            "photo": "zdjecia/gory-bialskie/rudawiec-t9ew.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "routeNote": "Czas, dystans i przewyższenie zależą od punktu startu. Jeśli brak dokładnych parametrów, wybierz wariant w mapie przed wyjściem.",
