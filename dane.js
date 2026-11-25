@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:32:46)
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:34:04)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795635164493;
+const DATA_VERSION = 1795635242553;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -2928,27 +2928,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Rynek w Złotym Stoku",
-            "lat": 50.444,
-            "lon": 16.8751,
-            "desc": "Historyczne centrum dawnego miasta górniczego. Rynek jest dobrym punktem rozpoczęcia spaceru po Złotym Stoku i poznawania zabytków związanych z jego wielowiekową historią.",
-            "tags": [],
-            "difficulty": "zależna od wybranego dojścia; zwykle łatwa przy atrakcjach dostępnych z miejscowości",
-            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
-            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
             "routeNote": "Miejsca parkingowe w rejonie rynku; dla samego rynku nawigacja kończy się bezpośrednio przy celu.",
-            "parking": "Rynek w Złotym Stoku – miejsca parkingowe",
-            "parkingLat": 50.444,
-            "parkingLon": 16.8751,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "curiosity": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Lądek-Zdrój",
@@ -2962,7 +2942,20 @@ const DATA = {
                 "name": "Jawornik Wielki – start z rynku",
                 "url": "https://manawpodrozy.pl/jawornik-wielki-opis-szlaku-mapa/"
               }
-            ]
+            ],
+            "name": "Rynek w Złotym Stoku",
+            "lat": 50.444,
+            "lon": 16.8751,
+            "desc": "Historyczne centrum dawnego miasta górniczego. Rynek jest dobrym punktem rozpoczęcia spaceru po Złotym Stoku i poznawania zabytków związanych z jego wielowiekową historią.",
+            "difficulty": "zależna od wybranego dojścia; zwykle łatwa przy atrakcjach dostępnych z miejscowości",
+            "parking": "Rynek w Złotym Stoku – miejsca parkingowe",
+            "parkingLat": 50.444,
+            "parkingLon": 16.8751,
+            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
+            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
+            "photo": "zdjecia/gory-zlote/rynek-w-zlotym-stoku-uxkb.jpg",
+            "photoCredit": "Zdjęcie własne"
           }
         ]
       }
