@@ -4,7 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Interaktywna mapa atrakcji górskich Polski</title>
+<meta name="description" content="Interaktywna mapa gór Polski: ponad 860 szczytów, wodospadów, punktów widokowych, schronisk i mniej znanych miejsc w 26 pasmach.">
+<meta property="og:title" content="Mapa gór Polski – atrakcje, szczyty, wodospady">
+<meta property="og:description" content="Ponad 860 opisanych miejsc w Sudetach, Beskidach, Tatrach i Pieninach.">
+<meta name="theme-color" content="#132b26">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛰️</text></svg>">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
 <style>
 :root{--bg:#0d1f1c;--panel:#132b26;--panel2:#19362f;--text:#f3f6f5;--muted:#b7c8c1;--line:#315248;--accent:#9fd8bf}
 *{box-sizing:border-box}
@@ -112,6 +119,40 @@ select:focus,input:focus{border-color:var(--accent)}
 .editor-photo-info.warn{color:#8a5b00}
 .editor-photo-info code{font-size:10px;word-break:break-all}
 
+/* ===== v24 ===== */
+.pin-wrap{background:none;border:0}
+.pin{width:30px;height:30px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:var(--c);border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center}
+.pin span{transform:rotate(45deg);font-size:14px;line-height:1}
+.pin-top{border-color:#ffd24a;border-width:3px}
+.pin-visited{filter:saturate(.35) brightness(1.1);opacity:.8}
+.pin-visited::after{content:"✓";position:absolute;right:-6px;top:-6px;transform:rotate(45deg);background:#6c9f2a;color:#fff;font-size:10px;font-weight:800;width:15px;height:15px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:1px solid #fff}
+.marker-cluster-small,.marker-cluster-medium,.marker-cluster-large{background:rgba(159,216,191,.45)}
+.marker-cluster-small div,.marker-cluster-medium div,.marker-cluster-large div{background:#1f5446;color:#fff;font-weight:700}
+.filters{display:flex;flex-wrap:wrap;gap:6px}
+.filters label.chip{display:inline-flex;align-items:center;gap:5px;text-transform:none;letter-spacing:0;font-size:12px;font-weight:600;color:var(--text);border:1px solid var(--line);border-radius:999px;padding:6px 10px;cursor:pointer;background:#0b211b;user-select:none}
+.filters label.chip input{width:auto;margin:0;accent-color:#9fd8bf}
+.filters label.chip:has(input:checked){border-color:var(--accent);background:#1d4a3e}
+.tool-btn{border:1px solid var(--line);background:#0b211b;color:var(--text);border-radius:999px;padding:6px 10px;font-size:12px;font-weight:600;cursor:pointer}
+.tool-btn.on{border-color:var(--accent);background:#1d4a3e}
+.tool-btn:hover{border-color:var(--accent)}
+.progress{font-size:12px;color:var(--muted)}
+.progress .bar{height:6px;border-radius:6px;background:#0b211b;overflow:hidden;margin-bottom:4px;border:1px solid var(--line)}
+.progress .bar span{display:block;height:100%;background:linear-gradient(90deg,#6c9f2a,#9fd8bf)}
+.row-between{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.mini-links{font-size:11px;color:var(--muted)}
+.mini-links a{color:var(--accent)}
+.card{display:flex;gap:10px;border-left:4px solid var(--c,#315248);align-items:flex-start}
+.card.is-visited{border-left-color:#9fbf4a;opacity:.85}
+.card .thumb{flex:0 0 54px;height:54px;border-radius:9px;background:var(--c,#244);display:flex;align-items:center;justify-content:center;font-size:22px;position:relative;overflow:hidden}
+.card .thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.card-body{min-width:0;flex:1}
+.card .chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
+.card .chips span{font-size:10px;padding:2px 6px;border-radius:999px;background:#0b211b;color:var(--muted);border:1px solid var(--line)}
+.header{padding:16px 18px 12px}
+.controls{gap:9px}
+.leaflet-control-layers label{text-transform:none;letter-spacing:0;color:#24312d;font-size:13px;font-weight:600}
+.leaflet-control-layers-selector{width:auto}
+@media(max-width:820px){.header{padding-right:120px}.header h1{font-size:18px}.sub{display:none}}
 .action-disabled{display:inline-block;padding:7px 9px;border-radius:8px;background:#e6e6e6;color:#666;font-weight:700;cursor:not-allowed;border:1px solid #ccc}
 </style>
 </head>
@@ -121,7 +162,7 @@ select:focus,input:focus{border-color:var(--accent)}
   <aside class="sidebar" id="sidebar">
     <div class="header">
       <h1>🗺️ Mapa atrakcji górskich</h1>
-      <div class="sub">Wybierz region i kategorię, a potem kliknij miejsce na liście lub znacznik na mapie. Odwiedzone miejsca możesz oznaczać w karcie miejsca. Podkład mapy przełączysz w prawym górnym rogu.</div>
+      <div class="sub">Szukaj po nazwie, paśmie lub tagu albo zawęź region i kategorię. Kliknij miejsce, aby zobaczyć kartę, oznaczyć je jako odwiedzone lub skopiować link.</div>
     </div>
     <div class="controls">
       <div>
@@ -134,10 +175,21 @@ select:focus,input:focus{border-color:var(--accent)}
         <div><label for="category">Kategoria</label><select id="category"></select></div>
       </div>
       <div>
-        <label for="search">Szukaj na liście</label>
-        <input id="search" type="search" placeholder="np. sniezka, Śnieżka, TOP">
+        <label for="search">Szukaj</label>
+        <input id="search" type="search" placeholder="np. sniezka, wodospad, schronisko tatry">
       </div>
-      <div class="count" id="count" aria-live="polite">Wybierz kategorię.</div>
+      <div class="filters" role="group" aria-label="Filtry">
+        <label class="chip"><input type="checkbox" id="fTop"> ⭐ Tylko TOP</label>
+        <label class="chip"><input type="checkbox" id="fTodo"> Jeszcze nieodwiedzone</label>
+        <label class="chip"><input type="checkbox" id="fPhoto"> 📷 Ze zdjęciem</label>
+        <button type="button" class="tool-btn" id="nearBtn" title="Sortuj listę od najbliższych miejsc">📍 Blisko mnie</button>
+        <button type="button" class="tool-btn" id="resetBtn" title="Pokaż całą Polskę">↺ Cała Polska</button>
+      </div>
+      <div class="progress" id="progress" aria-live="polite"></div>
+      <div class="row-between">
+        <div class="count" id="count" aria-live="polite">Wybierz kategorię.</div>
+        <div class="mini-links">Odwiedzone: <a href="#" id="expVisited">kopia</a> · <a href="#" id="impVisited">wczytaj</a><input type="file" id="impFile" accept="application/json" hidden></div>
+      </div>
     </div>
     <div class="list" id="list"></div>
   </aside>
@@ -145,6 +197,7 @@ select:focus,input:focus{border-color:var(--accent)}
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <script src="dane.js"></script>
 <script>
 /* Dane znajdują się w osobnym pliku dane.js */
@@ -158,11 +211,15 @@ const store={
   del(k){try{localStorage.removeItem(k)}catch(e){}}
 };
 
-const map=L.map('map').setView([50.76,15.68],11);
+const map=L.map('map',{zoomControl:true}).setView([50.1,18.2],7);
 
 const topo=L.tileLayer(
   'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',
   {maxZoom:19, attribution:'Tiles © Esri'}
+);
+const osmTopo=L.tileLayer(
+  'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',
+  {maxZoom:17, attribution:'© OpenStreetMap contributors, SRTM | styl © OpenTopoMap (CC-BY-SA)'}
 );
 const sat=L.tileLayer(
   'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
@@ -170,20 +227,29 @@ const sat=L.tileLayer(
 );
 topo.addTo(map);
 L.control.layers(
-  {'🗺️ Mapa topograficzna':topo,'🛰️ Satelita':sat},
+  {'🗺️ Mapa topograficzna':topo,'⛰️ OpenTopoMap (poziomice)':osmTopo,'🛰️ Satelita':sat},
   {},
   {position:'topright',collapsed:innerWidth<=820}
 ).addTo(map);
+L.control.scale({imperial:false}).addTo(map);
 
-let layer=L.layerGroup().addTo(map);
-let markerMap={}, cardMap={};
+/* Grupowanie znaczników — przy widoku całej Polski 800+ pinezek zlewałoby się w jedną plamę.
+   Jeśli wtyczka się nie wczyta, mapa działa dalej na zwykłej warstwie. */
+let layer=(typeof L.markerClusterGroup==='function')
+  ? L.markerClusterGroup({showCoverageOnHover:false,maxClusterRadius:46,disableClusteringAtZoom:14,spiderfyOnMaxZoom:true,chunkedLoading:true})
+  : L.layerGroup();
+layer.addTo(map);
+let markerMap={}, cardMap={}, keyMarker={};
+let userPos=null, userMarker=null;
+let pendingOpen=null;
 
 const sidebar=document.getElementById('sidebar'), mobileBtn=document.getElementById('mobileBtn'),
       region=document.getElementById('region'), category=document.getElementById('category'),
       list=document.getElementById('list'), search=document.getElementById('search'),
       quick=document.getElementById('quick'), quickList=document.getElementById('quickList'),
-      count=document.getElementById('count');
-
+      count=document.getElementById('count'), progress=document.getElementById('progress'),
+      fTop=document.getElementById('fTop'), fTodo=document.getElementById('fTodo'),
+      fPhoto=document.getElementById('fPhoto'), nearBtn=document.getElementById('nearBtn');
 /* ---------- pomocnicze ---------- */
 function esc(v){
  return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
@@ -212,38 +278,124 @@ function setSidebar(open){
 }
 
 /* ---------- listy wyboru ---------- */
+const ALL='*';
+// Kolory kategorii — używane w znacznikach i na kartach
+const CAT_COLORS={szczyty:'#7a4a2a',punkty_widokowe:'#2f6fa8',wodospady:'#1f8fb0',stawy:'#2a7fa0',stawy_kotly:'#2a7fa0',
+  doliny:'#3d7d4a',atrakcje:'#b5541c',formacje_skalne:'#6b6460',schroniska:'#a6362f',zabytki:'#7a3f8f',mniej_znane:'#4f6b2d'};
+function catColor(ck){return CAT_COLORS[ck]||'#355f52'}
+
+// Wszystkie kategorie występujące w bazie (nazwa i ikona z pierwszego wystąpienia)
+function allCategories(){
+ const out={};
+ Object.values(DATA).forEach(r=>Object.entries(r.categories||{}).forEach(([ck,c])=>{
+   if(!out[ck]) out[ck]={name:c.name,icon:c.icon};
+ }));
+ return out;
+}
+function regionCount(r){return Object.values(r.categories||{}).reduce((s,c)=>s+(c.items||[]).length,0)}
 function fillRegions(){
- region.innerHTML='<option value="">Wybierz…</option>'+Object.entries(DATA).map(([k,v])=>`<option value="${esc(k)}">${esc(v.name)}</option>`).join('');
+ region.innerHTML=`<option value="${ALL}">🇵🇱 Wszystkie pasma</option>`+Object.entries(DATA)
+   .sort((a,b)=>a[1].name.localeCompare(b[1].name,'pl'))
+   .map(([k,v])=>`<option value="${esc(k)}">${esc(v.name)} (${regionCount(v)})</option>`).join('');
 }
 function fillQuick(){
  const options=[];
  Object.values(DATA).forEach(r=>{
+   options.push(`<option value="${esc(r.name)} – Wszystkie kategorie">`);
    Object.values(r.categories||{}).forEach(c=>options.push(`<option value="${esc(r.name)} – ${esc(c.name)}">`));
  });
  quickList.innerHTML=options.join('');
 }
 function fillCategories(){
- const r=DATA[region.value];
- category.innerHTML='<option value="">Wybierz…</option>';
- if(!r) return;
- category.innerHTML += Object.entries(r.categories||{}).map(([k,v])=>`<option value="${esc(k)}">${esc(v.icon)} ${esc(v.name)}</option>`).join('');
+ const prev=category.value;
+ const cats=region.value===ALL?allCategories():(DATA[region.value]?.categories||{});
+ category.innerHTML=`<option value="${ALL}">Wszystkie kategorie</option>`+
+   Object.entries(cats).map(([k,v])=>`<option value="${esc(k)}">${esc(v.icon)} ${esc(v.name)}</option>`).join('');
+ category.value=cats[prev]?prev:ALL;
 }
-function currentItems(){
- const r=DATA[region.value], c=r?.categories?.[category.value];
- return c?.items||[];
+// Lista miejsc dla bieżącego wyboru: [{p,cat,rk,ck,r}]
+function selection(){
+ const out=[];
+ const rks=region.value===ALL?Object.keys(DATA):[region.value];
+ rks.forEach(rk=>{
+   const r=DATA[rk]; if(!r) return;
+   Object.entries(r.categories||{}).forEach(([ck,cat])=>{
+     if(category.value!==ALL && category.value!==ck) return;
+     (Array.isArray(cat.items)?cat.items:[]).forEach(p=>out.push({p,cat,rk,ck,r}));
+   });
+ });
+ return out;
 }
+function currentItems(){return selection().map(x=>x.p)}
 
 /* ---------- odwiedzone ---------- */
 function visitKey(rk,ck,p){return `mountainMapVisited|${rk}|${ck}|${p.name}`}
 function isVisitedKey(key){return store.get(key)==='1'}
 function setVisited(key,on){store.set(key,on?'1':'0')}
-function updateCardVisited(name,on){
- const el=cardMap[name]; if(!el) return;
- el.classList.toggle('is-visited',on);
- const mark=el.querySelector('.visited-mark');
- if(mark) mark.textContent=on?' ✓':'';
+function updateCardVisited(key,on){
+ const el=cardMap[key]; if(el){
+   el.classList.toggle('is-visited',on);
+   const mark=el.querySelector('.visited-mark');
+   if(mark) mark.textContent=on?' ✓':'';
+ }
+ const m=keyMarker[key]; if(m) m.setIcon(makeIcon(m.options.ck,m.options.cat,on,m.options.top));
+ updateProgress();
+}
+function updateProgress(){
+ const sel=selection();
+ const done=sel.filter(x=>isVisitedKey(visitKey(x.rk,x.ck,x.p))).length;
+ const pct=sel.length?Math.round(done*100/sel.length):0;
+ progress.innerHTML=sel.length?`<div class="bar"><span style="width:${pct}%"></span></div><div>Odwiedzone: <b>${done}</b> / ${sel.length} (${pct}%)</div>`:'';
+}
+/* Kopia „odwiedzonych” — przydatna przy zmianie telefonu/przeglądarki */
+function exportVisited(){
+ const keys=[];
+ try{for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(k.startsWith('mountainMapVisited|')&&store.get(k)==='1')keys.push(k)}}catch(e){}
+ const blob=new Blob([JSON.stringify({version:1,visited:keys},null,1)],{type:'application/json'});
+ const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='odwiedzone-miejsca.json';
+ document.body.appendChild(a);a.click();a.remove();
+}
+function importVisited(file){
+ const fr=new FileReader();
+ fr.onload=()=>{
+   try{
+     const d=JSON.parse(fr.result);
+     const keys=Array.isArray(d)?d:d.visited;
+     let n=0;(keys||[]).forEach(k=>{if(typeof k==='string'&&k.startsWith('mountainMapVisited|')){store.set(k,'1');n++}});
+     alert(`Wczytano ${n} odwiedzonych miejsc.`);render(false);
+   }catch(e){alert('Nieprawidłowy plik.')}
+ };
+ fr.readAsText(file);
 }
 
+/* ---------- znaczniki ---------- */
+const iconCache={};
+function makeIcon(ck,cat,visited,top){
+ const k=`${ck}|${visited}|${top}`;
+ if(iconCache[k]) return iconCache[k];
+ return iconCache[k]=L.divIcon({
+   className:'pin-wrap',
+   html:`<div class="pin${visited?' pin-visited':''}${top?' pin-top':''}" style="--c:${catColor(ck)}"><span>${esc(cat.icon||'•')}</span></div>`,
+   iconSize:[30,30],iconAnchor:[15,30],popupAnchor:[0,-28]
+ });
+}
+
+/* ---------- odległość ---------- */
+function distKm(a,b,c,d){
+ const R=6371,toR=x=>x*Math.PI/180;
+ const dl=toR(c-a),dn=toR(d-b);
+ const h=Math.sin(dl/2)**2+Math.cos(toR(a))*Math.cos(toR(c))*Math.sin(dn/2)**2;
+ return 2*R*Math.asin(Math.sqrt(h));
+}
+function fmtKm(k){return k<10?k.toFixed(1).replace('.',',')+' km':Math.round(k)+' km'}
+
+/* ---------- linki do miejsc ---------- */
+function placeHash(rk,ck,p){return '#m='+encodeURIComponent(rk)+'/'+encodeURIComponent(ck)+'/'+encodeURIComponent(p.name)}
+function parseHash(){
+ const m=location.hash.match(/^#m=([^/]+)\/([^/]+)\/(.+)$/);
+ if(!m) return null;
+ try{return {rk:decodeURIComponent(m[1]),ck:decodeURIComponent(m[2]),name:decodeURIComponent(m[3])}}catch(e){return null}
+}
 /* ---------- karta miejsca ---------- */
 function popup(p,cat,rk,ck){
  const hasStart=validCoords(p.parkingLat,p.parkingLon);
@@ -300,11 +452,12 @@ function popup(p,cat,rk,ck){
      ${navBtn}
      ${walkBtn}
      <a class="secondary" target="_blank" rel="noopener" href="${esc(osm)}">📍 Mapa</a>
+     <button type="button" class="secondary js-share" data-hash="${esc(placeHash(rk,ck,p))}" data-name="${esc(p.name)}">🔗 Link</button>
      <button type="button" class="visited js-visited ${visited?'done':''}" data-key="${esc(key)}" data-name="${esc(p.name)}">${visited?'✓ Oznaczono':'✓ Byłem tutaj'}</button>
    </div>`;
 }
 
-// Przycisk „Byłem tutaj” — bez przebudowy mapy, więc okno się nie zamyka
+// Przyciski w karcie — bez przebudowy mapy, więc okno się nie zamyka
 map.on('popupopen',e=>{
  const el=e.popup.getElement(); if(!el) return;
  el.querySelectorAll('.js-visited').forEach(btn=>{
@@ -313,88 +466,183 @@ map.on('popupopen',e=>{
      setVisited(key,on);
      btn.textContent=on?'✓ Oznaczono':'✓ Byłem tutaj';
      btn.classList.toggle('done',on);
-     updateCardVisited(btn.dataset.name,on);
+     updateCardVisited(key,on);
    };
  });
+ el.querySelectorAll('.js-share').forEach(btn=>{
+   btn.onclick=async()=>{
+     const url=location.href.split('#')[0]+btn.dataset.hash;
+     try{
+       if(navigator.share && isMobile()) await navigator.share({title:btn.dataset.name,url});
+       else {await navigator.clipboard.writeText(url);btn.textContent='✓ Skopiowano link'}
+     }catch(err){prompt('Skopiuj link:',url)}
+   };
+ });
+ const h=e.popup._source?.options?.hash;
+ if(h) history.replaceState(null,'',h);
 });
+map.on('popupclose',()=>{if(location.hash.startsWith('#m=')) history.replaceState(null,'',location.pathname+location.search)});
 
 /* ---------- renderowanie ---------- */
+const MAX_CARDS=250; // lista w panelu — mapa pokazuje zawsze wszystko
 function render(fit=true){
- layer.clearLayers(); markerMap={}; cardMap={}; list.innerHTML='';
+ layer.clearLayers(); markerMap={}; cardMap={}; keyMarker={}; list.innerHTML='';
  if(!DATA_LOADED){
    count.textContent='Nie wczytano danych.';
    list.innerHTML='<div class="empty error">Nie udało się wczytać pliku <b>dane.js</b>. Sprawdź, czy leży w tym samym folderze co index.html i czy nie zawiera błędu składni (konsola przeglądarki: F12).</div>';
    return;
  }
- const rk=region.value, ck=category.value;
- const r=DATA[rk], cat=r?.categories?.[ck];
- if(!r || !cat){count.textContent='Wybierz region i kategorię.';return;}
- const all=Array.isArray(cat.items)?cat.items:[];
+ const all=selection();
  const q=norm(search.value.trim());
- const items=all.filter(x=>!q||norm(x.name).includes(q)||(Array.isArray(x.tags)&&x.tags.some(t=>norm(t).includes(q))));
- count.textContent=all.length?`Znaleziono: ${items.length} z ${all.length} miejsc`:'Ta kategoria jest przygotowana do uzupełnienia w kolejnym etapie.';
+ const words=q.split(/\s+/).filter(Boolean);
+ let items=all.filter(({p,r,cat})=>{
+   if(fTop.checked && !(Array.isArray(p.tags)&&p.tags.some(t=>norm(t).includes('top')))) return false;
+   if(fPhoto.checked && !p.photo) return false;
+   if(!words.length) return true;
+   const hay=norm([p.name,r.name,cat.name,(p.tags||[]).join(' '),p.desc].join(' '));
+   return words.every(w=>hay.includes(w));
+ });
+ if(fTodo.checked) items=items.filter(x=>!isVisitedKey(visitKey(x.rk,x.ck,x.p)));
+ if(userPos){
+   items.forEach(x=>{x.d=validCoords(x.p.lat,x.p.lon)?distKm(userPos[0],userPos[1],+x.p.lat,+x.p.lon):Infinity});
+   items.sort((a,b)=>a.d-b.d);
+ }
+ const multiRegion=region.value===ALL, multiCat=category.value===ALL;
+ count.textContent=all.length?`Znaleziono: ${items.length} z ${all.length} miejsc${userPos?' • od najbliższych':''}`:'Ta kategoria jest przygotowana do uzupełnienia w kolejnym etapie.';
+ updateProgress();
  if(!items.length){
-   list.innerHTML=`<div class="empty">${all.length?'Brak wyników wyszukiwania.':'Dla tej kategorii nie dodano jeszcze opisanych miejsc. Struktura mapy jest już gotowa — wystarczy dopisać kolejną listę atrakcji.'}</div>`;
-   if(fit && r.center) map.setView(r.center,r.zoom||11);
+   list.innerHTML=`<div class="empty">${all.length?'Brak wyników — zmień wyszukiwanie lub filtry.':'Dla tej kategorii nie dodano jeszcze opisanych miejsc.'}</div>`;
+   const r=DATA[region.value];
+   if(fit && r?.center) map.setView(r.center,r.zoom||11);
    return;
  }
  const popupOpts={maxWidth:560,minWidth:Math.min(480,innerWidth-60),autoPanPadding:[20,20]};
- const placed=[];
- items.forEach((p,i)=>{
+ const placed=[], markers=[];
+ const frag=document.createDocumentFragment();
+ items.forEach(({p,cat,rk,ck,r,d},i)=>{
    const ok=validCoords(p.lat,p.lon);
+   const key=visitKey(rk,ck,p);
+   const visited=isVisitedKey(key);
+   const tags=Array.isArray(p.tags)?p.tags:[];
+   const top=tags.some(t=>norm(t).includes('top'));
    let m=null;
    if(ok){
-     m=L.marker([Number(p.lat),Number(p.lon)],{title:p.name}).addTo(layer).bindPopup(()=>popup(p,cat,rk,ck),popupOpts);
-     markerMap[p.name]=m; placed.push([Number(p.lat),Number(p.lon)]);
+     m=L.marker([Number(p.lat),Number(p.lon)],{title:p.name,icon:makeIcon(ck,cat,visited,top),ck,cat,top,hash:placeHash(rk,ck,p)})
+       .bindPopup(()=>popup(p,cat,rk,ck),popupOpts);
+     markers.push(m);
+     if(!markerMap[p.name]) markerMap[p.name]=m;
+     keyMarker[key]=m; placed.push([Number(p.lat),Number(p.lon)]);
    }
-   const visited=isVisitedKey(visitKey(rk,ck,p));
-   const tags=Array.isArray(p.tags)?p.tags:[];
+   cardMap[key]=null;
+   if(i>=MAX_CARDS) return;
    const el=document.createElement('div');
    el.className='card'+(visited?' is-visited':'');
+   el.style.setProperty('--c',catColor(ck));
    el.tabIndex=0; el.setAttribute('role','button');
-   el.innerHTML=`<h3>${i+1}. ${esc(cat.icon)} ${esc(p.name)}<span class="visited-mark">${visited?' ✓':''}</span></h3><div class="meta">${esc(cat.name)}${p.ele?` • ${esc(p.ele)} m n.p.m.`:''}${tags.length?` • ${tags.map(esc).join(' • ')}`:''}${ok?'':' • ⚠️ brak poprawnych współrzędnych'}</div>`;
+   const where=[multiRegion?r.name:'',multiCat?cat.name:''].filter(Boolean).join(' • ');
+   el.innerHTML=`<div class="thumb">${p.photo?`<img src="${esc(safeUrl(p.photo))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:''}<span>${esc(cat.icon)}</span></div>
+     <div class="card-body"><h3>${esc(p.name)}<span class="visited-mark">${visited?' ✓':''}</span></h3>
+     <div class="meta">${where?esc(where)+' • ':''}${p.ele?`${esc(p.ele)} m n.p.m.`:''}${d!==undefined&&d!==Infinity?` • <b>${fmtKm(d)}</b>`:''}${ok?'':' • brak GPS'}</div>
+     ${tags.length?`<div class="chips">${tags.slice(0,4).map(t=>`<span>${esc(t)}</span>`).join('')}</div>`:''}</div>`;
    const open=()=>{
      if(!m) return;
-     map.setView([Number(p.lat),Number(p.lon)],Math.max(map.getZoom(),14));
-     m.openPopup();
-     if(isMobile()) setSidebar(false);
+     const go=()=>{m.openPopup(); if(isMobile()) setSidebar(false)};
+     if(layer.zoomToShowLayer) layer.zoomToShowLayer(m,()=>{map.setView(m.getLatLng(),Math.max(map.getZoom(),14));go()});
+     else {map.setView(m.getLatLng(),Math.max(map.getZoom(),14));go()}
    };
    el.onclick=open;
    el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open()}};
-   cardMap[p.name]=el;
-   list.appendChild(el);
+   cardMap[key]=el;
+   frag.appendChild(el);
  });
+ if(items.length>MAX_CARDS){
+   const more=document.createElement('div');more.className='empty';
+   more.textContent=`Na liście pokazano ${MAX_CARDS} pierwszych pozycji — wszystkie ${items.length} są na mapie. Zawęź wybór, aby zobaczyć resztę.`;
+   frag.appendChild(more);
+ }
+ list.appendChild(frag);
+ if(layer.addLayers) layer.addLayers(markers); else markers.forEach(m=>m.addTo(layer));
  if(fit){
    if(placed.length>1) map.fitBounds(L.latLngBounds(placed),{padding:[30,30],maxZoom:15});
    else if(placed.length===1) map.setView(placed[0],14);
-   else if(r.center) map.setView(r.center,r.zoom||11);
+   else if(DATA[region.value]?.center) map.setView(DATA[region.value].center,DATA[region.value].zoom||11);
  }
 }
 
-region.onchange=()=>{fillCategories();category.value='';search.value='';syncQuick();render()};
-category.onchange=()=>{search.value='';syncQuick();render()};
-search.oninput=()=>render();
 function syncQuick(){
  const r=DATA[region.value], c=r?.categories?.[category.value];
- quick.value=(r&&c)?`${r.name} – ${c.name}`:'';
+ quick.value=r?(c?`${r.name} – ${c.name}`:`${r.name} – Wszystkie kategorie`):'';
 }
 quick.onchange=()=>{
  const val=norm(quick.value.trim().replace(/\s*[-–—]\s*/g,' – '));
  let found=null;
- Object.entries(DATA).forEach(([rk,r])=>Object.entries(r.categories||{}).forEach(([ck,c])=>{
-   if(norm(`${r.name} – ${c.name}`)===val) found=[rk,ck];
- }));
- if(found){region.value=found[0];fillCategories();category.value=found[1];search.value='';render();}
+ Object.entries(DATA).forEach(([rk,r])=>{
+   if(norm(`${r.name} – Wszystkie kategorie`)===val) found=[rk,ALL];
+   Object.entries(r.categories||{}).forEach(([ck,c])=>{
+     if(norm(`${r.name} – ${c.name}`)===val) found=[rk,ck];
+   });
+ });
+ if(found){region.value=found[0];fillCategories();category.value=found[1];search.value='';saveView();render();}
 };
+
+/* Zapamiętanie ostatniego widoku */
+function saveView(){store.set('mountainMapView',JSON.stringify({r:region.value,c:category.value,top:fTop.checked,todo:fTodo.checked,photo:fPhoto.checked}))}
+let searchTimer=null;
+region.onchange=()=>{fillCategories();search.value='';syncQuick();saveView();render()};
+category.onchange=()=>{syncQuick();saveView();render()};
+search.oninput=()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>render(),160)};
+[fTop,fTodo,fPhoto].forEach(x=>x.onchange=()=>{saveView();render()});
+document.getElementById('resetBtn').onclick=()=>{
+ region.value=ALL;fillCategories();category.value=ALL;search.value='';
+ fTop.checked=fTodo.checked=fPhoto.checked=false;userPos=null;nearBtn.classList.remove('on');
+ if(userMarker){map.removeLayer(userMarker);userMarker=null}
+ syncQuick();saveView();render();
+};
+nearBtn.onclick=()=>{
+ if(userPos){userPos=null;nearBtn.classList.remove('on');if(userMarker){map.removeLayer(userMarker);userMarker=null}render(false);return}
+ if(!navigator.geolocation){alert('Ta przeglądarka nie udostępnia lokalizacji.');return}
+ nearBtn.textContent='📍 Szukam…';
+ navigator.geolocation.getCurrentPosition(pos=>{
+   userPos=[pos.coords.latitude,pos.coords.longitude];
+   nearBtn.textContent='📍 Blisko mnie';nearBtn.classList.add('on');
+   userMarker=L.circleMarker(userPos,{radius:8,color:'#fff',weight:3,fillColor:'#1a73e8',fillOpacity:1}).addTo(map).bindTooltip('Twoja lokalizacja');
+   render(false);map.setView(userPos,10);
+ },err=>{nearBtn.textContent='📍 Blisko mnie';alert('Nie udało się ustalić lokalizacji: '+err.message)},{enableHighAccuracy:false,timeout:10000,maximumAge:300000});
+};
+document.getElementById('expVisited').onclick=e=>{e.preventDefault();exportVisited()};
+document.getElementById('impVisited').onclick=e=>{e.preventDefault();document.getElementById('impFile').click()};
+document.getElementById('impFile').onchange=e=>{if(e.target.files[0])importVisited(e.target.files[0]);e.target.value=''};
 mobileBtn.onclick=()=>setSidebar(!sidebar.classList.contains('open'));
 map.on('click',()=>{if(isMobile()) setSidebar(false)});
 
-fillRegions();fillQuick();
-if(DATA.karkonosze){
- region.value='karkonosze';fillCategories();
- if(DATA.karkonosze.categories?.szczyty) category.value='szczyty';
+/* Otwarcie miejsca z linku #m=region/kategoria/nazwa */
+function openFromHash(){
+ const h=parseHash(); if(!h||!DATA[h.rk]) return false;
+ region.value=h.rk;fillCategories();category.value=DATA[h.rk].categories?.[h.ck]?h.ck:ALL;search.value='';
+ fTop.checked=fTodo.checked=fPhoto.checked=false;
+ syncQuick();render(false);
+ const p=DATA[h.rk].categories?.[h.ck]?.items?.find(x=>x.name===h.name);
+ const m=p&&keyMarker[visitKey(h.rk,h.ck,p)];
+ if(m){
+   map.setView(m.getLatLng(),14);
+   if(layer.zoomToShowLayer) layer.zoomToShowLayer(m,()=>m.openPopup()); else m.openPopup();
+ }
+ return true;
 }
-syncQuick();render();
+window.addEventListener('hashchange',openFromHash);
+
+fillRegions();fillQuick();
+region.value=ALL;fillCategories();
+try{
+ const v=JSON.parse(store.get('mountainMapView')||'null');
+ if(v){
+   if(v.r===ALL||DATA[v.r]) region.value=v.r;
+   fillCategories(); if([...category.options].some(o=>o.value===v.c)) category.value=v.c;
+   fTop.checked=!!v.top;fTodo.checked=!!v.todo;fPhoto.checked=!!v.photo;
+ }
+}catch(e){}
+syncQuick();
+if(!openFromHash()) render();
 </script>
 
 <button class="edit-launch" id="editLaunch" hidden>✏️ Panel edycji</button>
@@ -698,7 +946,8 @@ function previewPlace(){
  search.value=current()?.name===p.name?p.name:'';
  render(false);
  map.setView([Number(p.lat),Number(p.lon)],14);
- markerMap[p.name]?.openPopup();
+ const pm=markerMap[p.name];
+ if(pm){ if(layer.zoomToShowLayer) layer.zoomToShowLayer(pm,()=>pm.openPopup()); else pm.openPopup(); }
  if(!markerMap[p.name]) L.popup().setLatLng([Number(p.lat),Number(p.lon)]).setContent(`<b>${esc(p.name)}</b><br><small>Podgląd niezapisanego miejsca</small>`).openOn(map);
  closeEditor();
 }
