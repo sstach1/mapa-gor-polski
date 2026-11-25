@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:18:47)
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:20:55)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795634325549;
+const DATA_VERSION = 1795634453384;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -2684,29 +2684,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Wieża widokowa w Złotym Stoku",
-            "lat": 50.4449,
-            "lon": 16.8758,
-            "desc": "Historyczna, około 40-metrowa wieża dawnego kościoła ewangelickiego. Na taras prowadzą 152 schody, a z góry widać Złoty Stok, otaczające góry i znaczną część Przedgórza Sudeckiego.",
-            "tags": [
-              "📸 FOTOGENICZNE"
-            ],
-            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
             "routeNote": "Miejsca parkingowe w rejonie rynku; dla samego rynku nawigacja kończy się bezpośrednio przy celu.",
-            "parking": "Rynek w Złotym Stoku – miejsca parkingowe",
-            "parkingLat": 50.444,
-            "parkingLon": 16.8751,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "curiosity": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Lądek-Zdrój",
@@ -2720,7 +2698,23 @@ const DATA = {
                 "name": "Jawornik Wielki – start z rynku",
                 "url": "https://manawpodrozy.pl/jawornik-wielki-opis-szlaku-mapa/"
               }
-            ]
+            ],
+            "name": "Wieża widokowa w Złotym Stoku",
+            "lat": 50.4449,
+            "lon": 16.8758,
+            "desc": "Historyczna, około 40-metrowa wieża dawnego kościoła ewangelickiego. Na taras prowadzą 152 schody, a z góry widać Złoty Stok, otaczające góry i znaczną część Przedgórza Sudeckiego.",
+            "tags": [
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
+            "parking": "Rynek w Złotym Stoku – miejsca parkingowe",
+            "parkingLat": 50.444,
+            "parkingLon": 16.8751,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
+            "photo": "zdjecia/gory-zlote/wieza-widokowa-w-zlotym-stoku-e095.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Skalna platforma na Trojaku",
