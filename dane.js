@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:24:01)
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:28:29)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795634639082;
+const DATA_VERSION = 1795634907470;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -2763,27 +2763,7 @@ const DATA = {
         "icon": "📍",
         "items": [
           {
-            "name": "Kopalnia Złota w Złotym Stoku",
-            "lat": 50.4457,
-            "lon": 16.881,
-            "desc": "Najbardziej znana atrakcja Złotego Stoku, związana z wielowiekową historią wydobycia złota i arsenu. Trasa podziemna prowadzi dawnymi sztolniami i obejmuje m.in. podziemny wodospad oraz przejazd kolejką.",
-            "tags": [],
-            "difficulty": "zależna od wybranego dojścia; zwykle łatwa przy atrakcjach dostępnych z miejscowości",
-            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
-            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
             "routeNote": "Bezpłatny parking kompleksu Kopalni Złota przy ul. Złotej; właściwy dojazd do kopalni i sąsiednich atrakcji.",
-            "parking": "Główny parking Kopalni Złota, Złoty Stok",
-            "parkingLat": 50.4436,
-            "parkingLon": 16.8782,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "curiosity": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Lądek-Zdrój",
@@ -2797,7 +2777,20 @@ const DATA = {
                 "name": "Kopalnia Złota – dojazd i parking",
                 "url": "https://kopalniazlota.pl/informacje-i-pomoc/dojazd/"
               }
-            ]
+            ],
+            "name": "Kopalnia Złota w Złotym Stoku",
+            "lat": 50.4457,
+            "lon": 16.881,
+            "desc": "Najbardziej znana atrakcja Złotego Stoku, związana z wielowiekową historią wydobycia złota i arsenu. Trasa podziemna prowadzi dawnymi sztolniami i obejmuje m.in. podziemny wodospad oraz przejazd kolejką.",
+            "difficulty": "zależna od wybranego dojścia; zwykle łatwa przy atrakcjach dostępnych z miejscowości",
+            "parking": "Główny parking Kopalni Złota, Złoty Stok",
+            "parkingLat": 50.4436,
+            "parkingLon": 16.8782,
+            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
+            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
+            "photo": "zdjecia/gory-zlote/kopalnia-zlota-w-zlotym-stoku-npox.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Sztolnia Ochrowa",
