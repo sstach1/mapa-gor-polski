@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:16:16)
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:18:02)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795634174947;
+const DATA_VERSION = 1795634280152;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -2616,30 +2616,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Trojak – platforma widokowa",
-            "ele": 750,
-            "lat": 50.338593,
-            "lon": 16.911168,
-            "desc": "Nowoczesna platforma na skale Trojan w masywie Trojaka. Otwiera panoramę Lądka-Zdroju, Masywu Śnieżnika, Czarnej Góry i otaczających pasm. To jeden z najbardziej efektownych krótkich celów widokowych w okolicy.",
-            "tags": [
-              "📸 FOTOGENICZNE"
-            ],
-            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
             "routeNote": "Praktyczny start z górnej części Lądka-Zdroju na Trojak, Karpiak i okolice.",
-            "parking": "Parking na Trojak – ul. Leśna / Hotel Trojan, Lądek-Zdrój",
-            "parkingLat": 50.340607,
-            "parkingLon": 16.891203,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "curiosity": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Lądek-Zdrój",
@@ -2653,7 +2630,24 @@ const DATA = {
                 "name": "Dostępne Miejsce – Leśna 4A",
                 "url": "https://dostepnemiejsce.pl/pl/000121987/hotel-trojan"
               }
-            ]
+            ],
+            "name": "Trojak – platforma widokowa",
+            "ele": 750,
+            "lat": 50.338593,
+            "lon": 16.911168,
+            "desc": "Nowoczesna platforma na skale Trojan w masywie Trojaka. Otwiera panoramę Lądka-Zdroju, Masywu Śnieżnika, Czarnej Góry i otaczających pasm. To jeden z najbardziej efektownych krótkich celów widokowych w okolicy.",
+            "tags": [
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
+            "parking": "Parking na Trojak – ul. Leśna / Hotel Trojan, Lądek-Zdrój",
+            "parkingLat": 50.340607,
+            "parkingLon": 16.891203,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
+            "photo": "zdjecia/gory-zlote/trojak-platforma-widokowa-a9mm.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Jawornik Wielki – wieża widokowa",
