@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:12:59)
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:14:33)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795633977171;
+const DATA_VERSION = 1795634071661;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -2269,7 +2269,7 @@ const DATA = {
             "family": "zależy od wybranej trasy, wieku dzieci i warunków",
             "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
             "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
-            "photo": "zdjecia/gory-zlote/czartowiec-3sez.jpg",
+            "photo": "zdjecia/gory-zlote/czartowiec-5t8f.jpg",
             "photoCredit": "Zdjęcie własne"
           },
           {
