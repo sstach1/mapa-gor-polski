@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 19:55:17)
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 19:57:34)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795632915795;
+const DATA_VERSION = 1795633054008;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -2249,9 +2249,7 @@ const DATA = {
             "parkingLon": 16.99692,
             "family": "zależy od wybranej trasy, wieku dzieci i warunków",
             "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
-            "photo": "zdjecia/gory-zlote/kowadlo-z6yi.jpg",
-            "photoCredit": "Zdjęcie własne"
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji"
           },
           {
             "name": "Czartowiec",
