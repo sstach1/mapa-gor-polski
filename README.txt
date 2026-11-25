@@ -1,4 +1,4 @@
-MAPA GÓR POLSKICH – v16
+MAPA GÓR POLSKICH – v24
 =======================
 
 STRUKTURA
@@ -113,3 +113,22 @@ v23 – GÓRY KACZAWSKIE
 Uzupełniono wszystkie 8 kategorii Gór Kaczawskich.
 Linki w sekcji „Źródła” mają teraz formę wyraźnych zielonych przycisków
 z białym tekstem, aby były dobrze widoczne.
+
+v24 – WIDOK CAŁEJ POLSKI I WYGODNIEJSZE PRZEGLĄDANIE
+----------------------------------------------------
+- Na start mapa pokazuje wszystkie pasma i kategorie naraz; znaczniki są
+  grupowane (Leaflet.markercluster), więc 860+ punktów pozostaje czytelne.
+- „Wszystkie pasma” / „Wszystkie kategorie” w listach wyboru.
+- Kolorowe znaczniki z ikoną kategorii; złota obwódka = TOP,
+  wyszarzony znacznik z ✓ = odwiedzone.
+- Wyszukiwarka przeszukuje całą bazę: nazwy, pasma, kategorie, tagi i opisy
+  (kilka słów naraz, np. „schronisko tatry”).
+- Filtry: tylko TOP, jeszcze nieodwiedzone, ze zdjęciem.
+- „📍 Blisko mnie” – sortuje listę od najbliższych miejsc i pokazuje odległość.
+- Pasek postępu odwiedzonych miejsc + kopia/wczytanie listy odwiedzonych (JSON).
+- Przycisk „🔗 Link” w karcie – link otwiera mapę od razu na danym miejscu
+  (adres w postaci …/#m=karkonosze/szczyty/Śnieżka).
+- Miniatury zdjęć na liście, podkład OpenTopoMap z poziomicami, skala mapy.
+- Mapa pamięta ostatnio wybrany region, kategorię i filtry.
+- Zdjęcia w folderze zdjecia/ zmniejszone do 1600 px (17 MB → 3,4 MB).
+- Plik dane.js bez zmian – format danych jest w pełni zgodny.
