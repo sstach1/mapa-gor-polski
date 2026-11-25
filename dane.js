@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:37:01)
+// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:39:57)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795635419530;
+const DATA_VERSION = 1795635595868;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -2853,28 +2853,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Ruiny zamku Karpień",
-            "ele": 758,
-            "lat": 50.3265,
-            "lon": 16.9274,
-            "desc": "Pozostałości średniowiecznego zamku ukryte w lasach nad Lądkiem-Zdrojem. Warownia strzegła dawnych szlaków handlowych; dziś ruiny są ciekawym celem leśnej wycieczki, który łatwo połączyć z Trojakiem i Karpiakiem.",
-            "tags": [],
-            "difficulty": "zależna od wybranego dojścia; zwykle łatwa przy atrakcjach dostępnych z miejscowości",
-            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
-            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
-            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
             "routeNote": "Praktyczny start z górnej części Lądka-Zdroju na Trojak, Karpiak i okolice.",
-            "parking": "Parking na Trojak – ul. Leśna / Hotel Trojan, Lądek-Zdrój",
-            "parkingLat": 50.340607,
-            "parkingLon": 16.891203,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "curiosity": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Lądek-Zdrój",
@@ -2888,7 +2867,21 @@ const DATA = {
                 "name": "Dostępne Miejsce – Leśna 4A",
                 "url": "https://dostepnemiejsce.pl/pl/000121987/hotel-trojan"
               }
-            ]
+            ],
+            "name": "Ruiny zamku Karpień",
+            "ele": 758,
+            "lat": 50.3265,
+            "lon": 16.9274,
+            "desc": "Pozostałości średniowiecznego zamku ukryte w lasach nad Lądkiem-Zdrojem. Warownia strzegła dawnych szlaków handlowych; dziś ruiny są ciekawym celem leśnej wycieczki, który łatwo połączyć z Trojakiem i Karpiakiem.",
+            "difficulty": "zależna od wybranego dojścia; zwykle łatwa przy atrakcjach dostępnych z miejscowości",
+            "parking": "Parking na Trojak – ul. Leśna / Hotel Trojan, Lądek-Zdrój",
+            "parkingLat": 50.340607,
+            "parkingLon": 16.891203,
+            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
+            "dog": "na smyczy; przed wyjściem sprawdź zasady rezerwatu, obiektu lub lokalne ograniczenia",
+            "fee": "sprawdź aktualnie przed wizytą; opłaty mogą dotyczyć parkingu, wstępu do obiektu lub lokalnej atrakcji",
+            "photo": "zdjecia/gory-zlote/ruiny-zamku-karpien-2i33.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "routeNote": "Parking przed leśnym dojściem do Jaskini Radochowskiej; od parkingu około 1,3 km pieszo.",
