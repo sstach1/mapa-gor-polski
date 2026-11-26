@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (26.11.2026, 19:14:33)
+// Baza danych mapy gór Polski – zapis z panelu edycji (26.11.2026, 19:34:33)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795716926060;
+const DATA_VERSION = 1795718071063;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -3000,31 +3000,7 @@ const DATA = {
             ]
           },
           {
-            "name": "Skalniak",
-            "ele": 915,
-            "lat": 50.4727,
-            "lon": 16.3036,
-            "desc": "Rozległy płaskowyż i drugi co do wysokości masyw polskiej części Gór Stołowych. Na jego północno-zachodnim skraju znajdują się słynne Błędne Skały.",
-            "why": "Dobry cel górskiej wędrówki i punkt pozwalający lepiej poznać główny grzbiet oraz charakter tego pasma.",
-            "curiosity": "",
-            "tags": [
-              "🥾 DLA PIECHURÓW"
-            ],
-            "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "PNGS: w miejscach dopuszczonych pies na smyczy i w kagańcu; przed wyjściem sprawdź aktualne ograniczenia Parku.",
-            "fee": "większość szlaków bez dodatkowej opłaty; Szczeliniec Wielki i Błędne Skały mają odrębny system biletów, a parkingi mogą być płatne",
-            "parking": "Polana YMCA – parking dolny pod Błędnymi Skałami",
-            "parkingLat": 50.460751,
-            "parkingLon": 16.309581,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Całoroczny praktyczny start przy Drodze Stu Zakrętów. Do Błędnych Skał prowadzi stąd niebieski szlak; parking górny ma sezonowe i godzinowe zasady wjazdu.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Park Narodowy Gór Stołowych",
@@ -3034,7 +3010,25 @@ const DATA = {
                 "name": "Polana YMCA – parking dolny",
                 "url": "https://mynaszlaku.pl/bledne-skaly-opis-szlaku-jak-dojechac-cennik/"
               }
-            ]
+            ],
+            "name": "Skalniak",
+            "ele": 915,
+            "lat": 50.4727,
+            "lon": 16.3036,
+            "desc": "Rozległy płaskowyż i drugi co do wysokości masyw polskiej części Gór Stołowych. Na jego północno-zachodnim skraju znajdują się słynne Błędne Skały.",
+            "why": "Dobry cel górskiej wędrówki i punkt pozwalający lepiej poznać główny grzbiet oraz charakter tego pasma.",
+            "tags": [
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
+            "parking": "Polana YMCA – parking dolny pod Błędnymi Skałami",
+            "parkingLat": 50.460751,
+            "parkingLon": 16.309581,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "PNGS: w miejscach dopuszczonych pies na smyczy i w kagańcu; przed wyjściem sprawdź aktualne ograniczenia Parku.",
+            "fee": "większość szlaków bez dodatkowej opłaty; Szczeliniec Wielki i Błędne Skały mają odrębny system biletów, a parkingi mogą być płatne",
+            "photo": "zdjecia/gory-stolowe/skalniak-68a4.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "routeNote": "Praktyczny start w Karłowie przy głównym wejściu na szlak na Szczeliniec. Samochodem nie jedziemy na szczyt; dalej wyłącznie pieszo po udostępnionych trasach.",
