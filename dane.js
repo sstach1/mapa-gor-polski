@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (26.11.2026, 19:34:33)
+// Baza danych mapy gór Polski – zapis z panelu edycji (26.11.2026, 19:37:45)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795718071063;
+const DATA_VERSION = 1795718263920;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -3095,31 +3095,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Błędne Skały / Bor",
-            "ele": 852,
-            "lat": 50.4803,
-            "lon": 16.2872,
-            "desc": "Kulminacyjna część zachodniego fragmentu płaskowyżu Skalniaka, znana przede wszystkim z labiryntu Błędnych Skał. To bardziej rozległe stoliwo niż klasyczny, wybitny wierzchołek.",
-            "why": "Dobry cel górskiej wędrówki i punkt pozwalający lepiej poznać główny grzbiet oraz charakter tego pasma.",
-            "curiosity": "",
-            "tags": [
-              "🥾 DLA PIECHURÓW"
-            ],
-            "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "PNGS: w miejscach dopuszczonych pies na smyczy i w kagańcu; przed wyjściem sprawdź aktualne ograniczenia Parku.",
-            "fee": "większość szlaków bez dodatkowej opłaty; Szczeliniec Wielki i Błędne Skały mają odrębny system biletów, a parkingi mogą być płatne",
-            "parking": "Polana YMCA – parking dolny pod Błędnymi Skałami",
-            "parkingLat": 50.460751,
-            "parkingLon": 16.309581,
-            "walkTime": "ok. 60–80 min w jedną stronę do wejścia",
-            "distance": "ok. 3,5–4 km w jedną stronę",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Całoroczny praktyczny start przy Drodze Stu Zakrętów. Do Błędnych Skał prowadzi stąd niebieski szlak; parking górny ma sezonowe i godzinowe zasady wjazdu.",
-            "elevationGain": "ok. 230 m",
             "sources": [
               {
                 "name": "Park Narodowy Gór Stołowych",
@@ -3129,7 +3105,28 @@ const DATA = {
                 "name": "Polana YMCA – parking dolny",
                 "url": "https://mynaszlaku.pl/bledne-skaly-opis-szlaku-jak-dojechac-cennik/"
               }
-            ]
+            ],
+            "name": "Błędne Skały / Bor",
+            "ele": 852,
+            "lat": 50.4803,
+            "lon": 16.2872,
+            "desc": "Kulminacyjna część zachodniego fragmentu płaskowyżu Skalniaka, znana przede wszystkim z labiryntu Błędnych Skał. To bardziej rozległe stoliwo niż klasyczny, wybitny wierzchołek.",
+            "why": "Dobry cel górskiej wędrówki i punkt pozwalający lepiej poznać główny grzbiet oraz charakter tego pasma.",
+            "tags": [
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
+            "parking": "Polana YMCA – parking dolny pod Błędnymi Skałami",
+            "parkingLat": 50.460751,
+            "parkingLon": 16.309581,
+            "walkTime": "ok. 60–80 min w jedną stronę do wejścia",
+            "distance": "ok. 3,5–4 km w jedną stronę",
+            "elevationGain": "ok. 230 m",
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "PNGS: w miejscach dopuszczonych pies na smyczy i w kagańcu; przed wyjściem sprawdź aktualne ograniczenia Parku.",
+            "fee": "większość szlaków bez dodatkowej opłaty; Szczeliniec Wielki i Błędne Skały mają odrębny system biletów, a parkingi mogą być płatne",
+            "photo": "zdjecia/gory-stolowe/bledne-skaly-bor-acpv.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Ptak",
