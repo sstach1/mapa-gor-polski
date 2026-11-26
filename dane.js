@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (26.11.2026, 19:39:51)
+// Baza danych mapy gór Polski – zapis z panelu edycji (26.11.2026, 19:42:02)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795718389641;
+const DATA_VERSION = 1795718520203;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -12691,38 +12691,32 @@ const DATA = {
         "icon": "⛰️",
         "items": [
           {
-            "name": "Szeroka Góra",
-            "lat": 50.4488,
-            "lon": 16.7634,
-            "desc": "Najwyższy szczyt Gór Bardzkich, sąsiadujący z popularniejszą Kłodzką Górą.",
-            "why": "Faktycznie najwyższy punkt pasma.",
-            "curiosity": "",
-            "tags": [
-              "🥾 DLA PIECHURÓW",
-              "💎 MNIEJ ZNANY"
-            ],
-            "difficulty": "średnia",
-            "family": "zależy od trasy",
-            "dog": "na smyczy; sprawdź lokalne zasady",
-            "fee": "brak opłaty za szlak; parkingi/obiekty mogą być płatne",
-            "parking": "Parking na Przełęczy Kłodzkiej",
-            "parkingLat": 50.4313739,
-            "parkingLon": 16.7648264,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Czas, dystans i przewyższenie zależą od punktu startu.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "PTTK – Kłodzka Góra",
                 "url": "https://dolnoslaskie.szlaki.pttk.pl/2080-dolnoslaskie-klodzka-gora-wieza-widokowa"
               }
             ],
-            "ele": 766
+            "name": "Szeroka Góra",
+            "ele": 766,
+            "lat": 50.4488,
+            "lon": 16.7634,
+            "desc": "Najwyższy szczyt Gór Bardzkich, sąsiadujący z popularniejszą Kłodzką Górą.",
+            "why": "Faktycznie najwyższy punkt pasma.",
+            "tags": [
+              "🥾 DLA PIECHURÓW",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "średnia",
+            "parking": "Parking na Przełęczy Kłodzkiej",
+            "parkingLat": 50.4313739,
+            "parkingLon": 16.7648264,
+            "family": "zależy od trasy",
+            "dog": "na smyczy; sprawdź lokalne zasady",
+            "fee": "brak opłaty za szlak; parkingi/obiekty mogą być płatne",
+            "photo": "zdjecia/gory-bardzkie/szeroka-gora-fvgx.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Kłodzka Góra",
