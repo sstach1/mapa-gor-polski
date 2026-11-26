@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (26.11.2026, 19:42:02)
+// Baza danych mapy gór Polski – zapis z panelu edycji (26.11.2026, 19:45:04)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795718520203;
+const DATA_VERSION = 1795718702283;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -12719,39 +12719,33 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Kłodzka Góra",
-            "lat": 50.451972,
-            "lon": 16.7534,
-            "desc": "Jeden z najbardziej znanych szczytów Gór Bardzkich, z 34,5-metrową wieżą widokową.",
-            "why": "Najpopularniejszy punkt widokowy pasma.",
-            "curiosity": "",
-            "tags": [
-              "⭐ TOP",
-              "👀 WIDOKI",
-              "🏆 KORONA"
-            ],
-            "difficulty": "zależna od wybranego wariantu",
-            "family": "zależy od trasy",
-            "dog": "na smyczy; sprawdź lokalne zasady",
-            "fee": "wieża bezpłatna",
-            "parking": "Parking na Przełęczy Kłodzkiej",
-            "parkingLat": 50.4313739,
-            "parkingLon": 16.7648264,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Czas, dystans i przewyższenie zależą od punktu startu.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "PTTK – Kłodzka Góra",
                 "url": "https://dolnoslaskie.szlaki.pttk.pl/2080-dolnoslaskie-klodzka-gora-wieza-widokowa"
               }
             ],
-            "ele": 757
+            "name": "Kłodzka Góra",
+            "ele": 757,
+            "lat": 50.451972,
+            "lon": 16.7534,
+            "desc": "Jeden z najbardziej znanych szczytów Gór Bardzkich, z 34,5-metrową wieżą widokową.",
+            "why": "Najpopularniejszy punkt widokowy pasma.",
+            "tags": [
+              "⭐ TOP",
+              "👀 WIDOKI",
+              "🏆 KORONA"
+            ],
+            "difficulty": "zależna od wybranego wariantu",
+            "parking": "Parking na Przełęczy Kłodzkiej",
+            "parkingLat": 50.4313739,
+            "parkingLon": 16.7648264,
+            "family": "zależy od trasy",
+            "dog": "na smyczy; sprawdź lokalne zasady",
+            "fee": "wieża bezpłatna",
+            "photo": "zdjecia/gory-bardzkie/klodzka-gora-jr7u.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Ostra Góra",
