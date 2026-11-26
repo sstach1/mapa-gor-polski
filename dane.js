@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (26.11.2026, 19:46:15)
+// Baza danych mapy gór Polski – zapis z panelu edycji (26.11.2026, 19:51:29)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795718773437;
+const DATA_VERSION = 1795719087339;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -12776,38 +12776,32 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Kalwaria / Bardzka Góra",
-            "lat": 50.495692,
-            "lon": 16.748767,
-            "desc": "Szczyt nad Bardem z barokową kaplicą MB Płaczącej i rozbudowanym zespołem pielgrzymkowym.",
-            "why": "Łączy góry, historię i pielgrzymkowy charakter Barda.",
-            "curiosity": "",
-            "tags": [
-              "⭐ TOP",
-              "🏰 HISTORIA"
-            ],
-            "difficulty": "zależna od wybranego wariantu",
-            "family": "zależy od trasy",
-            "dog": "na smyczy; sprawdź lokalne zasady",
-            "fee": "brak opłaty za szlak; parkingi/obiekty mogą być płatne",
-            "parking": "Parking turystyczny przy ul. Skalnej w Bardzie",
-            "parkingLat": 50.5034,
-            "parkingLon": 16.7426,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Czas, dystans i przewyższenie zależą od punktu startu.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "PTTK – Kalwaria",
                 "url": "https://dolnoslaskie.szlaki.pttk.pl/2077-dolnoslaskie-kalwaria-kaplica-gorska"
               }
             ],
-            "ele": 575
+            "name": "Kalwaria / Bardzka Góra",
+            "ele": 575,
+            "lat": 50.495692,
+            "lon": 16.748767,
+            "desc": "Szczyt nad Bardem z barokową kaplicą MB Płaczącej i rozbudowanym zespołem pielgrzymkowym.",
+            "why": "Łączy góry, historię i pielgrzymkowy charakter Barda.",
+            "tags": [
+              "⭐ TOP",
+              "🏰 HISTORIA"
+            ],
+            "difficulty": "zależna od wybranego wariantu",
+            "parking": "Parking turystyczny przy ul. Skalnej w Bardzie",
+            "parkingLat": 50.5034,
+            "parkingLon": 16.7426,
+            "family": "zależy od trasy",
+            "dog": "na smyczy; sprawdź lokalne zasady",
+            "fee": "brak opłaty za szlak; parkingi/obiekty mogą być płatne",
+            "photo": "zdjecia/gory-bardzkie/kalwaria-bardzka-gora-s12w.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Wielka Cisowa Góra",
