@@ -1,6 +1,6 @@
 // Baza danych mapy gór Polski – zapis z panelu edycji (26.11.2026, 19:14:33)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795716871762;
+const DATA_VERSION = 1795716926060;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -32717,6 +32717,1384 @@ const DATA = {
               {
                 "name": "Gorce – szlaki i miejsca",
                 "url": "https://mynaszlaku.pl/gorce/"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "bieszczady": {
+    "name": "Bieszczady",
+    "center": [
+      49.17,
+      22.5
+    ],
+    "zoom": 10,
+    "categories": {
+      "szczyty": {
+        "name": "Szczyty",
+        "icon": "⛰️",
+        "items": [
+          {
+            "name": "Tarnica",
+            "ele": 1346,
+            "lat": 49.07478,
+            "lon": 22.72675,
+            "desc": "Najwyższy szczyt polskich Bieszczadów i województwa podkarpackiego, wznoszący się w gnieździe Tarnicy i Halicza na krańcu pasma połonin.",
+            "why": "Obowiązkowy cel dla zdobywców Korony Gór Polski i jeden z najlepszych punktów widokowych na połoniny oraz ukraińską część Karpat.",
+            "curiosity": "Tarnica należy do Korony Gór Polski jako najwyższy szczyt Bieszczadów.",
+            "tags": [
+              "⭐ TOP",
+              "🏆 KORONA",
+              "👀 WIDOKI",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "średnia; odsłonięta kopuła szczytowa – przy wietrze i mgle trudniej",
+            "family": "dla rodzin z doświadczeniem górskim",
+            "dog": "na terenie BdPN obowiązują ograniczenia dotyczące psów – sprawdź aktualny regulamin parku",
+            "fee": "wstęp na szlaki BdPN jest biletowany; parkingi płatne",
+            "parking": "Parking BdPN w Wołosatem lub w Ustrzykach Górnych",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Najkrótszy wariant: niebieski szlak z Wołosatego na Przełęcz pod Tarnicą, dalej krótki żółty szlak na wierzchołek. Dłuższy, bardzo widokowy wariant prowadzi czerwonym szlakiem z Ustrzyk Górnych przez Szeroki Wierch.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Tarnica",
+                "url": "https://pl.wikipedia.org/wiki/Tarnica"
+              },
+              {
+                "name": "Bieszczadzki Park Narodowy",
+                "url": "https://www.bdpn.gov.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Krzemień",
+            "ele": 1335,
+            "lat": 49.08597,
+            "lon": 22.73847,
+            "desc": "Drugi pod względem wysokości szczyt polskich Bieszczadów i całych Bieszczadów Zachodnich, w masywie łączącym się płytką przełęczą z Bukowym Berdem.",
+            "why": "Rzadziej odwiedzany niż Tarnica, a oferuje równie szeroką panoramę gniazda Tarnicy i Halicza.",
+            "curiosity": "",
+            "tags": [
+              "👀 WIDOKI",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "średnia do trudnej; najczęściej odwiedzany w ramach dłuższej pętli",
+            "family": "dla wytrwałych rodzin z doświadczeniem",
+            "dog": "na terenie BdPN obowiązują ograniczenia dotyczące psów – sprawdź aktualny regulamin parku",
+            "fee": "wstęp na szlaki BdPN jest biletowany; parkingi płatne",
+            "parking": "Parking BdPN w Wołosatem",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Leży na grzbiecie między Tarnicą a Bukowym Berdem; dobrze łączy się z wejściem na Tarnicę.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Krzemień",
+                "url": "https://pl.wikipedia.org/wiki/Krzemień_(Bieszczady)"
+              },
+              {
+                "name": "Bieszczadzki Park Narodowy",
+                "url": "https://www.bdpn.gov.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Halicz",
+            "ele": 1333,
+            "lat": 49.07214,
+            "lon": 22.76883,
+            "desc": "Trzeci pod względem wysokości szczyt polskiej części Bieszczadów, położony w grupie Tarnicy i Halicza blisko granicy z Ukrainą.",
+            "why": "Uważany za jeden z najpiękniejszych punktów widokowych Bieszczadów – z dala od tłumów z Tarnicy.",
+            "curiosity": "",
+            "tags": [
+              "⭐ TOP",
+              "👀 WIDOKI",
+              "📸 FOTOGENICZNE",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "średnia do trudnej; długie podejście",
+            "family": "dla wytrwałych rodzin z doświadczeniem",
+            "dog": "na terenie BdPN obowiązują ograniczenia dotyczące psów – sprawdź aktualny regulamin parku",
+            "fee": "wstęp na szlaki BdPN jest biletowany; parkingi płatne",
+            "parking": "Parking BdPN w Wołosatem",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Popularna pętla prowadzi z Wołosatego przez Tarnicę, Krzemień i Halicz albo przez Rozsypaniec.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Halicz",
+                "url": "https://pl.wikipedia.org/wiki/Halicz_(góra)"
+              },
+              {
+                "name": "Bieszczadzki Park Narodowy",
+                "url": "https://www.bdpn.gov.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Kopa Bukowska",
+            "ele": 1320,
+            "lat": 49.08228,
+            "lon": 22.75675,
+            "desc": "Szczyt w grupie Tarnicy i Halicza, położony na grzbiecie między Krzemieniem a Haliczem.",
+            "why": "Leży na najbardziej widokowym odcinku grzbietu – idealny przystanek na pętli przez najwyższe szczyty Bieszczadów.",
+            "curiosity": "",
+            "tags": [
+              "👀 WIDOKI",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "średnia do trudnej",
+            "family": "dla wytrwałych rodzin z doświadczeniem",
+            "dog": "na terenie BdPN obowiązują ograniczenia dotyczące psów – sprawdź aktualny regulamin parku",
+            "fee": "wstęp na szlaki BdPN jest biletowany; parkingi płatne",
+            "parking": "Parking BdPN w Wołosatem",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Kopa Bukowska",
+                "url": "https://pl.wikipedia.org/wiki/Kopa_Bukowska"
+              },
+              {
+                "name": "Bieszczadzki Park Narodowy",
+                "url": "https://www.bdpn.gov.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Bukowe Berdo",
+            "ele": 1311,
+            "lat": 49.09306,
+            "lon": 22.74056,
+            "desc": "Masyw w postaci podłużnego pasma z trzema kulminacjami (1201, 1238 i 1311 m), z licznymi piaskowcowymi skałkami i połoniną w partiach szczytowych.",
+            "why": "Rozległy widok na północ i wschód, głównie na tereny ukraińskie; skałki na grzbiecie dodają trasie charakteru.",
+            "curiosity": "",
+            "tags": [
+              "👀 WIDOKI",
+              "🪨 GEOLOGIA",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "średnia",
+            "family": "dla rodzin z doświadczeniem",
+            "dog": "na terenie BdPN obowiązują ograniczenia dotyczące psów – sprawdź aktualny regulamin parku",
+            "fee": "wstęp na szlaki BdPN jest biletowany; parkingi płatne",
+            "parking": "Parking w Mucznem lub w Wołosatem",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Grzbietem Bukowego Berda prowadzi niebieski szlak; masyw łączy się płytką przełęczą z Krzemieniem.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Bukowe Berdo",
+                "url": "https://pl.wikipedia.org/wiki/Bukowe_Berdo"
+              },
+              {
+                "name": "Bieszczadzki Park Narodowy",
+                "url": "https://www.bdpn.gov.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Wielka Rawka",
+            "ele": 1307,
+            "lat": 49.09944,
+            "lon": 22.57639,
+            "desc": "Najwyższy szczyt pasma granicznego w Bieszczadach Zachodnich, oddzielony od Małej Rawki wysoko położoną przełęczą.",
+            "why": "Z kopuły szczytowej widać połoniny, gniazdo Tarnicy i pasmo graniczne – to jedna z najlepszych panoram Bieszczadów.",
+            "curiosity": "",
+            "tags": [
+              "⭐ TOP",
+              "👀 WIDOKI",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "średnia",
+            "family": "dla rodzin z doświadczeniem górskim",
+            "dog": "na terenie BdPN obowiązują ograniczenia dotyczące psów – sprawdź aktualny regulamin parku",
+            "fee": "wstęp na szlaki BdPN jest biletowany; parkingi płatne",
+            "parking": "Parking na Przełęczy Wyżnej (droga Ustrzyki Górne – Wetlina)",
+            "parkingLat": 49.14178,
+            "parkingLon": 22.54858,
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "około 450 m (z Przełęczy Wyżnej przez Małą Rawkę)",
+            "routeNote": "Z Przełęczy Wyżnej zielonym szlakiem obok Bacówki pod Małą Rawką na Małą Rawkę, a dalej ok. 15 min na Wielką Rawkę.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Wielka Rawka",
+                "url": "https://pl.wikipedia.org/wiki/Wielka_Rawka"
+              },
+              {
+                "name": "Bieszczadzki Park Narodowy",
+                "url": "https://www.bdpn.gov.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Mała Rawka",
+            "ele": 1272,
+            "lat": 49.10917,
+            "lon": 22.57361,
+            "desc": "Kulminacja grzbietu Dział koło Ustrzyk Górnych; szczyt pokrywa niewielka połonina.",
+            "why": "Doskonały punkt widokowy na grupę Tarnicy, Połoninę Wetlińską i Caryńską przy stosunkowo krótkim podejściu.",
+            "curiosity": "Na przełęczy między Małą a Wielką Rawką rośnie najwyżej położony las w polskich Bieszczadach.",
+            "tags": [
+              "👀 WIDOKI",
+              "👨‍👩‍👧 DLA RODZIN",
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak, dla rodzin przyzwyczajonych do podejść",
+            "dog": "na terenie BdPN obowiązują ograniczenia dotyczące psów – sprawdź aktualny regulamin parku",
+            "fee": "wstęp na szlaki BdPN jest biletowany; parkingi płatne",
+            "parking": "Parking na Przełęczy Wyżnej (droga Ustrzyki Górne – Wetlina)",
+            "parkingLat": 49.14178,
+            "parkingLon": 22.54858,
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "około 400 m",
+            "routeNote": "Zielony szlak z Przełęczy Wyżnej prowadzi obok Bacówki PTTK Pod Małą Rawką.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Mała Rawka",
+                "url": "https://pl.wikipedia.org/wiki/Mała_Rawka"
+              },
+              {
+                "name": "Bieszczadzki Park Narodowy",
+                "url": "https://www.bdpn.gov.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Połonina Caryńska",
+            "ele": 1297,
+            "lat": 49.13792,
+            "lon": 22.60368,
+            "desc": "Jedna z najsłynniejszych bieszczadzkich połonin – masyw między dolinami Prowczy i Wołosatego, nad Brzegami Górnymi i Ustrzykami Górnymi.",
+            "why": "Długi, otwarty grzbiet z widokami w każdą stronę; klasyczny cel pierwszej wycieczki w Bieszczady.",
+            "curiosity": "",
+            "tags": [
+              "⭐ TOP",
+              "👀 WIDOKI",
+              "📸 FOTOGENICZNE",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "średnia; na grzbiecie brak osłony przed wiatrem",
+            "family": "dla rodzin z doświadczeniem",
+            "dog": "na terenie BdPN obowiązują ograniczenia dotyczące psów – sprawdź aktualny regulamin parku",
+            "fee": "wstęp na szlaki BdPN jest biletowany; parkingi płatne",
+            "parking": "Parkingi w Brzegach Górnych lub Ustrzykach Górnych",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Popularne przejście: z Brzegów Górnych na grzbiet i zejście do Ustrzyk Górnych (lub odwrotnie) – wymaga powrotu do auta drogą lub busem.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Połonina Caryńska",
+                "url": "https://pl.wikipedia.org/wiki/Połonina_Caryńska"
+              },
+              {
+                "name": "Bieszczadzki Park Narodowy",
+                "url": "https://www.bdpn.gov.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Połonina Wetlińska",
+            "ele": 1255,
+            "lat": 49.16722,
+            "lon": 22.52861,
+            "desc": "Masyw górski i połonina w polskiej części Bieszczadów Zachodnich, z najwyższym wierzchołkiem Roh (1255 m).",
+            "why": "Jedno z najczęściej odwiedzanych miejsc w Bieszczadach – rozległa połonina z Chatką Puchatka na wschodnim krańcu.",
+            "curiosity": "",
+            "tags": [
+              "⭐ TOP",
+              "👀 WIDOKI",
+              "📸 FOTOGENICZNE",
+              "🛖 SCHRONISKO"
+            ],
+            "difficulty": "średnia",
+            "family": "dla rodzin z doświadczeniem górskim",
+            "dog": "na terenie BdPN obowiązują ograniczenia dotyczące psów – sprawdź aktualny regulamin parku",
+            "fee": "wstęp na szlaki BdPN jest biletowany; parkingi płatne",
+            "parking": "Parking na Przełęczy Wyżnej (droga Ustrzyki Górne – Wetlina)",
+            "parkingLat": 49.14178,
+            "parkingLon": 22.54858,
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Najkrótsze wejście prowadzi z Przełęczy Wyżnej do Chatki Puchatka; dłuższe trawersy grzbietu łączą się ze Smerekiem i Wetliną.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Połonina Wetlińska",
+                "url": "https://pl.wikipedia.org/wiki/Połonina_Wetlińska"
+              },
+              {
+                "name": "Bieszczadzki Park Narodowy",
+                "url": "https://www.bdpn.gov.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Smerek",
+            "ele": 1222,
+            "lat": 49.18722,
+            "lon": 22.47806,
+            "desc": "Szczyt w zachodniej części pasma Połoniny Wetlińskiej, w pobliżu wsi Smerek i Wetlina; na niektórych mapach opisany jako Wysoka.",
+            "why": "Widokowa kopuła z panoramą Połoniny Wetlińskiej i doliny Wetliny – dobry cel na krótszy dzień.",
+            "curiosity": "",
+            "tags": [
+              "👀 WIDOKI",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "średnia",
+            "family": "dla rodzin z doświadczeniem",
+            "dog": "na terenie BdPN obowiązują ograniczenia dotyczące psów – sprawdź aktualny regulamin parku",
+            "fee": "wstęp na szlaki BdPN jest biletowany; parkingi płatne",
+            "parking": "Okolice wsi Smerek lub Wetlina",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Smerek",
+                "url": "https://pl.wikipedia.org/wiki/Smerek_(szczyt)"
+              },
+              {
+                "name": "Bieszczadzki Park Narodowy",
+                "url": "https://www.bdpn.gov.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Krzemieniec (trójstyk granic)",
+            "ele": 1221,
+            "lat": 49.08869,
+            "lon": 22.56778,
+            "desc": "Szczyt w wododziałowym paśmie granicznym Bieszczadów Zachodnich, na którym zbiegają się granice Polski, Słowacji i Ukrainy.",
+            "why": "Jedyny w Bieszczadach trójstyk granic – charakterystyczny słup graniczny i spokojniejszy odcinek grzbietu za Wielką Rawką.",
+            "curiosity": "Na szczycie stoi słup graniczny wyznaczający punkt styku trzech państw.",
+            "tags": [
+              "🇸🇰 SŁOWACJA",
+              "💎 MNIEJ ZNANY",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "średnia",
+            "family": "dla rodzin z doświadczeniem",
+            "dog": "na terenie BdPN obowiązują ograniczenia dotyczące psów – sprawdź aktualny regulamin parku",
+            "fee": "wstęp na szlaki BdPN jest biletowany; parkingi płatne",
+            "parking": "Parking na Przełęczy Wyżnej (droga Ustrzyki Górne – Wetlina)",
+            "parkingLat": 49.14178,
+            "parkingLon": 22.54858,
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Najczęściej dochodzi się z Wielkiej Rawki; wycieczkę łączy się z wejściem z Przełęczy Wyżnej.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Krzemieniec",
+                "url": "https://pl.wikipedia.org/wiki/Krzemieniec_(szczyt)"
+              },
+              {
+                "name": "Bieszczadzki Park Narodowy",
+                "url": "https://www.bdpn.gov.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Wołosań",
+            "ele": 1071,
+            "lat": 49.23917,
+            "lon": 22.25333,
+            "desc": "Najwyższy szczyt pasma Wysokiego Działu w zachodniej części Bieszczadów.",
+            "why": "Zalesiony, spokojny grzbiet z dala od najpopularniejszych tras – dla szukających ciszy.",
+            "curiosity": "",
+            "tags": [
+              "💎 MNIEJ ZNANY",
+              "🌲 PRZYRODA",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "średnia",
+            "family": "dla wytrwałych rodzin",
+            "dog": "na smyczy",
+            "fee": "szlak bezpłatny",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Wołosań",
+                "url": "https://pl.wikipedia.org/wiki/Wołosań"
+              }
+            ]
+          },
+          {
+            "name": "Łopiennik",
+            "ele": 1069,
+            "lat": 49.245,
+            "lon": 22.34111,
+            "desc": "Kulminacja Pasma Łopiennika i Durnej, niedaleko Cisnej, Jabłonek i Dołżycy.",
+            "why": "Z południowej strony szczytu dobry widok na Falową, Smerek i Małą Rawkę; po drodze można odwiedzić cerkiew w Łopience.",
+            "curiosity": "Latem poniżej szczytu, nad Łopienką, działa studencka baza namiotowa.",
+            "tags": [
+              "💎 MNIEJ ZNANY",
+              "👀 WIDOKI"
+            ],
+            "difficulty": "średnia",
+            "family": "dla rodzin z doświadczeniem",
+            "dog": "na smyczy",
+            "fee": "szlak bezpłatny",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Łopiennik",
+                "url": "https://pl.wikipedia.org/wiki/Łopiennik_(szczyt)"
+              }
+            ]
+          },
+          {
+            "name": "Jasło",
+            "ele": 1153,
+            "lat": 49.15778,
+            "lon": 22.36361,
+            "desc": "Góra w Bieszczadach Zachodnich w gminie Cisna, zwana też Wielkim Jasłem dla odróżnienia od pobliskiego Małego Jasła.",
+            "why": "Mniej oblegany szczyt w zachodniej części pasma granicznego – dobry na spokojną wycieczkę z Cisnej.",
+            "curiosity": "",
+            "tags": [
+              "💎 MNIEJ ZNANY",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "średnia",
+            "family": "dla rodzin z doświadczeniem",
+            "dog": "na smyczy",
+            "fee": "szlak bezpłatny",
+            "parking": "Cisna",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Jasło",
+                "url": "https://pl.wikipedia.org/wiki/Jasło_(góra)"
+              }
+            ]
+          },
+          {
+            "name": "Chryszczata",
+            "ele": 997,
+            "lat": 49.30569,
+            "lon": 22.18792,
+            "desc": "Szczyt w paśmie Wołosania; na wierzchołku stoi betonowy obelisk osnowy geodezyjnej z czasów zaborów.",
+            "why": "Na zachodnich zboczach leżą Jeziorka Duszatyńskie – wycieczkę łatwo połączyć z ich odwiedzeniem.",
+            "curiosity": "Nazwa wywodzi się od łemkowskiej nazwy rośliny „chreszczate zilie” albo od skrzyżowania dróg.",
+            "tags": [
+              "💎 MNIEJ ZNANY",
+              "🏰 HISTORIA",
+              "🌲 PRZYRODA"
+            ],
+            "difficulty": "średnia",
+            "family": "dla rodzin z doświadczeniem",
+            "dog": "na smyczy",
+            "fee": "szlak bezpłatny",
+            "parking": "Duszatyn",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Chryszczata",
+                "url": "https://pl.wikipedia.org/wiki/Chryszczata"
+              }
+            ]
+          }
+        ]
+      },
+      "wody": {
+        "name": "Jeziora i przełomy",
+        "icon": "💧",
+        "items": [
+          {
+            "name": "Jezioro Solińskie",
+            "lat": 49.38806,
+            "lon": 22.44944,
+            "desc": "Zbiornik retencyjny na Sanie koło Soliny, otoczony od północy przez Góry Sanocko-Turczańskie, a od południa przez pasma Bieszczadów Zachodnich.",
+            "why": "Największa wodna atrakcja regionu: rejsy, plaże, sporty wodne i zapora w Solinie.",
+            "curiosity": "",
+            "tags": [
+              "⭐ TOP",
+              "👨‍👩‍👧 DLA RODZIN",
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "tak, na smyczy",
+            "fee": "atrakcje nad jeziorem płatne; spacer bezpłatny",
+            "parking": "Parkingi w Solinie i Polańczyku",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Jezioro Solińskie",
+                "url": "https://pl.wikipedia.org/wiki/Jezioro_Solińskie"
+              }
+            ]
+          },
+          {
+            "name": "Rezerwat Sine Wiry",
+            "lat": 49.26111,
+            "lon": 22.43167,
+            "desc": "Krajobrazowy rezerwat chroniący przełomowy odcinek rzeki Wetliny wraz z otaczającymi lasami (444,5 ha).",
+            "why": "Malownicze zakola rzeki, skalne progi i głębokie „wiry” – jedno z najładniejszych miejsc nad wodą w Bieszczadach.",
+            "curiosity": "Rezerwat utworzono w 1987 r.; leży w Ciśniańsko-Wetlińskim Parku Krajobrazowym.",
+            "tags": [
+              "🌲 PRZYRODA",
+              "📸 FOTOGENICZNE",
+              "👨‍👩‍👧 DLA RODZIN"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Rezerwat przyrody Sine Wiry",
+                "url": "https://pl.wikipedia.org/wiki/Rezerwat_przyrody_Sine_Wiry"
+              }
+            ]
+          },
+          {
+            "name": "Jeziorka Duszatyńskie",
+            "lat": 49.3135,
+            "lon": 22.16772,
+            "desc": "Dwa (dawniej trzy) jeziorka osuwiskowe na zachodnich zboczach Chryszczatej, w pobliżu wsi Duszatyn.",
+            "why": "Jedna z większych osobliwości przyrodniczych Bieszczadów – ciche leśne jeziorka powstałe w wyniku osuwiska.",
+            "curiosity": "",
+            "tags": [
+              "💎 MNIEJ ZNANY",
+              "🌲 PRZYRODA",
+              "🪨 GEOLOGIA",
+              "👨‍👩‍👧 DLA RODZIN"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "bezpłatnie",
+            "parking": "Duszatyn",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Jeziorka Duszatyńskie",
+                "url": "https://pl.wikipedia.org/wiki/Jeziorka_Duszatyńskie"
+              }
+            ]
+          }
+        ]
+      },
+      "punkty_widokowe": {
+        "name": "Punkty widokowe",
+        "icon": "👀",
+        "items": [
+          {
+            "name": "Przełęcz Wyżna",
+            "ele": 872,
+            "lat": 49.14178,
+            "lon": 22.54858,
+            "desc": "Przełęcz między Brzegami Górnymi a Wetliną, oddzielająca pasmo Działu od Połoniny Wetlińskiej.",
+            "why": "Najwygodniejszy punkt startowy w Bieszczadach – stąd ruszają szlaki na Połoninę Wetlińską i Rawki.",
+            "curiosity": "",
+            "tags": [
+              "👀 WIDOKI",
+              "👨‍👩‍👧 DLA RODZIN"
+            ],
+            "difficulty": "łatwa – dojazd samochodem",
+            "family": "tak",
+            "dog": "na terenie BdPN obowiązują ograniczenia dotyczące psów – sprawdź aktualny regulamin parku",
+            "fee": "parking płatny",
+            "parking": "Parking na Przełęczy Wyżnej (droga Ustrzyki Górne – Wetlina)",
+            "parkingLat": 49.14178,
+            "parkingLon": 22.54858,
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Przełęcz Wyżna",
+                "url": "https://pl.wikipedia.org/wiki/Przełęcz_Wyżna"
+              },
+              {
+                "name": "Bieszczadzki Park Narodowy",
+                "url": "https://www.bdpn.gov.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Szeroki Wierch",
+            "lat": 49.07906,
+            "lon": 22.72469,
+            "desc": "Masyw w paśmie połonin, przez który prowadzi czerwony szlak z Ustrzyk Górnych na Tarnicę.",
+            "why": "Długi, otwarty grzbiet z widokiem na Tarnicę i Bukowe Berdo – jeden z najładniejszych odcinków szlaku w Bieszczadach.",
+            "curiosity": "",
+            "tags": [
+              "👀 WIDOKI",
+              "📸 FOTOGENICZNE",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "średnia do trudnej (długość trasy)",
+            "family": "dla wytrwałych rodzin",
+            "dog": "na terenie BdPN obowiązują ograniczenia dotyczące psów – sprawdź aktualny regulamin parku",
+            "fee": "wstęp na szlaki BdPN jest biletowany; parkingi płatne",
+            "parking": "Ustrzyki Górne",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Szeroki Wierch",
+                "url": "https://pl.wikipedia.org/wiki/Szeroki_Wierch"
+              },
+              {
+                "name": "Bieszczadzki Park Narodowy",
+                "url": "https://www.bdpn.gov.pl/"
+              }
+            ]
+          }
+        ]
+      },
+      "atrakcje": {
+        "name": "Atrakcje i bazy",
+        "icon": "⭐",
+        "items": [
+          {
+            "name": "Ustrzyki Górne",
+            "lat": 49.10556,
+            "lon": 22.64972,
+            "desc": "Wieś nad potokiem Wołosatym, przy skrzyżowaniu dróg wojewódzkich 896 i 897 – główna baza wypadowa w wysokie Bieszczady.",
+            "why": "Stąd blisko na Tarnicę, Połoninę Caryńską i Szeroki Wierch; są tu noclegi, sklepy i parkingi.",
+            "curiosity": "",
+            "tags": [
+              "👨‍👩‍👧 DLA RODZIN"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "tak",
+            "fee": "",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Ustrzyki Górne",
+                "url": "https://pl.wikipedia.org/wiki/Ustrzyki_Górne"
+              }
+            ]
+          },
+          {
+            "name": "Wetlina",
+            "lat": 49.15528,
+            "lon": 22.46861,
+            "desc": "Wieś nad potokiem Wetlina, na granicy Ciśniańsko-Wetlińskiego Parku Krajobrazowego i Bieszczadzkiego Parku Narodowego, przy drodze 897.",
+            "why": "Dobra baza pod Połoninę Wetlińską i Smerek, z gastronomią i noclegami.",
+            "curiosity": "",
+            "tags": [
+              "👨‍👩‍👧 DLA RODZIN"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "tak",
+            "fee": "",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Wetlina",
+                "url": "https://pl.wikipedia.org/wiki/Wetlina"
+              }
+            ]
+          },
+          {
+            "name": "Muczne",
+            "lat": 49.12917,
+            "lon": 22.74417,
+            "desc": "Osada w dolinie potoku Muczny w gminie Lutowiska, na skraju Bieszczadzkiego Parku Narodowego.",
+            "why": "Spokojna, odległa od głównych dróg dolina i punkt startu na Bukowe Berdo.",
+            "curiosity": "",
+            "tags": [
+              "🌲 PRZYRODA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Muczne",
+                "url": "https://pl.wikipedia.org/wiki/Muczne"
+              }
+            ]
+          },
+          {
+            "name": "Wołosate",
+            "lat": 49.06389,
+            "lon": 22.68389,
+            "desc": "Osada na końcu drogi, u stóp Tarnicy i Halicza, w gminie Lutowiska.",
+            "why": "Najkrótszy start na Tarnicę i w gniazdo Tarnicy i Halicza.",
+            "curiosity": "",
+            "tags": [
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "na terenie BdPN obowiązują ograniczenia dotyczące psów – sprawdź aktualny regulamin parku",
+            "fee": "parking płatny",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Wołosate",
+                "url": "https://pl.wikipedia.org/wiki/Wołosate"
+              },
+              {
+                "name": "Bieszczadzki Park Narodowy",
+                "url": "https://www.bdpn.gov.pl/"
+              }
+            ]
+          }
+        ]
+      },
+      "schroniska": {
+        "name": "Schroniska",
+        "icon": "🏠",
+        "items": [
+          {
+            "name": "Schronisko „Chatka Puchatka”",
+            "ele": 1228,
+            "lat": 49.15819,
+            "lon": 22.55139,
+            "desc": "Najwyżej położone schronisko w Bieszczadach, kilka metrów od wierzchołka Hasiakowej Skały na wschodnim krańcu Połoniny Wetlińskiej.",
+            "why": "Kultowe miejsce na połoninie z widokiem na Połoninę Caryńską i Rawki.",
+            "curiosity": "",
+            "tags": [
+              "⭐ TOP",
+              "🛖 SCHRONISKO",
+              "👀 WIDOKI"
+            ],
+            "difficulty": "średnia",
+            "family": "dla rodzin z doświadczeniem",
+            "dog": "na terenie BdPN obowiązują ograniczenia dotyczące psów – sprawdź aktualny regulamin parku",
+            "fee": "wstęp na szlaki BdPN jest biletowany; parkingi płatne",
+            "parking": "Parking na Przełęczy Wyżnej (droga Ustrzyki Górne – Wetlina)",
+            "parkingLat": 49.14178,
+            "parkingLon": 22.54858,
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "około 360 m",
+            "routeNote": "Najkrótsze dojście: żółty szlak z Przełęczy Wyżnej. Hasiakowa Skała (1232 m) to najdalej na wschód wysunięta kulminacja Połoniny Wetlińskiej.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Hasiakowa Skała",
+                "url": "https://pl.wikipedia.org/wiki/Hasiakowa_Skała"
+              },
+              {
+                "name": "Wikipedia – Połonina Wetlińska",
+                "url": "https://pl.wikipedia.org/wiki/Połonina_Wetlińska"
+              }
+            ]
+          },
+          {
+            "name": "Bacówka PTTK Pod Małą Rawką",
+            "ele": 930,
+            "lat": 49.11694,
+            "lon": 22.58139,
+            "desc": "Schronisko PTTK na terenie Bieszczadzkiego Parku Narodowego, u podnóża Małej Rawki, 900 m od Wielkiej Obwodnicy Bieszczadzkiej.",
+            "why": "Wygodny przystanek na trasie z Przełęczy Wyżnej na Rawki.",
+            "curiosity": "",
+            "tags": [
+              "🛖 SCHRONISKO",
+              "👨‍👩‍👧 DLA RODZIN"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "na terenie BdPN obowiązują ograniczenia dotyczące psów – sprawdź aktualny regulamin parku",
+            "fee": "wstęp na szlaki BdPN jest biletowany; parkingi płatne",
+            "parking": "Parking na Przełęczy Wyżnej (droga Ustrzyki Górne – Wetlina)",
+            "parkingLat": 49.14178,
+            "parkingLon": 22.54858,
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Leży przy zielonym szlaku z Przełęczy Wyżnej na Małą Rawkę.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Bacówka PTTK Pod Małą Rawką",
+                "url": "https://pl.wikipedia.org/wiki/Bacówka_PTTK_Pod_Małą_Rawką"
+              }
+            ]
+          },
+          {
+            "name": "Schronisko PTTK „Kremenaros”",
+            "ele": 650,
+            "lat": 49.10534,
+            "lon": 22.64488,
+            "desc": "Schronisko w Ustrzykach Górnych, na wysokości ok. 650 m n.p.m.",
+            "why": "Klasyczna baza noclegowa w samym sercu wysokich Bieszczadów.",
+            "curiosity": "",
+            "tags": [
+              "🛖 SCHRONISKO",
+              "👨‍👩‍👧 DLA RODZIN"
+            ],
+            "difficulty": "łatwa – dojazd samochodem",
+            "family": "tak",
+            "dog": "",
+            "fee": "",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Schronisko PTTK „Kremenaros”",
+                "url": "https://pl.wikipedia.org/wiki/Schronisko_PTTK_„Kremenaros”"
+              }
+            ]
+          },
+          {
+            "name": "Bacówka PTTK „Jaworzec”",
+            "lat": 49.222,
+            "lon": 22.44198,
+            "desc": "Schronisko PTTK na terenie nieistniejącej wsi Jaworzec w dolinie Wetliny, w gminie Cisna.",
+            "why": "Kameralne miejsce w dolinie Wetliny, blisko rezerwatu Sine Wiry.",
+            "curiosity": "Zbudowana w latach 1974–1976 jako pierwsza bacówka w Bieszczadach.",
+            "tags": [
+              "🛖 SCHRONISKO",
+              "💎 MNIEJ ZNANY",
+              "🏰 HISTORIA"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "",
+            "fee": "",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Bacówka PTTK „Jaworzec”",
+                "url": "https://pl.wikipedia.org/wiki/Bacówka_PTTK_„Jaworzec”"
+              }
+            ]
+          },
+          {
+            "name": "Chata Socjologa na Otrycie",
+            "lat": 49.24142,
+            "lon": 22.63664,
+            "desc": "Drewniana chata studencka dla ok. 30 osób na grzbiecie pasma Otryt, w miejscu przedwojennego przysiółka Otryt Górny.",
+            "why": "Klimatyczna, legendarna chatka z dala od dróg – nocleg w prawdziwie bieszczadzkim stylu.",
+            "curiosity": "",
+            "tags": [
+              "🛖 SCHRONISKO",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "średnia",
+            "family": "dla rodzin z doświadczeniem",
+            "dog": "",
+            "fee": "",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Chata Socjologa",
+                "url": "https://pl.wikipedia.org/wiki/Chata_Socjologa"
+              }
+            ]
+          }
+        ]
+      },
+      "zabytki": {
+        "name": "Zabytki",
+        "icon": "🏛️",
+        "items": [
+          {
+            "name": "Cerkiew św. Michała Archanioła w Smolniku",
+            "lat": 49.20958,
+            "lon": 22.68775,
+            "desc": "Drewniana cerkiew w Smolniku nad Sanem, dawniej prawosławna i greckokatolicka, od 1974 kościół rzymskokatolicki.",
+            "why": "Jedna z najcenniejszych drewnianych świątyń Bieszczadów, wpisana na listę UNESCO jako część „Drewnianych cerkwi w polskim i ukraińskim regionie Karpat”.",
+            "curiosity": "",
+            "tags": [
+              "⭐ TOP",
+              "🏰 ZABYTEK",
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "",
+            "fee": "",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Cerkiew św. Michała Archanioła w Smolniku",
+                "url": "https://pl.wikipedia.org/wiki/Cerkiew_św._Michała_Archanioła_w_Smolniku"
+              }
+            ]
+          },
+          {
+            "name": "Cerkiew św. Michała Archanioła w Turzańsku",
+            "lat": 49.36919,
+            "lon": 22.12889,
+            "desc": "Drewniana parafialna cerkiew prawosławna wzniesiona w latach 1801–1803.",
+            "why": "Wpisana na listę UNESCO; charakterystyczna sylwetka z kopułami na tle zielonych wzgórz.",
+            "curiosity": "",
+            "tags": [
+              "⭐ TOP",
+              "🏰 ZABYTEK",
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "",
+            "fee": "",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Cerkiew św. Michała Archanioła w Turzańsku",
+                "url": "https://pl.wikipedia.org/wiki/Cerkiew_św._Michała_Archanioła_w_Turzańsku"
+              }
+            ]
+          },
+          {
+            "name": "Cerkiew św. Mikołaja w Polanie",
+            "lat": 49.3043,
+            "lon": 22.57247,
+            "desc": "Drewniana, dawna cerkiew greckokatolicka w Polanie, zbudowana w 1790 roku.",
+            "why": "Jedna z najstarszych zachowanych drewnianych cerkwi w Bieszczadach.",
+            "curiosity": "",
+            "tags": [
+              "🏰 ZABYTEK",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "",
+            "fee": "",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Cerkiew św. Mikołaja w Polanie",
+                "url": "https://pl.wikipedia.org/wiki/Cerkiew_św._Mikołaja_w_Polanie"
+              }
+            ]
+          },
+          {
+            "name": "Cerkiew w Łopience",
+            "lat": 49.26306,
+            "lon": 22.36917,
+            "desc": "Cerkiew św. Paraskewy w nieistniejącej wsi Łopienka, u stóp Łopiennika.",
+            "why": "Samotna świątynia w miejscu dawnej wsi – jedno z najbardziej klimatycznych miejsc Bieszczadów.",
+            "curiosity": "",
+            "tags": [
+              "🏰 ZABYTEK",
+              "💎 MNIEJ ZNANY",
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Współrzędne wskazują dawną wieś Łopienka, w której stoi cerkiew.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Łopienka",
+                "url": "https://pl.wikipedia.org/wiki/Łopienka"
+              }
+            ]
+          }
+        ]
+      },
+      "mniej_znane": {
+        "name": "Mniej znane miejsca",
+        "icon": "💎",
+        "items": [
+          {
+            "name": "Caryńskie – dawna wieś",
+            "lat": 49.15083,
+            "lon": 22.64389,
+            "desc": "Do końca II wojny światowej wieś, dziś osada w gminie Lutowiska, u stóp Połoniny Caryńskiej.",
+            "why": "Ślady dawnego osadnictwa w dolinie Caryńskiego – cicha alternatywa dla zatłoczonych szlaków.",
+            "curiosity": "",
+            "tags": [
+              "💎 MNIEJ ZNANY",
+              "🏰 HISTORIA"
+            ],
+            "difficulty": "łatwa",
+            "family": "tak",
+            "dog": "na terenie BdPN obowiązują ograniczenia dotyczące psów – sprawdź aktualny regulamin parku",
+            "fee": "",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Caryńskie",
+                "url": "https://pl.wikipedia.org/wiki/Caryńskie"
+              },
+              {
+                "name": "Bieszczadzki Park Narodowy",
+                "url": "https://www.bdpn.gov.pl/"
+              }
+            ]
+          },
+          {
+            "name": "Krywe nad Sanem",
+            "lat": 49.25222,
+            "lon": 22.5175,
+            "desc": "Miejsce dawnej wsi nad Sanem w gminie Lutowiska.",
+            "why": "Odludne zakole Sanu z pozostałościami dawnej zabudowy – kwintesencja „opuszczonych” Bieszczadów.",
+            "curiosity": "",
+            "tags": [
+              "💎 MNIEJ ZNANY",
+              "🏰 HISTORIA",
+              "🌲 PRZYRODA"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Krywe",
+                "url": "https://pl.wikipedia.org/wiki/Krywe_(Polska)"
+              }
+            ]
+          },
+          {
+            "name": "Tworylne",
+            "lat": 49.26444,
+            "lon": 22.47694,
+            "desc": "Nieistniejąca osada nad Sanem w gminie Czarna; zachowały się ruiny dworskiej stodoły.",
+            "why": "Ślady dawnego dworu w dzikiej dolinie Sanu.",
+            "curiosity": "",
+            "tags": [
+              "💎 MNIEJ ZNANY",
+              "🏰 HISTORIA"
+            ],
+            "difficulty": "łatwa do średniej",
+            "family": "tak",
+            "dog": "na smyczy",
+            "fee": "",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Tworylne",
+                "url": "https://pl.wikipedia.org/wiki/Tworylne"
+              }
+            ]
+          },
+          {
+            "name": "Dydiowa",
+            "lat": 49.17944,
+            "lon": 22.745,
+            "desc": "Nieistniejąca wieś w zakolu Sanu na granicy polsko-ukraińskiej, niedaleko Stuposian.",
+            "why": "Jedno z najbardziej odludnych miejsc w polskich Bieszczadach.",
+            "curiosity": "",
+            "tags": [
+              "💎 MNIEJ ZNANY",
+              "🌲 PRZYRODA"
+            ],
+            "difficulty": "średnia",
+            "family": "dla rodzin z doświadczeniem",
+            "dog": "na smyczy",
+            "fee": "",
+            "parking": "",
+            "parkingLat": "",
+            "parkingLon": "",
+            "walkTime": "",
+            "distance": "",
+            "elevationGain": "",
+            "routeNote": "Teren przygraniczny – stosuj się do oznakowania i komunikatów Straży Granicznej.",
+            "photo": "",
+            "photoPage": "",
+            "photoCredit": "",
+            "photoLicense": "",
+            "sources": [
+              {
+                "name": "Wikipedia – Dydiowa",
+                "url": "https://pl.wikipedia.org/wiki/Dydiowa"
               }
             ]
           }
