@@ -148,3 +148,12 @@ bez ręcznego eksportu i wgrywania plików:
 Token jest przechowywany wyłącznie w przeglądarce, w której go wpisano.
 Plik dane.js zawiera linię DATA_VERSION – panel używa jej, by nie nadpisać
 nowszej wersji zmienionej z innego urządzenia. Nie usuwaj tej linii.
+
+v26 – BIESZCZADY
+----------------
+Dodano pasmo Bieszczady: 37 miejsc w 7 kategoriach (szczyty, jeziora
+i przełomy, punkty widokowe, atrakcje i bazy, schroniska, zabytki, mniej
+znane miejsca). Współrzędne i wysokości zweryfikowano w polskiej Wikipedii
+(linki w „Źródłach” każdej karty). Pola praktyczne (czas, dystans, GPS
+parkingu) wpisano tylko tam, gdzie były pewne. Zdjęcia do uzupełnienia
+przez panel edycji.
