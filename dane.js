@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (26.11.2026, 19:51:29)
+// Baza danych mapy gór Polski – zapis z panelu edycji (26.11.2026, 20:14:20)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795719087339;
+const DATA_VERSION = 1795720457724;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -12804,31 +12804,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Wielka Cisowa Góra",
-            "lat": 50.530007,
-            "lon": 16.693474,
-            "desc": "Szczyt zachodniej części Gór Bardzkich z punktem widokowym na jednej z kulminacji.",
-            "why": "Mniej uczęszczony cel po zachodniej stronie pasma.",
-            "curiosity": "",
-            "tags": [
-              "👀 WIDOKI",
-              "💎 MNIEJ ZNANY"
-            ],
-            "difficulty": "zależna od wybranego wariantu",
-            "family": "zależy od trasy",
-            "dog": "na smyczy; sprawdź lokalne zasady",
-            "fee": "brak opłaty za szlak; parkingi/obiekty mogą być płatne",
-            "parking": "Parking leśny na Przełęczy Wilczej",
-            "parkingLat": 50.543856,
-            "parkingLon": 16.665076,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Na Przełęczy Wilczej znajduje się parking leśny z wiatą. Niebieski szlak prowadzi stąd przez zachodni grzbiet Gór Bardzkich, w tym rejon Wielkiej Cisowej Góry i Kukuły.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "PTTK – Wielka Cisowa Góra",
@@ -12843,7 +12819,25 @@ const DATA = {
                 "url": "https://mapa-turystyczna.pl/route/3re9"
               }
             ],
-            "ele": 585
+            "name": "Wielka Cisowa Góra",
+            "ele": 585,
+            "lat": 50.530007,
+            "lon": 16.693474,
+            "desc": "Szczyt zachodniej części Gór Bardzkich z punktem widokowym na jednej z kulminacji.",
+            "why": "Mniej uczęszczony cel po zachodniej stronie pasma.",
+            "tags": [
+              "👀 WIDOKI",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "zależna od wybranego wariantu",
+            "parking": "Parking leśny na Przełęczy Wilczej",
+            "parkingLat": 50.543856,
+            "parkingLon": 16.665076,
+            "family": "zależy od trasy",
+            "dog": "na smyczy; sprawdź lokalne zasady",
+            "fee": "brak opłaty za szlak; parkingi/obiekty mogą być płatne",
+            "photo": "zdjecia/gory-bardzkie/wielka-cisowa-gora-ledp.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Radosz",
