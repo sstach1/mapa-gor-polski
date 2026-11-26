@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (26.11.2026, 19:45:04)
+// Baza danych mapy gór Polski – zapis z panelu edycji (26.11.2026, 19:46:15)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795718702283;
+const DATA_VERSION = 1795718773437;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -12748,38 +12748,32 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Ostra Góra",
-            "lat": 50.466385,
-            "lon": 16.745853,
-            "desc": "Wyraźny szczyt Grzbietu Wschodniego, dawniej z wieżą i schroniskiem Hubertusbaude.",
-            "why": "Ciekawy historycznie i spokojniejszy cel.",
-            "curiosity": "",
-            "tags": [
-              "💎 MNIEJ ZNANY",
-              "🥾 DLA PIECHURÓW"
-            ],
-            "difficulty": "zależna od wybranego wariantu",
-            "family": "zależy od trasy",
-            "dog": "na smyczy; sprawdź lokalne zasady",
-            "fee": "brak opłaty za szlak; parkingi/obiekty mogą być płatne",
-            "parking": "Parking na Przełęczy Kłodzkiej",
-            "parkingLat": 50.4313739,
-            "parkingLon": 16.7648264,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Czas, dystans i przewyższenie zależą od punktu startu.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "PTTK – Ostra Góra",
                 "url": "https://dolnoslaskie.szlaki.pttk.pl/2079-dolnoslaskie-ostra-gora"
               }
             ],
-            "ele": 752
+            "name": "Ostra Góra",
+            "ele": 752,
+            "lat": 50.466385,
+            "lon": 16.745853,
+            "desc": "Wyraźny szczyt Grzbietu Wschodniego, dawniej z wieżą i schroniskiem Hubertusbaude.",
+            "why": "Ciekawy historycznie i spokojniejszy cel.",
+            "tags": [
+              "💎 MNIEJ ZNANY",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "zależna od wybranego wariantu",
+            "parking": "Parking na Przełęczy Kłodzkiej",
+            "parkingLat": 50.4313739,
+            "parkingLon": 16.7648264,
+            "family": "zależy od trasy",
+            "dog": "na smyczy; sprawdź lokalne zasady",
+            "fee": "brak opłaty za szlak; parkingi/obiekty mogą być płatne",
+            "photo": "zdjecia/gory-bardzkie/ostra-gora-laz0.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Kalwaria / Bardzka Góra",
