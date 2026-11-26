@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (26.11.2026, 19:12:19)
+// Baza danych mapy gór Polski – zapis z panelu edycji (26.11.2026, 19:14:33)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795716737743;
+const DATA_VERSION = 1795716871762;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -3068,31 +3068,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Narożnik",
-            "ele": 849,
-            "lat": 50.4559,
-            "lon": 16.377,
-            "desc": "Wyraźna kulminacja na południowo-wschodniej krawędzi stoliwa. Skalna krawędź zapewnia świetne panoramy i jest częścią bardzo atrakcyjnej pętli przez Białe Skały i Skały Puchacza.",
-            "why": "Dobry cel górskiej wędrówki i punkt pozwalający lepiej poznać główny grzbiet oraz charakter tego pasma.",
-            "curiosity": "",
-            "tags": [
-              "🥾 DLA PIECHURÓW"
-            ],
-            "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "PNGS: w miejscach dopuszczonych pies na smyczy i w kagańcu; przed wyjściem sprawdź aktualne ograniczenia Parku.",
-            "fee": "większość szlaków bez dodatkowej opłaty; Szczeliniec Wielki i Błędne Skały mają odrębny system biletów, a parkingi mogą być płatne",
-            "parking": "Lisia Przełęcz – parking przy Drodze Stu Zakrętów",
-            "parkingLat": 50.4615,
-            "parkingLon": 16.3454,
-            "walkTime": "ok. 10–15 min w jedną stronę",
-            "distance": "krótki odcinek od parkingu",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Bezpłatny, niewielki parking na Lisiej Przełęczy. To praktyczny start na Narożnik, Białe Skały, Skały Puchacza, Skalną Czaszkę, Fort Karola i Łężyckie Skałki.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Park Narodowy Gór Stołowych",
@@ -3102,7 +3078,27 @@ const DATA = {
                 "name": "Lisia Przełęcz – parking i trasy",
                 "url": "https://mynaszlaku.pl/biale-skaly-naroznik-kopa-smierci-i-skaly-puchacza/"
               }
-            ]
+            ],
+            "name": "Narożnik",
+            "ele": 849,
+            "lat": 50.4559,
+            "lon": 16.377,
+            "desc": "Wyraźna kulminacja na południowo-wschodniej krawędzi stoliwa. Skalna krawędź zapewnia świetne panoramy i jest częścią bardzo atrakcyjnej pętli przez Białe Skały i Skały Puchacza.",
+            "why": "Dobry cel górskiej wędrówki i punkt pozwalający lepiej poznać główny grzbiet oraz charakter tego pasma.",
+            "tags": [
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
+            "parking": "Lisia Przełęcz – parking przy Drodze Stu Zakrętów",
+            "parkingLat": 50.4615,
+            "parkingLon": 16.3454,
+            "walkTime": "ok. 10–15 min w jedną stronę",
+            "distance": "krótki odcinek od parkingu",
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "PNGS: w miejscach dopuszczonych pies na smyczy i w kagańcu; przed wyjściem sprawdź aktualne ograniczenia Parku.",
+            "fee": "większość szlaków bez dodatkowej opłaty; Szczeliniec Wielki i Błędne Skały mają odrębny system biletów, a parkingi mogą być płatne",
+            "photo": "zdjecia/gory-stolowe/naroznik-giqk.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Błędne Skały / Bor",
