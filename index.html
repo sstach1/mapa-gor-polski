@@ -213,7 +213,11 @@ select:focus,input:focus{border-color:var(--accent)}
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-<script src="dane.js"></script>
+<script>
+/* dane.js zawsze w najnowszej wersji: przeglądarka nie użyje starej kopii z pamięci
+   (inaczej po zmianach z panelu edycji strona mogła pokazywać dane sprzed kilku minut). */
+document.write('<script src="dane.js?v='+Math.floor(Date.now()/60000)+'"><\/script>');
+</script>
 <script>
 /* Dane znajdują się w osobnym pliku dane.js */
 const DATA_LOADED = (typeof DATA !== 'undefined' && DATA && typeof DATA === 'object');
