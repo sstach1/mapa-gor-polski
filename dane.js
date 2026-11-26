@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (25.11.2026, 20:44:48)
+// Baza danych mapy gór Polski – zapis z panelu edycji (26.11.2026, 19:12:19)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795635886663;
+const DATA_VERSION = 1795716737743;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -3037,31 +3037,7 @@ const DATA = {
             ]
           },
           {
-            "name": "Szczeliniec Mały",
-            "ele": 896,
-            "lat": 50.4888,
-            "lon": 16.3314,
-            "desc": "Mniejszy sąsiad Szczelińca Wielkiego. Jego skalisty masyw jest objęty ochroną i nie prowadzi przez niego znakowana trasa turystyczna; najlepiej oglądać go z okolic Szczelińca Wielkiego i Pasterki.",
-            "why": "Dobry cel górskiej wędrówki i punkt pozwalający lepiej poznać główny grzbiet oraz charakter tego pasma.",
-            "curiosity": "",
-            "tags": [
-              "🥾 DLA PIECHURÓW"
-            ],
-            "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "PNGS: w miejscach dopuszczonych pies na smyczy i w kagańcu; przed wyjściem sprawdź aktualne ograniczenia Parku.",
-            "fee": "większość szlaków bez dodatkowej opłaty; Szczeliniec Wielki i Błędne Skały mają odrębny system biletów, a parkingi mogą być płatne",
-            "parking": "Karłów – parking przy wejściu na Szczeliniec Wielki",
-            "parkingLat": 50.47543,
-            "parkingLon": 16.338516,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Praktyczny start w Karłowie przy głównym wejściu na szlak na Szczeliniec. Samochodem nie jedziemy na szczyt; dalej wyłącznie pieszo po udostępnionych trasach.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Park Narodowy Gór Stołowych",
@@ -3071,7 +3047,25 @@ const DATA = {
                 "name": "Parking w Karłowie – start na Szczeliniec",
                 "url": "https://mynaszlaku.pl/szczeliniec-wielki-z-dzieckiem-opis-szlaku-z-karlowa/"
               }
-            ]
+            ],
+            "name": "Szczeliniec Mały",
+            "ele": 896,
+            "lat": 50.4888,
+            "lon": 16.3314,
+            "desc": "Mniejszy sąsiad Szczelińca Wielkiego. Jego skalisty masyw jest objęty ochroną i nie prowadzi przez niego znakowana trasa turystyczna; najlepiej oglądać go z okolic Szczelińca Wielkiego i Pasterki.",
+            "why": "Dobry cel górskiej wędrówki i punkt pozwalający lepiej poznać główny grzbiet oraz charakter tego pasma.",
+            "tags": [
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "zależna od wybranej trasy; sprawdź długość i przewyższenie przed wyjściem",
+            "parking": "Karłów – parking przy wejściu na Szczeliniec Wielki",
+            "parkingLat": 50.47543,
+            "parkingLon": 16.338516,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "PNGS: w miejscach dopuszczonych pies na smyczy i w kagańcu; przed wyjściem sprawdź aktualne ograniczenia Parku.",
+            "fee": "większość szlaków bez dodatkowej opłaty; Szczeliniec Wielki i Błędne Skały mają odrębny system biletów, a parkingi mogą być płatne",
+            "photo": "zdjecia/gory-stolowe/szczeliniec-maly-dn7e.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Narożnik",
