@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:42:04)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:44:28)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795790521719;
+const DATA_VERSION = 1795790666915;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -13266,38 +13266,32 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Droga Różańcowa",
-            "lat": 50.511725,
-            "lon": 16.749016,
-            "desc": "Zespół kaplic Drogi Różańcowej reprezentujących różne style architektoniczne.",
-            "why": "Unikatowy zespół sakralny na skraju pasma.",
-            "curiosity": "",
-            "tags": [
-              "🏰 HISTORIA",
-              "👨‍👩‍👧 DLA RODZIN"
-            ],
-            "difficulty": "zależna od wybranego wariantu",
-            "family": "zależy od trasy",
-            "dog": "na smyczy; sprawdź lokalne zasady",
-            "fee": "brak opłaty za szlak; parkingi/obiekty mogą być płatne",
-            "parking": "Parking przy Pętli Hrabiowskiej / ul. Lipowa w Bardzie",
-            "parkingLat": 50.5006,
-            "parkingLon": 16.7299,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Czas, dystans i przewyższenie zależą od punktu startu.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "PTTK – Droga Różańcowa",
                 "url": "https://dolnoslaskie.szlaki.pttk.pl/1881-dolnoslaskie-bardo-droga-rozancowa"
               }
             ],
-            "ele": 374
+            "name": "Droga Różańcowa",
+            "ele": 374,
+            "lat": 50.511725,
+            "lon": 16.749016,
+            "desc": "Zespół kaplic Drogi Różańcowej reprezentujących różne style architektoniczne.",
+            "why": "Unikatowy zespół sakralny na skraju pasma.",
+            "tags": [
+              "🏰 HISTORIA",
+              "👨‍👩‍👧 DLA RODZIN"
+            ],
+            "difficulty": "zależna od wybranego wariantu",
+            "parking": "Parking przy Pętli Hrabiowskiej / ul. Lipowa w Bardzie",
+            "parkingLat": 50.5006,
+            "parkingLon": 16.7299,
+            "family": "zależy od trasy",
+            "dog": "na smyczy; sprawdź lokalne zasady",
+            "fee": "brak opłaty za szlak; parkingi/obiekty mogą być płatne",
+            "photo": "zdjecia/gory-bardzkie/droga-rozancowa-e6dx.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "routeNote": "Czas, dystans i przewyższenie zależą od punktu startu.",
