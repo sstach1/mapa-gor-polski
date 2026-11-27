@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:43:49)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:45:00)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795815827000;
+const DATA_VERSION = 1795815900000;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -1480,29 +1480,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Wielki Staw",
-            "ele": 1225,
-            "lat": 50.759,
-            "lon": 15.6925,
-            "desc": "Największe jezioro polodowcowe Karkonoszy. Zajmuje około 8,3 ha, a jego maksymalna głębokość przekracza 24 m. Ze względu na ochronę przyrody sam brzeg nie jest udostępniony turystycznie; jezioro najlepiej oglądać z grzbietowego szlaku.",
-            "why": "Spokojniejszy cel dla osób, które chcą zejść z najbardziej uczęszczanych tras.",
-            "curiosity": "",
-            "tags": [],
-            "difficulty": "zależna od wybranego wariantu dojścia",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
-            "parking": "Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę",
-            "parkingLat": 50.7689,
-            "parkingLon": 15.729,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Karkonoski Park Narodowy",
@@ -1512,7 +1490,20 @@ const DATA = {
                 "name": "Karpacz – parkingi miejskie",
                 "url": "https://www.karpacz.pl/parkingi-miejskie"
               }
-            ]
+            ],
+            "name": "Wielki Staw",
+            "ele": 1225,
+            "lat": 50.759,
+            "lon": 15.6925,
+            "desc": "Największe jezioro polodowcowe Karkonoszy. Zajmuje około 8,3 ha, a jego maksymalna głębokość przekracza 24 m. Ze względu na ochronę przyrody sam brzeg nie jest udostępniony turystycznie; jezioro najlepiej oglądać z grzbietowego szlaku.",
+            "why": "Spokojniejszy cel dla osób, które chcą zejść z najbardziej uczęszczanych tras.",
+            "difficulty": "zależna od wybranego wariantu dojścia",
+            "parking": "Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę",
+            "parkingLat": 50.7689,
+            "parkingLon": 15.729,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno"
           },
           {
             "name": "Śnieżne Stawki",
