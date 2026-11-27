@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:39:11)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:40:32)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795786748817;
+const DATA_VERSION = 1795786830158;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -20894,31 +20894,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Kozi Wierch",
-            "lat": 49.2187,
-            "lon": 20.0442,
-            "desc": "Najwyższy szczyt położony w całości w Polsce, na trasie Orlej Perci.",
-            "why": "Kluczowy szczyt Orlej Perci.",
-            "curiosity": "",
-            "tags": [
-              "⭐ TOP",
-              "👀 WIDOKI"
-            ],
-            "difficulty": "trudna; eksponowany teren wysokogórski",
-            "family": "zależy od trasy",
-            "dog": "TPN: co do zasady nie wprowadza się psów na szlaki; sprawdź wyjątki i aktualny regulamin",
-            "fee": "TPN: bilet wstępu – w 2026 r. 11 zł normalny / 5,50 zł ulgowy; wybrane parkingi i obiekty osobno",
-            "parking": "Brzeziny – płatny parking przy wejściu do TPN",
-            "parkingLat": 49.287315,
-            "parkingLon": 20.035684,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Legalny punkt startowy przy wejściu do TPN w Brzezinach. Dalej idź wyłącznie znakowanymi szlakami TPN; dla wysokogórskich celów (Świnica, Kozi Wierch, Kościelec) nie kieruj się ślepo trasą pieszą wyznaczoną przez mapę samochodową.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Brzeziny – parking i trasa przez Murowaniec",
@@ -20929,7 +20905,25 @@ const DATA = {
                 "url": "https://tpn.gov.pl/"
               }
             ],
-            "ele": 2291
+            "name": "Kozi Wierch",
+            "ele": 2291,
+            "lat": 49.2187,
+            "lon": 20.0442,
+            "desc": "Najwyższy szczyt położony w całości w Polsce, na trasie Orlej Perci.",
+            "why": "Kluczowy szczyt Orlej Perci.",
+            "tags": [
+              "⭐ TOP",
+              "👀 WIDOKI"
+            ],
+            "difficulty": "trudna; eksponowany teren wysokogórski",
+            "parking": "Brzeziny – płatny parking przy wejściu do TPN",
+            "parkingLat": 49.287315,
+            "parkingLon": 20.035684,
+            "family": "zależy od trasy",
+            "dog": "TPN: co do zasady nie wprowadza się psów na szlaki; sprawdź wyjątki i aktualny regulamin",
+            "fee": "TPN: bilet wstępu – w 2026 r. 11 zł normalny / 5,50 zł ulgowy; wybrane parkingi i obiekty osobno",
+            "photo": "zdjecia/tatry/kozi-wierch-3zji.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Kościelec",
