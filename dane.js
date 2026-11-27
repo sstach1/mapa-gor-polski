@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:33:54)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:41:10)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795815232906;
+const DATA_VERSION = 1795815668005;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -891,32 +891,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Karpatka",
-            "ele": 722,
-            "lat": 50.777918,
-            "lon": 15.747759,
-            "desc": "Granitowe wzgórze położone niemal w centrum Karpacza. Ze skałek otwierają się widoki na miasto i główny grzbiet Karkonoszy – od Skalnego Stołu po Smogornię, Słonecznik i Pielgrzymy.",
-            "why": "Miejsce warte odwiedzenia przede wszystkim dla panoramy i możliwości lepszego poznania układu okolicznych pasm.",
-            "curiosity": "",
-            "tags": [
-              "WIDOKI",
-              "📸 FOTOGENICZNE"
-            ],
-            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
-            "parking": "Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę",
-            "parkingLat": 50.7689,
-            "parkingLon": 15.729,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Karkonoski Park Narodowy",
@@ -926,7 +901,26 @@ const DATA = {
                 "name": "Karpacz – parkingi miejskie",
                 "url": "https://www.karpacz.pl/parkingi-miejskie"
               }
-            ]
+            ],
+            "name": "Karpatka",
+            "ele": 722,
+            "lat": 50.777918,
+            "lon": 15.747759,
+            "desc": "Granitowe wzgórze położone niemal w centrum Karpacza. Ze skałek otwierają się widoki na miasto i główny grzbiet Karkonoszy – od Skalnego Stołu po Smogornię, Słonecznik i Pielgrzymy.",
+            "why": "Miejsce warte odwiedzenia przede wszystkim dla panoramy i możliwości lepszego poznania układu okolicznych pasm.",
+            "tags": [
+              "WIDOKI",
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
+            "parking": "Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę",
+            "parkingLat": 50.7689,
+            "parkingLon": 15.729,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/karpatka-a2jy.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
