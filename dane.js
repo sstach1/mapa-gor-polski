@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:26:41)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:27:54)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795785999334;
+const DATA_VERSION = 1795786072808;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -21492,31 +21492,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Smreczyński Staw",
-            "ele": 1226,
-            "lat": 49.2297,
-            "lon": 19.8583,
-            "desc": "Leśne jezioro położone powyżej Hali Ornak w Tatrach Zachodnich.",
-            "why": "Spokojny cel dodatkowego spaceru od schroniska na Hali Ornak.",
-            "curiosity": "",
-            "tags": [
-              "📸 FOTOGENICZNE"
-            ],
-            "difficulty": "łatwa/średnia",
-            "family": "tak",
-            "dog": "TPN: obowiązuje zakaz wprowadzania psów poza wskazanymi wyjątkami",
-            "fee": "TPN: bilet wstępu",
-            "parking": "Kiry – parking przy wejściu do Doliny Kościeliskiej",
-            "parkingLat": 49.2764063,
-            "parkingLon": 19.8668349,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Kiry – parking przy wejściu do Doliny Kościeliskiej. Przycisk 🚗 prowadzi do parkingu; dalej poruszaj się wyłącznie po udostępnionych szlakach i sprawdź aktualne komunikaty TPN.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Tatrzański Park Narodowy",
@@ -21526,7 +21502,25 @@ const DATA = {
                 "name": "Parking Kiry – wejście do Doliny Kościeliskiej",
                 "url": "https://www.turysta.org/ile-kosztuje-parking-przy-tatrzanskim-parku-narodowym-tpn/"
               }
-            ]
+            ],
+            "name": "Smreczyński Staw",
+            "ele": 1226,
+            "lat": 49.2297,
+            "lon": 19.8583,
+            "desc": "Leśne jezioro położone powyżej Hali Ornak w Tatrach Zachodnich.",
+            "why": "Spokojny cel dodatkowego spaceru od schroniska na Hali Ornak.",
+            "tags": [
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "łatwa/średnia",
+            "parking": "Kiry – parking przy wejściu do Doliny Kościeliskiej",
+            "parkingLat": 49.2764063,
+            "parkingLon": 19.8668349,
+            "family": "tak",
+            "dog": "TPN: obowiązuje zakaz wprowadzania psów poza wskazanymi wyjątkami",
+            "fee": "TPN: bilet wstępu",
+            "photo": "zdjecia/tatry/smreczynski-staw-nrjr.jpg",
+            "photoCredit": "Zdjęcie własne"
           }
         ]
       },
