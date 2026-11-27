@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:16:28)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:32:26)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795788986663;
+const DATA_VERSION = 1795789944079;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -12963,38 +12963,32 @@ const DATA = {
         "icon": "👀",
         "items": [
           {
-            "name": "Wieża widokowa na Kłodzkiej Górze",
-            "lat": 50.451972,
-            "lon": 16.7534,
-            "desc": "Wieża o wysokości 34,5 m, otwarta w 2020 r.",
-            "why": "Szeroka panorama wielu pasm Sudetów.",
-            "curiosity": "",
-            "tags": [
-              "⭐ TOP",
-              "👀 WIDOKI"
-            ],
-            "difficulty": "zależna od wybranego wariantu",
-            "family": "zależy od trasy",
-            "dog": "na smyczy; sprawdź lokalne zasady",
-            "fee": "bezpłatna",
-            "parking": "Parking na Przełęczy Kłodzkiej",
-            "parkingLat": 50.4313739,
-            "parkingLon": 16.7648264,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Czas, dystans i przewyższenie zależą od punktu startu.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "PTTK – Kłodzka Góra",
                 "url": "https://dolnoslaskie.szlaki.pttk.pl/2080-dolnoslaskie-klodzka-gora-wieza-widokowa"
               }
             ],
-            "ele": 754
+            "name": "Wieża widokowa na Kłodzkiej Górze",
+            "ele": 754,
+            "lat": 50.451972,
+            "lon": 16.7534,
+            "desc": "Wieża o wysokości 34,5 m, otwarta w 2020 r.",
+            "why": "Szeroka panorama wielu pasm Sudetów.",
+            "tags": [
+              "⭐ TOP",
+              "👀 WIDOKI"
+            ],
+            "difficulty": "zależna od wybranego wariantu",
+            "parking": "Parking na Przełęczy Kłodzkiej",
+            "parkingLat": 50.4313739,
+            "parkingLon": 16.7648264,
+            "family": "zależy od trasy",
+            "dog": "na smyczy; sprawdź lokalne zasady",
+            "fee": "bezpłatna",
+            "photo": "zdjecia/gory-bardzkie/wieza-widokowa-na-klodzkiej-gorze-ypku.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Obryw Skalny",
