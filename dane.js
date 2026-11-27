@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:03:46)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:04:52)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795784624020;
+const DATA_VERSION = 1795784690643;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -21398,7 +21398,7 @@ const DATA = {
             "family": "zależy od wariantu",
             "dog": "TPN: obowiązuje zakaz wprowadzania psów poza wskazanymi wyjątkami",
             "fee": "TPN: bilet wstępu",
-            "photo": "zdjecia/tatry/wielki-staw-polski-qvt2.jpg",
+            "photo": "zdjecia/tatry/wielki-staw-polski-u3sp.jpg",
             "photoCredit": "Zdjęcie własne"
           },
           {
