@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:45:18)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:47:13)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795815916733;
+const DATA_VERSION = 1795816031657;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -1578,29 +1578,7 @@ const DATA = {
             ]
           },
           {
-            "name": "Czarny Kocioł Jagniątkowski",
-            "ele": 1325,
-            "lat": 50.7792,
-            "lon": 15.6298,
-            "desc": "Mniej uczęszczany kocioł polodowcowy na północnych stokach głównego grzbietu. Otoczony stromymi zboczami i skalnymi ścianami tworzy surowy, wysokogórski krajobraz.",
-            "why": "Spokojniejszy cel dla osób, które chcą zejść z najbardziej uczęszczanych tras.",
-            "curiosity": "",
-            "tags": [],
-            "difficulty": "zależna od wybranego wariantu dojścia",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
-            "parking": "Parking w Jagniątkowie przy ul. Karkonoskiej – start na szlaki KPN",
-            "parkingLat": 50.8278333333,
-            "parkingLon": 15.624,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking w Jagniątkowie przy ul. Karkonoskiej – start na szlaki KPN. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Karkonoski Park Narodowy",
@@ -1610,7 +1588,22 @@ const DATA = {
                 "name": "Jagniątków – parking i dojście w Karkonosze",
                 "url": "https://gorskiewyrypy.pl/czarny-kociol-jagniatkowski/"
               }
-            ]
+            ],
+            "name": "Czarny Kocioł Jagniątkowski",
+            "ele": 1325,
+            "lat": 50.7792,
+            "lon": 15.6298,
+            "desc": "Mniej uczęszczany kocioł polodowcowy na północnych stokach głównego grzbietu. Otoczony stromymi zboczami i skalnymi ścianami tworzy surowy, wysokogórski krajobraz.",
+            "why": "Spokojniejszy cel dla osób, które chcą zejść z najbardziej uczęszczanych tras.",
+            "difficulty": "zależna od wybranego wariantu dojścia",
+            "parking": "Parking w Jagniątkowie przy ul. Karkonoskiej – start na szlaki KPN",
+            "parkingLat": 50.8278333333,
+            "parkingLon": 15.624,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/czarny-kociol-jagniatkowski-hvu6.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Kocioł Łomniczki",
