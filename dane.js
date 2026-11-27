@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:34:58)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:35:48)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795790096455;
+const DATA_VERSION = 1795790146448;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -13210,38 +13210,32 @@ const DATA = {
             ]
           },
           {
-            "name": "Obryw Skalny",
-            "lat": 50.501305,
-            "lon": 16.74107,
-            "desc": "Największe osuwisko w Sudetach, powstałe w 1598 r., dziś z urządzonym punktem widokowym.",
-            "why": "Jedna z najważniejszych atrakcji przyrodniczych Barda.",
-            "curiosity": "",
-            "tags": [
-              "⭐ TOP",
-              "👀 WIDOKI"
-            ],
-            "difficulty": "zależna od wybranego wariantu",
-            "family": "zależy od trasy",
-            "dog": "na smyczy; sprawdź lokalne zasady",
-            "fee": "brak opłaty za szlak; parkingi/obiekty mogą być płatne",
-            "parking": "Parking turystyczny przy ul. Skalnej w Bardzie",
-            "parkingLat": 50.5034,
-            "parkingLon": 16.7426,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Czas, dystans i przewyższenie zależą od punktu startu.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "PTTK – Obryw Skalny",
                 "url": "https://dolnoslaskie.szlaki.pttk.pl/1912-dolnoslaskie-bardo-obryw-skalny"
               }
             ],
-            "ele": 404
+            "name": "Obryw Skalny",
+            "ele": 404,
+            "lat": 50.501305,
+            "lon": 16.74107,
+            "desc": "Największe osuwisko w Sudetach, powstałe w 1598 r., dziś z urządzonym punktem widokowym.",
+            "why": "Jedna z najważniejszych atrakcji przyrodniczych Barda.",
+            "tags": [
+              "⭐ TOP",
+              "👀 WIDOKI"
+            ],
+            "difficulty": "zależna od wybranego wariantu",
+            "parking": "Parking turystyczny przy ul. Skalnej w Bardzie",
+            "parkingLat": 50.5034,
+            "parkingLon": 16.7426,
+            "family": "zależy od trasy",
+            "dog": "na smyczy; sprawdź lokalne zasady",
+            "fee": "brak opłaty za szlak; parkingi/obiekty mogą być płatne",
+            "photo": "zdjecia/gory-bardzkie/obryw-skalny-31ys.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Droga Krzyżowa na Kalwarię",
