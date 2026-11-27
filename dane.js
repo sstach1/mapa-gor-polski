@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:24:42)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:28:56)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795814680549;
+const DATA_VERSION = 1795814934139;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -827,32 +827,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Złoty Widok",
-            "ele": 599,
-            "lat": 50.832548,
-            "lon": 15.552921,
-            "desc": "Urządzony punkt widokowy w Szklarskiej Porębie na skalnym progu zawieszonym nad doliną Kamiennej. Z tarasu rozciąga się szeroka panorama Karkonoszy. Miejsce jest łatwo dostępne i dobrze nadaje się na krótki spacer.",
-            "why": "Miejsce warte odwiedzenia przede wszystkim dla panoramy i możliwości lepszego poznania układu okolicznych pasm.",
-            "curiosity": "",
-            "tags": [
-              "WIDOKI",
-              "📸 FOTOGENICZNE"
-            ],
-            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
-            "parking": "Parking przy DK3 – Wodospad Szklarki",
-            "parkingLat": 50.8318,
-            "parkingLon": 15.5572,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking przy DK3 – Wodospad Szklarki. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Karkonoski Park Narodowy",
@@ -862,7 +837,26 @@ const DATA = {
                 "name": "KPN – dojście do Wodospadu Szklarki",
                 "url": "https://kpn.gov.pl/uploads/files/668e3c5686dd5331420826.pdf"
               }
-            ]
+            ],
+            "name": "Złoty Widok",
+            "ele": 599,
+            "lat": 50.832548,
+            "lon": 15.552921,
+            "desc": "Urządzony punkt widokowy w Szklarskiej Porębie na skalnym progu zawieszonym nad doliną Kamiennej. Z tarasu rozciąga się szeroka panorama Karkonoszy. Miejsce jest łatwo dostępne i dobrze nadaje się na krótki spacer.",
+            "why": "Miejsce warte odwiedzenia przede wszystkim dla panoramy i możliwości lepszego poznania układu okolicznych pasm.",
+            "tags": [
+              "WIDOKI",
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
+            "parking": "Parking przy DK3 – Wodospad Szklarki",
+            "parkingLat": 50.8318,
+            "parkingLon": 15.5572,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/zloty-widok-uan9.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Krucze Skały – Szklarska Poręba",
