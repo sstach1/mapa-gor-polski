@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:53:27)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:55:06)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795816405215;
+const DATA_VERSION = 1795816504525;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -1779,29 +1779,7 @@ const DATA = {
             ]
           },
           {
-            "name": "RTON Śnieżne Kotły – dawny hotel górski",
-            "ele": 1490,
-            "lat": 50.7766,
-            "lon": 15.5588,
-            "desc": "Monumentalny budynek nad Śnieżnymi Kotłami powstał pod koniec XIX wieku jako hotel górski. Po II wojnie światowej został przekształcony w radiowo-telewizyjny ośrodek nadawczy.",
-            "why": "Łączy górską wycieczkę z historią i dziedzictwem kulturowym regionu.",
-            "curiosity": "",
-            "tags": [],
-            "difficulty": "zależna od wybranego wariantu dojścia",
-            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
-            "parking": "Parking przy dolnej stacji kolei na Szrenicę – ul. Turystyczna 25B, Szklarska Poręba",
-            "parkingLat": 50.819519481,
-            "parkingLon": 15.518011471,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking przy dolnej stacji kolei na Szrenicę – ul. Turystyczna 25B, Szklarska Poręba. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Karkonoski Park Narodowy",
@@ -1811,7 +1789,22 @@ const DATA = {
                 "name": "Szklarska Poręba – Turystyczna 25B",
                 "url": "https://turystyczna.szklarskaporeba.pl/2932-szklarskaporeba-skipoint"
               }
-            ]
+            ],
+            "name": "RTON Śnieżne Kotły – dawny hotel górski",
+            "ele": 1490,
+            "lat": 50.7766,
+            "lon": 15.5588,
+            "desc": "Monumentalny budynek nad Śnieżnymi Kotłami powstał pod koniec XIX wieku jako hotel górski. Po II wojnie światowej został przekształcony w radiowo-telewizyjny ośrodek nadawczy.",
+            "why": "Łączy górską wycieczkę z historią i dziedzictwem kulturowym regionu.",
+            "difficulty": "zależna od wybranego wariantu dojścia",
+            "parking": "Parking przy dolnej stacji kolei na Szrenicę – ul. Turystyczna 25B, Szklarska Poręba",
+            "parkingLat": 50.819519481,
+            "parkingLon": 15.518011471,
+            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/rton-sniezne-kotly-dawny-hotel-gorski-s0j2.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Polana – relikty Schlingelbaude",
