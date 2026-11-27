@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:49:38)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:53:55)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795787375961;
+const DATA_VERSION = 1795787633965;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -20958,31 +20958,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Giewont",
-            "lat": 49.2503,
-            "lon": 19.934,
-            "desc": "Symbol Zakopanego, zwieńczony metalowym krzyżem.",
-            "why": "Najbardziej rozpoznawalny tatrzański szczyt.",
-            "curiosity": "",
-            "tags": [
-              "⭐ TOP",
-              "👀 WIDOKI"
-            ],
-            "difficulty": "średnia/trudna; końcowy odcinek z łańcuchami, duże tłumy",
-            "family": "zależy od trasy",
-            "dog": "TPN: co do zasady nie wprowadza się psów na szlaki; sprawdź wyjątki i aktualny regulamin",
-            "fee": "TPN: bilet wstępu – w 2026 r. 11 zł normalny / 5,50 zł ulgowy; wybrane parkingi i obiekty osobno",
-            "parking": "Parking przy wejściu do Doliny Małej Łąki",
-            "parkingLat": 49.2779326,
-            "parkingLon": 19.9046021,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking przy wejściu do Doliny Małej Łąki. Przycisk 🚗 prowadzi do parkingu; dalej poruszaj się wyłącznie po udostępnionych szlakach i sprawdź aktualne komunikaty TPN.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Tatrzański Park Narodowy",
@@ -20997,7 +20973,25 @@ const DATA = {
                 "url": "https://www.turysta.org/ile-kosztuje-parking-przy-tatrzanskim-parku-narodowym-tpn/"
               }
             ],
-            "ele": 1894
+            "name": "Giewont",
+            "ele": 1894,
+            "lat": 49.2503,
+            "lon": 19.934,
+            "desc": "Symbol Zakopanego, zwieńczony metalowym krzyżem.",
+            "why": "Najbardziej rozpoznawalny tatrzański szczyt.",
+            "tags": [
+              "⭐ TOP",
+              "👀 WIDOKI"
+            ],
+            "difficulty": "średnia/trudna; końcowy odcinek z łańcuchami, duże tłumy",
+            "parking": "Parking przy wejściu do Doliny Małej Łąki",
+            "parkingLat": 49.2779326,
+            "parkingLon": 19.9046021,
+            "family": "zależy od trasy",
+            "dog": "TPN: co do zasady nie wprowadza się psów na szlaki; sprawdź wyjątki i aktualny regulamin",
+            "fee": "TPN: bilet wstępu – w 2026 r. 11 zł normalny / 5,50 zł ulgowy; wybrane parkingi i obiekty osobno",
+            "photo": "zdjecia/tatry/giewont-l6af.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Kasprowy Wierch",
