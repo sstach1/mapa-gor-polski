@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:55:44)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:58:49)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795787742901;
+const DATA_VERSION = 1795787927863;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -21532,31 +21532,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Schronisko PTTK w Dolinie Pięciu Stawów",
-            "lat": 49.2136,
-            "lon": 20.0485,
-            "desc": "Najwyżej położone schronisko w Polsce.",
-            "why": "Wyjątkowa baza w sercu Tatr Wysokich.",
-            "curiosity": "",
-            "tags": [
-              "⭐ TOP",
-              "🛖 SCHRONISKO"
-            ],
-            "difficulty": "zależna od wariantu i warunków",
-            "family": "zależy od trasy",
-            "dog": "TPN: co do zasady nie wprowadza się psów na szlaki; sprawdź wyjątki i aktualny regulamin",
-            "fee": "TPN: bilet wstępu – w 2026 r. 11 zł normalny / 5,50 zł ulgowy; wybrane parkingi i obiekty osobno",
-            "parking": "Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka",
-            "parkingLat": 49.2556,
-            "parkingLon": 20.1027,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka. Przycisk 🚗 prowadzi do parkingu; dalej poruszaj się wyłącznie po udostępnionych szlakach i sprawdź aktualne komunikaty TPN.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Tatrzański Park Narodowy",
@@ -21567,7 +21543,25 @@ const DATA = {
                 "url": "https://tpn.gov.pl/uploads/files/69df711394080223191544.pdf"
               }
             ],
-            "ele": 1671
+            "name": "Schronisko PTTK w Dolinie Pięciu Stawów",
+            "ele": 1671,
+            "lat": 49.2136,
+            "lon": 20.0485,
+            "desc": "Najwyżej położone schronisko w Polsce.",
+            "why": "Wyjątkowa baza w sercu Tatr Wysokich.",
+            "tags": [
+              "⭐ TOP",
+              "🛖 SCHRONISKO"
+            ],
+            "difficulty": "zależna od wariantu i warunków",
+            "parking": "Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka",
+            "parkingLat": 49.2556,
+            "parkingLon": 20.1027,
+            "family": "zależy od trasy",
+            "dog": "TPN: co do zasady nie wprowadza się psów na szlaki; sprawdź wyjątki i aktualny regulamin",
+            "fee": "TPN: bilet wstępu – w 2026 r. 11 zł normalny / 5,50 zł ulgowy; wybrane parkingi i obiekty osobno",
+            "photo": "zdjecia/tatry/schronisko-pttk-w-dolinie-pieciu-stawow-rj1h.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Schronisko PTTK Murowaniec",
