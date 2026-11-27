@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:30:18)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:33:54)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795815016354;
+const DATA_VERSION = 1795815232906;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -929,32 +929,7 @@ const DATA = {
             ]
           },
           {
-            "name": "Krucze Skały – Karpacz",
-            "ele": 618,
-            "lat": 50.770206,
-            "lon": 15.766796,
-            "desc": "Granitognejsowe filary skalne w dolinie Płomnicy, sięgające około 25 m wysokości. Oprócz walorów geologicznych i wspinaczkowych oferują ciekawy widok na Karkonosze oraz otoczenie Karpacza.",
-            "why": "Miejsce warte odwiedzenia przede wszystkim dla panoramy i możliwości lepszego poznania układu okolicznych pasm.",
-            "curiosity": "",
-            "tags": [
-              "WIDOKI",
-              "📸 FOTOGENICZNE"
-            ],
-            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
-            "parking": "Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę",
-            "parkingLat": 50.7689,
-            "parkingLon": 15.729,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Karkonoski Park Narodowy",
@@ -964,7 +939,26 @@ const DATA = {
                 "name": "Karpacz – parkingi miejskie",
                 "url": "https://www.karpacz.pl/parkingi-miejskie"
               }
-            ]
+            ],
+            "name": "Krucze Skały – Karpacz",
+            "ele": 618,
+            "lat": 50.770206,
+            "lon": 15.766796,
+            "desc": "Granitognejsowe filary skalne w dolinie Płomnicy, sięgające około 25 m wysokości. Oprócz walorów geologicznych i wspinaczkowych oferują ciekawy widok na Karkonosze oraz otoczenie Karpacza.",
+            "why": "Miejsce warte odwiedzenia przede wszystkim dla panoramy i możliwości lepszego poznania układu okolicznych pasm.",
+            "tags": [
+              "WIDOKI",
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
+            "parking": "Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę",
+            "parkingLat": 50.7689,
+            "parkingLon": 15.729,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/krucze-skaly-karpacz-0rao.jpg",
+            "photoCredit": "Zdjęcie własne"
           }
         ]
       },
