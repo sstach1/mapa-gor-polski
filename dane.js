@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:04:52)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:25:17)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795784690643;
+const DATA_VERSION = 1795785915423;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -21429,32 +21429,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Czarny Staw Gąsienicowy",
-            "ele": 1624,
-            "lat": 49.2298,
-            "lon": 20.0147,
-            "desc": "Najbardziej znany staw Doliny Gąsienicowej, położony u stóp Kościelca.",
-            "why": "Jeden z najpiękniejszych klasycznych widoków polskich Tatr.",
-            "curiosity": "",
-            "tags": [
-              "⭐ TOP",
-              "📸 FOTOGENICZNE"
-            ],
-            "difficulty": "średnia",
-            "family": "dla aktywnych rodzin",
-            "dog": "TPN: obowiązuje zakaz wprowadzania psów poza wskazanymi wyjątkami",
-            "fee": "TPN: bilet wstępu",
-            "parking": "Brzeziny – płatny parking przy wejściu do TPN",
-            "parkingLat": 49.287315,
-            "parkingLon": 20.035684,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Legalny punkt startowy przy wejściu do TPN w Brzezinach. Dalej idź wyłącznie znakowanymi szlakami TPN; dla wysokogórskich celów (Świnica, Kozi Wierch, Kościelec) nie kieruj się ślepo trasą pieszą wyznaczoną przez mapę samochodową.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Brzeziny – parking i trasa przez Murowaniec",
@@ -21464,7 +21439,26 @@ const DATA = {
                 "name": "Tatrzański Park Narodowy",
                 "url": "https://tpn.gov.pl/"
               }
-            ]
+            ],
+            "name": "Czarny Staw Gąsienicowy",
+            "ele": 1624,
+            "lat": 49.2298,
+            "lon": 20.0147,
+            "desc": "Najbardziej znany staw Doliny Gąsienicowej, położony u stóp Kościelca.",
+            "why": "Jeden z najpiękniejszych klasycznych widoków polskich Tatr.",
+            "tags": [
+              "⭐ TOP",
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "średnia",
+            "parking": "Brzeziny – płatny parking przy wejściu do TPN",
+            "parkingLat": 49.287315,
+            "parkingLon": 20.035684,
+            "family": "dla aktywnych rodzin",
+            "dog": "TPN: obowiązuje zakaz wprowadzania psów poza wskazanymi wyjątkami",
+            "fee": "TPN: bilet wstępu",
+            "photo": "zdjecia/tatry/czarny-staw-gasienicowy-ke1v.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Zielony Staw Gąsienicowy",
