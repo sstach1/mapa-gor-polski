@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:49:28)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:53:27)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795816166686;
+const DATA_VERSION = 1795816405215;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -1647,31 +1647,7 @@ const DATA = {
         "icon": "🏛️",
         "items": [
           {
-            "name": "Świątynia Wang",
-            "ele": 885,
-            "lat": 50.7784,
-            "lon": 15.7235,
-            "desc": "Unikatowy drewniany kościół pochodzący z Norwegii, wzniesiony pierwotnie na przełomie XII i XIII wieku i przeniesiony do Karpacza w XIX wieku. Jest jednym z najbardziej rozpoznawalnych zabytków Karkonoszy.",
-            "why": "Łączy górską wycieczkę z historią i dziedzictwem kulturowym regionu.",
-            "curiosity": "",
-            "tags": [
-              "TOP"
-            ],
-            "difficulty": "zależna od wybranego dojścia; zwykle łatwa przy atrakcjach dostępnych z miejscowości",
-            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
-            "parking": "Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę",
-            "parkingLat": 50.7689,
-            "parkingLon": 15.729,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Karkonoski Park Narodowy",
@@ -1681,7 +1657,25 @@ const DATA = {
                 "name": "Karpacz – parkingi miejskie",
                 "url": "https://www.karpacz.pl/parkingi-miejskie"
               }
-            ]
+            ],
+            "name": "Świątynia Wang",
+            "ele": 885,
+            "lat": 50.7784,
+            "lon": 15.7235,
+            "desc": "Unikatowy drewniany kościół pochodzący z Norwegii, wzniesiony pierwotnie na przełomie XII i XIII wieku i przeniesiony do Karpacza w XIX wieku. Jest jednym z najbardziej rozpoznawalnych zabytków Karkonoszy.",
+            "why": "Łączy górską wycieczkę z historią i dziedzictwem kulturowym regionu.",
+            "tags": [
+              "TOP"
+            ],
+            "difficulty": "zależna od wybranego dojścia; zwykle łatwa przy atrakcjach dostępnych z miejscowości",
+            "parking": "Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę",
+            "parkingLat": 50.7689,
+            "parkingLon": 15.729,
+            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/swiatynia-wang-pwb7.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking Centralny pod Chojnikiem – Sobieszów, ul. Bronisława Czecha. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
