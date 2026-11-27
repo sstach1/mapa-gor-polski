@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:55:06)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:57:00)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795816504525;
+const DATA_VERSION = 1795816618427;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -1744,29 +1744,7 @@ const DATA = {
             ]
           },
           {
-            "name": "Obserwatorium Meteorologiczne na Śnieżce",
-            "ele": 1602,
-            "lat": 50.736,
-            "lon": 15.7398,
-            "desc": "Charakterystyczny zespół trzech dysków, nazywanych „talerzami”, wzniesiony w latach 1966–1974. Obiekt jest jednym z najbardziej rozpoznawalnych przykładów powojennej architektury w polskich górach.",
-            "why": "Łączy górską wycieczkę z historią i dziedzictwem kulturowym regionu.",
-            "curiosity": "",
-            "tags": [],
-            "difficulty": "zależna od wybranego wariantu dojścia",
-            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
-            "parking": "Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę",
-            "parkingLat": 50.7689,
-            "parkingLon": 15.729,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Karkonoski Park Narodowy",
@@ -1776,7 +1754,22 @@ const DATA = {
                 "name": "Karpacz – parkingi miejskie",
                 "url": "https://www.karpacz.pl/parkingi-miejskie"
               }
-            ]
+            ],
+            "name": "Obserwatorium Meteorologiczne na Śnieżce",
+            "ele": 1602,
+            "lat": 50.736,
+            "lon": 15.7398,
+            "desc": "Charakterystyczny zespół trzech dysków, nazywanych „talerzami”, wzniesiony w latach 1966–1974. Obiekt jest jednym z najbardziej rozpoznawalnych przykładów powojennej architektury w polskich górach.",
+            "why": "Łączy górską wycieczkę z historią i dziedzictwem kulturowym regionu.",
+            "difficulty": "zależna od wybranego wariantu dojścia",
+            "parking": "Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę",
+            "parkingLat": 50.7689,
+            "parkingLon": 15.729,
+            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/obserwatorium-meteorologiczne-na-sniezce-ufm3.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking przy dolnej stacji kolei na Szrenicę – ul. Turystyczna 25B, Szklarska Poręba. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
