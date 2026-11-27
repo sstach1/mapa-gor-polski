@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:25:17)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:26:41)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795785915423;
+const DATA_VERSION = 1795785999334;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -21461,31 +21461,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Zielony Staw Gąsienicowy",
-            "ele": 1672,
-            "lat": 49.2284,
-            "lon": 19.9964,
-            "desc": "Jeden z największych stawów zachodniej części Doliny Gąsienicowej.",
-            "why": "Spokojniejsza alternatywa dla Czarnego Stawu Gąsienicowego.",
-            "curiosity": "",
-            "tags": [
-              "📸 FOTOGENICZNE"
-            ],
-            "difficulty": "średnia",
-            "family": "dla aktywnych rodzin",
-            "dog": "TPN: obowiązuje zakaz wprowadzania psów poza wskazanymi wyjątkami",
-            "fee": "TPN: bilet wstępu",
-            "parking": "Brzeziny – płatny parking przy wejściu do TPN",
-            "parkingLat": 49.287315,
-            "parkingLon": 20.035684,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Legalny punkt startowy przy wejściu do TPN w Brzezinach. Dalej idź wyłącznie znakowanymi szlakami TPN; dla wysokogórskich celów (Świnica, Kozi Wierch, Kościelec) nie kieruj się ślepo trasą pieszą wyznaczoną przez mapę samochodową.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Brzeziny – parking i trasa przez Murowaniec",
@@ -21495,7 +21471,25 @@ const DATA = {
                 "name": "Tatrzański Park Narodowy",
                 "url": "https://tpn.gov.pl/"
               }
-            ]
+            ],
+            "name": "Zielony Staw Gąsienicowy",
+            "ele": 1672,
+            "lat": 49.2284,
+            "lon": 19.9964,
+            "desc": "Jeden z największych stawów zachodniej części Doliny Gąsienicowej.",
+            "why": "Spokojniejsza alternatywa dla Czarnego Stawu Gąsienicowego.",
+            "tags": [
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "średnia",
+            "parking": "Brzeziny – płatny parking przy wejściu do TPN",
+            "parkingLat": 49.287315,
+            "parkingLon": 20.035684,
+            "family": "dla aktywnych rodzin",
+            "dog": "TPN: obowiązuje zakaz wprowadzania psów poza wskazanymi wyjątkami",
+            "fee": "TPN: bilet wstępu",
+            "photo": "zdjecia/tatry/zielony-staw-gasienicowy-m6ub.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Smreczyński Staw",
