@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:02:54)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:07:22)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795788172426;
+const DATA_VERSION = 1795788440772;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -1324,29 +1324,7 @@ const DATA = {
             ]
           },
           {
-            "name": "Dom Śląski",
-            "ele": 1400,
-            "lat": 50.7399,
-            "lon": 15.7286,
-            "desc": "Schronisko położone na Równi pod Śnieżką, tuż przy granicy polsko-czeskiej. Jest jednym z najważniejszych węzłów szlaków prowadzących na Śnieżkę.",
-            "why": "Dobry punkt odpoczynku i naturalny etap dłuższej górskiej wycieczki.",
-            "curiosity": "",
-            "tags": [],
-            "difficulty": "zależna od wybranego szlaku dojściowego",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
-            "parking": "Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę",
-            "parkingLat": 50.7689,
-            "parkingLon": 15.729,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Karkonoski Park Narodowy",
@@ -1356,7 +1334,22 @@ const DATA = {
                 "name": "Karpacz – parkingi miejskie",
                 "url": "https://www.karpacz.pl/parkingi-miejskie"
               }
-            ]
+            ],
+            "name": "Dom Śląski",
+            "ele": 1400,
+            "lat": 50.7399,
+            "lon": 15.7286,
+            "desc": "Schronisko położone na Równi pod Śnieżką, tuż przy granicy polsko-czeskiej. Jest jednym z najważniejszych węzłów szlaków prowadzących na Śnieżkę.",
+            "why": "Dobry punkt odpoczynku i naturalny etap dłuższej górskiej wycieczki.",
+            "difficulty": "zależna od wybranego szlaku dojściowego",
+            "parking": "Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę",
+            "parkingLat": 50.7689,
+            "parkingLon": 15.729,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/dom-slaski-2iex.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Schronisko na Szrenicy",
