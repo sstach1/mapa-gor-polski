@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 23:02:38)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 23:04:14)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795816956809;
+const DATA_VERSION = 1795817052288;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -1948,32 +1948,7 @@ const DATA = {
             ]
           },
           {
-            "name": "Szwedzkie Skały",
-            "ele": 880,
-            "lat": 50.7925,
-            "lon": 15.6498,
-            "desc": "Ukryta w lesie grupa granitowych skał w środkowej części Karkonoszy. To miejsce zdecydowanie mniej popularne od Pielgrzymów czy Słonecznika, dobre dla osób szukających spokojniejszych zakątków.",
-            "why": "Spokojniejszy cel dla osób, które chcą zejść z najbardziej uczęszczanych tras.",
-            "curiosity": "",
-            "tags": [
-              "MNIEJ ZNANY",
-              "💎 MNIEJ ZNANY"
-            ],
-            "difficulty": "zależna od wybranego wariantu dojścia",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
-            "parking": "Parking w Jagniątkowie przy ul. Karkonoskiej – start na szlaki KPN",
-            "parkingLat": 50.8278333333,
-            "parkingLon": 15.624,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking w Jagniątkowie przy ul. Karkonoskiej – start na szlaki KPN. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Karkonoski Park Narodowy",
@@ -1983,7 +1958,26 @@ const DATA = {
                 "name": "Jagniątków – parking i dojście w Karkonosze",
                 "url": "https://gorskiewyrypy.pl/czarny-kociol-jagniatkowski/"
               }
-            ]
+            ],
+            "name": "Szwedzkie Skały",
+            "ele": 880,
+            "lat": 50.7925,
+            "lon": 15.6498,
+            "desc": "Ukryta w lesie grupa granitowych skał w środkowej części Karkonoszy. To miejsce zdecydowanie mniej popularne od Pielgrzymów czy Słonecznika, dobre dla osób szukających spokojniejszych zakątków.",
+            "why": "Spokojniejszy cel dla osób, które chcą zejść z najbardziej uczęszczanych tras.",
+            "tags": [
+              "MNIEJ ZNANY",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "zależna od wybranego wariantu dojścia",
+            "parking": "Parking w Jagniątkowie przy ul. Karkonoskiej – start na szlaki KPN",
+            "parkingLat": 50.8278333333,
+            "parkingLon": 15.624,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/szwedzkie-skaly-3rjg.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking przy dolnej stacji kolei na Szrenicę – ul. Turystyczna 25B, Szklarska Poręba. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
