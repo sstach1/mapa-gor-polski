@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 13:58:42)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:02:26)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795784320361;
+const DATA_VERSION = 1795784544353;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -21374,38 +21374,32 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
+            "routeNote": "Zweryfikowany legalny punkt startowy: Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka. Przycisk 🚗 prowadzi do parkingu; dalej poruszaj się wyłącznie po udostępnionych szlakach i sprawdź aktualne komunikaty TPN.",
+            "sources": [
+              {
+                "name": "Tatrzański Park Narodowy",
+                "url": "https://tpn.gov.pl/"
+              }
+            ],
             "name": "Wielki Staw Polski",
             "ele": 1665,
             "lat": 49.2065,
             "lon": 20.0377,
             "desc": "Największy i najgłębszy staw Doliny Pięciu Stawów Polskich.",
             "why": "Najbardziej monumentalny akwen Doliny Pięciu Stawów.",
-            "curiosity": "",
             "tags": [
               "⭐ TOP",
               "📸 FOTOGENICZNE"
             ],
             "difficulty": "średnia",
-            "family": "zależy od wariantu",
-            "dog": "TPN: obowiązuje zakaz wprowadzania psów poza wskazanymi wyjątkami",
-            "fee": "TPN: bilet wstępu",
             "parking": "Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka",
             "parkingLat": 49.2556,
             "parkingLon": 20.1027,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "routeNote": "Zweryfikowany legalny punkt startowy: Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka. Przycisk 🚗 prowadzi do parkingu; dalej poruszaj się wyłącznie po udostępnionych szlakach i sprawdź aktualne komunikaty TPN.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
-            "sources": [
-              {
-                "name": "Tatrzański Park Narodowy",
-                "url": "https://tpn.gov.pl/"
-              }
-            ]
+            "family": "zależy od wariantu",
+            "dog": "TPN: obowiązuje zakaz wprowadzania psów poza wskazanymi wyjątkami",
+            "fee": "TPN: bilet wstępu",
+            "photo": "zdjecia/tatry/wielki-staw-polski-qvt2.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Przedni Staw Polski",
