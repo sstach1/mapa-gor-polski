@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:44:28)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:16:43)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795790666915;
+const DATA_VERSION = 1795814201064;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -743,32 +743,7 @@ const DATA = {
             ]
           },
           {
-            "name": "Wodospad Jodłówki",
-            "ele": 820,
-            "lat": 50.782625,
-            "lon": 15.701978,
-            "desc": "Mniej uczęszczany wodospad na potoku Jodłówka w środkowej części Karkonoszy. Jest ciekawym uzupełnieniem listy najbardziej znanych kaskad i dobrym przykładem licznych skalnych progów występujących na karkonoskich potokach.",
-            "why": "Malowniczy cel wycieczki i dobry pretekst, by poznać doliny oraz cieki wodne tego pasma.",
-            "curiosity": "",
-            "tags": [
-              "FOTOGENICZNE",
-              "📸 FOTOGENICZNE"
-            ],
-            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
-            "parking": "Parking przy ul. Droga do Wodospadu w Przesiece",
-            "parkingLat": 50.806742,
-            "parkingLon": 15.673026,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking przy ul. Droga do Wodospadu w Przesiece. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Karkonoski Park Narodowy",
@@ -778,7 +753,26 @@ const DATA = {
                 "name": "Wodospad Podgórnej – parking w Przesiece",
                 "url": "https://mynaszlaku.pl/wodospad-podgornej-w-przesiece/"
               }
-            ]
+            ],
+            "name": "Wodospad Jodłówki",
+            "ele": 820,
+            "lat": 50.782625,
+            "lon": 15.701978,
+            "desc": "Mniej uczęszczany wodospad na potoku Jodłówka w środkowej części Karkonoszy. Jest ciekawym uzupełnieniem listy najbardziej znanych kaskad i dobrym przykładem licznych skalnych progów występujących na karkonoskich potokach.",
+            "why": "Malowniczy cel wycieczki i dobry pretekst, by poznać doliny oraz cieki wodne tego pasma.",
+            "tags": [
+              "FOTOGENICZNE",
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
+            "parking": "Parking przy ul. Droga do Wodospadu w Przesiece",
+            "parkingLat": 50.806742,
+            "parkingLon": 15.673026,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/wodospad-jodlowki-em2u.jpg",
+            "photoCredit": "Zdjęcie własne"
           }
         ]
       },
