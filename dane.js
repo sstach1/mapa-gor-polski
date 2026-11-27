@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:53:55)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:55:44)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795787633965;
+const DATA_VERSION = 1795787742901;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -21499,32 +21499,7 @@ const DATA = {
         "icon": "🛖",
         "items": [
           {
-            "name": "Schronisko PTTK Morskie Oko",
-            "lat": 49.201,
-            "lon": 20.0714,
-            "desc": "Historyczne schronisko nad Morskim Okiem.",
-            "why": "Najbardziej rozpoznawalne schronisko w Polsce.",
-            "curiosity": "",
-            "tags": [
-              "⭐ TOP",
-              "🛖 SCHRONISKO",
-              "📸 FOTOGENICZNE"
-            ],
-            "difficulty": "zależna od wariantu i warunków",
-            "family": "zależy od trasy",
-            "dog": "TPN: co do zasady nie wprowadza się psów na szlaki; sprawdź wyjątki i aktualny regulamin",
-            "fee": "TPN: bilet wstępu – w 2026 r. 11 zł normalny / 5,50 zł ulgowy; wybrane parkingi i obiekty osobno",
-            "parking": "Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka",
-            "parkingLat": 49.2556,
-            "parkingLon": 20.1027,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka. Przycisk 🚗 prowadzi do parkingu; dalej poruszaj się wyłącznie po udostępnionych szlakach i sprawdź aktualne komunikaty TPN.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Tatrzański Park Narodowy",
@@ -21535,7 +21510,26 @@ const DATA = {
                 "url": "https://tpn.gov.pl/uploads/files/69df711394080223191544.pdf"
               }
             ],
-            "ele": 1406
+            "name": "Schronisko PTTK Morskie Oko",
+            "ele": 1406,
+            "lat": 49.201,
+            "lon": 20.0714,
+            "desc": "Historyczne schronisko nad Morskim Okiem.",
+            "why": "Najbardziej rozpoznawalne schronisko w Polsce.",
+            "tags": [
+              "⭐ TOP",
+              "🛖 SCHRONISKO",
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "zależna od wariantu i warunków",
+            "parking": "Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka",
+            "parkingLat": 49.2556,
+            "parkingLon": 20.1027,
+            "family": "zależy od trasy",
+            "dog": "TPN: co do zasady nie wprowadza się psów na szlaki; sprawdź wyjątki i aktualny regulamin",
+            "fee": "TPN: bilet wstępu – w 2026 r. 11 zł normalny / 5,50 zł ulgowy; wybrane parkingi i obiekty osobno",
+            "photo": "zdjecia/tatry/schronisko-pttk-morskie-oko-njhp.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Schronisko PTTK w Dolinie Pięciu Stawów",
