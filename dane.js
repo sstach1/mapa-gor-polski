@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 23:00:24)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 23:02:38)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795816822224;
+const DATA_VERSION = 1795816956809;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -1986,32 +1986,7 @@ const DATA = {
             ]
           },
           {
-            "name": "Kukułcze Skały",
-            "ele": 1125,
-            "lat": 50.7904,
-            "lon": 15.5344,
-            "desc": "Grupa granitowych formacji skalnych w rejonie Łabskiego Szczytu. Choć leżą niedaleko popularnych tras, są znacznie rzadziej wybierane jako samodzielny cel wycieczki.",
-            "why": "Spokojniejszy cel dla osób, które chcą zejść z najbardziej uczęszczanych tras.",
-            "curiosity": "",
-            "tags": [
-              "MNIEJ ZNANY",
-              "💎 MNIEJ ZNANY"
-            ],
-            "difficulty": "zależna od wybranego wariantu dojścia",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
-            "parking": "Parking przy dolnej stacji kolei na Szrenicę – ul. Turystyczna 25B, Szklarska Poręba",
-            "parkingLat": 50.819519481,
-            "parkingLon": 15.518011471,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking przy dolnej stacji kolei na Szrenicę – ul. Turystyczna 25B, Szklarska Poręba. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Karkonoski Park Narodowy",
@@ -2021,7 +1996,26 @@ const DATA = {
                 "name": "Szklarska Poręba – Turystyczna 25B",
                 "url": "https://turystyczna.szklarskaporeba.pl/2932-szklarskaporeba-skipoint"
               }
-            ]
+            ],
+            "name": "Kukułcze Skały",
+            "ele": 1125,
+            "lat": 50.7904,
+            "lon": 15.5344,
+            "desc": "Grupa granitowych formacji skalnych w rejonie Łabskiego Szczytu. Choć leżą niedaleko popularnych tras, są znacznie rzadziej wybierane jako samodzielny cel wycieczki.",
+            "why": "Spokojniejszy cel dla osób, które chcą zejść z najbardziej uczęszczanych tras.",
+            "tags": [
+              "MNIEJ ZNANY",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "zależna od wybranego wariantu dojścia",
+            "parking": "Parking przy dolnej stacji kolei na Szrenicę – ul. Turystyczna 25B, Szklarska Poręba",
+            "parkingLat": 50.819519481,
+            "parkingLon": 15.518011471,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/kukulcze-skaly-1j3m.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Polana – miejsce po dawnym schronisku",
