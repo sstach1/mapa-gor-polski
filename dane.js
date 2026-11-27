@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:38:50)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:42:04)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795790327943;
+const DATA_VERSION = 1795790521719;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -13300,38 +13300,32 @@ const DATA = {
             "ele": 374
           },
           {
-            "name": "Źródło Maryi",
-            "lat": 50.497,
-            "lon": 16.7392,
-            "desc": "Źródło obudowane kaplicą w 1893 r., położone przy drodze na Kalwarię.",
-            "why": "Popularny przystanek na trasie pielgrzymkowej.",
-            "curiosity": "",
-            "tags": [
-              "🏰 HISTORIA",
-              "💎 MNIEJ ZNANY"
-            ],
-            "difficulty": "zależna od wybranego wariantu",
-            "family": "zależy od trasy",
-            "dog": "na smyczy; sprawdź lokalne zasady",
-            "fee": "brak opłaty za szlak; parkingi/obiekty mogą być płatne",
-            "parking": "Parking turystyczny przy ul. Skalnej w Bardzie",
-            "parkingLat": 50.5034,
-            "parkingLon": 16.7426,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Czas, dystans i przewyższenie zależą od punktu startu.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "PTTK – Droga Krzyżowa",
                 "url": "https://dolnoslaskie.szlaki.pttk.pl/1911-dolnoslaskie-bardo-droga-krzyzowa"
               }
             ],
-            "ele": 390
+            "name": "Źródło Maryi",
+            "ele": 390,
+            "lat": 50.497,
+            "lon": 16.7392,
+            "desc": "Źródło obudowane kaplicą w 1893 r., położone przy drodze na Kalwarię.",
+            "why": "Popularny przystanek na trasie pielgrzymkowej.",
+            "tags": [
+              "🏰 HISTORIA",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "zależna od wybranego wariantu",
+            "parking": "Parking turystyczny przy ul. Skalnej w Bardzie",
+            "parkingLat": 50.5034,
+            "parkingLon": 16.7426,
+            "family": "zależy od trasy",
+            "dog": "na smyczy; sprawdź lokalne zasady",
+            "fee": "brak opłaty za szlak; parkingi/obiekty mogą być płatne",
+            "photo": "zdjecia/gory-bardzkie/zrodlo-maryi-b38z.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Przełęcz Łaszczowa",
