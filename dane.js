@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:18:54)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:19:30)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795814333319;
+const DATA_VERSION = 1795814369068;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -695,7 +695,9 @@ const DATA = {
             "parkingLon": 15.729,
             "family": "zależy od wybranej trasy, wieku dzieci i warunków",
             "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno"
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/dziki-wodospad-i8af.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking w Jagniątkowie przy ul. Karkonoskiej – start na szlaki KPN. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
