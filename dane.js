@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:57:00)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 23:00:24)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795816618427;
+const DATA_VERSION = 1795816822224;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -1709,29 +1709,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Kaplica św. Wawrzyńca na Śnieżce",
-            "ele": 1603,
-            "lat": 50.7358,
-            "lon": 15.7395,
-            "desc": "Niewielka barokowa kaplica na szczycie Śnieżki, poświęcona w XVII wieku. Jest jednym z najwyżej położonych zabytków sakralnych w Polsce i ważnym elementem historii karkonoskiej turystyki.",
-            "why": "Łączy górską wycieczkę z historią i dziedzictwem kulturowym regionu.",
-            "curiosity": "",
-            "tags": [],
-            "difficulty": "zależna od wybranego wariantu dojścia",
-            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
-            "parking": "Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę",
-            "parkingLat": 50.7689,
-            "parkingLon": 15.729,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Karkonoski Park Narodowy",
@@ -1741,7 +1719,22 @@ const DATA = {
                 "name": "Karpacz – parkingi miejskie",
                 "url": "https://www.karpacz.pl/parkingi-miejskie"
               }
-            ]
+            ],
+            "name": "Kaplica św. Wawrzyńca na Śnieżce",
+            "ele": 1603,
+            "lat": 50.7358,
+            "lon": 15.7395,
+            "desc": "Niewielka barokowa kaplica na szczycie Śnieżki, poświęcona w XVII wieku. Jest jednym z najwyżej położonych zabytków sakralnych w Polsce i ważnym elementem historii karkonoskiej turystyki.",
+            "why": "Łączy górską wycieczkę z historią i dziedzictwem kulturowym regionu.",
+            "difficulty": "zależna od wybranego wariantu dojścia",
+            "parking": "Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę",
+            "parkingLat": 50.7689,
+            "parkingLon": 15.729,
+            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/kaplica-sw.-wawrzynca-na-sniezce-ytrk.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
