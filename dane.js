@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:02:26)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:03:46)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795784544353;
+const DATA_VERSION = 1795784624020;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -21402,37 +21402,31 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
+            "routeNote": "Zweryfikowany legalny punkt startowy: Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka. Przycisk 🚗 prowadzi do parkingu; dalej poruszaj się wyłącznie po udostępnionych szlakach i sprawdź aktualne komunikaty TPN.",
+            "sources": [
+              {
+                "name": "Tatrzański Park Narodowy",
+                "url": "https://tpn.gov.pl/"
+              }
+            ],
             "name": "Przedni Staw Polski",
             "ele": 1668,
             "lat": 49.2129,
             "lon": 20.0493,
             "desc": "Staw położony bezpośrednio przy schronisku w Dolinie Pięciu Stawów Polskich.",
             "why": "Łatwo dostępny podczas wizyty w schronisku.",
-            "curiosity": "",
             "tags": [
               "📸 FOTOGENICZNE"
             ],
             "difficulty": "średnia",
-            "family": "zależy od trasy",
-            "dog": "TPN: obowiązuje zakaz wprowadzania psów poza wskazanymi wyjątkami",
-            "fee": "TPN: bilet wstępu",
             "parking": "Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka",
             "parkingLat": 49.2556,
             "parkingLon": 20.1027,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "routeNote": "Zweryfikowany legalny punkt startowy: Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka. Przycisk 🚗 prowadzi do parkingu; dalej poruszaj się wyłącznie po udostępnionych szlakach i sprawdź aktualne komunikaty TPN.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
-            "sources": [
-              {
-                "name": "Tatrzański Park Narodowy",
-                "url": "https://tpn.gov.pl/"
-              }
-            ]
+            "family": "zależy od trasy",
+            "dog": "TPN: obowiązuje zakaz wprowadzania psów poza wskazanymi wyjątkami",
+            "fee": "TPN: bilet wstępu",
+            "photo": "zdjecia/tatry/przedni-staw-polski-sn4d.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Czarny Staw Gąsienicowy",
