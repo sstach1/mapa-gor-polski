@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 13:57:41)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 13:58:42)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795784258716;
+const DATA_VERSION = 1795784320361;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -21346,38 +21346,32 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
+            "routeNote": "Zweryfikowany legalny punkt startowy: Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka. Przycisk 🚗 prowadzi do parkingu; dalej poruszaj się wyłącznie po udostępnionych szlakach i sprawdź aktualne komunikaty TPN.",
+            "sources": [
+              {
+                "name": "Tatrzański Park Narodowy",
+                "url": "https://tpn.gov.pl/"
+              }
+            ],
             "name": "Czarny Staw pod Rysami",
             "ele": 1583,
             "lat": 49.1884,
             "lon": 20.076,
             "desc": "Głębokie jezioro polodowcowe położone bezpośrednio pod Rysami i Mięguszowieckimi Szczytami.",
             "why": "Surowy, wysokogórski krajobraz tuż powyżej Morskiego Oka.",
-            "curiosity": "",
             "tags": [
               "⭐ TOP",
               "📸 FOTOGENICZNE"
             ],
             "difficulty": "średnia",
-            "family": "dla aktywnych rodzin ze starszymi dziećmi",
-            "dog": "TPN: obowiązuje zakaz wprowadzania psów poza wskazanymi wyjątkami",
-            "fee": "TPN: bilet wstępu",
             "parking": "Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka",
             "parkingLat": 49.2556,
             "parkingLon": 20.1027,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "routeNote": "Zweryfikowany legalny punkt startowy: Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka. Przycisk 🚗 prowadzi do parkingu; dalej poruszaj się wyłącznie po udostępnionych szlakach i sprawdź aktualne komunikaty TPN.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
-            "sources": [
-              {
-                "name": "Tatrzański Park Narodowy",
-                "url": "https://tpn.gov.pl/"
-              }
-            ]
+            "family": "dla aktywnych rodzin ze starszymi dziećmi",
+            "dog": "TPN: obowiązuje zakaz wprowadzania psów poza wskazanymi wyjątkami",
+            "fee": "TPN: bilet wstępu",
+            "photo": "zdjecia/tatry/czarny-staw-pod-rysami-m5qw.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Wielki Staw Polski",
