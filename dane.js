@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:20:58)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:22:14)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795814456661;
+const DATA_VERSION = 1795814531701;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -592,32 +592,7 @@ const DATA = {
             ]
           },
           {
-            "name": "Kaskada Myi",
-            "ele": 547,
-            "lat": 50.802766,
-            "lon": 15.675239,
-            "desc": "Najbardziej efektowna kaskada potoku Myi w pobliżu Przesieki. Woda spada z granitowego progu o wysokości około 5 m do kotła eworsyjnego. Kaskadę warto połączyć podczas jednej wycieczki z pobliskim Wodospadem Podgórnej.",
-            "why": "Malowniczy cel wycieczki i dobry pretekst, by poznać doliny oraz cieki wodne tego pasma.",
-            "curiosity": "",
-            "tags": [
-              "FOTOGENICZNE",
-              "📸 FOTOGENICZNE"
-            ],
-            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
-            "parking": "Parking przy ul. Droga do Wodospadu w Przesiece",
-            "parkingLat": 50.806742,
-            "parkingLon": 15.673026,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Start z parkingu w Przesiece; dojście piesze. Kaskadę można połączyć z Wodospadem Podgórnej.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Karkonoski Park Narodowy",
@@ -627,7 +602,26 @@ const DATA = {
                 "name": "Wodospad Podgórnej – parking w Przesiece",
                 "url": "https://mynaszlaku.pl/wodospad-podgornej-w-przesiece/"
               }
-            ]
+            ],
+            "name": "Kaskada Myi",
+            "ele": 547,
+            "lat": 50.802766,
+            "lon": 15.675239,
+            "desc": "Najbardziej efektowna kaskada potoku Myi w pobliżu Przesieki. Woda spada z granitowego progu o wysokości około 5 m do kotła eworsyjnego. Kaskadę warto połączyć podczas jednej wycieczki z pobliskim Wodospadem Podgórnej.",
+            "why": "Malowniczy cel wycieczki i dobry pretekst, by poznać doliny oraz cieki wodne tego pasma.",
+            "tags": [
+              "FOTOGENICZNE",
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
+            "parking": "Parking przy ul. Droga do Wodospadu w Przesiece",
+            "parkingLat": 50.806742,
+            "parkingLon": 15.673026,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/kaskada-myi-lq8w.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
