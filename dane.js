@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:01:11)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:02:54)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795788069436;
+const DATA_VERSION = 1795788172426;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -21680,31 +21680,7 @@ const DATA = {
             "ele": 1146
           },
           {
-            "name": "Schronisko PTTK w Dolinie Roztoki",
-            "lat": 49.2334,
-            "lon": 20.095,
-            "desc": "Historyczne schronisko położone poniżej drogi do Morskiego Oka.",
-            "why": "Spokojniejsza baza w rejonie Morskiego Oka i Pięciu Stawów.",
-            "curiosity": "",
-            "tags": [
-              "🛖 SCHRONISKO",
-              "💎 MNIEJ ZNANY"
-            ],
-            "difficulty": "zależna od wariantu i warunków",
-            "family": "zależy od trasy",
-            "dog": "TPN: co do zasady nie wprowadza się psów na szlaki; sprawdź wyjątki i aktualny regulamin",
-            "fee": "TPN: bilet wstępu – w 2026 r. 11 zł normalny / 5,50 zł ulgowy; wybrane parkingi i obiekty osobno",
-            "parking": "Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka",
-            "parkingLat": 49.2556,
-            "parkingLon": 20.1027,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka. Przycisk 🚗 prowadzi do parkingu; dalej poruszaj się wyłącznie po udostępnionych szlakach i sprawdź aktualne komunikaty TPN.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Tatrzański Park Narodowy",
@@ -21715,7 +21691,25 @@ const DATA = {
                 "url": "https://tpn.gov.pl/uploads/files/69df711394080223191544.pdf"
               }
             ],
-            "ele": 1031
+            "name": "Schronisko PTTK w Dolinie Roztoki",
+            "ele": 1031,
+            "lat": 49.2334,
+            "lon": 20.095,
+            "desc": "Historyczne schronisko położone poniżej drogi do Morskiego Oka.",
+            "why": "Spokojniejsza baza w rejonie Morskiego Oka i Pięciu Stawów.",
+            "tags": [
+              "🛖 SCHRONISKO",
+              "💎 MNIEJ ZNANY"
+            ],
+            "difficulty": "zależna od wariantu i warunków",
+            "parking": "Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka",
+            "parkingLat": 49.2556,
+            "parkingLon": 20.1027,
+            "family": "zależy od trasy",
+            "dog": "TPN: co do zasady nie wprowadza się psów na szlaki; sprawdź wyjątki i aktualny regulamin",
+            "fee": "TPN: bilet wstępu – w 2026 r. 11 zł normalny / 5,50 zł ulgowy; wybrane parkingi i obiekty osobno",
+            "photo": "zdjecia/tatry/schronisko-pttk-w-dolinie-roztoki-wq4o.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "routeNote": "Samochodem prywatnym nie dojeżdża się do Kuźnic. Parking pod Wielką Krokwią jest praktycznym punktem pozostawienia auta; dalej około 20–25 min pieszo do Kuźnic i następnie niebieskim szlakiem przez Kalatówki w stronę Hali Kondratowej.",
