@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:32:26)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:34:58)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795789944079;
+const DATA_VERSION = 1795790096455;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -12991,39 +12991,33 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Obryw Skalny",
-            "lat": 50.501305,
-            "lon": 16.74107,
-            "desc": "Naturalny taras widokowy powstały po wielkim osuwisku z 1598 r.",
-            "why": "Klasyczny widok na Bardo i przełom Nysy Kłodzkiej.",
-            "curiosity": "",
-            "tags": [
-              "⭐ TOP",
-              "👀 WIDOKI",
-              "📸 FOTOGENICZNE"
-            ],
-            "difficulty": "zależna od wybranego wariantu",
-            "family": "zależy od trasy",
-            "dog": "na smyczy; sprawdź lokalne zasady",
-            "fee": "bezpłatny",
-            "parking": "Parking turystyczny przy ul. Skalnej w Bardzie",
-            "parkingLat": 50.5034,
-            "parkingLon": 16.7426,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Czas, dystans i przewyższenie zależą od punktu startu.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "PTTK – Obryw Skalny",
                 "url": "https://dolnoslaskie.szlaki.pttk.pl/1912-dolnoslaskie-bardo-obryw-skalny"
               }
             ],
-            "ele": 404
+            "name": "Obryw Skalny",
+            "ele": 404,
+            "lat": 50.501305,
+            "lon": 16.74107,
+            "desc": "Naturalny taras widokowy powstały po wielkim osuwisku z 1598 r.",
+            "why": "Klasyczny widok na Bardo i przełom Nysy Kłodzkiej.",
+            "tags": [
+              "⭐ TOP",
+              "👀 WIDOKI",
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "zależna od wybranego wariantu",
+            "parking": "Parking turystyczny przy ul. Skalnej w Bardzie",
+            "parkingLat": 50.5034,
+            "parkingLon": 16.7426,
+            "family": "zależy od trasy",
+            "dog": "na smyczy; sprawdź lokalne zasady",
+            "fee": "bezpłatny",
+            "photo": "zdjecia/gory-bardzkie/obryw-skalny-205h.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Piękny Widok",
