@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (26.11.2026, 20:14:20)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 13:57:41)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795720457724;
+const DATA_VERSION = 1795784258716;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -21317,39 +21317,33 @@ const DATA = {
         "icon": "🌊",
         "items": [
           {
+            "routeNote": "Zweryfikowany legalny punkt startowy: Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka. Przycisk 🚗 prowadzi do parkingu; dalej poruszaj się wyłącznie po udostępnionych szlakach i sprawdź aktualne komunikaty TPN.",
+            "sources": [
+              {
+                "name": "TPN – szlaki i Morskie Oko",
+                "url": "https://tpn.gov.pl/"
+              }
+            ],
             "name": "Morskie Oko",
             "ele": 1395,
             "lat": 49.1975,
             "lon": 20.0704,
             "desc": "Największe jezioro Tatr po polskiej stronie i jedna z ikon całego pasma.",
             "why": "Klasyczny tatrzański krajobraz u stóp Mięguszowieckich Szczytów i Rysów.",
-            "curiosity": "",
             "tags": [
               "⭐ TOP",
               "📸 FOTOGENICZNE",
               "👨‍👩‍👧 DLA RODZIN"
             ],
             "difficulty": "łatwa technicznie; dojście jest długie",
-            "family": "tak",
-            "dog": "TPN: obowiązuje zakaz wprowadzania psów poza wskazanymi wyjątkami",
-            "fee": "TPN: bilet wstępu; parking osobno",
             "parking": "Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka",
             "parkingLat": 49.2556,
             "parkingLon": 20.1027,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
-            "routeNote": "Zweryfikowany legalny punkt startowy: Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka. Przycisk 🚗 prowadzi do parkingu; dalej poruszaj się wyłącznie po udostępnionych szlakach i sprawdź aktualne komunikaty TPN.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
-            "sources": [
-              {
-                "name": "TPN – szlaki i Morskie Oko",
-                "url": "https://tpn.gov.pl/"
-              }
-            ]
+            "family": "tak",
+            "dog": "TPN: obowiązuje zakaz wprowadzania psów poza wskazanymi wyjątkami",
+            "fee": "TPN: bilet wstępu; parking osobno",
+            "photo": "zdjecia/tatry/morskie-oko-ku8p.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Czarny Staw pod Rysami",
