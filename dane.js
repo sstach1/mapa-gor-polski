@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:47:13)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:49:28)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795816031657;
+const DATA_VERSION = 1795816166686;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -1684,31 +1684,7 @@ const DATA = {
             ]
           },
           {
-            "name": "Zamek Chojnik",
-            "ele": 627,
-            "lat": 50.8331,
-            "lon": 15.644,
-            "desc": "Ruiny średniowiecznego zamku na skalistym szczycie Chojnika. Warownia góruje nad Kotliną Jeleniogórską i jest jednym z najważniejszych historycznych punktów na obrzeżu Karkonoskiego Parku Narodowego.",
-            "why": "Łączy górską wycieczkę z historią i dziedzictwem kulturowym regionu.",
-            "curiosity": "",
-            "tags": [
-              "TOP"
-            ],
-            "difficulty": "zależna od wybranego dojścia; zwykle łatwa przy atrakcjach dostępnych z miejscowości",
-            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
-            "parking": "Parking Centralny pod Chojnikiem – Sobieszów, ul. Bronisława Czecha",
-            "parkingLat": 50.8444444444,
-            "parkingLon": 15.6415277778,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking Centralny pod Chojnikiem – Sobieszów, ul. Bronisława Czecha. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Karkonoski Park Narodowy",
@@ -1718,7 +1694,25 @@ const DATA = {
                 "name": "Zamek Chojnik – parkingi i dojście",
                 "url": "https://kierunkowo.pl/zamek-chojnik-najbardziej-znana-warownia-okolic-karkonoszy/"
               }
-            ]
+            ],
+            "name": "Zamek Chojnik",
+            "ele": 627,
+            "lat": 50.8331,
+            "lon": 15.644,
+            "desc": "Ruiny średniowiecznego zamku na skalistym szczycie Chojnika. Warownia góruje nad Kotliną Jeleniogórską i jest jednym z najważniejszych historycznych punktów na obrzeżu Karkonoskiego Parku Narodowego.",
+            "why": "Łączy górską wycieczkę z historią i dziedzictwem kulturowym regionu.",
+            "tags": [
+              "TOP"
+            ],
+            "difficulty": "zależna od wybranego dojścia; zwykle łatwa przy atrakcjach dostępnych z miejscowości",
+            "parking": "Parking Centralny pod Chojnikiem – Sobieszów, ul. Bronisława Czecha",
+            "parkingLat": 50.8444444444,
+            "parkingLon": 15.6415277778,
+            "family": "zwykle tak, ale sprawdź długość dojścia i zasady konkretnego obiektu",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/zamek-chojnik-krjx.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Kaplica św. Wawrzyńca na Śnieżce",
