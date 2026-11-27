@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:07:22)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:11:31)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795788440772;
+const DATA_VERSION = 1795788689457;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -1352,29 +1352,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Schronisko na Szrenicy",
-            "ele": 1362,
-            "lat": 50.7924,
-            "lon": 15.5134,
-            "desc": "Schronisko stojące bezpośrednio na szczycie Szrenicy. Jest ważnym punktem na Głównym Szlaku Sudeckim i popularnym miejscem odpoczynku podczas wędrówek w zachodnich Karkonoszach.",
-            "why": "Dobry punkt odpoczynku i naturalny etap dłuższej górskiej wycieczki.",
-            "curiosity": "",
-            "tags": [],
-            "difficulty": "zależna od wybranego szlaku dojściowego",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
-            "parking": "Parking przy dolnej stacji kolei na Szrenicę – ul. Turystyczna 25B, Szklarska Poręba",
-            "parkingLat": 50.819519481,
-            "parkingLon": 15.518011471,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking przy dolnej stacji kolei na Szrenicę – ul. Turystyczna 25B, Szklarska Poręba. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Karkonoski Park Narodowy",
@@ -1384,7 +1362,22 @@ const DATA = {
                 "name": "Szklarska Poręba – Turystyczna 25B",
                 "url": "https://turystyczna.szklarskaporeba.pl/2932-szklarskaporeba-skipoint"
               }
-            ]
+            ],
+            "name": "Schronisko na Szrenicy",
+            "ele": 1362,
+            "lat": 50.7924,
+            "lon": 15.5134,
+            "desc": "Schronisko stojące bezpośrednio na szczycie Szrenicy. Jest ważnym punktem na Głównym Szlaku Sudeckim i popularnym miejscem odpoczynku podczas wędrówek w zachodnich Karkonoszach.",
+            "why": "Dobry punkt odpoczynku i naturalny etap dłuższej górskiej wycieczki.",
+            "difficulty": "zależna od wybranego szlaku dojściowego",
+            "parking": "Parking przy dolnej stacji kolei na Szrenicę – ul. Turystyczna 25B, Szklarska Poręba",
+            "parkingLat": 50.819519481,
+            "parkingLon": 15.518011471,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/schronisko-na-szrenicy-7u8g.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Schronisko na Hali Szrenickiej",
