@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:27:54)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:34:52)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795786072808;
+const DATA_VERSION = 1795786490925;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -20792,32 +20792,7 @@ const DATA = {
         "icon": "⛰️",
         "items": [
           {
-            "name": "Rysy",
-            "lat": 49.1795,
-            "lon": 20.088,
-            "desc": "Najwyższy punkt Polski leży na północno-zachodnim wierzchołku Rysów.",
-            "why": "Najwyższy dostępny znakowanym szlakiem szczyt Polski.",
-            "curiosity": "",
-            "tags": [
-              "⭐ TOP",
-              "🏆 KORONA",
-              "👀 WIDOKI"
-            ],
-            "difficulty": "trudna; łańcuchy, ekspozycja i długie podejście",
-            "family": "zależy od trasy",
-            "dog": "TPN: co do zasady nie wprowadza się psów na szlaki; sprawdź wyjątki i aktualny regulamin",
-            "fee": "TPN: bilet wstępu – w 2026 r. 11 zł normalny / 5,50 zł ulgowy; wybrane parkingi i obiekty osobno",
-            "parking": "Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka",
-            "parkingLat": 49.2556,
-            "parkingLon": 20.1027,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka. Przycisk 🚗 prowadzi do parkingu; dalej poruszaj się wyłącznie po udostępnionych szlakach i sprawdź aktualne komunikaty TPN.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Tatrzański Park Narodowy",
@@ -20828,7 +20803,26 @@ const DATA = {
                 "url": "https://tpn.gov.pl/uploads/files/69df711394080223191544.pdf"
               }
             ],
-            "ele": 2499
+            "name": "Rysy",
+            "ele": 2499,
+            "lat": 49.1795,
+            "lon": 20.088,
+            "desc": "Najwyższy punkt Polski leży na północno-zachodnim wierzchołku Rysów.",
+            "why": "Najwyższy dostępny znakowanym szlakiem szczyt Polski.",
+            "tags": [
+              "⭐ TOP",
+              "🏆 KORONA",
+              "👀 WIDOKI"
+            ],
+            "difficulty": "trudna; łańcuchy, ekspozycja i długie podejście",
+            "parking": "Palenica Białczańska – oficjalny parking TPN dla rejonu Morskiego Oka",
+            "parkingLat": 49.2556,
+            "parkingLon": 20.1027,
+            "family": "zależy od trasy",
+            "dog": "TPN: co do zasady nie wprowadza się psów na szlaki; sprawdź wyjątki i aktualny regulamin",
+            "fee": "TPN: bilet wstępu – w 2026 r. 11 zł normalny / 5,50 zł ulgowy; wybrane parkingi i obiekty osobno",
+            "photo": "zdjecia/tatry/rysy-wq5r.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Mięguszowiecki Szczyt Wielki",
