@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:35:48)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:38:50)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795790146448;
+const DATA_VERSION = 1795790327943;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -13238,38 +13238,32 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Droga Krzyżowa na Kalwarię",
-            "lat": 50.496826,
-            "lon": 16.738988,
-            "desc": "Historyczna droga pielgrzymkowa z kapliczkami prowadząca na Kalwarię.",
-            "why": "Klimatyczna trasa łącząca przyrodę i historię.",
-            "curiosity": "",
-            "tags": [
-              "🏰 HISTORIA",
-              "🥾 DLA PIECHURÓW"
-            ],
-            "difficulty": "zależna od wybranego wariantu",
-            "family": "zależy od trasy",
-            "dog": "na smyczy; sprawdź lokalne zasady",
-            "fee": "brak opłaty za szlak; parkingi/obiekty mogą być płatne",
-            "parking": "Parking turystyczny przy ul. Skalnej w Bardzie",
-            "parkingLat": 50.5034,
-            "parkingLon": 16.7426,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Czas, dystans i przewyższenie zależą od punktu startu.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "PTTK – Droga Krzyżowa",
                 "url": "https://dolnoslaskie.szlaki.pttk.pl/1911-dolnoslaskie-bardo-droga-krzyzowa"
               }
             ],
-            "ele": 377
+            "name": "Droga Krzyżowa na Kalwarię",
+            "ele": 377,
+            "lat": 50.496826,
+            "lon": 16.738988,
+            "desc": "Historyczna droga pielgrzymkowa z kapliczkami prowadząca na Kalwarię.",
+            "why": "Klimatyczna trasa łącząca przyrodę i historię.",
+            "tags": [
+              "🏰 HISTORIA",
+              "🥾 DLA PIECHURÓW"
+            ],
+            "difficulty": "zależna od wybranego wariantu",
+            "parking": "Parking turystyczny przy ul. Skalnej w Bardzie",
+            "parkingLat": 50.5034,
+            "parkingLon": 16.7426,
+            "family": "zależy od trasy",
+            "dog": "na smyczy; sprawdź lokalne zasady",
+            "fee": "brak opłaty za szlak; parkingi/obiekty mogą być płatne",
+            "photo": "zdjecia/gory-bardzkie/droga-krzyzowa-na-kalwarie-6xsu.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Droga Różańcowa",
