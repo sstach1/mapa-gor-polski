@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:19:30)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:20:58)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795814369068;
+const DATA_VERSION = 1795814456661;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -630,32 +630,7 @@ const DATA = {
             ]
           },
           {
-            "name": "Kaskady Łomniczki",
-            "ele": 1170,
-            "lat": 50.742606,
-            "lon": 15.732347,
-            "desc": "Długi ciąg naturalnych kaskad w Kotle Łomniczki pod Śnieżką. Potok Łomniczka spływa stromo z Równi pod Śnieżką, tworząc na zachodniej ścianie kotła serię malowniczych progów i spadków. To jeden z najbardziej wysokogórskich krajobrazów wodnych po polskiej stronie Karkonoszy.",
-            "why": "Malowniczy cel wycieczki i dobry pretekst, by poznać doliny oraz cieki wodne tego pasma.",
-            "curiosity": "",
-            "tags": [
-              "FOTOGENICZNE",
-              "📸 FOTOGENICZNE"
-            ],
-            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
-            "parking": "Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę",
-            "parkingLat": 50.7689,
-            "parkingLon": 15.729,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Karkonoski Park Narodowy",
@@ -665,7 +640,26 @@ const DATA = {
                 "name": "Karpacz – parkingi miejskie",
                 "url": "https://www.karpacz.pl/parkingi-miejskie"
               }
-            ]
+            ],
+            "name": "Kaskady Łomniczki",
+            "ele": 1170,
+            "lat": 50.742606,
+            "lon": 15.732347,
+            "desc": "Długi ciąg naturalnych kaskad w Kotle Łomniczki pod Śnieżką. Potok Łomniczka spływa stromo z Równi pod Śnieżką, tworząc na zachodniej ścianie kotła serię malowniczych progów i spadków. To jeden z najbardziej wysokogórskich krajobrazów wodnych po polskiej stronie Karkonoszy.",
+            "why": "Malowniczy cel wycieczki i dobry pretekst, by poznać doliny oraz cieki wodne tego pasma.",
+            "tags": [
+              "FOTOGENICZNE",
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
+            "parking": "Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę",
+            "parkingLat": 50.7689,
+            "parkingLon": 15.729,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/kaskady-lomniczki-k4eh.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
