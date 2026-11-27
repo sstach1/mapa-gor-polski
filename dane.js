@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:22:14)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:24:42)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795814531701;
+const DATA_VERSION = 1795814680549;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -795,32 +795,7 @@ const DATA = {
             ]
           },
           {
-            "name": "Słonecznik",
-            "ele": 1421,
-            "lat": 50.759527,
-            "lon": 15.68335,
-            "desc": "Charakterystyczna granitowa skała na głównym grzbiecie Karkonoszy. Jej otoczenie jest znakomitym punktem widokowym – na zachód widać znaczną część Karkonoszy i Gór Izerskich, a na północ Kotlinę Jeleniogórską i Góry Kaczawskie.",
-            "why": "Miejsce warte odwiedzenia przede wszystkim dla panoramy i możliwości lepszego poznania układu okolicznych pasm.",
-            "curiosity": "",
-            "tags": [
-              "WIDOKI",
-              "📸 FOTOGENICZNE"
-            ],
-            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
-            "parking": "Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę",
-            "parkingLat": 50.7689,
-            "parkingLon": 15.729,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Karkonoski Park Narodowy",
@@ -830,7 +805,26 @@ const DATA = {
                 "name": "Karpacz – parkingi miejskie",
                 "url": "https://www.karpacz.pl/parkingi-miejskie"
               }
-            ]
+            ],
+            "name": "Słonecznik",
+            "ele": 1421,
+            "lat": 50.759527,
+            "lon": 15.68335,
+            "desc": "Charakterystyczna granitowa skała na głównym grzbiecie Karkonoszy. Jej otoczenie jest znakomitym punktem widokowym – na zachód widać znaczną część Karkonoszy i Gór Izerskich, a na północ Kotlinę Jeleniogórską i Góry Kaczawskie.",
+            "why": "Miejsce warte odwiedzenia przede wszystkim dla panoramy i możliwości lepszego poznania układu okolicznych pasm.",
+            "tags": [
+              "WIDOKI",
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
+            "parking": "Parking miejski nr 7 – ul. Olimpijska, przy dolnej stacji kolei na Kopę",
+            "parkingLat": 50.7689,
+            "parkingLon": 15.729,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/slonecznik-oxbn.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Złoty Widok",
