@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:58:49)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:59:36)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795787927863;
+const DATA_VERSION = 1795787974638;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -21564,31 +21564,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Schronisko PTTK Murowaniec",
-            "lat": 49.2437,
-            "lon": 20.0075,
-            "desc": "Klasyczne schronisko na Hali Gąsienicowej.",
-            "why": "Baza pod Kościelec, Świnicę i Orlą Perć.",
-            "curiosity": "",
-            "tags": [
-              "⭐ TOP",
-              "🛖 SCHRONISKO"
-            ],
-            "difficulty": "zależna od wariantu i warunków",
-            "family": "zależy od trasy",
-            "dog": "TPN: co do zasady nie wprowadza się psów na szlaki; sprawdź wyjątki i aktualny regulamin",
-            "fee": "TPN: bilet wstępu – w 2026 r. 11 zł normalny / 5,50 zł ulgowy; wybrane parkingi i obiekty osobno",
-            "parking": "Brzeziny – płatny parking przy wejściu do TPN",
-            "parkingLat": 49.287315,
-            "parkingLon": 20.035684,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Legalny punkt startowy przy wejściu do TPN w Brzezinach. Dalej idź wyłącznie znakowanymi szlakami TPN; dla wysokogórskich celów (Świnica, Kozi Wierch, Kościelec) nie kieruj się ślepo trasą pieszą wyznaczoną przez mapę samochodową.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Brzeziny – parking i trasa przez Murowaniec",
@@ -21599,7 +21575,25 @@ const DATA = {
                 "url": "https://tpn.gov.pl/"
               }
             ],
-            "ele": 1500
+            "name": "Schronisko PTTK Murowaniec",
+            "ele": 1500,
+            "lat": 49.2437,
+            "lon": 20.0075,
+            "desc": "Klasyczne schronisko na Hali Gąsienicowej.",
+            "why": "Baza pod Kościelec, Świnicę i Orlą Perć.",
+            "tags": [
+              "⭐ TOP",
+              "🛖 SCHRONISKO"
+            ],
+            "difficulty": "zależna od wariantu i warunków",
+            "parking": "Brzeziny – płatny parking przy wejściu do TPN",
+            "parkingLat": 49.287315,
+            "parkingLon": 20.035684,
+            "family": "zależy od trasy",
+            "dog": "TPN: co do zasady nie wprowadza się psów na szlaki; sprawdź wyjątki i aktualny regulamin",
+            "fee": "TPN: bilet wstępu – w 2026 r. 11 zł normalny / 5,50 zł ulgowy; wybrane parkingi i obiekty osobno",
+            "photo": "zdjecia/tatry/schronisko-pttk-murowaniec-sipk.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Schronisko PTTK na Hali Ornak",
