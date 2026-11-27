@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:28:56)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:30:18)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795814934139;
+const DATA_VERSION = 1795815016354;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -859,32 +859,7 @@ const DATA = {
             "photoCredit": "Zdjęcie własne"
           },
           {
-            "name": "Krucze Skały – Szklarska Poręba",
-            "ele": 718,
-            "lat": 50.826162,
-            "lon": 15.50909,
-            "desc": "Dwie potężne granitowe baszty skalne nad Kamienną. Z górnej części skał rozciąga się widok na dolinę rzeki, część Szklarskiej Poręby oraz Góry Izerskie. To także znane miejsce wspinaczkowe.",
-            "why": "Miejsce warte odwiedzenia przede wszystkim dla panoramy i możliwości lepszego poznania układu okolicznych pasm.",
-            "curiosity": "",
-            "tags": [
-              "WIDOKI",
-              "📸 FOTOGENICZNE"
-            ],
-            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
-            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
-            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
-            "parking": "Parking przy dolnej stacji kolei na Szrenicę – ul. Turystyczna 25B, Szklarska Poręba",
-            "parkingLat": 50.819519481,
-            "parkingLon": 15.518011471,
-            "walkTime": "",
-            "distance": "",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "routeNote": "Zweryfikowany legalny punkt startowy: Parking przy dolnej stacji kolei na Szrenicę – ul. Turystyczna 25B, Szklarska Poręba. Przycisk 🚗 prowadzi wyłącznie do tego punktu; dalej wybierz trasę pieszą i sprawdź aktualne zamknięcia szlaków KPN.",
-            "elevationGain": "",
             "sources": [
               {
                 "name": "Karkonoski Park Narodowy",
@@ -894,7 +869,26 @@ const DATA = {
                 "name": "Szklarska Poręba – Turystyczna 25B",
                 "url": "https://turystyczna.szklarskaporeba.pl/2932-szklarskaporeba-skipoint"
               }
-            ]
+            ],
+            "name": "Krucze Skały – Szklarska Poręba",
+            "ele": 718,
+            "lat": 50.826162,
+            "lon": 15.50909,
+            "desc": "Dwie potężne granitowe baszty skalne nad Kamienną. Z górnej części skał rozciąga się widok na dolinę rzeki, część Szklarskiej Poręby oraz Góry Izerskie. To także znane miejsce wspinaczkowe.",
+            "why": "Miejsce warte odwiedzenia przede wszystkim dla panoramy i możliwości lepszego poznania układu okolicznych pasm.",
+            "tags": [
+              "WIDOKI",
+              "📸 FOTOGENICZNE"
+            ],
+            "difficulty": "zależna od wybranego wariantu i warunków terenowych",
+            "parking": "Parking przy dolnej stacji kolei na Szrenicę – ul. Turystyczna 25B, Szklarska Poręba",
+            "parkingLat": 50.819519481,
+            "parkingLon": 15.518011471,
+            "family": "zależy od wybranej trasy, wieku dzieci i warunków",
+            "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/krucze-skaly-szklarska-poreba-w4df.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Karpatka",
