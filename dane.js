@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 14:59:36)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 15:01:11)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795787974638;
+const DATA_VERSION = 1795788069436;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -21718,30 +21718,7 @@ const DATA = {
             "ele": 1031
           },
           {
-            "name": "Schronisko PTTK na Hali Kondratowej",
-            "lat": 49.2515,
-            "lon": 19.9495,
-            "desc": "Kameralne schronisko pod Giewontem i Kopą Kondracką.",
-            "why": "Klasyczny przystanek na trasach Tatr Zachodnich.",
-            "curiosity": "",
-            "tags": [
-              "🛖 SCHRONISKO"
-            ],
-            "difficulty": "zależna od wariantu i warunków",
-            "family": "zależy od trasy",
-            "dog": "TPN: co do zasady nie wprowadza się psów na szlaki; sprawdź wyjątki i aktualny regulamin",
-            "fee": "TPN: bilet wstępu – w 2026 r. 11 zł normalny / 5,50 zł ulgowy; wybrane parkingi i obiekty osobno",
-            "parking": "Parking pod Wielką Krokwią – ul. Bronisława Czecha",
-            "parkingLat": 49.282,
-            "parkingLon": 19.9668,
-            "walkTime": "",
-            "distance": "",
-            "elevationGain": "",
             "routeNote": "Samochodem prywatnym nie dojeżdża się do Kuźnic. Parking pod Wielką Krokwią jest praktycznym punktem pozostawienia auta; dalej około 20–25 min pieszo do Kuźnic i następnie niebieskim szlakiem przez Kalatówki w stronę Hali Kondratowej.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
             "sources": [
               {
                 "name": "Tatrzański Park Narodowy",
@@ -21760,7 +21737,24 @@ const DATA = {
                 "url": "https://park4night.com/it/place/222863"
               }
             ],
-            "ele": 1333
+            "name": "Schronisko PTTK na Hali Kondratowej",
+            "ele": 1333,
+            "lat": 49.2515,
+            "lon": 19.9495,
+            "desc": "Kameralne schronisko pod Giewontem i Kopą Kondracką.",
+            "why": "Klasyczny przystanek na trasach Tatr Zachodnich.",
+            "tags": [
+              "🛖 SCHRONISKO"
+            ],
+            "difficulty": "zależna od wariantu i warunków",
+            "parking": "Parking pod Wielką Krokwią – ul. Bronisława Czecha",
+            "parkingLat": 49.282,
+            "parkingLon": 19.9668,
+            "family": "zależy od trasy",
+            "dog": "TPN: co do zasady nie wprowadza się psów na szlaki; sprawdź wyjątki i aktualny regulamin",
+            "fee": "TPN: bilet wstępu – w 2026 r. 11 zł normalny / 5,50 zł ulgowy; wybrane parkingi i obiekty osobno",
+            "photo": "zdjecia/tatry/schronisko-pttk-na-hali-kondratowej-uk23.jpg",
+            "photoCredit": "Zdjęcie własne"
           }
         ]
       },
