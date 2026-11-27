@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:45:00)
+// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 22:45:18)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795815900000;
+const DATA_VERSION = 1795815916733;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -1503,7 +1503,9 @@ const DATA = {
             "parkingLon": 15.729,
             "family": "zależy od wybranej trasy, wieku dzieci i warunków",
             "dog": "KPN: zasady zależą od konkretnego odcinka; na wielu udostępnionych szlakach pies jest dopuszczony wyłącznie na smyczy. Sprawdź aktualną mapę KPN.",
-            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno"
+            "fee": "na obszarze KPN może obowiązywać bilet wstępu; parkingi, koleje i wybrane obiekty są rozliczane osobno",
+            "photo": "zdjecia/karkonosze/wielki-staw-ffor.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Śnieżne Stawki",
