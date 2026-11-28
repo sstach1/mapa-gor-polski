@@ -1,6 +1,6 @@
-// Baza danych mapy gór Polski – zapis z panelu edycji (27.11.2026, 23:04:14)
+// Baza danych mapy gór Polski – zapis z panelu edycji (28.11.2026, 10:22:07)
 // DATA_VERSION zmienia się przy każdej publikacji z panelu — nie usuwaj tej linii.
-const DATA_VERSION = 1795817052288;
+const DATA_VERSION = 1795857725460;
 const DATA = {
   "karkonosze": {
     "name": "Karkonosze",
@@ -26595,6 +26595,17 @@ const DATA = {
         "icon": "⛰️",
         "items": [
           {
+            "routeNote": "Najkrótszy popularny wariant prowadzi od parkingu przy Kudłaczach przez schronisko i Łysinę. Przed wyjściem sprawdź aktualny przebieg szlaku.",
+            "sources": [
+              {
+                "name": "Visit Małopolska – Beskid Makowski",
+                "url": "https://visitmalopolska.pl/-/beskid-maly-i-makowski-"
+              },
+              {
+                "name": "Obserwatorium Astronomiczne na Lubomirze",
+                "url": "https://www.obserwatorium.lubomir.weglowka.pl/"
+              }
+            ],
             "name": "Lubomir",
             "ele": 904,
             "lat": 49.7668805,
@@ -26608,30 +26619,17 @@ const DATA = {
               "🥾 DLA PIECHURÓW"
             ],
             "difficulty": "łatwa do średniej; zależna od wariantu",
-            "family": "dobry cel dla rodzin przy starcie z rejonu Kudłaczy",
-            "dog": "na smyczy; sprawdź zasady obowiązujące na wybranej trasie",
-            "fee": "szlak bezpłatny; pokazy w obserwatorium mogą być biletowane",
             "parking": "Parking przy Schronisku PTTK na Kudłaczach",
             "parkingLat": 49.7812,
             "parkingLon": 20.0214,
             "walkTime": "około 1 godz. 15 min w jedną stronę",
             "distance": "około 3,5 km w jedną stronę",
             "elevationGain": "około 190 m",
-            "routeNote": "Najkrótszy popularny wariant prowadzi od parkingu przy Kudłaczach przez schronisko i Łysinę. Przed wyjściem sprawdź aktualny przebieg szlaku.",
-            "photo": "",
-            "photoPage": "",
-            "photoCredit": "",
-            "photoLicense": "",
-            "sources": [
-              {
-                "name": "Visit Małopolska – Beskid Makowski",
-                "url": "https://visitmalopolska.pl/-/beskid-maly-i-makowski-"
-              },
-              {
-                "name": "Obserwatorium Astronomiczne na Lubomirze",
-                "url": "https://www.obserwatorium.lubomir.weglowka.pl/"
-              }
-            ]
+            "family": "dobry cel dla rodzin przy starcie z rejonu Kudłaczy",
+            "dog": "na smyczy; sprawdź zasady obowiązujące na wybranej trasie",
+            "fee": "szlak bezpłatny; pokazy w obserwatorium mogą być biletowane",
+            "photo": "zdjecia/beskid-makowski/lubomir-bif1.jpg",
+            "photoCredit": "Zdjęcie własne"
           },
           {
             "name": "Łysina",
